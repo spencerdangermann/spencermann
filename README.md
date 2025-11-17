@@ -1,2 +1,0 @@
-# spencermann
-Personal Website Base
