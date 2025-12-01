@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+            <link rel="stylesheet" href="style.css">
+            <meta name="viewport" centent="width=device-width, initial-scale=1.0">
+            <meta charset="UTF-8">
+			<title>Davids Page</title>
+		</head>
+		<body>
+			<div>
+				<h1>Davids page</h1>
+				<p>A ton of really cool stuff from a coding expert!</p>
+				<p>This page will be updating regularly</p>
+			</div>
+			<br>
+			<div>
+				<h2>Cool games</h2>
+				<p>Here are some Really cool games I have made in scratch!</p>
+				<div class="left">
+					<p class="a"><a href="https://scratch.mit.edu/projects/1219448347/" target="_blank">Platformer Game</a></p>
+					<p>A huge Platformer game with power-ups, teleporters, moving platformer, and much more!</p>
+				</div>
+				<div class="left">
+					<p class="a"><a href="https://scratch.mit.edu/projects/1167340421/" target="_blank">Glow ball 2</a></p>
+					<p>A rouge-like game where you dodge red projectiles, collect xp, get upgrades, and fight bosses!</p>
+				</div>
+				<p class="a" style="font-size: 15px; text-align: left; margin: 0px;"><a href="https://forms.gle/sfuKKLSnE8QsBTjF6" target="_blank">Google Form</a></p>
+				<p style="text-align: left;">Send a review about my part of the wabsite, or games you want me to add here!</p>
+			</div>
+			<br>
+			<div id="clicker-game">
+				<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+					<h2 style="margin: 0;">Clicker Game</h2>
+					<label class="toggle-switch">
+						<input type="checkbox" id="boxes-toggle" checked>
+						<span class="toggle-slider"></span>
+						<span class="toggle-label">Show Boxes</span>
+					</label>
+				</div>
+				<div id="game-content">
+					<div id="main-game-area">
+						<div id="score-display">
+							<h3 id="score">Score: 0</h3>
+							<div id="stats-panel">
+								<p class="stat-item">Click Power: <span id="click-power">1</span></p>
+								<p class="stat-item">Per Second: <span id="per-second">0</span></p>
+								<p class="stat-item">Multiplier: <span id="multiplier">1x</span></p>
+							</div>
+						</div>
+						<button id="click-button">CLICK ME!</button>
+						<div id="points-animation"></div>
+					</div>
+					<div id="upgrades-section">
+						<h3>Upgrades</h3>
+						<div id="upgrades-grid">
+							<button class="upgrade-btn" id="power-upgrade">
+								<div class="upgrade-title">⚡ Power Up</div>
+								<div class="upgrade-desc">+1 per click</div>
+								<div class="upgrade-cost">Cost: <span id="power-cost">10</span></div>
+							</button>
+							<button class="upgrade-btn" id="auto-clicker">
+								<div class="upgrade-title">🤖 Auto Clicker</div>
+								<div class="upgrade-desc">+1 per second</div>
+								<div class="upgrade-cost">Cost: <span id="auto-cost">50</span></div>
+							</button>
+							<button class="upgrade-btn" id="multiplier-upgrade">
+								<div class="upgrade-title">✨ Multiplier</div>
+								<div class="upgrade-desc">2x all earnings</div>
+								<div class="upgrade-cost">Cost: <span id="multiplier-cost">200</span></div>
+							</button>
+							<button class="upgrade-btn" id="mega-clicker">
+								<div class="upgrade-title">💥 Mega Clicker</div>
+								<div class="upgrade-desc">+10 per click</div>
+								<div class="upgrade-cost">Cost: <span id="mega-cost">500</span></div>
+							</button>
+							<button class="upgrade-btn" id="speed-upgrade">
+								<div class="upgrade-title">⚡ Speed Boost</div>
+								<div class="upgrade-desc">Auto clickers 2x faster</div>
+								<div class="upgrade-cost">Cost: <span id="speed-cost">1000</span></div>
+							</button>
+							<button class="upgrade-btn" id="score-multiplier">
+								<div class="upgrade-title">🌟 Score Multiplier</div>
+								<div class="upgrade-desc">3x all earnings</div>
+								<div class="upgrade-cost">Cost: <span id="score-mult-cost">5000</span></div>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</body>
+		<script>
+			let score = 0;
+			let clickPower = 1;
+			let autoClickers = 0;
+			let multiplier = 1;
+			let autoClickerSpeed = 1; // multiplier for auto clicker speed
+			let powerUpgradeCost = 10;
+			let autoClickerCost = 50;
+			let multiplierCost = 200;
+			let megaClickerCost = 500;
+			let speedUpgradeCost = 1000;
+			let scoreMultiplierCost = 5000;
+
+			const scoreElement = document.getElementById('score');
+			const clickPowerElement = document.getElementById('click-power');
+			const perSecondElement = document.getElementById('per-second');
+			const multiplierElement = document.getElementById('multiplier');
+			const clickButton = document.getElementById('click-button');
+			const pointsAnimation = document.getElementById('points-animation');
+
+			// Format numbers with commas
+			function formatNumber(num) {
+				return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+			}
+
+			// Show floating points animation
+			function showPointsAnimation(points) {
+				const anim = document.createElement('div');
+				anim.className = 'points-popup';
+				anim.textContent = '+' + formatNumber(points);
+				pointsAnimation.appendChild(anim);
+				setTimeout(() => {
+					anim.remove();
+				}, 1000);
+			}
+
+			// Click button functionality
+			clickButton.addEventListener('click', () => {
+				const pointsEarned = clickPower * multiplier;
+				score += pointsEarned;
+				showPointsAnimation(pointsEarned);
+				updateDisplay();
+				clickButton.style.transform = 'scale(0.95)';
+				setTimeout(() => {
+					clickButton.style.transform = 'scale(1)';
+				}, 100);
+			});
+
+			// Power upgrade
+			document.getElementById('power-upgrade').addEventListener('click', () => {
+				if (score >= powerUpgradeCost) {
+					score -= powerUpgradeCost;
+					clickPower += 1;
+					powerUpgradeCost = Math.floor(powerUpgradeCost * 1.5);
+					updateDisplay();
+				}
+			});
+
+			// Auto clicker upgrade
+			document.getElementById('auto-clicker').addEventListener('click', () => {
+				if (score >= autoClickerCost) {
+					score -= autoClickerCost;
+					autoClickers += 1;
+					autoClickerCost = Math.floor(autoClickerCost * 1.5);
+					updateDisplay();
+				}
+			});
+
+			// Multiplier upgrade
+			document.getElementById('multiplier-upgrade').addEventListener('click', () => {
+				if (score >= multiplierCost) {
+					score -= multiplierCost;
+					multiplier *= 2;
+					multiplierCost = Math.floor(multiplierCost * 2.5);
+					updateDisplay();
+				}
+			});
+
+			// Mega clicker upgrade
+			document.getElementById('mega-clicker').addEventListener('click', () => {
+				if (score >= megaClickerCost) {
+					score -= megaClickerCost;
+					clickPower += 10;
+					megaClickerCost = Math.floor(megaClickerCost * 2);
+					updateDisplay();
+				}
+			});
+
+			// Speed upgrade
+			document.getElementById('speed-upgrade').addEventListener('click', () => {
+				if (score >= speedUpgradeCost) {
+					score -= speedUpgradeCost;
+					autoClickerSpeed *= 2;
+					speedUpgradeCost = Math.floor(speedUpgradeCost * 3);
+					updateDisplay();
+				}
+			});
+
+			// Score multiplier upgrade
+			document.getElementById('score-multiplier').addEventListener('click', () => {
+				if (score >= scoreMultiplierCost) {
+					score -= scoreMultiplierCost;
+					multiplier *= 3;
+					scoreMultiplierCost = Math.floor(scoreMultiplierCost * 4);
+					updateDisplay();
+				}
+			});
+
+			// Auto clicker functionality
+			setInterval(() => {
+				if (autoClickers > 0) {
+					const pointsEarned = autoClickers * autoClickerSpeed * multiplier;
+					score += pointsEarned;
+					updateDisplay();
+				}
+			}, 1000);
+
+			// Update display
+			function updateDisplay() {
+				const totalMultiplier = multiplier;
+				const perSecond = autoClickers * autoClickerSpeed * totalMultiplier;
+
+				scoreElement.textContent = `Score: ${formatNumber(score)}`;
+				clickPowerElement.textContent = formatNumber(clickPower * totalMultiplier);
+				perSecondElement.textContent = formatNumber(perSecond);
+				multiplierElement.textContent = totalMultiplier + 'x';
+
+				// Update costs
+				document.getElementById('power-cost').textContent = formatNumber(powerUpgradeCost);
+				document.getElementById('auto-cost').textContent = formatNumber(autoClickerCost);
+				document.getElementById('multiplier-cost').textContent = formatNumber(multiplierCost);
+				document.getElementById('mega-cost').textContent = formatNumber(megaClickerCost);
+				document.getElementById('speed-cost').textContent = formatNumber(speedUpgradeCost);
+				document.getElementById('score-mult-cost').textContent = formatNumber(scoreMultiplierCost);
+
+				// Enable/disable upgrade buttons
+				document.getElementById('power-upgrade').disabled = score < powerUpgradeCost;
+				document.getElementById('auto-clicker').disabled = score < autoClickerCost;
+				document.getElementById('multiplier-upgrade').disabled = score < multiplierCost;
+				document.getElementById('mega-clicker').disabled = score < megaClickerCost;
+				document.getElementById('speed-upgrade').disabled = score < speedUpgradeCost;
+				document.getElementById('score-multiplier').disabled = score < scoreMultiplierCost;
+			}
+
+			// Initial display update
+			updateDisplay();
+
+			// Toggle boxes and glows visibility
+			const boxesToggle = document.getElementById('boxes-toggle');
+			boxesToggle.addEventListener('change', (e) => {
+				const isVisible = e.target.checked;
+				boxes.forEach(box => {
+					if (box.element) {
+						box.element.style.display = isVisible ? 'block' : 'none';
+					}
+					if (box.glowElement) {
+						box.glowElement.style.display = isVisible ? 'block' : 'none';
+					}
+				});
+				// Also handle AI mouse visibility
+				if (aiMouse) {
+					aiMouse.style.display = isVisible ? 'block' : 'none';
+				}
+			});
+
+			// Bouncing box animation
+			const gameContainer = document.getElementById('clicker-game');
+			const boxes = [];
+			const initialBoxSize = 20;
+			const padding = 20; // Match the padding of #clicker-game
+			let maxBoxes = 20; // Maximum number of boxes allowed (can be increased)
+			
+			// AI Mouse - now a bouncing box
+			let aiMouse = null;
+			let aiMouseX = 0;
+			let aiMouseY = 0;
+			let aiMouseVx = 0;
+			let aiMouseVy = 0;
+			let aiMouseSize = 20;
+			let aiMouseClickCooldown = 0;
+			let aiMouseLastCollision = null;
+			
+			function createAIMouse() {
+				aiMouse = document.createElement('div');
+				aiMouse.id = 'ai-mouse';
+				// Check toggle state
+				const toggle = document.getElementById('boxes-toggle');
+				aiMouse.style.display = toggle && toggle.checked ? 'block' : 'none';
+				gameContainer.appendChild(aiMouse);
+				
+				// Start at center with random velocity
+				const containerRect = gameContainer.getBoundingClientRect();
+				aiMouseX = containerRect.width / 2 - aiMouseSize / 2;
+				aiMouseY = containerRect.height / 2 - aiMouseSize / 2;
+				aiMouseVx = (Math.random() - 0.5) * 4 + 1;
+				aiMouseVy = (Math.random() - 0.5) * 4 + 1;
+				
+				aiMouse.style.left = aiMouseX + 'px';
+				aiMouse.style.top = aiMouseY + 'px';
+				aiMouse.style.width = aiMouseSize + 'px';
+				aiMouse.style.height = aiMouseSize + 'px';
+			}
+			
+			function updateAIMouse(containerWidth, containerHeight) {
+				if (!aiMouse) return;
+				
+				aiMouseClickCooldown = Math.max(0, aiMouseClickCooldown - 1);
+				
+				// Update position
+				aiMouseX += aiMouseVx;
+				aiMouseY += aiMouseVy;
+				
+				// Bounce off walls (at the border)
+				if (aiMouseX <= 0 || aiMouseX >= containerWidth - aiMouseSize) {
+					aiMouseVx = -aiMouseVx;
+					aiMouseX = Math.max(0, Math.min(aiMouseX, containerWidth - aiMouseSize));
+				}
+				if (aiMouseY <= 0 || aiMouseY >= containerHeight - aiMouseSize) {
+					aiMouseVy = -aiMouseVy;
+					aiMouseY = Math.max(0, Math.min(aiMouseY, containerHeight - aiMouseSize));
+				}
+				
+				// Check collision with boxes
+				boxes.forEach(box => {
+					if (box === aiMouseLastCollision && aiMouseClickCooldown > 0) return; // Prevent multiple clicks on same box
+					
+					// Check if AI mouse collides with box
+					if (aiMouseX < box.x + box.size &&
+						aiMouseX + aiMouseSize > box.x &&
+						aiMouseY < box.y + box.size &&
+						aiMouseY + aiMouseSize > box.y) {
+						
+						// Click the box
+						box.handleClick();
+						aiMouseLastCollision = box;
+						aiMouseClickCooldown = 30; // Cooldown between clicks
+						
+						// Bounce off the box (simple collision response)
+						const boxCenterX = box.x + box.size / 2;
+						const boxCenterY = box.y + box.size / 2;
+						const aiCenterX = aiMouseX + aiMouseSize / 2;
+						const aiCenterY = aiMouseY + aiMouseSize / 2;
+						
+						const dx = aiCenterX - boxCenterX;
+						const dy = aiCenterY - boxCenterY;
+						const distance = Math.sqrt(dx * dx + dy * dy);
+						
+						if (distance > 0) {
+							// Simple bounce - reverse velocity component
+							const nx = dx / distance;
+							const ny = dy / distance;
+							const dot = aiMouseVx * nx + aiMouseVy * ny;
+							aiMouseVx -= 2 * dot * nx;
+							aiMouseVy -= 2 * dot * ny;
+						}
+					}
+				});
+				
+				// Reset collision tracking after cooldown
+				if (aiMouseClickCooldown === 0) {
+					aiMouseLastCollision = null;
+				}
+				
+				// Update position
+				aiMouse.style.left = aiMouseX + 'px';
+				aiMouse.style.top = aiMouseY + 'px';
+			}
+			
+			// Function to create particles for explosions
+			// hue can be a single number or an array [hue1, hue2] for mixed colors
+			function createParticles(x, y, hue, count = 8, speed = 2) {
+				const toggle = document.getElementById('boxes-toggle');
+				if (!toggle || !toggle.checked) return;
+				
+				// Determine if we have one or two hues (for collision explosions)
+				const isArray = Array.isArray(hue);
+				const hue1 = isArray ? hue[0] : hue;
+				const hue2 = isArray ? hue[1] : (hue + 60) % 360;
+				
+				for (let i = 0; i < count; i++) {
+					const particle = document.createElement('div');
+					particle.style.position = 'absolute';
+					particle.style.left = x + 'px';
+					particle.style.top = y + 'px';
+					particle.style.width = '4px';
+					particle.style.height = '4px';
+					particle.style.borderRadius = '50%';
+					
+					// Use box colors: hsl(hue, 70%, 50%) - matching the box gradient
+					// For collisions, alternate or mix between the two box colors
+					let particleHue;
+					if (isArray) {
+						// Mix colors for collision particles
+						particleHue = i % 2 === 0 ? hue1 : hue2;
+					} else {
+						// Use box gradient colors
+						particleHue = i % 2 === 0 ? hue1 : hue2;
+					}
+					
+					particle.style.background = `hsl(${particleHue}, 70%, 50%)`;
+					particle.style.pointerEvents = 'none';
+					particle.style.zIndex = '101';
+					particle.style.boxShadow = `0 0 6px hsl(${particleHue}, 70%, 50%)`;
+					particle.style.transform = 'translate(-50%, -50%)';
+					gameContainer.appendChild(particle);
+					
+					// Random direction and speed
+					const angle = (Math.PI * 2 * i) / count + (Math.random() - 0.5) * 0.5;
+					const velocity = speed * (0.5 + Math.random() * 0.5);
+					const vx = Math.cos(angle) * velocity;
+					const vy = Math.sin(angle) * velocity;
+					
+					// Animate particle
+					let px = 0;
+					let py = 0;
+					let opacity = 1;
+					const animateParticle = () => {
+						px += vx;
+						py += vy;
+						opacity -= 0.02;
+						
+						particle.style.left = (x + px) + 'px';
+						particle.style.top = (y + py) + 'px';
+						particle.style.opacity = opacity.toString();
+						
+						if (opacity > 0) {
+							requestAnimationFrame(animateParticle);
+						} else {
+							particle.remove();
+						}
+					};
+					animateParticle();
+				}
+			}
+			
+			// Function to create a tiny explosion at collision point
+			function createTinyExplosion(x, y, hue1, hue2) {
+				const toggle = document.getElementById('boxes-toggle');
+				if (!toggle || !toggle.checked) return;
+				
+				// Use average hue or blend the two colors
+				const avgHue = (hue1 + hue2) / 2;
+				const explosion = document.createElement('div');
+				explosion.style.position = 'absolute';
+				explosion.style.left = x + 'px';
+				explosion.style.top = y + 'px';
+				explosion.style.width = '0px';
+				explosion.style.height = '0px';
+				explosion.style.borderRadius = '50%';
+				explosion.style.background = `radial-gradient(circle, hsl(${avgHue}, 100%, 70%), transparent)`;
+				explosion.style.transform = 'translate(-50%, -50%)';
+				explosion.style.pointerEvents = 'none';
+				explosion.style.zIndex = '100';
+				explosion.style.boxShadow = `0 0 15px hsl(${avgHue}, 100%, 70%)`;
+				gameContainer.appendChild(explosion);
+				
+				// Create particles with colors from both boxes
+				createParticles(x, y, [hue1, hue2], 6, 1.5);
+				
+				// Animate tiny explosion (bigger now)
+				let size = 0;
+				const maxSize = 80; // Increased from 40
+				const animateExplosion = () => {
+					size += 6;
+					explosion.style.width = size + 'px';
+					explosion.style.height = size + 'px';
+					explosion.style.opacity = (1 - size / maxSize).toString();
+					
+					if (size < maxSize) {
+						requestAnimationFrame(animateExplosion);
+					} else {
+						explosion.remove();
+					}
+				};
+				animateExplosion();
+			}
+			
+			// Box class to represent each bouncing box
+			class BouncingBox {
+				constructor(x, y, vx, vy, size, hue = 0) {
+					this.x = x;
+					this.y = y;
+					this.vx = vx;
+					this.vy = vy;
+					this.size = size;
+					this.hue = hue;
+					this.clickCount = 0; // Track number of clicks
+					this.element = this.createBox();
+					this.glowElement = this.createGlow();
+					this.lastBounceX = false;
+					this.lastBounceY = false;
+					this.collidedWith = new Set(); // Track recent collisions to prevent multiple bounces
+					this.lastWallHit = Date.now(); // Track when box last hit a wall
+				}
+				
+				createBox() {
+					const box = document.createElement('div');
+					box.className = 'bouncing-box';
+					box.style.left = this.x + 'px';
+					box.style.top = this.y + 'px';
+					box.style.width = this.size + 'px';
+					box.style.height = this.size + 'px';
+					box.style.background = `linear-gradient(135deg, hsl(${this.hue}, 70%, 50%), hsl(${(this.hue + 60) % 360}, 70%, 50%))`;
+					box.style.cursor = 'pointer';
+					// Check toggle state
+					const toggle = document.getElementById('boxes-toggle');
+					box.style.display = toggle && toggle.checked ? 'block' : 'none';
+					gameContainer.appendChild(box);
+					
+					// Add click handler
+					box.addEventListener('click', (e) => {
+						e.stopPropagation();
+						this.handleClick();
+					});
+					
+					return box;
+				}
+				
+				createGlow() {
+					const glow = document.createElement('div');
+					glow.className = 'box-glow';
+					// Position and size to match the box
+					glow.style.left = this.x + 'px';
+					glow.style.top = this.y + 'px';
+					glow.style.width = this.size + 'px';
+					glow.style.height = this.size + 'px';
+					
+					// Check toggle state
+					const toggle = document.getElementById('boxes-toggle');
+					glow.style.display = toggle && toggle.checked ? 'block' : 'none';
+					
+					// Set glow color to match box color (faint)
+					this.updateGlowColor(glow);
+					
+					gameContainer.appendChild(glow);
+					return glow;
+				}
+				
+				updateGlowColor(glowElement) {
+					// Use the box's hue with bright, visible glow
+					const glowColor1 = `hsla(${this.hue}, 80%, 75%, 1.0)`;
+					const glowColor2 = `hsla(${this.hue}, 80%, 75%, 0.9)`;
+					const glowColor3 = `hsla(${this.hue}, 80%, 75%, 0.7)`;
+					const glowColor4 = `hsla(${this.hue}, 80%, 75%, 0.5)`;
+					const dropShadowColor = `hsla(${this.hue}, 80%, 75%, 1.0)`;
+					
+					// Set a brighter background color so box-shadow renders properly
+					glowElement.style.background = `hsla(${this.hue}, 80%, 75%, 0.3)`;
+					glowElement.style.boxShadow = `0 0 15px ${glowColor1}, 0 0 30px ${glowColor2}, 0 0 45px ${glowColor3}, 0 0 60px ${glowColor4}`;
+					glowElement.style.filter = `drop-shadow(0 0 12px ${dropShadowColor})`;
+				}
+				
+				handleClick() {
+					this.clickCount++;
+					
+					// Increase size by 20%
+					this.size *= 1.2;
+					this.updateSize();
+					
+					// If clicked 5 times, explode into 5 new boxes
+					if (this.clickCount >= 5) {
+						this.explodeIntoBoxes();
+					}
+				}
+				
+				updateSize() {
+					this.element.style.width = this.size + 'px';
+					this.element.style.height = this.size + 'px';
+					if (this.glowElement) {
+						// Update glow size and position to match box
+						this.glowElement.style.width = this.size + 'px';
+						this.glowElement.style.height = this.size + 'px';
+						this.glowElement.style.left = this.x + 'px';
+						this.glowElement.style.top = this.y + 'px';
+					}
+				}
+				
+				explodeIntoBoxes() {
+					// Get the center of this box (where it will explode)
+					const explodeX = this.x + this.size / 2;
+					const explodeY = this.y + this.size / 2;
+					
+					// Create explosion effect
+					this.explode();
+					
+					// Calculate how many boxes we can create (accounting for removing this box)
+					// We'll remove this box, so we have: current boxes - 1 + new boxes <= maxBoxes
+					// Therefore: new boxes <= maxBoxes - (current boxes - 1)
+					const currentBoxCount = boxes.length;
+					const boxesAfterRemoval = currentBoxCount - 1;
+					const availableSlots = maxBoxes - boxesAfterRemoval;
+					const boxesToCreate = Math.min(5, availableSlots);
+					
+					// Only create boxes if we have room
+					if (boxesToCreate > 0) {
+						// Create new boxes around the exploded box's position
+						for (let i = 0; i < boxesToCreate; i++) {
+							const angle = (i / boxesToCreate) * Math.PI * 2;
+							const spawnDistance = 50;
+							const spawnX = explodeX + Math.cos(angle) * spawnDistance - initialBoxSize / 2;
+							const spawnY = explodeY + Math.sin(angle) * spawnDistance - initialBoxSize / 2;
+							
+							// Random velocity
+							const vx = (Math.random() - 0.5) * 3 + 1;
+							const vy = (Math.random() - 0.5) * 3 + 1;
+							
+							// Random hue
+							const hue = Math.random() * 360;
+							
+							const newBox = new BouncingBox(spawnX, spawnY, vx, vy, initialBoxSize, hue);
+							boxes.push(newBox);
+						}
+					}
+					
+					// Remove this box
+					this.remove();
+					const index = boxes.indexOf(this);
+					if (index > -1) {
+						boxes.splice(index, 1);
+					}
+				}
+				
+				// Check if this box collides with another box
+				checkCollision(other) {
+					return this.x < other.x + other.size &&
+						   this.x + this.size > other.x &&
+						   this.y < other.y + other.size &&
+						   this.y + this.size > other.y;
+				}
+				
+				// Handle collision with another box
+				collideWith(other) {
+					// Calculate collision normal (direction from this to other)
+					const dx = (other.x + other.size / 2) - (this.x + this.size / 2);
+					const dy = (other.y + other.size / 2) - (this.y + this.size / 2);
+					const distance = Math.sqrt(dx * dx + dy * dy);
+					
+					if (distance === 0) return; // Avoid division by zero
+					
+					// Normalize
+					const nx = dx / distance;
+					const ny = dy / distance;
+					
+					// Relative velocity
+					const rvx = other.vx - this.vx;
+					const rvy = other.vy - this.vy;
+					
+					// Relative velocity along collision normal
+					const velAlongNormal = rvx * nx + rvy * ny;
+					
+					// Don't resolve if velocities are separating
+					if (velAlongNormal > 0) return;
+					
+					// Create tiny explosion at collision point
+					const collisionX = (this.x + this.size / 2 + other.x + other.size / 2) / 2;
+					const collisionY = (this.y + this.size / 2 + other.y + other.size / 2) / 2;
+					createTinyExplosion(collisionX, collisionY, this.hue, other.hue);
+					
+					// Elastic collision - swap velocities along collision normal
+					const restitution = 1.0; // Fully elastic
+					const j = -(1 + restitution) * velAlongNormal;
+					
+					// Apply impulse (simple exchange for equal mass)
+					const tempVx = this.vx;
+					const tempVy = this.vy;
+					
+					this.vx = other.vx;
+					this.vy = other.vy;
+					other.vx = tempVx;
+					other.vy = tempVy;
+					
+					// Separate boxes to prevent overlap
+					const overlap = (this.size + other.size) / 2 - distance;
+					if (overlap > 0) {
+						const separationX = nx * overlap * 0.5;
+						const separationY = ny * overlap * 0.5;
+						this.x -= separationX;
+						this.y -= separationY;
+						other.x += separationX;
+						other.y += separationY;
+					}
+				}
+				
+				update(containerWidth, containerHeight) {
+					// Update position
+					this.x += this.vx;
+					this.y += this.vy;
+					
+					let bounced = false;
+					
+					// Bounce off walls (at the border, not padding)
+					if (this.x <= 0 || this.x >= containerWidth - this.size) {
+						if (!this.lastBounceX) {
+							this.lastBounceX = true;
+							bounced = true;
+							createNewBox();
+						}
+						this.vx = -this.vx;
+						this.x = Math.max(0, Math.min(this.x, containerWidth - this.size));
+						this.lastWallHit = Date.now(); // Update wall hit timestamp
+					} else {
+						this.lastBounceX = false;
+					}
+					
+					if (this.y <= 0 || this.y >= containerHeight - this.size) {
+						if (!this.lastBounceY) {
+							this.lastBounceY = true;
+							bounced = true;
+							createNewBox();
+						}
+						this.vy = -this.vy;
+						this.y = Math.max(0, Math.min(this.y, containerHeight - this.size));
+						this.lastWallHit = Date.now(); // Update wall hit timestamp
+					} else {
+						this.lastBounceY = false;
+					}
+					
+					// Apply position
+					this.element.style.left = this.x + 'px';
+					this.element.style.top = this.y + 'px';
+					if (this.glowElement) {
+						// Update glow position to match box
+						this.glowElement.style.left = this.x + 'px';
+						this.glowElement.style.top = this.y + 'px';
+					}
+					
+					return bounced;
+				}
+				
+				// Explode and push nearby boxes away
+				explode() {
+					const explosionRadius = 150; // Distance to affect nearby boxes
+					const explosionForce = 8; // Force to apply to nearby boxes
+					const centerX = this.x + this.size / 2;
+					const centerY = this.y + this.size / 2;
+					
+					// Create visual explosion effect (only if boxes are visible)
+					const toggle = document.getElementById('boxes-toggle');
+					if (toggle && toggle.checked) {
+						const explosion = document.createElement('div');
+						explosion.style.position = 'absolute';
+						explosion.style.left = centerX + 'px';
+						explosion.style.top = centerY + 'px';
+						explosion.style.width = '0px';
+						explosion.style.height = '0px';
+						explosion.style.borderRadius = '50%';
+						explosion.style.background = `radial-gradient(circle, hsl(${this.hue}, 100%, 60%), transparent)`;
+						explosion.style.transform = 'translate(-50%, -50%)';
+						explosion.style.pointerEvents = 'none';
+						explosion.style.zIndex = '100';
+						explosion.style.boxShadow = `0 0 30px hsl(${this.hue}, 100%, 60%)`;
+						gameContainer.appendChild(explosion);
+						
+						// Create particles for the explosion
+						createParticles(centerX, centerY, this.hue, 15, 3);
+						
+						// Animate explosion
+						let size = 0;
+						const maxSize = explosionRadius * 2;
+						const animateExplosion = () => {
+							size += 10;
+							explosion.style.width = size + 'px';
+							explosion.style.height = size + 'px';
+							explosion.style.opacity = (1 - size / maxSize).toString();
+							
+							if (size < maxSize) {
+								requestAnimationFrame(animateExplosion);
+							} else {
+								explosion.remove();
+							}
+						};
+						animateExplosion();
+					}
+					
+					// Push nearby boxes away
+					boxes.forEach(box => {
+						if (box === this) return; // Don't affect self
+						
+						const boxCenterX = box.x + box.size / 2;
+						const boxCenterY = box.y + box.size / 2;
+						
+						// Calculate distance from explosion center
+						const dx = boxCenterX - centerX;
+						const dy = boxCenterY - centerY;
+						const distance = Math.sqrt(dx * dx + dy * dy);
+						
+						// If within explosion radius, apply force
+						if (distance < explosionRadius && distance > 0) {
+							// Normalize direction
+							const nx = dx / distance;
+							const ny = dy / distance;
+							
+							// Calculate force (stronger when closer)
+							const force = explosionForce * (1 - distance / explosionRadius);
+							
+							// Apply force to box velocity
+							box.vx += nx * force;
+							box.vy += ny * force;
+						}
+					});
+				}
+				
+				remove() {
+					this.element.remove();
+					if (this.glowElement) {
+						this.glowElement.remove();
+					}
+				}
+			}
+			
+			function createNewBox() {
+				// Don't create new box if we've reached the maximum
+				if (boxes.length >= maxBoxes) {
+					return;
+				}
+				
+				const containerRect = gameContainer.getBoundingClientRect();
+				const containerWidth = containerRect.width;
+				const containerHeight = containerRect.height;
+				
+				// Use the same size as initial box
+				const newSize = initialBoxSize;
+				
+				// Spawn at center of container
+				const centerX = containerWidth / 2 - newSize / 2;
+				const centerY = containerHeight / 2 - newSize / 2;
+				
+				// Random velocity
+				const vx = (Math.random() - 0.5) * 3 + 1;
+				const vy = (Math.random() - 0.5) * 3 + 1;
+				
+				// Random hue for color variation
+				const hue = Math.random() * 360;
+				
+				const box = new BouncingBox(centerX, centerY, vx, vy, newSize, hue);
+				boxes.push(box);
+			}
+			
+			function animateBoxes() {
+				const containerRect = gameContainer.getBoundingClientRect();
+				const containerWidth = containerRect.width;
+				const containerHeight = containerRect.height;
+				const currentTime = Date.now();
+				const timeoutDuration = 10000; // 10 seconds in milliseconds
+				
+				// Apply drift from arrow keys (continuous while held)
+				applyDrift();
+				
+				// Update AI mouse (bouncing box)
+				updateAIMouse(containerWidth, containerHeight);
+				
+				// Check for collisions between all pairs of boxes
+				for (let i = 0; i < boxes.length; i++) {
+					for (let j = i + 1; j < boxes.length; j++) {
+						if (boxes[i].checkCollision(boxes[j])) {
+							boxes[i].collideWith(boxes[j]);
+						}
+					}
+				}
+				
+				
+				// Remove boxes that haven't hit a wall in 10 seconds
+				for (let i = boxes.length - 1; i >= 0; i--) {
+					const timeSinceLastWallHit = currentTime - boxes[i].lastWallHit;
+					if (timeSinceLastWallHit > timeoutDuration) {
+						// Explode before removing
+						boxes[i].explode();
+						boxes[i].remove();
+						boxes.splice(i, 1);
+					}
+				}
+				
+				// Update all boxes
+				boxes.forEach(box => {
+					box.update(containerWidth, containerHeight);
+				});
+				
+				requestAnimationFrame(animateBoxes);
+			}
+			
+			// Arrow key controls to pull all boxes (weaker and more drifty)
+			const pullForce = 0.15; // Reduced force for more drift
+			const pressedKeys = new Set(); // Track which keys are currently pressed
+			
+			// Track key presses
+			document.addEventListener('keydown', (e) => {
+				switch(e.key) {
+					case 'ArrowUp':
+					case 'ArrowDown':
+					case 'ArrowLeft':
+					case 'ArrowRight':
+						e.preventDefault();
+						pressedKeys.add(e.key);
+						break;
+				}
+			});
+			
+			// Track key releases
+			document.addEventListener('keyup', (e) => {
+				switch(e.key) {
+					case 'ArrowUp':
+					case 'ArrowDown':
+					case 'ArrowLeft':
+					case 'ArrowRight':
+						e.preventDefault();
+						pressedKeys.delete(e.key);
+						break;
+				}
+			});
+			
+			// Apply continuous drift force while keys are held
+			function applyDrift() {
+				let directionX = 0;
+				let directionY = 0;
+				
+				if (pressedKeys.has('ArrowLeft')) directionX -= 1;
+				if (pressedKeys.has('ArrowRight')) directionX += 1;
+				if (pressedKeys.has('ArrowUp')) directionY -= 1;
+				if (pressedKeys.has('ArrowDown')) directionY += 1;
+				
+				if (directionX !== 0 || directionY !== 0) {
+					// Normalize diagonal movement
+					const length = Math.sqrt(directionX * directionX + directionY * directionY);
+					directionX /= length;
+					directionY /= length;
+					
+					// Apply gentle drift force
+					boxes.forEach(box => {
+						box.vx += directionX * pullForce;
+						box.vy += directionY * pullForce;
+					});
+				}
+			}
+			
+			// Start with initial box
+			setTimeout(() => {
+				// Remove the original static box
+				const originalBox = document.getElementById('bouncing-box');
+				if (originalBox) {
+					originalBox.remove();
+				}
+				
+				// Create AI mouse
+				createAIMouse();
+				
+				// Create first box at center
+				const containerRect = gameContainer.getBoundingClientRect();
+				const centerX = containerRect.width / 2 - initialBoxSize / 2;
+				const centerY = containerRect.height / 2 - initialBoxSize / 2;
+				const vx = (Math.random() - 0.5) * 3 + 1;
+				const vy = (Math.random() - 0.5) * 3 + 1;
+				const hue = Math.random() * 360;
+				const firstBox = new BouncingBox(centerX, centerY, vx, vy, initialBoxSize, hue);
+				boxes.push(firstBox);
+				
+				// Start animation
+				animateBoxes();
+			}, 100);
+		</script>
+	</html>

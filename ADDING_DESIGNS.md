@@ -80,3 +80,4 @@ To update the category images on the homepage:
 2. Recommended size: 800x600px
 3. The images will automatically update on the homepage
 
+
