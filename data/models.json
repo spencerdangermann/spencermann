@@ -1,0 +1,85 @@
+{
+  "models": [
+    {
+      "id": "pure-vessel-mask",
+      "title": "The Pure Vessel Mask (from Hollow Knight)",
+      "category": "hollow-knight",
+      "makerworldUrl": "https://makerworld.com/en/models/1161708-the-pure-vessel-mask-from-hollow-knight",
+      "image": "images/hollow-knight/pure-vessel-mask.svg",
+      "description": "Adult-sized Pure Vessel cosplay mask from Hollow Knight. Multi-part print with overlapping seams for assembly; optimized for painting and convention wear.",
+      "featured": true
+    },
+    {
+      "id": "hornet-mask-adult",
+      "title": "Large Hornet Mask (Silk Song) — Adult",
+      "category": "hollow-knight",
+      "makerworldUrl": "https://makerworld.com/en/models/1803316-large-hornet-mask-silk-song-hollow-knight-adult",
+      "image": "images/hollow-knight/hornet-mask.svg",
+      "description": "Large adult Hornet mask from Hollow Knight: Silksong. Detailed cosplay piece with print profiles for multiple Bambu printers.",
+      "featured": true
+    },
+    {
+      "id": "dreamer-harrah-mask",
+      "title": "Dreamer — Harrah the Beast Mask",
+      "category": "hollow-knight",
+      "makerworldUrl": "https://makerworld.com/en/models/2244864-dreamer-harrah-the-beast-mask-hollow-knight",
+      "image": "images/hollow-knight/harrah-mask.svg",
+      "description": "Harrah the Beast dreamer mask from Hollow Knight. Part of the Dreamers mask series for collectors and cosplayers.",
+      "featured": false
+    },
+    {
+      "id": "dumpster-trash-can",
+      "title": "Mountable Dumpster Trash Can",
+      "category": "tools",
+      "makerworldUrl": "https://makerworld.com/en/models/794185-mountable-dumpster-trash-can",
+      "image": "images/tools/dumpster-trash-can.svg",
+      "description": "Practical mountable dumpster-style trash can for shop, garage, or desk organization. Functional print with straightforward assembly.",
+      "featured": true
+    },
+    {
+      "id": "fountain-girl",
+      "title": "Working Fountain Girl Sculpture for Pond Garden",
+      "category": "random",
+      "makerworldUrl": "https://makerworld.com/en/models/1707987-working-fountain-girl-sculpture-for-pond-garden",
+      "image": "images/random/fountain-girl.svg",
+      "description": "Decorative fountain sculpture that actually works in a pond or garden setup. A pinned favorite on MakerWorld.",
+      "featured": true
+    },
+    {
+      "id": "dragon-fountain",
+      "title": "Working Dragon Water Fountain Sculpture for Pond",
+      "category": "random",
+      "makerworldUrl": "https://makerworld.com/en/models/1414737-working-dragon-water-fountain-sculpture-for-pond",
+      "image": "images/random/dragon-fountain.svg",
+      "description": "Dragon-themed working water fountain for outdoor ponds. Eye-catching display piece with strong community engagement.",
+      "featured": true
+    },
+    {
+      "id": "bubble-mask-tadc",
+      "title": "Bubble Mask — The Amazing Digital Circus (TADC)",
+      "category": "games",
+      "makerworldUrl": "https://makerworld.com/en/models/2767411-bubble-mask-the-amazing-digital-circus-tadc",
+      "image": "images/games/bubble-mask.svg",
+      "description": "Bubble mask inspired by The Amazing Digital Circus. Great for cosplay and display prints.",
+      "featured": true
+    },
+    {
+      "id": "lizzy-murder-drones",
+      "title": "Lizzy — Murder Drones (7\" tall)",
+      "category": "games",
+      "makerworldUrl": "https://makerworld.com/en/models/2782999-lizzy-murder-drones-7-tall",
+      "image": "images/games/lizzy-murder-drones.svg",
+      "description": "7-inch Lizzy figure from Murder Drones. Compact display model for fans of the series.",
+      "featured": false
+    },
+    {
+      "id": "tessa-murder-drones",
+      "title": "Tessa James Elliott Spacesuit — Murder Drones (7\")",
+      "category": "games",
+      "makerworldUrl": "https://makerworld.com/en/models/2802038-tessa-james-elliott-spacesuit-murder-drones-7",
+      "image": "images/games/tessa-murder-drones.svg",
+      "description": "Tessa James Elliott spacesuit figure from Murder Drones at 7-inch scale.",
+      "featured": false
+    }
+  ]
+}

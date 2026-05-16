@@ -1,6 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://spencermann.com/sitemap.xml
-
-
+Sitemap: https://www.spencermann.com/sitemap.xml

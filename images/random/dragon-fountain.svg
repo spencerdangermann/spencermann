@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs><linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#2d3d4a"/><stop offset="100%" stop-color="#111"/></linearGradient></defs>
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="380" fill="#e8e8e8" font-family="Segoe UI, Arial, sans-serif" font-size="32" text-anchor="middle">Dragon Water Fountain</text>
+  <text x="600" y="440" fill="#b0b0b0" font-family="Segoe UI, Arial, sans-serif" font-size="20" text-anchor="middle">Pond · MakerWorld</text>
+</svg>
