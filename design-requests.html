@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Design Requests | Spencermann 3D Printing</title>
+    <meta name="description" content="Suggest your next free 3D printing design for Spencermann. Share ideas for cosplay, tools, games, and more.">
+    <meta name="author" content="Spencer Mann">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://spencermann.com/design-requests.html">
+    <meta property="og:title" content="Design Requests | Spencermann">
+    <meta property="og:description" content="Suggest what I should design and print next.">
+
+    <link rel="canonical" href="https://spencermann.com/design-requests.html">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">Spencermann</a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="hollow-knight.html" class="nav-link">Hollow Knight</a></li>
+                <li><a href="tools.html" class="nav-link">Tools</a></li>
+                <li><a href="games.html" class="nav-link">Games</a></li>
+                <li><a href="random.html" class="nav-link">Random</a></li>
+                <li><a href="design-requests.html" class="nav-link active">Requests</a></li>
+                <li><a href="david/" class="nav-link">David</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="category-header">
+        <h1 id="request-page-title">What should I design next?</h1>
+        <p id="request-page-description">Share your ideas — I use these requests when choosing new free designs for MakerWorld.</p>
+    </section>
+
+    <section class="request-form-section">
+        <div class="container">
+            <div id="request-form-ready" class="request-form-ready" hidden>
+                <p class="request-form-note">Your answers are saved securely through Google Forms. You can also <a id="request-form-open-link" href="#" target="_blank" rel="noopener noreferrer">open the form in a new tab</a> if the embed does not load on your device.</p>
+                <div class="google-form-embed">
+                    <iframe
+                        id="google-form-iframe"
+                        title="Design request form"
+                        src=""
+                        width="640"
+                        height="1200"
+                        frameborder="0"
+                        marginheight="0"
+                        marginwidth="0"
+                        loading="lazy">
+                        Loading form…
+                    </iframe>
+                </div>
+            </div>
+
+            <div id="request-form-setup" class="request-form-setup">
+                <h2 class="section-title">Form coming soon</h2>
+                <p class="request-setup-text">
+                    The request form will appear here once the Google Form embed URL is added to
+                    <code>data/form-config.json</code>. See <code>DESIGN_REQUESTS_SETUP.md</code> in the project folder for step-by-step setup (Google Form → Google Sheet → embed on this site).
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="makerworld-section">
+        <div class="container">
+            <div class="makerworld-content">
+                <h2 class="section-title">Browse existing designs</h2>
+                <p class="makerworld-text">While you wait for new models, download free designs on MakerWorld.</p>
+                <a href="https://makerworld.com/en/@spencermann" class="btn-makerworld" target="_blank" rel="noopener noreferrer">
+                    View on MakerWorld
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Spencer Mann (Spencermann). All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="https://makerworld.com/en/@spencermann" target="_blank" rel="noopener noreferrer">MakerWorld</a>
+                    <a href="design-requests.html">Design Requests</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

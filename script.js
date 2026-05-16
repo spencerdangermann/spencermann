@@ -206,7 +206,45 @@ function initStaticCarousels() {
     });
 }
 
+async function initDesignRequestForm() {
+    const iframe = document.getElementById('google-form-iframe');
+    const readyBlock = document.getElementById('request-form-ready');
+    const setupBlock = document.getElementById('request-form-setup');
+    if (!iframe || !readyBlock || !setupBlock) return;
+
+    try {
+        const response = await fetch('data/form-config.json');
+        if (!response.ok) throw new Error('Failed to load form-config.json');
+        const config = await response.json();
+        const form = config.designRequestForm || {};
+        const embedUrl = (form.embedUrl || '').trim();
+        const viewUrl = (form.viewUrl || '').trim();
+
+        const titleEl = document.getElementById('request-page-title');
+        const descEl = document.getElementById('request-page-description');
+        if (titleEl && form.title) titleEl.textContent = form.title;
+        if (descEl && form.description) descEl.textContent = form.description;
+
+        if (embedUrl) {
+            iframe.src = embedUrl;
+            readyBlock.hidden = false;
+            setupBlock.hidden = true;
+            const openLink = document.getElementById('request-form-open-link');
+            if (openLink && viewUrl) openLink.href = viewUrl;
+            else if (openLink) openLink.href = embedUrl.replace('?embedded=true', '');
+            return;
+        }
+    } catch (err) {
+        console.error('Could not load design request form config:', err);
+    }
+
+    readyBlock.hidden = true;
+    setupBlock.hidden = false;
+}
+
 document.addEventListener('DOMContentLoaded', async function () {
+    await initDesignRequestForm();
+
     const hasDynamicContent = document.querySelector('[data-category]') || document.getElementById('featured-grid');
     if (hasDynamicContent) {
         try {
