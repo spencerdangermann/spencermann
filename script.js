@@ -227,6 +227,10 @@ async function initDesignRequestForm() {
 
         if (embedUrl) {
             iframe.src = embedUrl;
+            if (form.embedHeight) {
+                iframe.height = String(form.embedHeight);
+                iframe.style.minHeight = form.embedHeight + 'px';
+            }
             readyBlock.hidden = false;
             setupBlock.hidden = true;
             const openLink = document.getElementById('request-form-open-link');

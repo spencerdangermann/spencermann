@@ -1,7 +1,8 @@
 {
   "designRequestForm": {
-    "embedUrl": "",
-    "viewUrl": "",
+    "embedUrl": "https://docs.google.com/forms/d/e/1FAIpQLSePbpL-H6VT9ug-bDyCxIJl8-ydQSBfIh6HFbB5AVEaI9SUTA/viewform?embedded=true",
+    "viewUrl": "https://docs.google.com/forms/d/e/1FAIpQLSePbpL-H6VT9ug-bDyCxIJl8-ydQSBfIh6HFbB5AVEaI9SUTA/viewform",
+    "embedHeight": 827,
     "title": "What should I design next?",
     "description": "Tell me what you would like to see as a free 3D print on MakerWorld. I read every submission when planning new projects."
   }
