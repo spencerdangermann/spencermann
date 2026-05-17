@@ -1,0 +1,39 @@
+{
+  "categories": [
+    {
+      "id": "hollow-knight",
+      "title": "Hollow Knight",
+      "description": "Cosplay masks, needles, and accessories inspired by Hallownest and Silksong.",
+      "image": "images/categories/hollow-knight.jpg",
+      "page": "hollow-knight.html"
+    },
+    {
+      "id": "glitch-productions",
+      "title": "Glitch Productions",
+      "description": "Murder Drones, The Amazing Digital Circus, and more prints from Glitch fandom.",
+      "image": "images/categories/glitch-productions.jpg",
+      "page": "glitch-productions.html"
+    },
+    {
+      "id": "water-fountains",
+      "title": "Water Fountains",
+      "description": "Working pond and garden fountain sculptures that move real water.",
+      "image": "images/categories/water-fountains.jpg",
+      "page": "water-fountains.html"
+    },
+    {
+      "id": "utility",
+      "title": "Utility",
+      "description": "Practical prints for everyday use — organization, mounts, and functional parts.",
+      "image": "images/categories/utility.jpg",
+      "page": "utility.html"
+    },
+    {
+      "id": "other",
+      "title": "Other",
+      "description": "Creative experiments and designs that do not fit a single theme.",
+      "image": "images/categories/other.jpg",
+      "page": "other.html"
+    }
+  ]
+}

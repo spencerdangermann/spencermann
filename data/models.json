@@ -30,7 +30,7 @@
     {
       "id": "dumpster-trash-can",
       "title": "Mountable Dumpster Trash Can",
-      "category": "tools",
+      "category": "utility",
       "makerworldUrl": "https://makerworld.com/en/models/794185-mountable-dumpster-trash-can",
       "image": "images/tools/dumpster-trash-can.jpg",
       "description": "Practical mountable dumpster-style trash can for shop, garage, or desk organization. Functional print with straightforward assembly.",
@@ -39,7 +39,7 @@
     {
       "id": "fountain-girl",
       "title": "Working Fountain Girl Sculpture for Pond Garden",
-      "category": "random",
+      "category": "water-fountains",
       "makerworldUrl": "https://makerworld.com/en/models/1707987-working-fountain-girl-sculpture-for-pond-garden",
       "image": "images/random/fountain-girl.jpg",
       "description": "Decorative fountain sculpture that actually works in a pond or garden setup. A pinned favorite on MakerWorld.",
@@ -48,7 +48,7 @@
     {
       "id": "dragon-fountain",
       "title": "Working Dragon Water Fountain Sculpture for Pond",
-      "category": "random",
+      "category": "water-fountains",
       "makerworldUrl": "https://makerworld.com/en/models/1414737-working-dragon-water-fountain-sculpture-for-pond",
       "image": "images/random/dragon-fountain.jpg",
       "description": "Dragon-themed working water fountain for outdoor ponds. Eye-catching display piece with strong community engagement.",
@@ -57,7 +57,7 @@
     {
       "id": "bubble-mask-tadc",
       "title": "Bubble Mask — The Amazing Digital Circus (TADC)",
-      "category": "games",
+      "category": "glitch-productions",
       "makerworldUrl": "https://makerworld.com/en/models/2767411-bubble-mask-the-amazing-digital-circus-tadc",
       "image": "images/games/bubble-mask.jpg",
       "description": "Bubble mask inspired by The Amazing Digital Circus. Great for cosplay and display prints.",
@@ -66,7 +66,7 @@
     {
       "id": "lizzy-murder-drones",
       "title": "Lizzy — Murder Drones (7\" tall)",
-      "category": "games",
+      "category": "glitch-productions",
       "makerworldUrl": "https://makerworld.com/en/models/2782999-lizzy-murder-drones-7-tall",
       "image": "images/games/lizzy-murder-drones.jpg",
       "description": "7-inch Lizzy figure from Murder Drones. Compact display model for fans of the series.",
@@ -75,7 +75,7 @@
     {
       "id": "tessa-murder-drones",
       "title": "Tessa James Elliott Spacesuit — Murder Drones (7\")",
-      "category": "games",
+      "category": "glitch-productions",
       "makerworldUrl": "https://makerworld.com/en/models/2802038-tessa-james-elliott-spacesuit-murder-drones-7",
       "image": "images/games/tessa-murder-drones.jpg",
       "description": "Tessa James Elliott spacesuit figure from Murder Drones at 7-inch scale.",

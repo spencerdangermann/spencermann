@@ -36,25 +36,6 @@ function escapeHtml(text) {
     return el.innerHTML;
 }
 
-function buildCarouselSlide(model) {
-    const link = addMakerworldUtm(model.makerworldUrl, model.id);
-    const slide = document.createElement('div');
-    slide.className = 'carousel-slide';
-    slide.innerHTML = [
-        '<img src="', escapeHtml(model.image), '" alt="', escapeHtml(model.title), '" class="carousel-image" loading="lazy">',
-        '<div class="carousel-content">',
-        '<h2 class="carousel-title">', escapeHtml(model.title), '</h2>',
-        '<p class="carousel-description">', escapeHtml(model.description), '</p>',
-        '<a href="', escapeHtml(link), '" class="carousel-link" target="_blank" rel="noopener noreferrer">',
-        'Download on MakerWorld',
-        '</a>',
-        '</div>'
-    ].join('');
-    const img = slide.querySelector('.carousel-image');
-    img.onerror = () => { img.src = PLACEHOLDER_SVG; };
-    return slide;
-}
-
 function buildFeaturedCard(model) {
     const link = addMakerworldUtm(model.makerworldUrl, model.id);
     const card = document.createElement('a');
@@ -77,6 +58,25 @@ function buildFeaturedCard(model) {
     return card;
 }
 
+function buildCategoryNavCard(category) {
+    const card = document.createElement('a');
+    card.className = 'featured-card category-nav-card';
+    card.href = category.page;
+    card.innerHTML = [
+        '<div class="featured-image">',
+        '<img src="', escapeHtml(category.image), '" alt="', escapeHtml(category.title), '" loading="lazy">',
+        '</div>',
+        '<div class="featured-info">',
+        '<h3 class="featured-title">', escapeHtml(category.title), '</h3>',
+        '<p class="featured-description">', escapeHtml(category.description), '</p>',
+        '<span class="featured-cta">View collection &rarr;</span>',
+        '</div>'
+    ].join('');
+    const img = card.querySelector('img');
+    img.onerror = () => { img.src = PLACEHOLDER_SVG; };
+    return card;
+}
+
 async function loadModels() {
     const response = await fetch('data/models.json');
     if (!response.ok) {
@@ -86,123 +86,36 @@ async function loadModels() {
     return data.models || [];
 }
 
-class Carousel {
-    constructor(container) {
-        this.container = container;
-        this.track = container.querySelector('.carousel-track');
-        this.slides = container.querySelectorAll('.carousel-slide');
-        this.prevButton = container.querySelector('.carousel-button.prev');
-        this.nextButton = container.querySelector('.carousel-button.next');
-        this.indicatorsContainer = container.querySelector('.carousel-indicators');
-        this.currentIndex = 0;
-        this.totalSlides = this.slides.length;
-        this.init();
+async function loadCategories() {
+    const response = await fetch('data/categories.json');
+    if (!response.ok) {
+        throw new Error('Failed to load categories.json (' + response.status + ')');
     }
-
-    init() {
-        if (this.totalSlides === 0) return;
-
-        this.generateIndicators();
-        this.indicators = this.container.querySelectorAll('.carousel-indicator');
-        this.updateCarousel();
-
-        if (this.prevButton) {
-            this.prevButton.addEventListener('click', () => this.prevSlide());
-        }
-        if (this.nextButton) {
-            this.nextButton.addEventListener('click', () => this.nextSlide());
-        }
-        this.indicators.forEach((indicator, index) => {
-            indicator.addEventListener('click', () => this.goToSlide(index));
-        });
-        document.addEventListener('keydown', (e) => {
-            if (this.container.contains(document.activeElement) || document.activeElement === document.body) {
-                if (e.key === 'ArrowLeft') this.prevSlide();
-                if (e.key === 'ArrowRight') this.nextSlide();
-            }
-        });
-    }
-
-    generateIndicators() {
-        if (!this.indicatorsContainer) return;
-        this.indicatorsContainer.innerHTML = '';
-        for (let i = 0; i < this.totalSlides; i++) {
-            const indicator = document.createElement('button');
-            indicator.className = 'carousel-indicator';
-            if (i === 0) indicator.classList.add('active');
-            indicator.setAttribute('aria-label', 'Slide ' + (i + 1));
-            this.indicatorsContainer.appendChild(indicator);
-        }
-    }
-
-    updateCarousel() {
-        this.track.style.transform = 'translateX(' + (-this.currentIndex * 100) + '%)';
-        this.indicators.forEach((indicator, index) => {
-            indicator.classList.toggle('active', index === this.currentIndex);
-        });
-        if (this.prevButton) {
-            this.prevButton.style.opacity = this.currentIndex === 0 ? '0.5' : '1';
-            this.prevButton.style.cursor = this.currentIndex === 0 ? 'not-allowed' : 'pointer';
-        }
-        if (this.nextButton) {
-            this.nextButton.style.opacity = this.currentIndex === this.totalSlides - 1 ? '0.5' : '1';
-            this.nextButton.style.cursor = this.currentIndex === this.totalSlides - 1 ? 'not-allowed' : 'pointer';
-        }
-    }
-
-    nextSlide() {
-        if (this.currentIndex < this.totalSlides - 1) {
-            this.currentIndex++;
-            this.updateCarousel();
-        }
-    }
-
-    prevSlide() {
-        if (this.currentIndex > 0) {
-            this.currentIndex--;
-            this.updateCarousel();
-        }
-    }
-
-    goToSlide(index) {
-        if (index >= 0 && index < this.totalSlides) {
-            this.currentIndex = index;
-            this.updateCarousel();
-        }
-    }
+    const data = await response.json();
+    return data.categories || [];
 }
 
-async function initCategoryCarousels(models) {
-    const containers = document.querySelectorAll('.carousel-container[data-category]');
-    for (const container of containers) {
-        const category = container.dataset.category;
-        const track = container.querySelector('.carousel-track');
-        const categoryModels = models.filter(function (m) { return m.category === category; });
-        track.innerHTML = '';
-        if (categoryModels.length === 0) {
-            track.innerHTML = '<p class="carousel-empty">Designs coming soon. <a href="https://makerworld.com/en/@spencermann">Browse on MakerWorld</a>.</p>';
-            continue;
-        }
-        categoryModels.forEach(function (model) {
-            track.appendChild(buildCarouselSlide(model));
-        });
-        new Carousel(container);
-    }
-}
-
-async function initFeaturedSection(models) {
-    const grid = document.getElementById('featured-grid');
+async function initHomepageCategories(categories) {
+    const grid = document.getElementById('home-categories-grid');
     if (!grid) return;
-    const featured = models.filter(function (m) { return m.featured; });
     grid.innerHTML = '';
-    featured.forEach(function (model) {
-        grid.appendChild(buildFeaturedCard(model));
+    categories.forEach(function (category) {
+        grid.appendChild(buildCategoryNavCard(category));
     });
 }
 
-function initStaticCarousels() {
-    document.querySelectorAll('.carousel-container:not([data-category])').forEach(function (container) {
-        new Carousel(container);
+async function initCategoryModelsGrid(models) {
+    const grid = document.getElementById('category-models-grid');
+    if (!grid) return;
+    const categoryId = grid.dataset.category;
+    const categoryModels = models.filter(function (m) { return m.category === categoryId; });
+    grid.innerHTML = '';
+    if (categoryModels.length === 0) {
+        grid.innerHTML = '<p class="category-empty">Designs coming soon. <a href="https://makerworld.com/en/@spencermann">Browse on MakerWorld</a>.</p>';
+        return;
+    }
+    categoryModels.forEach(function (model) {
+        grid.appendChild(buildFeaturedCard(model));
     });
 }
 
@@ -249,17 +162,22 @@ async function initDesignRequestForm() {
 document.addEventListener('DOMContentLoaded', async function () {
     await initDesignRequestForm();
 
-    const hasDynamicContent = document.querySelector('[data-category]') || document.getElementById('featured-grid');
-    if (hasDynamicContent) {
-        try {
-            const models = await loadModels();
-            await initCategoryCarousels(models);
-            await initFeaturedSection(models);
-        } catch (err) {
-            console.error('Could not load designs:', err);
+    const homeCategoriesGrid = document.getElementById('home-categories-grid');
+    const categoryModelsGrid = document.getElementById('category-models-grid');
+
+    if (!homeCategoriesGrid && !categoryModelsGrid) return;
+
+    try {
+        if (homeCategoriesGrid) {
+            const categories = await loadCategories();
+            await initHomepageCategories(categories);
         }
-    } else {
-        initStaticCarousels();
+        if (categoryModelsGrid) {
+            const models = await loadModels();
+            await initCategoryModelsGrid(models);
+        }
+    } catch (err) {
+        console.error('Could not load site data:', err);
     }
 });
 

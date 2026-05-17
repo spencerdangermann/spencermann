@@ -6,21 +6,21 @@
     
     <!-- SEO Meta Tags -->
     <title>Spencermann - 3D Printing Designs | Hollow Knight Cosplay & Masks</title>
-    <meta name="description" content="Discover amazing 3D printing designs by Spencermann. Hollow Knight cosplay masks, Hornet masks, tools, games, and more. Download free 3D designs on MakerWorld.">
+    <meta name="description" content="Discover 3D printing designs by Spencer Mann (Spencermann). Hollow Knight cosplay, Glitch Productions, water fountains, utility prints, and more on MakerWorld.">
     <meta name="keywords" content="Spencermann, Spencer Mann, Hollow Knight Cosplay, Hollow Knight Mask, Hornet Mask, 3D designs, 3d Printing, MakerWorld, 3D printing designs">
     <meta name="author" content="Spencer Mann">
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://spencermann.com/">
-    <meta property="og:title" content="Spencermann - 3D Printing Designs | Hollow Knight Cosplay & Masks">
-    <meta property="og:description" content="Discover amazing 3D printing designs by Spencermann. Hollow Knight cosplay masks, tools, games, and more.">
+    <meta property="og:title" content="Spencermann - 3D Printing Designs">
+    <meta property="og:description" content="3D printing designs by Spencer Mann — Hollow Knight cosplay, Glitch Productions, fountains, and more.">
     
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://spencermann.com/">
     <meta property="twitter:title" content="Spencermann - 3D Printing Designs">
-    <meta property="twitter:description" content="Discover amazing 3D printing designs by Spencermann. Hollow Knight cosplay masks, tools, games, and more.">
+    <meta property="twitter:description" content="3D printing designs by Spencer Mann — Hollow Knight cosplay, Glitch Productions, fountains, and more.">
     
     <!-- Canonical URL -->
     <link rel="canonical" href="https://spencermann.com/">
@@ -43,7 +43,7 @@
         "https://makerworld.com/en/@spencermann"
       ],
       "jobTitle": "3D Design Creator",
-      "description": "3D printing designer specializing in Hollow Knight cosplay masks, tools, games, and creative designs"
+      "description": "3D printing designer specializing in Hollow Knight cosplay, Glitch Productions fan art, water fountains, and functional prints"
     }
     </script>
 </head>
@@ -55,9 +55,10 @@
             <ul class="nav-menu">
                 <li><a href="index.html" class="nav-link active">Home</a></li>
                 <li><a href="hollow-knight.html" class="nav-link">Hollow Knight</a></li>
-                <li><a href="tools.html" class="nav-link">Tools</a></li>
-                <li><a href="games.html" class="nav-link">Games</a></li>
-                <li><a href="random.html" class="nav-link">Random</a></li>
+                <li><a href="glitch-productions.html" class="nav-link">Glitch</a></li>
+                <li><a href="water-fountains.html" class="nav-link">Fountains</a></li>
+                <li><a href="utility.html" class="nav-link">Utility</a></li>
+                <li><a href="other.html" class="nav-link">Other</a></li>
                 <li><a href="design-requests.html" class="nav-link">Requests</a></li>
                 <li><a href="david/" class="nav-link">David</a></li>
             </ul>
@@ -69,96 +70,37 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1 class="hero-title">Welcome to my Website!</h1>
-            <p class="hero-subtitle">3D Printing Designs & More</p>
-        </div>
-    </section>
-
-    <!-- Featured Designs (loaded from data/models.json) -->
-    <section class="featured-section">
-        <div class="container">
-            <h2 class="section-title">Featured Designs</h2>
-            <p class="featured-intro">Popular free downloads — get the original files on MakerWorld.</p>
-            <div id="featured-grid" class="featured-grid"></div>
+    <!-- Hero -->
+    <section class="hero-portrait" style="--hero-image: url('images/hero/family.jpg');">
+        <div class="hero-portrait-overlay"></div>
+        <div class="hero-portrait-content">
+            <p class="hero-intro">Hi, I'm</p>
+            <div class="hero-name-row">
+                <span class="hero-line" aria-hidden="true"></span>
+                <h1 class="hero-name">Spencer</h1>
+                <span class="hero-line" aria-hidden="true"></span>
+            </div>
         </div>
     </section>
 
     <!-- About Section -->
-    <section class="about-section">
+    <section class="about-section" id="about">
         <div class="container">
             <h2 class="section-title">About Me</h2>
             <div class="about-content">
                 <p class="about-text">
-                    Welcome! I'm Spencer Mann, and I'm passionate about creating and sharing 3D printing designs with the community. 
-                    My journey into 3D design started with a love for bringing digital creations into the physical world, 
-                    and I've found particular joy in crafting detailed cosplay pieces, especially from beloved games like Hollow Knight.
-                    
-                </p>
-                <p class="about-text">
-                    <!-- TODO: Add more about your passion for sharing designs -->
-                    I believe that great designs should be accessible to everyone. However, some of my more popular designs are being resold
-                    by others online, none of these are authorized and represent a violation
-                    of the content license on Makerworld. It is important to me that my designs are freely available, so this site is designed
-                    to ensure users can find my original free version first.
-                </p>
-                <p class="about-text">
-                    <!-- TODO: Add any additional personal touches -->
-                    Every design is crafted with attention to detail and tested to ensure quality prints. I'm constantly working 
-                    on new projects and love seeing what the community creates with my designs. Feel free to reach out and share 
-                    your creations!
+                    Welcome! I'm Spencer Mann, and I'm passionate about creating and sharing my work with others. A lot of my work is focused on 3d design and printing. My journey into 3D design started with a love for bringing digital creations into the physical world, and I've found particular joy in crafting detailed cosplay pieces, especially from beloved games like Hollow Knight. Every design is crafted with attention to detail and tested to ensure quality prints. I'm constantly working on new projects and love seeing what the community creates with my designs. Feel free to reach out and share your creations!
                 </p>
             </div>
         </div>
     </section>
 
-    <!-- Categories Section -->
+    <!-- Categories (loaded from data/categories.json) -->
     <section class="categories-section">
         <div class="container">
             <h2 class="section-title">Explore My Designs</h2>
-            <div class="categories-grid">
-                <a href="hollow-knight.html" class="category-card">
-                    <div class="category-image">
-                        <img src="images/categories/hollow-knight.jpg" alt="Hollow Knight Designs" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22300%22%3E%3Crect fill=%22%23222%22 width=%22400%22 height=%22300%22/%3E%3Ctext fill=%22%23fff%22 x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22%3EHollow Knight%3C/text%3E%3C/svg%3E'">
-                    </div>
-                    <div class="category-overlay">
-                        <h3 class="category-title">Hollow Knight</h3>
-                        <p class="category-description">Cosplay masks and accessories</p>
-                    </div>
-                </a>
-
-                <a href="tools.html" class="category-card">
-                    <div class="category-image">
-                        <img src="images/categories/tools.jpg" alt="Tools Designs" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22300%22%3E%3Crect fill=%22%23222%22 width=%22400%22 height=%22300%22/%3E%3Ctext fill=%22%23fff%22 x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22%3ETools%3C/text%3E%3C/svg%3E'">
-                    </div>
-                    <div class="category-overlay">
-                        <h3 class="category-title">Tools</h3>
-                        <p class="category-description">Practical and useful designs</p>
-                    </div>
-                </a>
-
-                <a href="games.html" class="category-card">
-                    <div class="category-image">
-                        <img src="images/categories/games.jpg" alt="Games Designs" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22300%22%3E%3Crect fill=%22%23222%22 width=%22400%22 height=%22300%22/%3E%3Ctext fill=%22%23fff%22 x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22%3EGames%3C/text%3E%3C/svg%3E'">
-                    </div>
-                    <div class="category-overlay">
-                        <h3 class="category-title">Games</h3>
-                        <p class="category-description">Game-inspired creations</p>
-                    </div>
-                </a>
-
-                <a href="random.html" class="category-card">
-                    <div class="category-image">
-                        <img src="images/categories/random.jpg" alt="Random Designs" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22300%22%3E%3Crect fill=%22%23222%22 width=%22400%22 height=%22300%22/%3E%3Ctext fill=%22%23fff%22 x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22%3ERandom%3C/text%3E%3C/svg%3E'">
-                    </div>
-                    <div class="category-overlay">
-                        <h3 class="category-title">Random</h3>
-                        <p class="category-description">Unique and creative designs</p>
-                    </div>
-                </a>
-            </div>
+            <p class="featured-intro">Browse by collection — each category highlights every model in that theme.</p>
+            <div id="home-categories-grid" class="featured-grid"></div>
         </div>
     </section>
 
@@ -200,5 +142,3 @@
     <script src="script.js"></script>
 </body>
 </html>
-
-
