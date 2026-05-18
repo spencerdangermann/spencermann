@@ -169,7 +169,9 @@ async function initCategoryModelsGrid(models) {
     const grid = document.getElementById('category-models-grid');
     if (!grid) return;
     const categoryId = grid.dataset.category;
-    const categoryModels = models.filter(function (m) { return modelInCategory(m, categoryId); });
+    const categoryModels = models
+        .filter(function (m) { return modelInCategory(m, categoryId); })
+        .sort(function (a, b) { return (b.likes || 0) - (a.likes || 0); });
     grid.innerHTML = '';
     if (categoryModels.length === 0) {
         grid.innerHTML = '<p class="category-empty">Designs coming soon. <a href="https://makerworld.com/en/@spencermann">Browse on MakerWorld</a>.</p>';

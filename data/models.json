@@ -1,545 +1,18 @@
 {
   "models": [
     {
-      "id": "city-of-tears-pond-water-fountain-functional",
-      "title": "City of Tears Pond Water Fountain Functional",
-      "category": "hollow-knight",
-      "makerworldUrl": "https://makerworld.com/en/models/2680803-city-of-tears-pond-water-fountain-functional",
-      "image": "images/hollow-knight/city-of-tears-pond-water-fountain-functional.gif",
-      "description": "City of Tears Pond Water Fountain Functional \u2014 a free 3D printable design by Spencermann for Hollow Knight and Silksong fans. Download on MakerWorld with ready-made print profiles.",
-      "featured": false,
-      "categories": [
-        "hollow-knight",
-        "water-fountains"
-      ],
-      "imageAlt": "City of Tears pond water fountain Hollow Knight \u2014 free 3D print garden fountain",
-      "keywords": [
-        "Hollow Knight 3D print",
-        "Hollow Knight cosplay",
-        "Spencermann",
-        "MakerWorld free download",
-        "Hollow Knight fountain",
-        "3D printed water fountain"
-      ]
-    },
-    {
-      "id": "working-city-of-tears-water-fountain-hollow-knight",
-      "title": "Working City of Tears Water Fountain Hollow Knight",
-      "category": "hollow-knight",
-      "makerworldUrl": "https://makerworld.com/en/models/2605397-working-city-of-tears-water-fountain-hollow-knight",
-      "image": "images/hollow-knight/working-city-of-tears-water-fountain-hollow-knight.jpg",
-      "description": "Working City of Tears Water Fountain Hollow Knight \u2014 a free 3D printable design by Spencermann for Hollow Knight and Silksong fans. Download on MakerWorld with ready-made print profiles.",
-      "featured": false,
-      "categories": [
-        "hollow-knight",
-        "water-fountains"
-      ],
-      "imageAlt": "Hollow Knight City of Tears working water fountain \u2014 free 3D print pond sculpture",
-      "keywords": [
-        "Hollow Knight 3D print",
-        "Hollow Knight cosplay",
-        "Spencermann",
-        "MakerWorld free download",
-        "Hollow Knight fountain",
-        "3D printed water fountain"
-      ]
-    },
-    {
-      "id": "lumafly-lantern-hollow-knight",
-      "title": "Lumafly Lantern Hollow Knight",
-      "category": "hollow-knight",
-      "makerworldUrl": "https://makerworld.com/en/models/2462343-lumafly-lantern-hollow-knight",
-      "image": "images/hollow-knight/lumafly-lantern-hollow-knight.jpg",
-      "description": "Lumafly Lantern Hollow Knight \u2014 a free 3D printable design by Spencermann for Hollow Knight and Silksong fans. Download on MakerWorld with ready-made print profiles.",
-      "featured": false,
-      "categories": [
-        "hollow-knight"
-      ],
-      "imageAlt": "Lumafly Lantern Hollow Knight \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
-      "keywords": [
-        "Hollow Knight 3D print",
-        "Hollow Knight cosplay",
-        "Spencermann",
-        "MakerWorld free download"
-      ]
-    },
-    {
-      "id": "grimmchild-hollow-knight-tool",
-      "title": "Grimmchild - Hollow Knight tool",
-      "category": "hollow-knight",
-      "makerworldUrl": "https://makerworld.com/en/models/2361198-grimmchild-hollow-knight-tool",
-      "image": "images/hollow-knight/grimmchild-hollow-knight-tool.jpg",
-      "description": "Grimmchild - Hollow Knight tool \u2014 a free 3D printable design by Spencermann for Hollow Knight and Silksong fans. Download on MakerWorld with ready-made print profiles.",
-      "featured": false,
-      "categories": [
-        "hollow-knight"
-      ],
-      "imageAlt": "Grimmchild - Hollow Knight tool \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
-      "keywords": [
-        "Hollow Knight 3D print",
-        "Hollow Knight cosplay",
-        "Spencermann",
-        "MakerWorld free download",
-        "Grimm Mask",
-        "Grimmchild"
-      ]
-    },
-    {
-      "id": "dreamer-harrah-the-beast-mask-hollow-knight",
-      "title": "Dreamer Harrah the Beast Mask - Hollow Knight",
-      "category": "hollow-knight",
-      "makerworldUrl": "https://makerworld.com/en/models/2244864-dreamer-harrah-the-beast-mask-hollow-knight",
-      "image": "images/hollow-knight/dreamer-harrah-the-beast-mask-hollow-knight.jpg",
-      "description": "Dreamer Harrah the Beast Mask - Hollow Knight \u2014 a free 3D printable design by Spencermann for Hollow Knight and Silksong fans. Download on MakerWorld with ready-made print profiles.",
-      "featured": true,
-      "categories": [
-        "hollow-knight"
-      ],
-      "imageAlt": "Dreamer Harrah the Beast Mask - Hollow Knight \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
-      "keywords": [
-        "Hollow Knight 3D print",
-        "Hollow Knight cosplay",
-        "Spencermann",
-        "MakerWorld free download",
-        "Hollow Knight Dreamer mask"
-      ]
-    },
-    {
-      "id": "dreamer-monomon-the-teacher-mask-hollow-knight",
-      "title": "Dreamer Monomon the Teacher Mask - Hollow Knight",
-      "category": "hollow-knight",
-      "makerworldUrl": "https://makerworld.com/en/models/2240540-dreamer-monomon-the-teacher-mask-hollow-knight",
-      "image": "images/hollow-knight/dreamer-monomon-the-teacher-mask-hollow-knight.jpg",
-      "description": "Dreamer Monomon the Teacher Mask - Hollow Knight \u2014 a free 3D printable design by Spencermann for Hollow Knight and Silksong fans. Download on MakerWorld with ready-made print profiles.",
-      "featured": false,
-      "categories": [
-        "hollow-knight"
-      ],
-      "imageAlt": "Dreamer Monomon the Teacher Mask - Hollow Knight \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
-      "keywords": [
-        "Hollow Knight 3D print",
-        "Hollow Knight cosplay",
-        "Spencermann",
-        "MakerWorld free download",
-        "Hollow Knight Dreamer mask"
-      ]
-    },
-    {
-      "id": "dreamer-lurien-the-watcher-mask-hollow-knight",
-      "title": "Dreamer Lurien the Watcher Mask - Hollow Knight",
-      "category": "hollow-knight",
-      "makerworldUrl": "https://makerworld.com/en/models/2236415-dreamer-lurien-the-watcher-mask-hollow-knight",
-      "image": "images/hollow-knight/dreamer-lurien-the-watcher-mask-hollow-knight.jpg",
-      "description": "Dreamer Lurien the Watcher Mask - Hollow Knight \u2014 a free 3D printable design by Spencermann for Hollow Knight and Silksong fans. Download on MakerWorld with ready-made print profiles.",
-      "featured": false,
-      "categories": [
-        "hollow-knight"
-      ],
-      "imageAlt": "Dreamer Lurien the Watcher Mask - Hollow Knight \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
-      "keywords": [
-        "Hollow Knight 3D print",
-        "Hollow Knight cosplay",
-        "Spencermann",
-        "MakerWorld free download",
-        "Hollow Knight Dreamer mask"
-      ]
-    },
-    {
-      "id": "trobbio-mask-silk-song-boss-adult-sized",
-      "title": "Trobbio Mask - Silk Song Boss Adult Sized",
-      "category": "hollow-knight",
-      "makerworldUrl": "https://makerworld.com/en/models/2205717-trobbio-mask-silk-song-boss-adult-sized",
-      "image": "images/hollow-knight/trobbio-mask-silk-song-boss-adult-sized.jpg",
-      "description": "Trobbio Mask - Silk Song Boss Adult Sized \u2014 a free 3D printable design by Spencermann for Hollow Knight and Silksong fans. Download on MakerWorld with ready-made print profiles.",
-      "featured": false,
-      "categories": [
-        "hollow-knight"
-      ],
-      "imageAlt": "Trobbio Mask - Silk Song Boss Adult Sized \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
-      "keywords": [
-        "Hollow Knight 3D print",
-        "Hollow Knight cosplay",
-        "Spencermann",
-        "MakerWorld free download",
-        "Silksong 3D print"
-      ]
-    },
-    {
-      "id": "cogfly-silksong-hollow-knight-tool-w-hinge-wing",
-      "title": "Cogfly Silksong (hollow knight) tool w/ hinge wing",
-      "category": "hollow-knight",
-      "makerworldUrl": "https://makerworld.com/en/models/2161614-cogfly-silksong-hollow-knight-tool-w-hinge-wing",
-      "image": "images/hollow-knight/cogfly-silksong-hollow-knight-tool-w-hinge-wing.jpg",
-      "description": "Cogfly Silksong (hollow knight) tool w/ hinge wing \u2014 a free 3D printable design by Spencermann for Hollow Knight and Silksong fans. Download on MakerWorld with ready-made print profiles.",
-      "featured": false,
-      "categories": [
-        "hollow-knight"
-      ],
-      "imageAlt": "Cogfly Silksong (hollow knight) tool w/ hinge wing \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
-      "keywords": [
-        "Hollow Knight 3D print",
-        "Hollow Knight cosplay",
-        "Spencermann",
-        "MakerWorld free download",
-        "Silksong 3D print"
-      ]
-    },
-    {
-      "id": "silkshot-hornet-silksong-tool-hollow-knight",
-      "title": "Silkshot - Hornet Silksong Tool - Hollow Knight",
-      "category": "hollow-knight",
-      "makerworldUrl": "https://makerworld.com/en/models/2113792-silkshot-hornet-silksong-tool-hollow-knight",
-      "image": "images/hollow-knight/silkshot-hornet-silksong-tool-hollow-knight.jpg",
-      "description": "Silkshot - Hornet Silksong Tool - Hollow Knight \u2014 a free 3D printable design by Spencermann for Hollow Knight and Silksong fans. Download on MakerWorld with ready-made print profiles.",
-      "featured": false,
-      "categories": [
-        "hollow-knight"
-      ],
-      "imageAlt": "Silkshot - Hornet Silksong Tool - Hollow Knight \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
-      "keywords": [
-        "Hollow Knight 3D print",
-        "Hollow Knight cosplay",
-        "Spencermann",
-        "MakerWorld free download",
-        "Silksong 3D print"
-      ]
-    },
-    {
-      "id": "wingmould-hollow-knight-creature-optional-light",
-      "title": "Wingmould - Hollow Knight Creature -Optional Light",
-      "category": "hollow-knight",
-      "makerworldUrl": "https://makerworld.com/en/models/2100690-wingmould-hollow-knight-creature-optional-light",
-      "image": "images/hollow-knight/wingmould-hollow-knight-creature-optional-light.png",
-      "description": "Wingmould - Hollow Knight Creature -Optional Light \u2014 a free 3D printable design by Spencermann for Hollow Knight and Silksong fans. Download on MakerWorld with ready-made print profiles.",
-      "featured": false,
-      "categories": [
-        "hollow-knight"
-      ],
-      "imageAlt": "Wingmould - Hollow Knight Creature -Optional Light \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
-      "keywords": [
-        "Hollow Knight 3D print",
-        "Hollow Knight cosplay",
-        "Spencermann",
-        "MakerWorld free download"
-      ]
-    },
-    {
-      "id": "shakra-mask-silksong-hollow-knight-cosplay",
-      "title": "Shakra Mask (Silksong Hollow Knight cosplay)",
-      "category": "hollow-knight",
-      "makerworldUrl": "https://makerworld.com/en/models/2041487-shakra-mask-silksong-hollow-knight-cosplay",
-      "image": "images/hollow-knight/shakra-mask-silksong-hollow-knight-cosplay.jpg",
-      "description": "Shakra Mask (Silksong Hollow Knight cosplay) \u2014 a free 3D printable design by Spencermann for Hollow Knight and Silksong fans. Download on MakerWorld with ready-made print profiles.",
-      "featured": false,
-      "categories": [
-        "hollow-knight"
-      ],
-      "imageAlt": "Shakra Mask (Silksong Hollow Knight cosplay) \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
-      "keywords": [
-        "Hollow Knight 3D print",
-        "Hollow Knight cosplay",
-        "Spencermann",
-        "MakerWorld free download",
-        "Silksong 3D print"
-      ]
-    },
-    {
-      "id": "hollow-knight-license-plate-frame-bell-beast",
-      "title": "Hollow Knight License Plate Frame - Bell Beast",
-      "category": "hollow-knight",
-      "makerworldUrl": "https://makerworld.com/en/models/2025148-hollow-knight-license-plate-frame-bell-beast",
-      "image": "images/hollow-knight/hollow-knight-license-plate-frame-bell-beast.jpg",
-      "description": "Hollow Knight License Plate Frame - Bell Beast \u2014 a free 3D printable design by Spencermann for Hollow Knight and Silksong fans. Download on MakerWorld with ready-made print profiles.",
-      "featured": false,
-      "categories": [
-        "hollow-knight"
-      ],
-      "imageAlt": "Hollow Knight License Plate Frame - Bell Beast \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
-      "keywords": [
-        "Hollow Knight 3D print",
-        "Hollow Knight cosplay",
-        "Spencermann",
-        "MakerWorld free download"
-      ]
-    },
-    {
-      "id": "hornet-christmas-ornament-silksong-all-printers",
-      "title": "Hornet Christmas Ornament (Silksong) -All printers",
-      "category": "hollow-knight",
-      "makerworldUrl": "https://makerworld.com/en/models/2023368-hornet-christmas-ornament-silksong-all-printers",
-      "image": "images/hollow-knight/hornet-christmas-ornament-silksong-all-printers.jpg",
-      "description": "Hornet Christmas Ornament (Silksong) -All printers \u2014 a free 3D printable design by Spencermann for Hollow Knight and Silksong fans. Download on MakerWorld with ready-made print profiles.",
-      "featured": false,
-      "categories": [
-        "hollow-knight"
-      ],
-      "imageAlt": "Hornet Christmas Ornament (Silksong) -All printers \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
-      "keywords": [
-        "Hollow Knight 3D print",
-        "Hollow Knight cosplay",
-        "Spencermann",
-        "MakerWorld free download",
-        "Silksong 3D print"
-      ]
-    },
-    {
-      "id": "twisted-bud-silk-song-tpu-stress-ball",
-      "title": "Twisted Bud - Silk Song TPU Stress Ball",
-      "category": "hollow-knight",
-      "makerworldUrl": "https://makerworld.com/en/models/1967756-twisted-bud-silk-song-tpu-stress-ball",
-      "image": "images/hollow-knight/twisted-bud-silk-song-tpu-stress-ball.jpg",
-      "description": "Twisted Bud - Silk Song TPU Stress Ball \u2014 a free 3D printable design by Spencermann for Hollow Knight and Silksong fans. Download on MakerWorld with ready-made print profiles.",
-      "featured": false,
-      "categories": [
-        "hollow-knight"
-      ],
-      "imageAlt": "Twisted Bud - Silk Song TPU Stress Ball \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
-      "keywords": [
-        "Hollow Knight 3D print",
-        "Hollow Knight cosplay",
-        "Spencermann",
-        "MakerWorld free download",
-        "Silksong 3D print"
-      ]
-    },
-    {
-      "id": "sherma-hat-from-silksong",
-      "title": "Sherma Hat from Silksong",
-      "category": "hollow-knight",
-      "makerworldUrl": "https://makerworld.com/en/models/1942727-sherma-hat-from-silksong",
-      "image": "images/hollow-knight/sherma-hat-from-silksong.jpg",
-      "description": "Sherma Hat from Silksong \u2014 a free 3D printable design by Spencermann for Hollow Knight and Silksong fans. Download on MakerWorld with ready-made print profiles.",
-      "featured": false,
-      "categories": [
-        "hollow-knight"
-      ],
-      "imageAlt": "Sherma Hat from Silksong \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
-      "keywords": [
-        "Hollow Knight 3D print",
-        "Hollow Knight cosplay",
-        "Spencermann",
-        "MakerWorld free download",
-        "Silksong 3D print"
-      ]
-    },
-    {
-      "id": "the-pale-king-or-wyrm-hollow-knight",
-      "title": "The Pale King or Wyrm- Hollow Knight",
-      "category": "hollow-knight",
-      "makerworldUrl": "https://makerworld.com/en/models/1924227-the-pale-king-or-wyrm-hollow-knight",
-      "image": "images/hollow-knight/the-pale-king-or-wyrm-hollow-knight.jpg",
-      "description": "The Pale King or Wyrm- Hollow Knight \u2014 a free 3D printable design by Spencermann for Hollow Knight and Silksong fans. Download on MakerWorld with ready-made print profiles.",
-      "featured": false,
-      "categories": [
-        "hollow-knight"
-      ],
-      "imageAlt": "The Pale King or Wyrm- Hollow Knight \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
-      "keywords": [
-        "Hollow Knight 3D print",
-        "Hollow Knight cosplay",
-        "Spencermann",
-        "MakerWorld free download"
-      ]
-    },
-    {
-      "id": "pure-vessel-sword-large-size-52-hollow-knight",
-      "title": "Pure Vessel Sword (Large Size 52\") - Hollow Knight",
-      "category": "hollow-knight",
-      "makerworldUrl": "https://makerworld.com/en/models/1898367-pure-vessel-sword-large-size-52-hollow-knight",
-      "image": "images/hollow-knight/pure-vessel-sword-large-size-52-hollow-knight.jpg",
-      "description": "Pure Vessel Sword (Large Size 52\") - Hollow Knight \u2014 a free 3D printable design by Spencermann for Hollow Knight and Silksong fans. Download on MakerWorld with ready-made print profiles.",
-      "featured": false,
-      "categories": [
-        "hollow-knight"
-      ],
-      "imageAlt": "Pure Vessel Sword (Large Size 52\") - Hollow Knight \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
-      "keywords": [
-        "Hollow Knight 3D print",
-        "Hollow Knight cosplay",
-        "Spencermann",
-        "MakerWorld free download",
-        "Pure Vessel Mask",
-        "Hollow Knight boss cosplay"
-      ]
-    },
-    {
-      "id": "pure-vessel-armor-shoulder-pauldrons-hollow-knight",
-      "title": "Pure Vessel Armor Shoulder Pauldrons Hollow Knight",
-      "category": "hollow-knight",
-      "makerworldUrl": "https://makerworld.com/en/models/1888859-pure-vessel-armor-shoulder-pauldrons-hollow-knight",
-      "image": "images/hollow-knight/pure-vessel-armor-shoulder-pauldrons-hollow-knight.jpg",
-      "description": "Pure Vessel Armor Shoulder Pauldrons Hollow Knight \u2014 a free 3D printable design by Spencermann for Hollow Knight and Silksong fans. Download on MakerWorld with ready-made print profiles.",
-      "featured": false,
-      "categories": [
-        "hollow-knight"
-      ],
-      "imageAlt": "Pure Vessel Armor Shoulder Pauldrons Hollow Knight \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
-      "keywords": [
-        "Hollow Knight 3D print",
-        "Hollow Knight cosplay",
-        "Spencermann",
-        "MakerWorld free download",
-        "Pure Vessel Mask",
-        "Hollow Knight boss cosplay"
-      ]
-    },
-    {
-      "id": "sherma-from-silksong-bell-pin-and-mask",
-      "title": "Sherma from Silksong - Bell, pin and mask",
-      "category": "hollow-knight",
-      "makerworldUrl": "https://makerworld.com/en/models/1885745-sherma-from-silksong-bell-pin-and-mask",
-      "image": "images/hollow-knight/sherma-from-silksong-bell-pin-and-mask.jpg",
-      "description": "Sherma from Silksong - Bell, pin and mask \u2014 a free 3D printable design by Spencermann for Hollow Knight and Silksong fans. Download on MakerWorld with ready-made print profiles.",
-      "featured": false,
-      "categories": [
-        "hollow-knight"
-      ],
-      "imageAlt": "Sherma from Silksong - Bell, pin and mask \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
-      "keywords": [
-        "Hollow Knight 3D print",
-        "Hollow Knight cosplay",
-        "Spencermann",
-        "MakerWorld free download",
-        "Silksong 3D print"
-      ]
-    },
-    {
-      "id": "mantis-lord-mask-adult-size-scale-down-for-child",
-      "title": "Mantis Lord Mask Adult size (scale down for child)",
-      "category": "hollow-knight",
-      "makerworldUrl": "https://makerworld.com/en/models/1875441-mantis-lord-mask-adult-size-scale-down-for-child",
-      "image": "images/hollow-knight/mantis-lord-mask-adult-size-scale-down-for-child.jpg",
-      "description": "Mantis Lord Mask Adult size (scale down for child) \u2014 a free 3D printable design by Spencermann for Hollow Knight and Silksong fans. Download on MakerWorld with ready-made print profiles.",
-      "featured": false,
-      "categories": [
-        "hollow-knight"
-      ],
-      "imageAlt": "Mantis Lord Mask Adult size (scale down for child) \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
-      "keywords": [
-        "Hollow Knight 3D print",
-        "Hollow Knight cosplay",
-        "Spencermann",
-        "MakerWorld free download",
-        "Mantis Lord Hollow Knight"
-      ]
-    },
-    {
-      "id": "mantis-claw-hollow-knight-equipment",
-      "title": "Mantis Claw (Hollow Knight Equipment)",
-      "category": "hollow-knight",
-      "makerworldUrl": "https://makerworld.com/en/models/1869976-mantis-claw-hollow-knight-equipment",
-      "image": "images/hollow-knight/mantis-claw-hollow-knight-equipment.jpg",
-      "description": "Mantis Claw (Hollow Knight Equipment) \u2014 a free 3D printable design by Spencermann for Hollow Knight and Silksong fans. Download on MakerWorld with ready-made print profiles.",
-      "featured": false,
-      "categories": [
-        "hollow-knight"
-      ],
-      "imageAlt": "Mantis Claw (Hollow Knight Equipment) \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
-      "keywords": [
-        "Hollow Knight 3D print",
-        "Hollow Knight cosplay",
-        "Spencermann",
-        "MakerWorld free download",
-        "Mantis Lord Hollow Knight"
-      ]
-    },
-    {
-      "id": "lace-s-sword-or-pin-silksong-boss-fencing-sword",
-      "title": "Lace's Sword or pin (Silksong boss fencing sword)",
-      "category": "hollow-knight",
-      "makerworldUrl": "https://makerworld.com/en/models/1866782-lace-s-sword-or-pin-silksong-boss-fencing-sword",
-      "image": "images/hollow-knight/lace-s-sword-or-pin-silksong-boss-fencing-sword.jpg",
-      "description": "Lace's Sword or pin (Silksong boss fencing sword) \u2014 a free 3D printable design by Spencermann for Hollow Knight and Silksong fans. Download on MakerWorld with ready-made print profiles.",
-      "featured": false,
-      "categories": [
-        "hollow-knight"
-      ],
-      "imageAlt": "Lace's Sword or pin (Silksong boss fencing sword) \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
-      "keywords": [
-        "Hollow Knight 3D print",
-        "Hollow Knight cosplay",
-        "Spencermann",
-        "MakerWorld free download",
-        "Silksong 3D print",
-        "Lace Silksong"
-      ]
-    },
-    {
-      "id": "the-grimm-mask-hollow-knight-adult-child-size",
-      "title": "The Grimm Mask - Hollow Knight adult & child size",
-      "category": "hollow-knight",
-      "makerworldUrl": "https://makerworld.com/en/models/1857267-the-grimm-mask-hollow-knight-adult-child-size",
-      "image": "images/hollow-knight/the-grimm-mask-hollow-knight-adult-child-size.jpg",
-      "description": "The Grimm Mask - Hollow Knight adult & child size \u2014 a free 3D printable design by Spencermann for Hollow Knight and Silksong fans. Download on MakerWorld with ready-made print profiles.",
-      "featured": true,
-      "categories": [
-        "hollow-knight"
-      ],
-      "imageAlt": "Grimm Mask Hollow Knight adult and child \u2014 free 3D print cosplay",
-      "keywords": [
-        "Hollow Knight 3D print",
-        "Hollow Knight cosplay",
-        "Spencermann",
-        "MakerWorld free download",
-        "Grimm Mask",
-        "Grimmchild"
-      ]
-    },
-    {
-      "id": "mantis-lord-lance-hollow-knight-1-2-pvc-pipe",
-      "title": "Mantis Lord Lance - Hollow Knight 1/2\" PVC Pipe",
-      "category": "hollow-knight",
-      "makerworldUrl": "https://makerworld.com/en/models/1849411-mantis-lord-lance-hollow-knight-1-2-pvc-pipe",
-      "image": "images/hollow-knight/mantis-lord-lance-hollow-knight-1-2-pvc-pipe.jpg",
-      "description": "Mantis Lord Lance - Hollow Knight 1/2\" PVC Pipe \u2014 a free 3D printable design by Spencermann for Hollow Knight and Silksong fans. Download on MakerWorld with ready-made print profiles.",
-      "featured": false,
-      "categories": [
-        "hollow-knight"
-      ],
-      "imageAlt": "Mantis Lord Lance - Hollow Knight 1/2\" PVC Pipe \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
-      "keywords": [
-        "Hollow Knight 3D print",
-        "Hollow Knight cosplay",
-        "Spencermann",
-        "MakerWorld free download",
-        "Mantis Lord Hollow Knight"
-      ]
-    },
-    {
-      "id": "hornet-s-needle-big-silk-song-adult-cosplay",
-      "title": "Hornet's Needle Big (Silk Song Adult Cosplay)",
-      "category": "hollow-knight",
-      "makerworldUrl": "https://makerworld.com/en/models/1824163-hornet-s-needle-big-silk-song-adult-cosplay",
-      "image": "images/hollow-knight/hornet-s-needle-big-silk-song-adult-cosplay.jpg",
-      "description": "Hornet's Needle Big (Silk Song Adult Cosplay) \u2014 a free 3D printable design by Spencermann for Hollow Knight and Silksong fans. Download on MakerWorld with ready-made print profiles.",
-      "featured": false,
-      "categories": [
-        "hollow-knight"
-      ],
-      "imageAlt": "Hornet's Needle large Silksong adult cosplay \u2014 free 3D print STL",
-      "keywords": [
-        "Hollow Knight 3D print",
-        "Hollow Knight cosplay",
-        "Spencermann",
-        "MakerWorld free download",
-        "Hornet's Needle",
-        "Hollow Knight Nail",
-        "cosplay sword 3D print",
-        "Silksong 3D print"
-      ]
-    },
-    {
       "id": "large-hornet-mask-silk-song-hollow-knight-adult",
       "title": "Large Hornet Mask (Silk Song Hollow Knight) Adult",
       "category": "hollow-knight",
-      "makerworldUrl": "https://makerworld.com/en/models/1803316-large-hornet-mask-silk-song-hollow-knight-adult",
-      "image": "images/hollow-knight/large-hornet-mask-silk-song-hollow-knight-adult.jpg",
-      "description": "Large Hornet Mask (Silk Song Hollow Knight) Adult \u2014 a free 3D printable design by Spencermann for Hollow Knight and Silksong fans. Download on MakerWorld with ready-made print profiles.",
-      "featured": true,
       "categories": [
         "hollow-knight"
       ],
+      "makerworldUrl": "https://makerworld.com/en/models/1803316-large-hornet-mask-silk-song-hollow-knight-adult",
+      "image": "images/hollow-knight/large-hornet-mask-silk-song-hollow-knight-adult.jpg",
+      "description": "Large Hornet Mask (Silk Song Hollow Knight) Adult \u2014 free Hollow Knight / Silksong 3D print by Spencermann. Download on MakerWorld with ready-made Bambu Lab profiles.",
       "imageAlt": "Hornet Mask Hollow Knight Silksong adult size \u2014 free 3D print cosplay by Spencermann",
+      "likes": 1707,
+      "featured": true,
       "keywords": [
         "Hollow Knight 3D print",
         "Hollow Knight cosplay",
@@ -552,38 +25,209 @@
       ]
     },
     {
-      "id": "lace-mask-from-silksong-hollow-knight-halloween",
-      "title": "Lace Mask from Silksong (Hollow Knight) Halloween",
+      "id": "hornet-mask-hollow-knight-teen-child-sized",
+      "title": "Hornet Mask (Hollow Knight) (Teen/Child Sized)",
       "category": "hollow-knight",
-      "makerworldUrl": "https://makerworld.com/en/models/1783657-lace-mask-from-silksong-hollow-knight-halloween",
-      "image": "images/hollow-knight/lace-mask-from-silksong-hollow-knight-halloween.jpg",
-      "description": "Lace Mask from Silksong (Hollow Knight) Halloween \u2014 a free 3D printable design by Spencermann for Hollow Knight and Silksong fans. Download on MakerWorld with ready-made print profiles.",
-      "featured": false,
       "categories": [
         "hollow-knight"
       ],
-      "imageAlt": "Lace Mask from Silksong (Hollow Knight) Halloween \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
+      "makerworldUrl": "https://makerworld.com/en/models/1106546-hornet-mask-hollow-knight-teen-child-sized",
+      "image": "images/hollow-knight/hornet-mask-hollow-knight-teen-child-sized.jpg",
+      "description": "Hornet Mask (Hollow Knight) (Teen/Child Sized) \u2014 free Hollow Knight / Silksong 3D print by Spencermann. Download on MakerWorld with ready-made Bambu Lab profiles.",
+      "imageAlt": "Hornet Mask Hollow Knight child and teen size \u2014 free 3D print cosplay",
+      "likes": 1320,
+      "featured": true,
       "keywords": [
         "Hollow Knight 3D print",
         "Hollow Knight cosplay",
         "Spencermann",
         "MakerWorld free download",
-        "Silksong 3D print",
-        "Lace Silksong"
+        "Hornet Mask",
+        "Hornet mask Silksong",
+        "Hollow Knight Hornet cosplay"
       ]
+    },
+    {
+      "id": "hornet-s-needle-big-silk-song-adult-cosplay",
+      "title": "Hornet's Needle Big (Silk Song Adult Cosplay)",
+      "category": "hollow-knight",
+      "categories": [
+        "hollow-knight"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1824163-hornet-s-needle-big-silk-song-adult-cosplay",
+      "image": "images/hollow-knight/hornet-s-needle-big-silk-song-adult-cosplay.jpg",
+      "description": "Hornet's Needle Big (Silk Song Adult Cosplay) \u2014 free Hollow Knight / Silksong 3D print by Spencermann. Download on MakerWorld with ready-made Bambu Lab profiles.",
+      "imageAlt": "Hornet's Needle large Silksong adult cosplay \u2014 free 3D print STL",
+      "likes": 1044,
+      "featured": true,
+      "keywords": [
+        "Hollow Knight 3D print",
+        "Hollow Knight cosplay",
+        "Spencermann",
+        "MakerWorld free download",
+        "Hornet's Needle",
+        "Hollow Knight Nail",
+        "cosplay sword 3D print",
+        "Silksong 3D print"
+      ]
+    },
+    {
+      "id": "working-dragon-water-fountain-sculpture-for-pond",
+      "title": "Working Dragon Water Fountain Sculpture for Pond",
+      "category": "water-fountains",
+      "categories": [
+        "water-fountains"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1414737-working-dragon-water-fountain-sculpture-for-pond",
+      "image": "images/water-fountains/working-dragon-water-fountain-sculpture-for-pond.gif",
+      "description": "Working Dragon Water Fountain Sculpture for Pond \u2014 working water fountain 3D print by Spencermann. Download free on MakerWorld for pond or garden setups.",
+      "imageAlt": "Working Dragon Water Fountain Sculpture for Pond \u2014 free 3D print by Spencermann (water fountains)",
+      "likes": 871,
+      "featured": true
+    },
+    {
+      "id": "the-pure-vessel-mask-from-hollow-knight",
+      "title": "The Pure Vessel Mask (from Hollow Knight)",
+      "category": "hollow-knight",
+      "categories": [
+        "hollow-knight"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1161708-the-pure-vessel-mask-from-hollow-knight",
+      "image": "images/hollow-knight/the-pure-vessel-mask-from-hollow-knight.jpg",
+      "description": "The Pure Vessel Mask (from Hollow Knight) \u2014 free Hollow Knight / Silksong 3D print by Spencermann. Download on MakerWorld with ready-made Bambu Lab profiles.",
+      "imageAlt": "Pure Vessel Mask Hollow Knight cosplay \u2014 free 3D print by Spencermann",
+      "likes": 757,
+      "featured": true,
+      "keywords": [
+        "Hollow Knight 3D print",
+        "Hollow Knight cosplay",
+        "Spencermann",
+        "MakerWorld free download",
+        "Pure Vessel Mask",
+        "Hollow Knight boss cosplay"
+      ]
+    },
+    {
+      "id": "hornet-s-needle-hollow-knight-cosplay",
+      "title": "Hornet's Needle (Hollow Knight cosplay)",
+      "category": "hollow-knight",
+      "categories": [
+        "hollow-knight"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1251023-hornet-s-needle-hollow-knight-cosplay",
+      "image": "images/hollow-knight/hornet-s-needle-hollow-knight-cosplay.jpg",
+      "description": "Hornet's Needle (Hollow Knight cosplay) \u2014 free Hollow Knight / Silksong 3D print by Spencermann. Download on MakerWorld with ready-made Bambu Lab profiles.",
+      "imageAlt": "Hornet's Needle Hollow Knight cosplay prop \u2014 free 3D print download",
+      "likes": 673,
+      "featured": false,
+      "keywords": [
+        "Hollow Knight 3D print",
+        "Hollow Knight cosplay",
+        "Spencermann",
+        "MakerWorld free download",
+        "Hornet's Needle",
+        "Hollow Knight Nail",
+        "cosplay sword 3D print"
+      ]
+    },
+    {
+      "id": "bubble-amazing-digital-circus-moving-mouth",
+      "title": "Bubble (Amazing Digital Circus) Moving Mouth",
+      "category": "glitch-productions",
+      "categories": [
+        "glitch-productions"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2696048-bubble-amazing-digital-circus-moving-mouth",
+      "image": "images/glitch-productions/bubble-amazing-digital-circus-moving-mouth.jpg",
+      "description": "Bubble (Amazing Digital Circus) Moving Mouth \u2014 free Glitch Productions fan art 3D print by Spencermann. Download on MakerWorld with print profiles.",
+      "imageAlt": "Bubble (Amazing Digital Circus) Moving Mouth \u2014 free 3D print by Spencermann (glitch productions)",
+      "likes": 640,
+      "featured": true
+    },
+    {
+      "id": "the-nail-hollow-knight-sword-cosplay-tpu",
+      "title": "The Nail (Hollow Knight Sword - Cosplay TPU)",
+      "category": "hollow-knight",
+      "categories": [
+        "hollow-knight"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1292093-the-nail-hollow-knight-sword-cosplay-tpu",
+      "image": "images/hollow-knight/the-nail-hollow-knight-sword-cosplay-tpu.jpg",
+      "description": "The Nail (Hollow Knight Sword - Cosplay TPU) \u2014 free Hollow Knight / Silksong 3D print by Spencermann. Download on MakerWorld with ready-made Bambu Lab profiles.",
+      "imageAlt": "The Nail Hollow Knight sword cosplay TPU \u2014 free 3D print prop",
+      "likes": 588,
+      "featured": false,
+      "keywords": [
+        "Hollow Knight 3D print",
+        "Hollow Knight cosplay",
+        "Spencermann",
+        "MakerWorld free download",
+        "Hornet's Needle",
+        "Hollow Knight Nail",
+        "cosplay sword 3D print"
+      ]
+    },
+    {
+      "id": "aquarium-jagged-rocks-decor",
+      "title": "Aquarium Jagged Rocks Decor",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1088391-aquarium-jagged-rocks-decor",
+      "image": "images/other/aquarium-jagged-rocks-decor.jpg",
+      "description": "Aquarium Jagged Rocks Decor \u2014 free 3D printable design by Spencermann. Download on MakerWorld.",
+      "imageAlt": "Aquarium Jagged Rocks Decor \u2014 free 3D print by Spencermann (other)",
+      "likes": 454,
+      "featured": true
+    },
+    {
+      "id": "hollow-knight-mask-child-teen-size",
+      "title": "Hollow Knight Mask (child/teen size)",
+      "category": "hollow-knight",
+      "categories": [
+        "hollow-knight"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1081166-hollow-knight-mask-child-teen-size",
+      "image": "images/hollow-knight/hollow-knight-mask-child-teen-size.jpg",
+      "description": "Hollow Knight Mask (child/teen size) \u2014 free Hollow Knight / Silksong 3D print by Spencermann. Download on MakerWorld with ready-made Bambu Lab profiles.",
+      "imageAlt": "Hollow Knight Mask (child/teen size) \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
+      "likes": 449,
+      "featured": false,
+      "keywords": [
+        "Hollow Knight 3D print",
+        "Hollow Knight cosplay",
+        "Spencermann",
+        "MakerWorld free download"
+      ]
+    },
+    {
+      "id": "bubble-amazing-digital-circus-tadc-popcorn-bowl",
+      "title": "Bubble Amazing Digital Circus (TADC) Popcorn bowl",
+      "category": "glitch-productions",
+      "categories": [
+        "glitch-productions"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2721687-bubble-amazing-digital-circus-tadc-popcorn-bowl",
+      "image": "images/glitch-productions/bubble-amazing-digital-circus-tadc-popcorn-bowl.jpg",
+      "description": "Bubble Amazing Digital Circus (TADC) Popcorn bowl \u2014 free Glitch Productions fan art 3D print by Spencermann. Download on MakerWorld with print profiles.",
+      "imageAlt": "Bubble Amazing Digital Circus (TADC) Popcorn bowl \u2014 free 3D print by Spencermann (glitch productions)",
+      "likes": 418,
+      "featured": true
     },
     {
       "id": "pure-vessel-nail-hollow-knight-boss-sword-tpu",
       "title": "Pure Vessel Nail (Hollow Knight Boss Sword - TPU)",
       "category": "hollow-knight",
-      "makerworldUrl": "https://makerworld.com/en/models/1762302-pure-vessel-nail-hollow-knight-boss-sword-tpu",
-      "image": "images/hollow-knight/pure-vessel-nail-hollow-knight-boss-sword-tpu.jpg",
-      "description": "Pure Vessel Nail (Hollow Knight Boss Sword - TPU) \u2014 a free 3D printable design by Spencermann for Hollow Knight and Silksong fans. Download on MakerWorld with ready-made print profiles.",
-      "featured": false,
       "categories": [
         "hollow-knight"
       ],
+      "makerworldUrl": "https://makerworld.com/en/models/1762302-pure-vessel-nail-hollow-knight-boss-sword-tpu",
+      "image": "images/hollow-knight/pure-vessel-nail-hollow-knight-boss-sword-tpu.jpg",
+      "description": "Pure Vessel Nail (Hollow Knight Boss Sword - TPU) \u2014 free Hollow Knight / Silksong 3D print by Spencermann. Download on MakerWorld with ready-made Bambu Lab profiles.",
       "imageAlt": "Pure Vessel Nail (Hollow Knight Boss Sword - TPU) \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
+      "likes": 317,
+      "featured": false,
       "keywords": [
         "Hollow Knight 3D print",
         "Hollow Knight cosplay",
@@ -597,17 +241,60 @@
       ]
     },
     {
+      "id": "working-fountain-girl-sculpture-for-pond-garden",
+      "title": "Working fountain girl sculpture for pond garden",
+      "category": "water-fountains",
+      "categories": [
+        "water-fountains"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1707987-working-fountain-girl-sculpture-for-pond-garden",
+      "image": "images/water-fountains/working-fountain-girl-sculpture-for-pond-garden.gif",
+      "description": "Working fountain girl sculpture for pond garden \u2014 working water fountain 3D print by Spencermann. Download free on MakerWorld for pond or garden setups.",
+      "imageAlt": "Working fountain girl sculpture for pond garden \u2014 free 3D print by Spencermann (water fountains)",
+      "likes": 306,
+      "featured": true
+    },
+    {
+      "id": "gyarados-pokemon-water-fountain-functional",
+      "title": "Gyarados Pokemon Water Fountain (functional)",
+      "category": "water-fountains",
+      "categories": [
+        "water-fountains"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2680617-gyarados-pokemon-water-fountain-functional",
+      "image": "images/water-fountains/gyarados-pokemon-water-fountain-functional.jpg",
+      "description": "Gyarados Pokemon Water Fountain (functional) \u2014 working water fountain 3D print by Spencermann. Download free on MakerWorld for pond or garden setups.",
+      "imageAlt": "Gyarados Pokemon Water Fountain (functional) \u2014 free 3D print by Spencermann (water fountains)",
+      "likes": 305,
+      "featured": true
+    },
+    {
+      "id": "sea-serpent-water-fountain-sculpture-for-ponds",
+      "title": "Sea serpent water fountain sculpture for ponds",
+      "category": "water-fountains",
+      "categories": [
+        "water-fountains"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1541619-sea-serpent-water-fountain-sculpture-for-ponds",
+      "image": "images/water-fountains/sea-serpent-water-fountain-sculpture-for-ponds.gif",
+      "description": "Sea serpent water fountain sculpture for ponds \u2014 working water fountain 3D print by Spencermann. Download free on MakerWorld for pond or garden setups.",
+      "imageAlt": "Sea serpent water fountain sculpture for ponds \u2014 free 3D print by Spencermann (water fountains)",
+      "likes": 274,
+      "featured": true
+    },
+    {
       "id": "hollow-knight-mask-adult-size-updated-cosplay",
       "title": "Hollow Knight Mask Adult Size Updated Cosplay",
       "category": "hollow-knight",
-      "makerworldUrl": "https://makerworld.com/en/models/1646378-hollow-knight-mask-adult-size-updated-cosplay",
-      "image": "images/hollow-knight/hollow-knight-mask-adult-size-updated-cosplay.jpg",
-      "description": "Hollow Knight Mask Adult Size Updated Cosplay \u2014 a free 3D printable design by Spencermann for Hollow Knight and Silksong fans. Download on MakerWorld with ready-made print profiles.",
-      "featured": true,
       "categories": [
         "hollow-knight"
       ],
+      "makerworldUrl": "https://makerworld.com/en/models/1646378-hollow-knight-mask-adult-size-updated-cosplay",
+      "image": "images/hollow-knight/hollow-knight-mask-adult-size-updated-cosplay.jpg",
+      "description": "Hollow Knight Mask Adult Size Updated Cosplay \u2014 free Hollow Knight / Silksong 3D print by Spencermann. Download on MakerWorld with ready-made Bambu Lab profiles.",
       "imageAlt": "Hollow Knight Mask adult cosplay \u2014 free 3D print Knight mask",
+      "likes": 247,
+      "featured": false,
       "keywords": [
         "Hollow Knight 3D print",
         "Hollow Knight cosplay",
@@ -616,61 +303,18 @@
       ]
     },
     {
-      "id": "the-nail-hollow-knight-sword-cosplay-tpu",
-      "title": "The Nail (Hollow Knight Sword - Cosplay TPU)",
+      "id": "pure-vessel-armor-shoulder-pauldrons-hollow-knight",
+      "title": "Pure Vessel Armor Shoulder Pauldrons Hollow Knight",
       "category": "hollow-knight",
-      "makerworldUrl": "https://makerworld.com/en/models/1292093-the-nail-hollow-knight-sword-cosplay-tpu",
-      "image": "images/hollow-knight/the-nail-hollow-knight-sword-cosplay-tpu.jpg",
-      "description": "The Nail (Hollow Knight Sword - Cosplay TPU) \u2014 a free 3D printable design by Spencermann for Hollow Knight and Silksong fans. Download on MakerWorld with ready-made print profiles.",
-      "featured": true,
       "categories": [
         "hollow-knight"
       ],
-      "imageAlt": "The Nail Hollow Knight sword cosplay TPU \u2014 free 3D print prop",
-      "keywords": [
-        "Hollow Knight 3D print",
-        "Hollow Knight cosplay",
-        "Spencermann",
-        "MakerWorld free download",
-        "Hornet's Needle",
-        "Hollow Knight Nail",
-        "cosplay sword 3D print"
-      ]
-    },
-    {
-      "id": "hornet-s-needle-hollow-knight-cosplay",
-      "title": "Hornet's Needle (Hollow Knight cosplay)",
-      "category": "hollow-knight",
-      "makerworldUrl": "https://makerworld.com/en/models/1251023-hornet-s-needle-hollow-knight-cosplay",
-      "image": "images/hollow-knight/hornet-s-needle-hollow-knight-cosplay.jpg",
-      "description": "Hornet's Needle (Hollow Knight cosplay) \u2014 a free 3D printable design by Spencermann for Hollow Knight and Silksong fans. Download on MakerWorld with ready-made print profiles.",
+      "makerworldUrl": "https://makerworld.com/en/models/1888859-pure-vessel-armor-shoulder-pauldrons-hollow-knight",
+      "image": "images/hollow-knight/pure-vessel-armor-shoulder-pauldrons-hollow-knight.jpg",
+      "description": "Pure Vessel Armor Shoulder Pauldrons Hollow Knight \u2014 free Hollow Knight / Silksong 3D print by Spencermann. Download on MakerWorld with ready-made Bambu Lab profiles.",
+      "imageAlt": "Pure Vessel Armor Shoulder Pauldrons Hollow Knight \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
+      "likes": 222,
       "featured": false,
-      "categories": [
-        "hollow-knight"
-      ],
-      "imageAlt": "Hornet's Needle Hollow Knight cosplay prop \u2014 free 3D print download",
-      "keywords": [
-        "Hollow Knight 3D print",
-        "Hollow Knight cosplay",
-        "Spencermann",
-        "MakerWorld free download",
-        "Hornet's Needle",
-        "Hollow Knight Nail",
-        "cosplay sword 3D print"
-      ]
-    },
-    {
-      "id": "the-pure-vessel-mask-from-hollow-knight",
-      "title": "The Pure Vessel Mask (from Hollow Knight)",
-      "category": "hollow-knight",
-      "makerworldUrl": "https://makerworld.com/en/models/1161708-the-pure-vessel-mask-from-hollow-knight",
-      "image": "images/hollow-knight/the-pure-vessel-mask-from-hollow-knight.jpg",
-      "description": "The Pure Vessel Mask (from Hollow Knight) \u2014 a free 3D printable design by Spencermann for Hollow Knight and Silksong fans. Download on MakerWorld with ready-made print profiles.",
-      "featured": true,
-      "categories": [
-        "hollow-knight"
-      ],
-      "imageAlt": "Pure Vessel Mask Hollow Knight cosplay \u2014 free 3D print by Spencermann",
       "keywords": [
         "Hollow Knight 3D print",
         "Hollow Knight cosplay",
@@ -681,39 +325,60 @@
       ]
     },
     {
-      "id": "hornet-mask-hollow-knight-teen-child-sized",
-      "title": "Hornet Mask (Hollow Knight) (Teen/Child Sized)",
-      "category": "hollow-knight",
-      "makerworldUrl": "https://makerworld.com/en/models/1106546-hornet-mask-hollow-knight-teen-child-sized",
-      "image": "images/hollow-knight/hornet-mask-hollow-knight-teen-child-sized.jpg",
-      "description": "Hornet Mask (Hollow Knight) (Teen/Child Sized) \u2014 a free 3D printable design by Spencermann for Hollow Knight and Silksong fans. Download on MakerWorld with ready-made print profiles.",
-      "featured": false,
+      "id": "dragon-fountain-working-1-2-pvc-adapter",
+      "title": "Dragon Fountain Working: 1/2 pvc adapter",
+      "category": "water-fountains",
       "categories": [
-        "hollow-knight"
+        "water-fountains"
       ],
-      "imageAlt": "Hornet Mask Hollow Knight child and teen size \u2014 free 3D print cosplay",
-      "keywords": [
-        "Hollow Knight 3D print",
-        "Hollow Knight cosplay",
-        "Spencermann",
-        "MakerWorld free download",
-        "Hornet Mask",
-        "Hornet mask Silksong",
-        "Hollow Knight Hornet cosplay"
-      ]
+      "makerworldUrl": "https://makerworld.com/en/models/2493113-dragon-fountain-working-1-2-pvc-adapter",
+      "image": "images/water-fountains/dragon-fountain-working-1-2-pvc-adapter.gif",
+      "description": "Dragon Fountain Working: 1/2 pvc adapter \u2014 working water fountain 3D print by Spencermann. Download free on MakerWorld for pond or garden setups.",
+      "imageAlt": "Dragon Fountain Working: 1/2 pvc adapter \u2014 free 3D print by Spencermann (water fountains)",
+      "likes": 188,
+      "featured": false
     },
     {
-      "id": "hollow-knight-mask-child-teen-size",
-      "title": "Hollow Knight Mask (child/teen size)",
+      "id": "mountable-dumpster-trash-can",
+      "title": "Mountable dumpster trash can",
+      "category": "utility",
+      "categories": [
+        "utility"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/794185-mountable-dumpster-trash-can",
+      "image": "images/utility/mountable-dumpster-trash-can.jpg",
+      "description": "Mountable dumpster trash can \u2014 practical utility 3D print by Spencermann. Free download on MakerWorld.",
+      "imageAlt": "Mountable dumpster trash can \u2014 free 3D print by Spencermann (utility)",
+      "likes": 173,
+      "featured": true
+    },
+    {
+      "id": "serial-designation-n-murder-drones-7-tall",
+      "title": "Serial Designation N - Murder Drones ~7\" tall",
+      "category": "glitch-productions",
+      "categories": [
+        "glitch-productions"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2219499-serial-designation-n-murder-drones-7-tall",
+      "image": "images/glitch-productions/serial-designation-n-murder-drones-7-tall.jpg",
+      "description": "Serial Designation N - Murder Drones ~7\" tall \u2014 free Glitch Productions fan art 3D print by Spencermann. Download on MakerWorld with print profiles.",
+      "imageAlt": "Serial Designation N - Murder Drones ~7\" tall \u2014 free 3D print by Spencermann (glitch productions)",
+      "likes": 170,
+      "featured": true
+    },
+    {
+      "id": "lumafly-lantern-hollow-knight",
+      "title": "Lumafly Lantern Hollow Knight",
       "category": "hollow-knight",
-      "makerworldUrl": "https://makerworld.com/en/models/1081166-hollow-knight-mask-child-teen-size",
-      "image": "images/hollow-knight/hollow-knight-mask-child-teen-size.jpg",
-      "description": "Hollow Knight Mask (child/teen size) \u2014 a free 3D printable design by Spencermann for Hollow Knight and Silksong fans. Download on MakerWorld with ready-made print profiles.",
-      "featured": false,
       "categories": [
         "hollow-knight"
       ],
-      "imageAlt": "Hollow Knight Mask (child/teen size) \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
+      "makerworldUrl": "https://makerworld.com/en/models/2462343-lumafly-lantern-hollow-knight",
+      "image": "images/hollow-knight/lumafly-lantern-hollow-knight.jpg",
+      "description": "Lumafly Lantern Hollow Knight \u2014 free Hollow Knight / Silksong 3D print by Spencermann. Download on MakerWorld with ready-made Bambu Lab profiles.",
+      "imageAlt": "Lumafly Lantern Hollow Knight \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
+      "likes": 150,
+      "featured": false,
       "keywords": [
         "Hollow Knight 3D print",
         "Hollow Knight cosplay",
@@ -722,76 +387,1228 @@
       ]
     },
     {
-      "id": "dumpster-trash-can",
-      "title": "Mountable Dumpster Trash Can",
+      "id": "mannbows-and-mannapults",
+      "title": "Mannbows and Mannapults",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1088349-mannbows-and-mannapults",
+      "image": "images/other/mannbows-and-mannapults.jpg",
+      "description": "Mannbows and Mannapults \u2014 free 3D printable design by Spencermann. Download on MakerWorld.",
+      "imageAlt": "Mannbows and Mannapults \u2014 free 3D print by Spencermann (other)",
+      "likes": 148,
+      "featured": true
+    },
+    {
+      "id": "the-grimm-mask-hollow-knight-adult-child-size",
+      "title": "The Grimm Mask - Hollow Knight adult & child size",
+      "category": "hollow-knight",
+      "categories": [
+        "hollow-knight"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1857267-the-grimm-mask-hollow-knight-adult-child-size",
+      "image": "images/hollow-knight/the-grimm-mask-hollow-knight-adult-child-size.jpg",
+      "description": "The Grimm Mask - Hollow Knight adult & child size \u2014 free Hollow Knight / Silksong 3D print by Spencermann. Download on MakerWorld with ready-made Bambu Lab profiles.",
+      "imageAlt": "Grimm Mask Hollow Knight adult and child \u2014 free 3D print cosplay",
+      "likes": 144,
+      "featured": false,
+      "keywords": [
+        "Hollow Knight 3D print",
+        "Hollow Knight cosplay",
+        "Spencermann",
+        "MakerWorld free download",
+        "Grimm Mask",
+        "Grimmchild"
+      ]
+    },
+    {
+      "id": "cogfly-silksong-hollow-knight-tool-w-hinge-wing",
+      "title": "Cogfly Silksong (hollow knight) tool w/ hinge wing",
+      "category": "hollow-knight",
+      "categories": [
+        "hollow-knight"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2161614-cogfly-silksong-hollow-knight-tool-w-hinge-wing",
+      "image": "images/hollow-knight/cogfly-silksong-hollow-knight-tool-w-hinge-wing.jpg",
+      "description": "Cogfly Silksong (hollow knight) tool w/ hinge wing \u2014 free Hollow Knight / Silksong 3D print by Spencermann. Download on MakerWorld with ready-made Bambu Lab profiles.",
+      "imageAlt": "Cogfly Silksong (hollow knight) tool w/ hinge wing \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
+      "likes": 141,
+      "featured": false,
+      "keywords": [
+        "Hollow Knight 3D print",
+        "Hollow Knight cosplay",
+        "Spencermann",
+        "MakerWorld free download",
+        "Silksong 3D print"
+      ]
+    },
+    {
+      "id": "pure-vessel-sword-large-size-52-hollow-knight",
+      "title": "Pure Vessel Sword (Large Size 52\") - Hollow Knight",
+      "category": "hollow-knight",
+      "categories": [
+        "hollow-knight"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1898367-pure-vessel-sword-large-size-52-hollow-knight",
+      "image": "images/hollow-knight/pure-vessel-sword-large-size-52-hollow-knight.jpg",
+      "description": "Pure Vessel Sword (Large Size 52\") - Hollow Knight \u2014 free Hollow Knight / Silksong 3D print by Spencermann. Download on MakerWorld with ready-made Bambu Lab profiles.",
+      "imageAlt": "Pure Vessel Sword (Large Size 52\") - Hollow Knight \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
+      "likes": 127,
+      "featured": false,
+      "keywords": [
+        "Hollow Knight 3D print",
+        "Hollow Knight cosplay",
+        "Spencermann",
+        "MakerWorld free download",
+        "Pure Vessel Mask",
+        "Hollow Knight boss cosplay"
+      ]
+    },
+    {
+      "id": "remix-of-uzi-murder-drones-added-pompom",
+      "title": "Remix of Uzi - Murder Drones - Added Pompom & +",
+      "category": "glitch-productions",
+      "categories": [
+        "glitch-productions"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2113542-remix-of-uzi-murder-drones-added-pompom",
+      "image": "images/glitch-productions/remix-of-uzi-murder-drones-added-pompom.png",
+      "description": "Remix of Uzi - Murder Drones - Added Pompom & + \u2014 free Glitch Productions fan art 3D print by Spencermann. Download on MakerWorld with print profiles.",
+      "imageAlt": "Remix of Uzi - Murder Drones - Added Pompom & + \u2014 free 3D print by Spencermann (glitch productions)",
+      "likes": 115,
+      "featured": true
+    },
+    {
+      "id": "modern-day-atlas-monitor-riser-for-surface-pro",
+      "title": "Modern Day Atlas Monitor Riser for Surface Pro",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1149577-modern-day-atlas-monitor-riser-for-surface-pro",
+      "image": "images/other/modern-day-atlas-monitor-riser-for-surface-pro.png",
+      "description": "Modern Day Atlas Monitor Riser for Surface Pro \u2014 free 3D printable design by Spencermann. Download on MakerWorld.",
+      "imageAlt": "Modern Day Atlas Monitor Riser for Surface Pro \u2014 free 3D print by Spencermann (other)",
+      "likes": 107,
+      "featured": true
+    },
+    {
+      "id": "cynessa-cyn-tessa-hybrid-form-murder-drones",
+      "title": "Cynessa Cyn Tessa Hybrid Form - Murder Drones",
+      "category": "glitch-productions",
+      "categories": [
+        "glitch-productions"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2374360-cynessa-cyn-tessa-hybrid-form-murder-drones",
+      "image": "images/glitch-productions/cynessa-cyn-tessa-hybrid-form-murder-drones.jpg",
+      "description": "Cynessa Cyn Tessa Hybrid Form - Murder Drones \u2014 free Glitch Productions fan art 3D print by Spencermann. Download on MakerWorld with print profiles.",
+      "imageAlt": "Cynessa Cyn Tessa Hybrid Form - Murder Drones \u2014 free 3D print by Spencermann (glitch productions)",
+      "likes": 104,
+      "featured": false
+    },
+    {
+      "id": "serial-designation-v-murder-drones-7-tall",
+      "title": "Serial Designation V - Murder Drones ~ 7\" Tall",
+      "category": "glitch-productions",
+      "categories": [
+        "glitch-productions"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2414917-serial-designation-v-murder-drones-7-tall",
+      "image": "images/glitch-productions/serial-designation-v-murder-drones-7-tall.jpg",
+      "description": "Serial Designation V - Murder Drones ~ 7\" Tall \u2014 free Glitch Productions fan art 3D print by Spencermann. Download on MakerWorld with print profiles.",
+      "imageAlt": "Serial Designation V - Murder Drones ~ 7\" Tall \u2014 free 3D print by Spencermann (glitch productions)",
+      "likes": 97,
+      "featured": false
+    },
+    {
+      "id": "bubble-mask-the-amazing-digital-circus-tadc",
+      "title": "Bubble Mask - The Amazing Digital Circus (TADC)",
+      "category": "glitch-productions",
+      "categories": [
+        "glitch-productions"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2767411-bubble-mask-the-amazing-digital-circus-tadc",
+      "image": "images/glitch-productions/bubble-mask-the-amazing-digital-circus-tadc.jpg",
+      "description": "Bubble Mask - The Amazing Digital Circus (TADC) \u2014 free Glitch Productions fan art 3D print by Spencermann. Download on MakerWorld with print profiles.",
+      "imageAlt": "Bubble Mask - The Amazing Digital Circus (TADC) \u2014 free 3D print by Spencermann (glitch productions)",
+      "likes": 92,
+      "featured": false
+    },
+    {
+      "id": "maccourt-pond-liner-natural-rock-edge-yard-fish",
+      "title": "Maccourt Pond liner natural rock edge - Yard fish",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1524564-maccourt-pond-liner-natural-rock-edge-yard-fish",
+      "image": "images/other/maccourt-pond-liner-natural-rock-edge-yard-fish.jpg",
+      "description": "Maccourt Pond liner natural rock edge - Yard fish \u2014 free 3D printable design by Spencermann. Download on MakerWorld.",
+      "imageAlt": "Maccourt Pond liner natural rock edge - Yard fish \u2014 free 3D print by Spencermann (other)",
+      "likes": 92,
+      "featured": true
+    },
+    {
+      "id": "grimmchild-hollow-knight-tool",
+      "title": "Grimmchild - Hollow Knight tool",
+      "category": "hollow-knight",
+      "categories": [
+        "hollow-knight"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2361198-grimmchild-hollow-knight-tool",
+      "image": "images/hollow-knight/grimmchild-hollow-knight-tool.jpg",
+      "description": "Grimmchild - Hollow Knight tool \u2014 free Hollow Knight / Silksong 3D print by Spencermann. Download on MakerWorld with ready-made Bambu Lab profiles.",
+      "imageAlt": "Grimmchild - Hollow Knight tool \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
+      "likes": 80,
+      "featured": false,
+      "keywords": [
+        "Hollow Knight 3D print",
+        "Hollow Knight cosplay",
+        "Spencermann",
+        "MakerWorld free download",
+        "Grimm Mask",
+        "Grimmchild"
+      ]
+    },
+    {
+      "id": "hornet-christmas-ornament-silksong-all-printers",
+      "title": "Hornet Christmas Ornament (Silksong) -All printers",
+      "category": "hollow-knight",
+      "categories": [
+        "hollow-knight"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2023368-hornet-christmas-ornament-silksong-all-printers",
+      "image": "images/hollow-knight/hornet-christmas-ornament-silksong-all-printers.jpg",
+      "description": "Hornet Christmas Ornament (Silksong) -All printers \u2014 free Hollow Knight / Silksong 3D print by Spencermann. Download on MakerWorld with ready-made Bambu Lab profiles.",
+      "imageAlt": "Hornet Christmas Ornament (Silksong) -All printers \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
+      "likes": 80,
+      "featured": false,
+      "keywords": [
+        "Hollow Knight 3D print",
+        "Hollow Knight cosplay",
+        "Spencermann",
+        "MakerWorld free download",
+        "Silksong 3D print"
+      ]
+    },
+    {
+      "id": "desk-garbage-bag-holder",
+      "title": "Desk Garbage Bag Holder",
       "category": "utility",
-      "makerworldUrl": "https://makerworld.com/en/models/794185-mountable-dumpster-trash-can",
-      "image": "images/tools/dumpster-trash-can.jpg",
-      "description": "Practical mountable dumpster-style trash can for shop, garage, or desk organization. Functional print with straightforward assembly.",
-      "featured": true,
       "categories": [
         "utility"
-      ]
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/154456-desk-garbage-bag-holder",
+      "image": "images/utility/desk-garbage-bag-holder.jpg",
+      "description": "Desk Garbage Bag Holder \u2014 practical utility 3D print by Spencermann. Free download on MakerWorld.",
+      "imageAlt": "Desk Garbage Bag Holder \u2014 free 3D print by Spencermann (utility)",
+      "likes": 79,
+      "featured": true
     },
     {
-      "id": "fountain-girl",
-      "title": "Working Fountain Girl Sculpture for Pond Garden",
-      "category": "water-fountains",
-      "makerworldUrl": "https://makerworld.com/en/models/1707987-working-fountain-girl-sculpture-for-pond-garden",
-      "image": "images/random/fountain-girl.jpg",
-      "description": "Decorative fountain sculpture that actually works in a pond or garden setup. A pinned favorite on MakerWorld.",
-      "featured": true,
+      "id": "snap-on-vent-covers",
+      "title": "Snap on vent covers",
+      "category": "utility",
       "categories": [
-        "water-fountains"
-      ]
+        "utility"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2534583-snap-on-vent-covers",
+      "image": "images/utility/snap-on-vent-covers.jpg",
+      "description": "Snap on vent covers \u2014 practical utility 3D print by Spencermann. Free download on MakerWorld.",
+      "imageAlt": "Snap on vent covers \u2014 free 3D print by Spencermann (utility)",
+      "likes": 76,
+      "featured": true
     },
     {
-      "id": "dragon-fountain",
-      "title": "Working Dragon Water Fountain Sculpture for Pond",
-      "category": "water-fountains",
-      "makerworldUrl": "https://makerworld.com/en/models/1414737-working-dragon-water-fountain-sculpture-for-pond",
-      "image": "images/random/dragon-fountain.jpg",
-      "description": "Dragon-themed working water fountain for outdoor ponds. Eye-catching display piece with strong community engagement.",
-      "featured": true,
+      "id": "outstretched-arms-holding-modern-world-surface-pro",
+      "title": "Outstretched arms holding modern world Surface Pro",
+      "category": "other",
       "categories": [
-        "water-fountains"
-      ]
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1422531-outstretched-arms-holding-modern-world-surface-pro",
+      "image": "images/other/outstretched-arms-holding-modern-world-surface-pro.jpg",
+      "description": "Outstretched arms holding modern world Surface Pro \u2014 free 3D printable design by Spencermann. Download on MakerWorld.",
+      "imageAlt": "Outstretched arms holding modern world Surface Pro \u2014 free 3D print by Spencermann (other)",
+      "likes": 76,
+      "featured": false
     },
     {
-      "id": "bubble-mask-tadc",
-      "title": "Bubble Mask \u2014 The Amazing Digital Circus (TADC)",
+      "id": "cathedral-stained-glass-petg-frame-for-epoxy",
+      "title": "Cathedral Stained Glass - PETG Frame for Epoxy",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1881204-cathedral-stained-glass-petg-frame-for-epoxy",
+      "image": "images/other/cathedral-stained-glass-petg-frame-for-epoxy.jpg",
+      "description": "Cathedral Stained Glass - PETG Frame for Epoxy \u2014 free 3D printable design by Spencermann. Download on MakerWorld.",
+      "imageAlt": "Cathedral Stained Glass - PETG Frame for Epoxy \u2014 free 3D print by Spencermann (other)",
+      "likes": 74,
+      "featured": false
+    },
+    {
+      "id": "serial-designation-j-murder-drones-7-tall",
+      "title": "Serial Designation J - Murder Drones ~7\" tall",
       "category": "glitch-productions",
-      "makerworldUrl": "https://makerworld.com/en/models/2767411-bubble-mask-the-amazing-digital-circus-tadc",
-      "image": "images/games/bubble-mask.jpg",
-      "description": "Bubble mask inspired by The Amazing Digital Circus. Great for cosplay and display prints.",
-      "featured": true,
       "categories": [
         "glitch-productions"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2323069-serial-designation-j-murder-drones-7-tall",
+      "image": "images/glitch-productions/serial-designation-j-murder-drones-7-tall.jpg",
+      "description": "Serial Designation J - Murder Drones ~7\" tall \u2014 free Glitch Productions fan art 3D print by Spencermann. Download on MakerWorld with print profiles.",
+      "imageAlt": "Serial Designation J - Murder Drones ~7\" tall \u2014 free 3D print by Spencermann (glitch productions)",
+      "likes": 72,
+      "featured": false
+    },
+    {
+      "id": "feet-shoes-because-what-s-more-beautiful-than-feet",
+      "title": "Feet Shoes Because what's more beautiful than feet",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2515307-feet-shoes-because-what-s-more-beautiful-than-feet",
+      "image": "images/other/feet-shoes-because-what-s-more-beautiful-than-feet.jpg",
+      "description": "Feet Shoes Because what's more beautiful than feet \u2014 free 3D printable design by Spencermann. Download on MakerWorld.",
+      "imageAlt": "Feet Shoes Because what's more beautiful than feet \u2014 free 3D print by Spencermann (other)",
+      "likes": 68,
+      "featured": false
+    },
+    {
+      "id": "christ-working-water-fountain-for-desktops",
+      "title": "Christ working water fountain for desktops",
+      "category": "water-fountains",
+      "categories": [
+        "water-fountains"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2676067-christ-working-water-fountain-for-desktops",
+      "image": "images/water-fountains/christ-working-water-fountain-for-desktops.jpg",
+      "description": "Christ working water fountain for desktops \u2014 working water fountain 3D print by Spencermann. Download free on MakerWorld for pond or garden setups.",
+      "imageAlt": "Christ working water fountain for desktops \u2014 free 3D print by Spencermann (water fountains)",
+      "likes": 66,
+      "featured": false
+    },
+    {
+      "id": "lace-s-sword-or-pin-silksong-boss-fencing-sword",
+      "title": "Lace's Sword or pin (Silksong boss fencing sword)",
+      "category": "hollow-knight",
+      "categories": [
+        "hollow-knight"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1866782-lace-s-sword-or-pin-silksong-boss-fencing-sword",
+      "image": "images/hollow-knight/lace-s-sword-or-pin-silksong-boss-fencing-sword.jpg",
+      "description": "Lace's Sword or pin (Silksong boss fencing sword) \u2014 free Hollow Knight / Silksong 3D print by Spencermann. Download on MakerWorld with ready-made Bambu Lab profiles.",
+      "imageAlt": "Lace's Sword or pin (Silksong boss fencing sword) \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
+      "likes": 66,
+      "featured": false,
+      "keywords": [
+        "Hollow Knight 3D print",
+        "Hollow Knight cosplay",
+        "Spencermann",
+        "MakerWorld free download",
+        "Silksong 3D print",
+        "Lace Silksong"
       ]
     },
     {
-      "id": "lizzy-murder-drones",
-      "title": "Lizzy \u2014 Murder Drones (7\" tall)",
+      "id": "gothic-lantern-light-w-petg-glass-decoration",
+      "title": "Gothic Lantern Light w/ PETG Glass Decoration",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1499891-gothic-lantern-light-w-petg-glass-decoration",
+      "image": "images/other/gothic-lantern-light-w-petg-glass-decoration.jpg",
+      "description": "Gothic Lantern Light w/ PETG Glass Decoration \u2014 free 3D printable design by Spencermann. Download on MakerWorld.",
+      "imageAlt": "Gothic Lantern Light w/ PETG Glass Decoration \u2014 free 3D print by Spencermann (other)",
+      "likes": 66,
+      "featured": false
+    },
+    {
+      "id": "shakra-mask-silksong-hollow-knight-cosplay",
+      "title": "Shakra Mask (Silksong Hollow Knight cosplay)",
+      "category": "hollow-knight",
+      "categories": [
+        "hollow-knight"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2041487-shakra-mask-silksong-hollow-knight-cosplay",
+      "image": "images/hollow-knight/shakra-mask-silksong-hollow-knight-cosplay.jpg",
+      "description": "Shakra Mask (Silksong Hollow Knight cosplay) \u2014 free Hollow Knight / Silksong 3D print by Spencermann. Download on MakerWorld with ready-made Bambu Lab profiles.",
+      "imageAlt": "Shakra Mask (Silksong Hollow Knight cosplay) \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
+      "likes": 65,
+      "featured": false,
+      "keywords": [
+        "Hollow Knight 3D print",
+        "Hollow Knight cosplay",
+        "Spencermann",
+        "MakerWorld free download",
+        "Silksong 3D print"
+      ]
+    },
+    {
+      "id": "lace-mask-from-silksong-hollow-knight-halloween",
+      "title": "Lace Mask from Silksong (Hollow Knight) Halloween",
+      "category": "hollow-knight",
+      "categories": [
+        "hollow-knight"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1783657-lace-mask-from-silksong-hollow-knight-halloween",
+      "image": "images/hollow-knight/lace-mask-from-silksong-hollow-knight-halloween.jpg",
+      "description": "Lace Mask from Silksong (Hollow Knight) Halloween \u2014 free Hollow Knight / Silksong 3D print by Spencermann. Download on MakerWorld with ready-made Bambu Lab profiles.",
+      "imageAlt": "Lace Mask from Silksong (Hollow Knight) Halloween \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
+      "likes": 64,
+      "featured": false,
+      "keywords": [
+        "Hollow Knight 3D print",
+        "Hollow Knight cosplay",
+        "Spencermann",
+        "MakerWorld free download",
+        "Silksong 3D print",
+        "Lace Silksong"
+      ]
+    },
+    {
+      "id": "the-pale-king-or-wyrm-hollow-knight",
+      "title": "The Pale King or Wyrm- Hollow Knight",
+      "category": "hollow-knight",
+      "categories": [
+        "hollow-knight"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1924227-the-pale-king-or-wyrm-hollow-knight",
+      "image": "images/hollow-knight/the-pale-king-or-wyrm-hollow-knight.jpg",
+      "description": "The Pale King or Wyrm- Hollow Knight \u2014 free Hollow Knight / Silksong 3D print by Spencermann. Download on MakerWorld with ready-made Bambu Lab profiles.",
+      "imageAlt": "The Pale King or Wyrm- Hollow Knight \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
+      "likes": 57,
+      "featured": false,
+      "keywords": [
+        "Hollow Knight 3D print",
+        "Hollow Knight cosplay",
+        "Spencermann",
+        "MakerWorld free download"
+      ]
+    },
+    {
+      "id": "city-of-tears-pond-water-fountain-functional",
+      "title": "City of Tears Pond Water Fountain Functional",
+      "category": "hollow-knight",
+      "categories": [
+        "hollow-knight",
+        "water-fountains"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2680803-city-of-tears-pond-water-fountain-functional",
+      "image": "images/hollow-knight/city-of-tears-pond-water-fountain-functional.gif",
+      "description": "City of Tears Pond Water Fountain Functional \u2014 free Hollow Knight / Silksong 3D print by Spencermann. Download on MakerWorld with ready-made Bambu Lab profiles.",
+      "imageAlt": "City of Tears pond water fountain Hollow Knight \u2014 free 3D print garden fountain",
+      "likes": 56,
+      "featured": false,
+      "keywords": [
+        "Hollow Knight 3D print",
+        "Hollow Knight cosplay",
+        "Spencermann",
+        "MakerWorld free download",
+        "Hollow Knight fountain",
+        "3D printed water fountain"
+      ]
+    },
+    {
+      "id": "mantis-lord-mask-adult-size-scale-down-for-child",
+      "title": "Mantis Lord Mask Adult size (scale down for child)",
+      "category": "hollow-knight",
+      "categories": [
+        "hollow-knight"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1875441-mantis-lord-mask-adult-size-scale-down-for-child",
+      "image": "images/hollow-knight/mantis-lord-mask-adult-size-scale-down-for-child.jpg",
+      "description": "Mantis Lord Mask Adult size (scale down for child) \u2014 free Hollow Knight / Silksong 3D print by Spencermann. Download on MakerWorld with ready-made Bambu Lab profiles.",
+      "imageAlt": "Mantis Lord Mask Adult size (scale down for child) \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
+      "likes": 56,
+      "featured": false,
+      "keywords": [
+        "Hollow Knight 3D print",
+        "Hollow Knight cosplay",
+        "Spencermann",
+        "MakerWorld free download",
+        "Mantis Lord Hollow Knight"
+      ]
+    },
+    {
+      "id": "working-city-of-tears-water-fountain-hollow-knight",
+      "title": "Working City of Tears Water Fountain Hollow Knight",
+      "category": "hollow-knight",
+      "categories": [
+        "hollow-knight",
+        "water-fountains"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2605397-working-city-of-tears-water-fountain-hollow-knight",
+      "image": "images/hollow-knight/working-city-of-tears-water-fountain-hollow-knight.jpg",
+      "description": "Working City of Tears Water Fountain Hollow Knight \u2014 free Hollow Knight / Silksong 3D print by Spencermann. Download on MakerWorld with ready-made Bambu Lab profiles.",
+      "imageAlt": "Hollow Knight City of Tears working water fountain \u2014 free 3D print pond sculpture",
+      "likes": 52,
+      "featured": false,
+      "keywords": [
+        "Hollow Knight 3D print",
+        "Hollow Knight cosplay",
+        "Spencermann",
+        "MakerWorld free download",
+        "Hollow Knight fountain",
+        "3D printed water fountain"
+      ]
+    },
+    {
+      "id": "raining-totoro-sprinkler-functional-ghibli",
+      "title": "Raining Totoro Sprinkler (functional) Ghibli",
+      "category": "water-fountains",
+      "categories": [
+        "water-fountains"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1822440-raining-totoro-sprinkler-functional-ghibli",
+      "image": "images/water-fountains/raining-totoro-sprinkler-functional-ghibli.gif",
+      "description": "Raining Totoro Sprinkler (functional) Ghibli \u2014 working water fountain 3D print by Spencermann. Download free on MakerWorld for pond or garden setups.",
+      "imageAlt": "Raining Totoro Sprinkler (functional) Ghibli \u2014 free 3D print by Spencermann (water fountains)",
+      "likes": 51,
+      "featured": false
+    },
+    {
+      "id": "mantis-lord-lance-hollow-knight-1-2-pvc-pipe",
+      "title": "Mantis Lord Lance - Hollow Knight 1/2\" PVC Pipe",
+      "category": "hollow-knight",
+      "categories": [
+        "hollow-knight"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1849411-mantis-lord-lance-hollow-knight-1-2-pvc-pipe",
+      "image": "images/hollow-knight/mantis-lord-lance-hollow-knight-1-2-pvc-pipe.jpg",
+      "description": "Mantis Lord Lance - Hollow Knight 1/2\" PVC Pipe \u2014 free Hollow Knight / Silksong 3D print by Spencermann. Download on MakerWorld with ready-made Bambu Lab profiles.",
+      "imageAlt": "Mantis Lord Lance - Hollow Knight 1/2\" PVC Pipe \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
+      "likes": 50,
+      "featured": false,
+      "keywords": [
+        "Hollow Knight 3D print",
+        "Hollow Knight cosplay",
+        "Spencermann",
+        "MakerWorld free download",
+        "Mantis Lord Hollow Knight"
+      ]
+    },
+    {
+      "id": "mountain-stained-glass-window-frame",
+      "title": "Mountain Stained Glass Window Frame",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1808167-mountain-stained-glass-window-frame",
+      "image": "images/other/mountain-stained-glass-window-frame.jpg",
+      "description": "Mountain Stained Glass Window Frame \u2014 free 3D printable design by Spencermann. Download on MakerWorld.",
+      "imageAlt": "Mountain Stained Glass Window Frame \u2014 free 3D print by Spencermann (other)",
+      "likes": 44,
+      "featured": false
+    },
+    {
+      "id": "silkshot-hornet-silksong-tool-hollow-knight",
+      "title": "Silkshot - Hornet Silksong Tool - Hollow Knight",
+      "category": "hollow-knight",
+      "categories": [
+        "hollow-knight"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2113792-silkshot-hornet-silksong-tool-hollow-knight",
+      "image": "images/hollow-knight/silkshot-hornet-silksong-tool-hollow-knight.jpg",
+      "description": "Silkshot - Hornet Silksong Tool - Hollow Knight \u2014 free Hollow Knight / Silksong 3D print by Spencermann. Download on MakerWorld with ready-made Bambu Lab profiles.",
+      "imageAlt": "Silkshot - Hornet Silksong Tool - Hollow Knight \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
+      "likes": 43,
+      "featured": false,
+      "keywords": [
+        "Hollow Knight 3D print",
+        "Hollow Knight cosplay",
+        "Spencermann",
+        "MakerWorld free download",
+        "Silksong 3D print"
+      ]
+    },
+    {
+      "id": "dreamer-harrah-the-beast-mask-hollow-knight",
+      "title": "Dreamer Harrah the Beast Mask - Hollow Knight",
+      "category": "hollow-knight",
+      "categories": [
+        "hollow-knight"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2244864-dreamer-harrah-the-beast-mask-hollow-knight",
+      "image": "images/hollow-knight/dreamer-harrah-the-beast-mask-hollow-knight.jpg",
+      "description": "Dreamer Harrah the Beast Mask - Hollow Knight \u2014 free Hollow Knight / Silksong 3D print by Spencermann. Download on MakerWorld with ready-made Bambu Lab profiles.",
+      "imageAlt": "Dreamer Harrah the Beast Mask - Hollow Knight \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
+      "likes": 40,
+      "featured": false,
+      "keywords": [
+        "Hollow Knight 3D print",
+        "Hollow Knight cosplay",
+        "Spencermann",
+        "MakerWorld free download",
+        "Hollow Knight Dreamer mask"
+      ]
+    },
+    {
+      "id": "universal-toilet-flush-lever-the-manncaster-2000",
+      "title": "Universal Toilet Flush Lever (The Manncaster 2000)",
+      "category": "utility",
+      "categories": [
+        "utility"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/684324-universal-toilet-flush-lever-the-manncaster-2000",
+      "image": "images/utility/universal-toilet-flush-lever-the-manncaster-2000.png",
+      "description": "Universal Toilet Flush Lever (The Manncaster 2000) \u2014 practical utility 3D print by Spencermann. Free download on MakerWorld.",
+      "imageAlt": "Universal Toilet Flush Lever (The Manncaster 2000) \u2014 free 3D print by Spencermann (utility)",
+      "likes": 40,
+      "featured": true
+    },
+    {
+      "id": "sherma-from-silksong-bell-pin-and-mask",
+      "title": "Sherma from Silksong - Bell, pin and mask",
+      "category": "hollow-knight",
+      "categories": [
+        "hollow-knight"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1885745-sherma-from-silksong-bell-pin-and-mask",
+      "image": "images/hollow-knight/sherma-from-silksong-bell-pin-and-mask.jpg",
+      "description": "Sherma from Silksong - Bell, pin and mask \u2014 free Hollow Knight / Silksong 3D print by Spencermann. Download on MakerWorld with ready-made Bambu Lab profiles.",
+      "imageAlt": "Sherma from Silksong - Bell, pin and mask \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
+      "likes": 39,
+      "featured": false,
+      "keywords": [
+        "Hollow Knight 3D print",
+        "Hollow Knight cosplay",
+        "Spencermann",
+        "MakerWorld free download",
+        "Silksong 3D print"
+      ]
+    },
+    {
+      "id": "dragon-head-decoration-aquarium-dish-keys",
+      "title": "Dragon Head - Decoration (aquarium, dish, keys)",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2341960-dragon-head-decoration-aquarium-dish-keys",
+      "image": "images/other/dragon-head-decoration-aquarium-dish-keys.jpg",
+      "description": "Dragon Head - Decoration (aquarium, dish, keys) \u2014 free 3D printable design by Spencermann. Download on MakerWorld.",
+      "imageAlt": "Dragon Head - Decoration (aquarium, dish, keys) \u2014 free 3D print by Spencermann (other)",
+      "likes": 37,
+      "featured": false
+    },
+    {
+      "id": "trobbio-mask-silk-song-boss-adult-sized",
+      "title": "Trobbio Mask - Silk Song Boss Adult Sized",
+      "category": "hollow-knight",
+      "categories": [
+        "hollow-knight"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2205717-trobbio-mask-silk-song-boss-adult-sized",
+      "image": "images/hollow-knight/trobbio-mask-silk-song-boss-adult-sized.jpg",
+      "description": "Trobbio Mask - Silk Song Boss Adult Sized \u2014 free Hollow Knight / Silksong 3D print by Spencermann. Download on MakerWorld with ready-made Bambu Lab profiles.",
+      "imageAlt": "Trobbio Mask - Silk Song Boss Adult Sized \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
+      "likes": 35,
+      "featured": false,
+      "keywords": [
+        "Hollow Knight 3D print",
+        "Hollow Knight cosplay",
+        "Spencermann",
+        "MakerWorld free download",
+        "Silksong 3D print"
+      ]
+    },
+    {
+      "id": "sherma-hat-from-silksong",
+      "title": "Sherma Hat from Silksong",
+      "category": "hollow-knight",
+      "categories": [
+        "hollow-knight"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1942727-sherma-hat-from-silksong",
+      "image": "images/hollow-knight/sherma-hat-from-silksong.jpg",
+      "description": "Sherma Hat from Silksong \u2014 free Hollow Knight / Silksong 3D print by Spencermann. Download on MakerWorld with ready-made Bambu Lab profiles.",
+      "imageAlt": "Sherma Hat from Silksong \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
+      "likes": 34,
+      "featured": false,
+      "keywords": [
+        "Hollow Knight 3D print",
+        "Hollow Knight cosplay",
+        "Spencermann",
+        "MakerWorld free download",
+        "Silksong 3D print"
+      ]
+    },
+    {
+      "id": "pond-filter-box-3-sections-screen-medium-cavity",
+      "title": "Pond Filter Box - 3 Sections: Screen medium cavity",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1430125-pond-filter-box-3-sections-screen-medium-cavity",
+      "image": "images/other/pond-filter-box-3-sections-screen-medium-cavity.jpg",
+      "description": "Pond Filter Box - 3 Sections: Screen medium cavity \u2014 free 3D printable design by Spencermann. Download on MakerWorld.",
+      "imageAlt": "Pond Filter Box - 3 Sections: Screen medium cavity \u2014 free 3D print by Spencermann (other)",
+      "likes": 34,
+      "featured": false
+    },
+    {
+      "id": "wingmould-hollow-knight-creature-optional-light",
+      "title": "Wingmould - Hollow Knight Creature -Optional Light",
+      "category": "hollow-knight",
+      "categories": [
+        "hollow-knight"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2100690-wingmould-hollow-knight-creature-optional-light",
+      "image": "images/hollow-knight/wingmould-hollow-knight-creature-optional-light.png",
+      "description": "Wingmould - Hollow Knight Creature -Optional Light \u2014 free Hollow Knight / Silksong 3D print by Spencermann. Download on MakerWorld with ready-made Bambu Lab profiles.",
+      "imageAlt": "Wingmould - Hollow Knight Creature -Optional Light \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
+      "likes": 32,
+      "featured": false,
+      "keywords": [
+        "Hollow Knight 3D print",
+        "Hollow Knight cosplay",
+        "Spencermann",
+        "MakerWorld free download"
+      ]
+    },
+    {
+      "id": "twisted-bud-silk-song-tpu-stress-ball",
+      "title": "Twisted Bud - Silk Song TPU Stress Ball",
+      "category": "hollow-knight",
+      "categories": [
+        "hollow-knight"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1967756-twisted-bud-silk-song-tpu-stress-ball",
+      "image": "images/hollow-knight/twisted-bud-silk-song-tpu-stress-ball.jpg",
+      "description": "Twisted Bud - Silk Song TPU Stress Ball \u2014 free Hollow Knight / Silksong 3D print by Spencermann. Download on MakerWorld with ready-made Bambu Lab profiles.",
+      "imageAlt": "Twisted Bud - Silk Song TPU Stress Ball \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
+      "likes": 32,
+      "featured": false,
+      "keywords": [
+        "Hollow Knight 3D print",
+        "Hollow Knight cosplay",
+        "Spencermann",
+        "MakerWorld free download",
+        "Silksong 3D print"
+      ]
+    },
+    {
+      "id": "fence-post-castle",
+      "title": "Fence Post Castle",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/588957-fence-post-castle",
+      "image": "images/other/fence-post-castle.jpg",
+      "description": "Fence Post Castle \u2014 free 3D printable design by Spencermann. Download on MakerWorld.",
+      "imageAlt": "Fence Post Castle \u2014 free 3D print by Spencermann (other)",
+      "likes": 31,
+      "featured": false
+    },
+    {
+      "id": "daisy-880-powerline-bb-gun-mount-for-calibration",
+      "title": "Daisy 880 Powerline BB gun mount for calibration",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/988645-daisy-880-powerline-bb-gun-mount-for-calibration",
+      "image": "images/other/daisy-880-powerline-bb-gun-mount-for-calibration.jpg",
+      "description": "Daisy 880 Powerline BB gun mount for calibration \u2014 free 3D printable design by Spencermann. Download on MakerWorld.",
+      "imageAlt": "Daisy 880 Powerline BB gun mount for calibration \u2014 free 3D print by Spencermann (other)",
+      "likes": 30,
+      "featured": false
+    },
+    {
+      "id": "dreamer-monomon-the-teacher-mask-hollow-knight",
+      "title": "Dreamer Monomon the Teacher Mask - Hollow Knight",
+      "category": "hollow-knight",
+      "categories": [
+        "hollow-knight"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2240540-dreamer-monomon-the-teacher-mask-hollow-knight",
+      "image": "images/hollow-knight/dreamer-monomon-the-teacher-mask-hollow-knight.jpg",
+      "description": "Dreamer Monomon the Teacher Mask - Hollow Knight \u2014 free Hollow Knight / Silksong 3D print by Spencermann. Download on MakerWorld with ready-made Bambu Lab profiles.",
+      "imageAlt": "Dreamer Monomon the Teacher Mask - Hollow Knight \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
+      "likes": 29,
+      "featured": false,
+      "keywords": [
+        "Hollow Knight 3D print",
+        "Hollow Knight cosplay",
+        "Spencermann",
+        "MakerWorld free download",
+        "Hollow Knight Dreamer mask"
+      ]
+    },
+    {
+      "id": "spray-paint-can-holder-for-pegboard-less-than-50g",
+      "title": "Spray paint can holder for pegboard- Less than 50g",
+      "category": "utility",
+      "categories": [
+        "utility"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1840506-spray-paint-can-holder-for-pegboard-less-than-50g",
+      "image": "images/utility/spray-paint-can-holder-for-pegboard-less-than-50g.jpg",
+      "description": "Spray paint can holder for pegboard- Less than 50g \u2014 practical utility 3D print by Spencermann. Free download on MakerWorld.",
+      "imageAlt": "Spray paint can holder for pegboard- Less than 50g \u2014 free 3D print by Spencermann (utility)",
+      "likes": 29,
+      "featured": false
+    },
+    {
+      "id": "hollow-knight-license-plate-frame-bell-beast",
+      "title": "Hollow Knight License Plate Frame - Bell Beast",
+      "category": "hollow-knight",
+      "categories": [
+        "hollow-knight"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2025148-hollow-knight-license-plate-frame-bell-beast",
+      "image": "images/hollow-knight/hollow-knight-license-plate-frame-bell-beast.jpg",
+      "description": "Hollow Knight License Plate Frame - Bell Beast \u2014 free Hollow Knight / Silksong 3D print by Spencermann. Download on MakerWorld with ready-made Bambu Lab profiles.",
+      "imageAlt": "Hollow Knight License Plate Frame - Bell Beast \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
+      "likes": 27,
+      "featured": false,
+      "keywords": [
+        "Hollow Knight 3D print",
+        "Hollow Knight cosplay",
+        "Spencermann",
+        "MakerWorld free download"
+      ]
+    },
+    {
+      "id": "bill-cipher-gravity-falls-shelf-decoration",
+      "title": "Bill Cipher - Gravity Falls Shelf Decoration",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1881316-bill-cipher-gravity-falls-shelf-decoration",
+      "image": "images/other/bill-cipher-gravity-falls-shelf-decoration.jpg",
+      "description": "Bill Cipher - Gravity Falls Shelf Decoration \u2014 free 3D printable design by Spencermann. Download on MakerWorld.",
+      "imageAlt": "Bill Cipher - Gravity Falls Shelf Decoration \u2014 free 3D print by Spencermann (other)",
+      "likes": 25,
+      "featured": false
+    },
+    {
+      "id": "frame-one-size-fits-all-photos-or-posters-1mm",
+      "title": "Frame One size fits all: Photos or posters =<1mm",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1952489-frame-one-size-fits-all-photos-or-posters-1mm",
+      "image": "images/other/frame-one-size-fits-all-photos-or-posters-1mm.jpg",
+      "description": "Frame One size fits all: Photos or posters =<1mm \u2014 free 3D printable design by Spencermann. Download on MakerWorld.",
+      "imageAlt": "Frame One size fits all: Photos or posters =<1mm \u2014 free 3D print by Spencermann (other)",
+      "likes": 24,
+      "featured": false
+    },
+    {
+      "id": "dreamer-lurien-the-watcher-mask-hollow-knight",
+      "title": "Dreamer Lurien the Watcher Mask - Hollow Knight",
+      "category": "hollow-knight",
+      "categories": [
+        "hollow-knight"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2236415-dreamer-lurien-the-watcher-mask-hollow-knight",
+      "image": "images/hollow-knight/dreamer-lurien-the-watcher-mask-hollow-knight.jpg",
+      "description": "Dreamer Lurien the Watcher Mask - Hollow Knight \u2014 free Hollow Knight / Silksong 3D print by Spencermann. Download on MakerWorld with ready-made Bambu Lab profiles.",
+      "imageAlt": "Dreamer Lurien the Watcher Mask - Hollow Knight \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
+      "likes": 23,
+      "featured": false,
+      "keywords": [
+        "Hollow Knight 3D print",
+        "Hollow Knight cosplay",
+        "Spencermann",
+        "MakerWorld free download",
+        "Hollow Knight Dreamer mask"
+      ]
+    },
+    {
+      "id": "doll-murder-drones-7-tall",
+      "title": "Doll - Murder Drones 7\" tall",
       "category": "glitch-productions",
+      "categories": [
+        "glitch-productions"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2747200-doll-murder-drones-7-tall",
+      "image": "images/glitch-productions/doll-murder-drones-7-tall.jpg",
+      "description": "Doll - Murder Drones 7\" tall \u2014 free Glitch Productions fan art 3D print by Spencermann. Download on MakerWorld with print profiles.",
+      "imageAlt": "Doll - Murder Drones 7\" tall \u2014 free 3D print by Spencermann (glitch productions)",
+      "likes": 21,
+      "featured": false
+    },
+    {
+      "id": "mantis-claw-hollow-knight-equipment",
+      "title": "Mantis Claw (Hollow Knight Equipment)",
+      "category": "hollow-knight",
+      "categories": [
+        "hollow-knight"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1869976-mantis-claw-hollow-knight-equipment",
+      "image": "images/hollow-knight/mantis-claw-hollow-knight-equipment.jpg",
+      "description": "Mantis Claw (Hollow Knight Equipment) \u2014 free Hollow Knight / Silksong 3D print by Spencermann. Download on MakerWorld with ready-made Bambu Lab profiles.",
+      "imageAlt": "Mantis Claw (Hollow Knight Equipment) \u2014 Hollow Knight 3D print, free on MakerWorld | Spencermann",
+      "likes": 20,
+      "featured": false,
+      "keywords": [
+        "Hollow Knight 3D print",
+        "Hollow Knight cosplay",
+        "Spencermann",
+        "MakerWorld free download",
+        "Mantis Lord Hollow Knight"
+      ]
+    },
+    {
+      "id": "simple-slip-on-doorbell-cover-183mm-x-112mm",
+      "title": "Simple slip on Doorbell Cover (183mm x 112mm)",
+      "category": "utility",
+      "categories": [
+        "utility"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1752817-simple-slip-on-doorbell-cover-183mm-x-112mm",
+      "image": "images/utility/simple-slip-on-doorbell-cover-183mm-x-112mm.jpg",
+      "description": "Simple slip on Doorbell Cover (183mm x 112mm) \u2014 practical utility 3D print by Spencermann. Free download on MakerWorld.",
+      "imageAlt": "Simple slip on Doorbell Cover (183mm x 112mm) \u2014 free 3D print by Spencermann (utility)",
+      "likes": 19,
+      "featured": false
+    },
+    {
+      "id": "kaladin-stormblessed-stormlight-archive-hero",
+      "title": "Kaladin Stormblessed - Stormlight Archive Hero",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2642649-kaladin-stormblessed-stormlight-archive-hero",
+      "image": "images/other/kaladin-stormblessed-stormlight-archive-hero.jpg",
+      "description": "Kaladin Stormblessed - Stormlight Archive Hero \u2014 free 3D printable design by Spencermann. Download on MakerWorld.",
+      "imageAlt": "Kaladin Stormblessed - Stormlight Archive Hero \u2014 free 3D print by Spencermann (other)",
+      "likes": 18,
+      "featured": false
+    },
+    {
+      "id": "fidget-toy-spring-loaded-bb-run-filament-flexible",
+      "title": "Fidget Toy Spring Loaded BB Run Filament Flexible",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1351028-fidget-toy-spring-loaded-bb-run-filament-flexible",
+      "image": "images/other/fidget-toy-spring-loaded-bb-run-filament-flexible.jpg",
+      "description": "Fidget Toy Spring Loaded BB Run Filament Flexible \u2014 free 3D printable design by Spencermann. Download on MakerWorld.",
+      "imageAlt": "Fidget Toy Spring Loaded BB Run Filament Flexible \u2014 free 3D print by Spencermann (other)",
+      "likes": 16,
+      "featured": false
+    },
+    {
+      "id": "what-do-you-get-when-you-mix-an-elephant-w-rhino",
+      "title": "What do you get when you mix an elephant w/ rhino?",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2123660-what-do-you-get-when-you-mix-an-elephant-w-rhino",
+      "image": "images/other/what-do-you-get-when-you-mix-an-elephant-w-rhino.jpg",
+      "description": "What do you get when you mix an elephant w/ rhino? \u2014 free 3D printable design by Spencermann. Download on MakerWorld.",
+      "imageAlt": "What do you get when you mix an elephant w/ rhino? \u2014 free 3D print by Spencermann (other)",
+      "likes": 15,
+      "featured": false
+    },
+    {
+      "id": "pinewood-derby-improved-wheels-and-base-for-2-5deg",
+      "title": "Pinewood Derby - Improved wheels and base for 2.5\u00b0",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1990757-pinewood-derby-improved-wheels-and-base-for-2-5deg",
+      "image": "images/other/pinewood-derby-improved-wheels-and-base-for-2-5deg.jpg",
+      "description": "Pinewood Derby - Improved wheels and base for 2.5\u00b0 \u2014 free 3D printable design by Spencermann. Download on MakerWorld.",
+      "imageAlt": "Pinewood Derby - Improved wheels and base for 2.5\u00b0 \u2014 free 3D print by Spencermann (other)",
+      "likes": 15,
+      "featured": false
+    },
+    {
+      "id": "garage-organizer-for-long-things",
+      "title": "Garage organizer for long things",
+      "category": "utility",
+      "categories": [
+        "utility"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/643641-garage-organizer-for-long-things",
+      "image": "images/utility/garage-organizer-for-long-things.jpg",
+      "description": "Garage organizer for long things \u2014 practical utility 3D print by Spencermann. Free download on MakerWorld.",
+      "imageAlt": "Garage organizer for long things \u2014 free 3D print by Spencermann (utility)",
+      "likes": 15,
+      "featured": false
+    },
+    {
+      "id": "food-poisoning-danger-today-fridge-magnet",
+      "title": "Food Poisoning Danger Today Fridge Magnet",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/609586-food-poisoning-danger-today-fridge-magnet",
+      "image": "images/other/food-poisoning-danger-today-fridge-magnet.png",
+      "description": "Food Poisoning Danger Today Fridge Magnet \u2014 free 3D printable design by Spencermann. Download on MakerWorld.",
+      "imageAlt": "Food Poisoning Danger Today Fridge Magnet \u2014 free 3D print by Spencermann (other)",
+      "likes": 15,
+      "featured": false
+    },
+    {
+      "id": "bearing-the-weight-of-a-phone-iphone-or-android",
+      "title": "Bearing the weight of a phone - iphone or android",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1542771-bearing-the-weight-of-a-phone-iphone-or-android",
+      "image": "images/other/bearing-the-weight-of-a-phone-iphone-or-android.jpg",
+      "description": "Bearing the weight of a phone - iphone or android \u2014 free 3D printable design by Spencermann. Download on MakerWorld.",
+      "imageAlt": "Bearing the weight of a phone - iphone or android \u2014 free 3D print by Spencermann (other)",
+      "likes": 14,
+      "featured": false
+    },
+    {
+      "id": "lizzy-murder-drones-7-tall",
+      "title": "Lizzy - Murder Drones 7\" tall",
+      "category": "glitch-productions",
+      "categories": [
+        "glitch-productions"
+      ],
       "makerworldUrl": "https://makerworld.com/en/models/2782999-lizzy-murder-drones-7-tall",
-      "image": "images/games/lizzy-murder-drones.jpg",
-      "description": "7-inch Lizzy figure from Murder Drones. Compact display model for fans of the series.",
-      "featured": false,
-      "categories": [
-        "glitch-productions"
-      ]
+      "image": "images/glitch-productions/lizzy-murder-drones-7-tall.jpg",
+      "description": "Lizzy - Murder Drones 7\" tall \u2014 free Glitch Productions fan art 3D print by Spencermann. Download on MakerWorld with print profiles.",
+      "imageAlt": "Lizzy - Murder Drones 7\" tall \u2014 free 3D print by Spencermann (glitch productions)",
+      "likes": 12,
+      "featured": false
     },
     {
-      "id": "tessa-murder-drones",
-      "title": "Tessa James Elliott Spacesuit \u2014 Murder Drones (7\")",
+      "id": "finding-the-one-lampshade-epoxy-stained-glass",
+      "title": "Finding the one - Lampshade - Epoxy stained glass",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2161692-finding-the-one-lampshade-epoxy-stained-glass",
+      "image": "images/other/finding-the-one-lampshade-epoxy-stained-glass.jpg",
+      "description": "Finding the one - Lampshade - Epoxy stained glass \u2014 free 3D printable design by Spencermann. Download on MakerWorld.",
+      "imageAlt": "Finding the one - Lampshade - Epoxy stained glass \u2014 free 3D print by Spencermann (other)",
+      "likes": 12,
+      "featured": false
+    },
+    {
+      "id": "sliding-pet-gate",
+      "title": "Sliding Pet Gate",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/629761-sliding-pet-gate",
+      "image": "images/other/sliding-pet-gate.png",
+      "description": "Sliding Pet Gate \u2014 free 3D printable design by Spencermann. Download on MakerWorld.",
+      "imageAlt": "Sliding Pet Gate \u2014 free 3D print by Spencermann (other)",
+      "likes": 12,
+      "featured": false
+    },
+    {
+      "id": "proud-of-my-helldiver-license-plate-cover-us-size",
+      "title": "Proud of my Helldiver License Plate Cover -US size",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2020900-proud-of-my-helldiver-license-plate-cover-us-size",
+      "image": "images/other/proud-of-my-helldiver-license-plate-cover-us-size.jpg",
+      "description": "Proud of my Helldiver License Plate Cover -US size \u2014 free 3D printable design by Spencermann. Download on MakerWorld.",
+      "imageAlt": "Proud of my Helldiver License Plate Cover -US size \u2014 free 3D print by Spencermann (other)",
+      "likes": 11,
+      "featured": false
+    },
+    {
+      "id": "tessa-james-elliott-spacesuit-murder-drones-7",
+      "title": "Tessa James Elliott - Spacesuit - Murder Drones 7\"",
       "category": "glitch-productions",
-      "makerworldUrl": "https://makerworld.com/en/models/2802038-tessa-james-elliott-spacesuit-murder-drones-7",
-      "image": "images/games/tessa-murder-drones.jpg",
-      "description": "Tessa James Elliott spacesuit figure from Murder Drones at 7-inch scale.",
-      "featured": false,
       "categories": [
         "glitch-productions"
-      ]
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2802038-tessa-james-elliott-spacesuit-murder-drones-7",
+      "image": "images/glitch-productions/tessa-james-elliott-spacesuit-murder-drones-7.jpg",
+      "description": "Tessa James Elliott - Spacesuit - Murder Drones 7\" \u2014 free Glitch Productions fan art 3D print by Spencermann. Download on MakerWorld with print profiles.",
+      "imageAlt": "Tessa James Elliott - Spacesuit - Murder Drones 7\" \u2014 free 3D print by Spencermann (glitch productions)",
+      "likes": 10,
+      "featured": false
+    },
+    {
+      "id": "stargate-fish-floating-feeding-ring-aquarium",
+      "title": "Stargate Fish Floating Feeding Ring - Aquarium",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2301863-stargate-fish-floating-feeding-ring-aquarium",
+      "image": "images/other/stargate-fish-floating-feeding-ring-aquarium.jpg",
+      "description": "Stargate Fish Floating Feeding Ring - Aquarium \u2014 free 3D printable design by Spencermann. Download on MakerWorld.",
+      "imageAlt": "Stargate Fish Floating Feeding Ring - Aquarium \u2014 free 3D print by Spencermann (other)",
+      "likes": 9,
+      "featured": false
+    },
+    {
+      "id": "nobel-peace-prize-or-nopel-peace-prize",
+      "title": "Nobel Peace Prize (or Nopel Peace Prize?)",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2275824-nobel-peace-prize-or-nopel-peace-prize",
+      "image": "images/other/nobel-peace-prize-or-nopel-peace-prize.jpg",
+      "description": "Nobel Peace Prize (or Nopel Peace Prize?) \u2014 free 3D printable design by Spencermann. Download on MakerWorld.",
+      "imageAlt": "Nobel Peace Prize (or Nopel Peace Prize?) \u2014 free 3D print by Spencermann (other)",
+      "likes": 8,
+      "featured": false
+    },
+    {
+      "id": "dumpster-fire-interactive-layered-3d-shadowbox",
+      "title": "Dumpster Fire - Interactive Layered 3d Shadowbox",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1975049-dumpster-fire-interactive-layered-3d-shadowbox",
+      "image": "images/other/dumpster-fire-interactive-layered-3d-shadowbox.gif",
+      "description": "Dumpster Fire - Interactive Layered 3d Shadowbox \u2014 free 3D printable design by Spencermann. Download on MakerWorld.",
+      "imageAlt": "Dumpster Fire - Interactive Layered 3d Shadowbox \u2014 free 3D print by Spencermann (other)",
+      "likes": 7,
+      "featured": false
+    },
+    {
+      "id": "dryer-air-vent-cover-100mm-duct-150x150mm-box",
+      "title": "Dryer Air Vent Cover: 100mm duct & 150x150mm box",
+      "category": "utility",
+      "categories": [
+        "utility"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2810315-dryer-air-vent-cover-100mm-duct-150x150mm-box",
+      "image": "images/utility/dryer-air-vent-cover-100mm-duct-150x150mm-box.jpg",
+      "description": "Dryer Air Vent Cover: 100mm duct & 150x150mm box \u2014 practical utility 3D print by Spencermann. Free download on MakerWorld.",
+      "imageAlt": "Dryer Air Vent Cover: 100mm duct & 150x150mm box \u2014 free 3D print by Spencermann (utility)",
+      "likes": 6,
+      "featured": false
+    },
+    {
+      "id": "simple-cat-door-wedge-to-grip-carpet-and-hold-open",
+      "title": "Simple Cat Door Wedge to grip carpet and hold open",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/150310-simple-cat-door-wedge-to-grip-carpet-and-hold-open",
+      "image": "images/other/simple-cat-door-wedge-to-grip-carpet-and-hold-open.jpg",
+      "description": "Simple Cat Door Wedge to grip carpet and hold open \u2014 free 3D printable design by Spencermann. Download on MakerWorld.",
+      "imageAlt": "Simple Cat Door Wedge to grip carpet and hold open \u2014 free 3D print by Spencermann (other)",
+      "likes": 6,
+      "featured": false
+    },
+    {
+      "id": "dumpster-trash-can-mounts-to-van-head-rest",
+      "title": "Dumpster trash can mounts to van head rest",
+      "category": "utility",
+      "categories": [
+        "utility"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2563826-dumpster-trash-can-mounts-to-van-head-rest",
+      "image": "images/utility/dumpster-trash-can-mounts-to-van-head-rest.jpg",
+      "description": "Dumpster trash can mounts to van head rest \u2014 practical utility 3D print by Spencermann. Free download on MakerWorld.",
+      "imageAlt": "Dumpster trash can mounts to van head rest \u2014 free 3D print by Spencermann (utility)",
+      "likes": 5,
+      "featured": false
+    },
+    {
+      "id": "tinker-cube-building-with-wood-skewers",
+      "title": "Tinker Cube - Building with Wood Skewers",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/374971-tinker-cube-building-with-wood-skewers",
+      "image": "images/other/tinker-cube-building-with-wood-skewers.jpg",
+      "description": "Tinker Cube - Building with Wood Skewers \u2014 free 3D printable design by Spencermann. Download on MakerWorld.",
+      "imageAlt": "Tinker Cube - Building with Wood Skewers \u2014 free 3D print by Spencermann (other)",
+      "likes": 4,
+      "featured": false
+    },
+    {
+      "id": "tennis-boy-minatare-in-style-of-teen-titans-go",
+      "title": "Tennis Boy - Minatare in style of teen titans go",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2315256-tennis-boy-minatare-in-style-of-teen-titans-go",
+      "image": "images/other/tennis-boy-minatare-in-style-of-teen-titans-go.jpg",
+      "description": "Tennis Boy - Minatare in style of teen titans go \u2014 free 3D printable design by Spencermann. Download on MakerWorld.",
+      "imageAlt": "Tennis Boy - Minatare in style of teen titans go \u2014 free 3D print by Spencermann (other)",
+      "likes": 1,
+      "featured": false
+    },
+    {
+      "id": "music-ai-and-moises-logo-fridge-magnets",
+      "title": "Music AI and Moises Logo Fridge Magnets",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/588928-music-ai-and-moises-logo-fridge-magnets",
+      "image": "images/other/music-ai-and-moises-logo-fridge-magnets.png",
+      "description": "Music AI and Moises Logo Fridge Magnets \u2014 free 3D printable design by Spencermann. Download on MakerWorld.",
+      "imageAlt": "Music AI and Moises Logo Fridge Magnets \u2014 free 3D print by Spencermann (other)",
+      "likes": 1,
+      "featured": false
+    },
+    {
+      "id": "light-field-snake-zero-escape-nonary-999",
+      "title": "Light Field - Snake - Zero Escape Nonary 999",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2271249-light-field-snake-zero-escape-nonary-999",
+      "image": "images/other/light-field-snake-zero-escape-nonary-999.jpg",
+      "description": "Light Field - Snake - Zero Escape Nonary 999 \u2014 free 3D printable design by Spencermann. Download on MakerWorld.",
+      "imageAlt": "Light Field - Snake - Zero Escape Nonary 999 \u2014 free 3D print by Spencermann (other)",
+      "likes": 0,
+      "featured": false
+    },
+    {
+      "id": "blaster-board-target-holder",
+      "title": "Blaster Board Target Holder",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2161580-blaster-board-target-holder",
+      "image": "images/other/blaster-board-target-holder.jpg",
+      "description": "Blaster Board Target Holder \u2014 free 3D printable design by Spencermann. Download on MakerWorld.",
+      "imageAlt": "Blaster Board Target Holder \u2014 free 3D print by Spencermann (other)",
+      "likes": 0,
+      "featured": false
+    },
+    {
+      "id": "aoi-kurashiki-santa-zero-escape-nonary-999",
+      "title": "Aoi Kurashiki - Santa - Zero Escape Nonary 999",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2113518-aoi-kurashiki-santa-zero-escape-nonary-999",
+      "image": "images/other/aoi-kurashiki-santa-zero-escape-nonary-999.jpg",
+      "description": "Aoi Kurashiki - Santa - Zero Escape Nonary 999 \u2014 free 3D printable design by Spencermann. Download on MakerWorld.",
+      "imageAlt": "Aoi Kurashiki - Santa - Zero Escape Nonary 999 \u2014 free 3D print by Spencermann (other)",
+      "likes": 0,
+      "featured": false
     }
   ]
 }

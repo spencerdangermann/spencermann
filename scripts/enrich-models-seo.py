@@ -100,6 +100,9 @@ def main() -> None:
         elif primary:
             model["categories"] = [primary]
 
+        if model.get("likes") is None:
+            model["likes"] = 0
+
         if primary == "hollow-knight" or (cats and "hollow-knight" in cats):
             model["imageAlt"] = ALT_OVERRIDES.get(mid, default_alt(model["title"]))
             model["keywords"] = keyword_hints(model["title"], mid)
