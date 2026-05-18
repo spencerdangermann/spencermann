@@ -20,6 +20,11 @@ FEATURED_IDS = {
     "hollow-knight-mask-adult-size-updated-cosplay",
 }
 
+DUAL_CATEGORIES = {
+    "city-of-tears-pond-water-fountain-functional": ["hollow-knight", "water-fountains"],
+    "working-city-of-tears-water-fountain-hollow-knight": ["hollow-knight", "water-fountains"],
+}
+
 
 def ext_from_url(url: str) -> str:
     path = urlparse(url).path.lower()
@@ -70,17 +75,17 @@ def main() -> None:
             else:
                 rel = f"images/hollow-knight/{mid}.svg"
 
-        hk_models.append(
-            {
-                "id": mid,
-                "title": item["title"],
-                "category": "hollow-knight",
-                "makerworldUrl": item["makerworldUrl"],
-                "image": rel.replace("\\", "/"),
-                "description": describe(item["title"]),
-                "featured": mid in FEATURED_IDS,
-            }
-        )
+        entry = {
+            "id": mid,
+            "title": item["title"],
+            "category": "hollow-knight",
+            "categories": DUAL_CATEGORIES.get(mid, ["hollow-knight"]),
+            "makerworldUrl": item["makerworldUrl"],
+            "image": rel.replace("\\", "/"),
+            "description": describe(item["title"]),
+            "featured": mid in FEATURED_IDS,
+        }
+        hk_models.append(entry)
 
     # Sort newest MakerWorld id first (numeric from URL)
     def sort_key(m: dict) -> int:

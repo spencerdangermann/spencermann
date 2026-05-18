@@ -36,16 +36,77 @@ function escapeHtml(text) {
     return el.innerHTML;
 }
 
+function modelInCategory(model, categoryId) {
+    if (Array.isArray(model.categories) && model.categories.length > 0) {
+        return model.categories.indexOf(categoryId) !== -1;
+    }
+    return model.category === categoryId;
+}
+
+function getImageAlt(model) {
+    return model.imageAlt || model.title;
+}
+
+function injectCategoryItemListSchema(models, listName) {
+    if (!models.length) return;
+
+    const origin = window.location.origin || 'https://www.spencermann.com';
+    const itemListElement = models.map(function (model, index) {
+        const imageUrl = model.image.startsWith('http')
+            ? model.image
+            : origin + '/' + model.image.replace(/^\//, '');
+        return {
+            '@type': 'ListItem',
+            position: index + 1,
+            item: {
+                '@type': 'Product',
+                name: model.title,
+                description: model.description,
+                image: imageUrl,
+                url: model.makerworldUrl,
+                brand: { '@type': 'Brand', name: 'Spencermann' },
+                offers: {
+                    '@type': 'Offer',
+                    price: '0',
+                    priceCurrency: 'USD',
+                    availability: 'https://schema.org/InStock',
+                    url: model.makerworldUrl
+                }
+            }
+        };
+    });
+
+    const script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.id = 'category-itemlist-schema';
+    script.textContent = JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'ItemList',
+        name: listName || '3D print designs',
+        numberOfItems: models.length,
+        itemListElement: itemListElement
+    });
+    const existing = document.getElementById('category-itemlist-schema');
+    if (existing) existing.remove();
+    document.head.appendChild(script);
+}
+
 function buildFeaturedCard(model) {
     const link = addMakerworldUtm(model.makerworldUrl, model.id);
     const card = document.createElement('a');
     card.className = 'featured-card';
+    card.setAttribute('role', 'listitem');
     card.href = link;
     card.target = '_blank';
     card.rel = 'noopener noreferrer';
+    card.setAttribute('aria-label', model.title + ' — download free on MakerWorld');
+    if (model.keywords && model.keywords.length) {
+        card.dataset.keywords = model.keywords.join(', ');
+    }
+    const alt = getImageAlt(model);
     card.innerHTML = [
         '<div class="featured-image">',
-        '<img src="', escapeHtml(model.image), '" alt="', escapeHtml(model.title), '" loading="lazy">',
+        '<img src="', escapeHtml(model.image), '" alt="', escapeHtml(alt), '" loading="lazy" decoding="async">',
         '</div>',
         '<div class="featured-info">',
         '<h3 class="featured-title">', escapeHtml(model.title), '</h3>',
@@ -108,7 +169,7 @@ async function initCategoryModelsGrid(models) {
     const grid = document.getElementById('category-models-grid');
     if (!grid) return;
     const categoryId = grid.dataset.category;
-    const categoryModels = models.filter(function (m) { return m.category === categoryId; });
+    const categoryModels = models.filter(function (m) { return modelInCategory(m, categoryId); });
     grid.innerHTML = '';
     if (categoryModels.length === 0) {
         grid.innerHTML = '<p class="category-empty">Designs coming soon. <a href="https://makerworld.com/en/@spencermann">Browse on MakerWorld</a>.</p>';
@@ -117,6 +178,11 @@ async function initCategoryModelsGrid(models) {
     categoryModels.forEach(function (model) {
         grid.appendChild(buildFeaturedCard(model));
     });
+
+    const schemaName = grid.dataset.schemaName;
+    if (schemaName) {
+        injectCategoryItemListSchema(categoryModels, schemaName);
+    }
 }
 
 async function initDesignRequestForm() {
