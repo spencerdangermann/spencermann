@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
-"""Add categories[], imageAlt, and keywords to models in models.json."""
+"""Ensure categories[], imageAlt, and keywords on all models in models.json."""
 import json
-import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -43,36 +42,77 @@ ALT_OVERRIDES = {
     "city-of-tears-pond-water-fountain-functional": (
         "City of Tears pond water fountain Hollow Knight — free 3D print garden fountain"
     ),
+    "kaboodle-articulated-gameoverse-glitch": (
+        "Kaboodle articulated Gameoverse robot — free Glitch Productions 3D print by Spencermann"
+    ),
 }
 
 
-def keyword_hints(title: str, model_id: str) -> list[str]:
+def keyword_hints(title: str, primary: str, existing: list[str]) -> list[str]:
     t = title.lower()
-    hints = [
-        "Hollow Knight 3D print",
-        "Hollow Knight cosplay",
-        "Spencermann",
-        "MakerWorld free download",
-    ]
-    if "hornet" in t and "mask" in t:
-        hints.extend(["Hornet Mask", "Hornet mask Silksong", "Hollow Knight Hornet cosplay"])
-    if "needle" in t or "nail" in t:
-        hints.extend(["Hornet's Needle", "Hollow Knight Nail", "cosplay sword 3D print"])
-    if "pure vessel" in t:
-        hints.extend(["Pure Vessel Mask", "Hollow Knight boss cosplay"])
-    if "silksong" in t or "silk song" in t:
-        hints.append("Silksong 3D print")
-    if "dreamer" in t or "harrah" in t or "monomon" in t or "lurien" in t:
-        hints.append("Hollow Knight Dreamer mask")
-    if "grimm" in t:
-        hints.extend(["Grimm Mask", "Grimmchild"])
-    if "fountain" in t:
-        hints.extend(["Hollow Knight fountain", "3D printed water fountain"])
-    if "mantis" in t:
-        hints.append("Mantis Lord Hollow Knight")
-    if "lace" in t:
-        hints.append("Lace Silksong")
-    # dedupe preserving order
+    hints = list(existing or [])
+    base = {
+        "hollow-knight": [
+            "Hollow Knight 3D print",
+            "Hollow Knight cosplay",
+            "Spencermann",
+            "MakerWorld free download",
+        ],
+        "glitch-productions": [
+            "Glitch Productions 3D print",
+            "Murder Drones",
+            "Gameoverse",
+            "Spencermann",
+            "MakerWorld free download",
+        ],
+        "water-fountains": [
+            "3D printed water fountain",
+            "pond fountain",
+            "Spencermann",
+            "MakerWorld free download",
+        ],
+        "utility": [
+            "functional 3D print",
+            "practical STL",
+            "Spencermann",
+            "MakerWorld free download",
+        ],
+        "other": [
+            "free 3D print",
+            "Spencermann",
+            "MakerWorld STL download",
+        ],
+    }
+    hints.extend(base.get(primary, base["other"]))
+
+    if primary == "hollow-knight" or "hollow-knight" in primary:
+        if "hornet" in t and "mask" in t:
+            hints.extend(["Hornet Mask", "Hornet mask Silksong", "Hollow Knight Hornet cosplay"])
+        if "needle" in t or "nail" in t:
+            hints.extend(["Hornet's Needle", "Hollow Knight Nail", "cosplay sword 3D print"])
+        if "pure vessel" in t:
+            hints.extend(["Pure Vessel Mask", "Hollow Knight boss cosplay"])
+        if "silksong" in t or "silk song" in t:
+            hints.append("Silksong 3D print")
+        if "dreamer" in t or "harrah" in t or "monomon" in t or "lurien" in t:
+            hints.append("Hollow Knight Dreamer mask")
+        if "grimm" in t:
+            hints.extend(["Grimm Mask", "Grimmchild"])
+        if "fountain" in t:
+            hints.extend(["Hollow Knight fountain", "3D printed water fountain"])
+        if "mantis" in t:
+            hints.append("Mantis Lord Hollow Knight")
+        if "lace" in t:
+            hints.append("Lace Silksong")
+
+    if primary == "glitch-productions":
+        if "murder drones" in t:
+            hints.append("Murder Drones figure")
+        if "digital circus" in t or "tadc" in t:
+            hints.append("The Amazing Digital Circus")
+        if "kaboodle" in t or "gameoverse" in t:
+            hints.extend(["Kaboodle", "Gameoverse robot"])
+
     seen = set()
     out = []
     for h in hints:
@@ -80,11 +120,12 @@ def keyword_hints(title: str, model_id: str) -> list[str]:
         if key not in seen:
             seen.add(key)
             out.append(h)
-    return out[:10]
+    return out[:12]
 
 
-def default_alt(title: str) -> str:
-    return f"{title} — Hollow Knight 3D print, free on MakerWorld | Spencermann"
+def default_alt(title: str, primary: str) -> str:
+    label = primary.replace("-", " ")
+    return f"{title} — free 3D print ({label}) on MakerWorld | Spencermann"
 
 
 def main() -> None:
@@ -92,7 +133,7 @@ def main() -> None:
     updated = 0
     for model in data["models"]:
         mid = model["id"]
-        primary = model.get("category", "")
+        primary = model.get("category", "other")
         cats = DUAL_CATEGORY.get(mid)
         if cats:
             model["categories"] = cats
@@ -103,10 +144,11 @@ def main() -> None:
         if model.get("likes") is None:
             model["likes"] = 0
 
-        if primary == "hollow-knight" or (cats and "hollow-knight" in cats):
-            model["imageAlt"] = ALT_OVERRIDES.get(mid, default_alt(model["title"]))
-            model["keywords"] = keyword_hints(model["title"], mid)
-            updated += 1
+        model["imageAlt"] = ALT_OVERRIDES.get(mid, default_alt(model["title"], primary))
+        model["keywords"] = keyword_hints(
+            model["title"], primary, model.get("keywords") or []
+        )
+        updated += 1
 
     MODELS_JSON.write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")
     print(f"Enriched models.json ({updated} field updates)")

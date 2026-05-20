@@ -166,24 +166,61 @@ async function initHomepageCategories(categories) {
 }
 
 async function initCategoryModelsGrid(models) {
-    const grid = document.getElementById('category-models-grid');
-    if (!grid) return;
-    const categoryId = grid.dataset.category;
-    const categoryModels = models
-        .filter(function (m) { return modelInCategory(m, categoryId); })
-        .sort(function (a, b) { return (b.likes || 0) - (a.likes || 0); });
-    grid.innerHTML = '';
-    if (categoryModels.length === 0) {
-        grid.innerHTML = '<p class="category-empty">Designs coming soon. <a href="https://makerworld.com/en/@spencermann">Browse on MakerWorld</a>.</p>';
-        return;
-    }
-    categoryModels.forEach(function (model) {
-        grid.appendChild(buildFeaturedCard(model));
+    const root = document.getElementById('category-models-root');
+    if (!root) return;
+    const categoryId = root.dataset.category;
+    const categoryModels = models.filter(function (m) {
+        return modelInCategory(m, categoryId);
     });
 
-    const schemaName = grid.dataset.schemaName;
+    if (categoryModels.length === 0) {
+        root.innerHTML = '<p class="category-empty">Designs coming soon. <a href="https://makerworld.com/en/@spencermann">Browse on MakerWorld</a>.</p>';
+        return;
+    }
+
+    const latest = categoryModels
+        .slice()
+        .sort(function (a, b) {
+            return (b.publishTime || '').localeCompare(a.publishTime || '');
+        })
+        .slice(0, 3);
+    const latestIds = new Set(latest.map(function (m) { return m.id; }));
+    const popular = categoryModels
+        .filter(function (m) { return !latestIds.has(m.id); })
+        .sort(function (a, b) { return (b.likes || 0) - (a.likes || 0); });
+
+    root.innerHTML = '';
+
+    if (latest.length) {
+        const latestBlock = document.createElement('div');
+        latestBlock.className = 'category-subsection';
+        latestBlock.innerHTML = '<h2 class="category-subsection-title">Latest Models</h2>';
+        const latestGrid = document.createElement('div');
+        latestGrid.className = 'featured-grid';
+        latestGrid.setAttribute('role', 'list');
+        latest.forEach(function (model) {
+            latestGrid.appendChild(buildFeaturedCard(model));
+        });
+        latestBlock.appendChild(latestGrid);
+        root.appendChild(latestBlock);
+    }
+
+    const popularBlock = document.createElement('div');
+    popularBlock.className = 'category-subsection';
+    popularBlock.innerHTML = '<h2 class="category-subsection-title">Popular Models</h2><p class="featured-intro">Sorted by MakerWorld likes.</p>';
+    const popularGrid = document.createElement('div');
+    popularGrid.className = 'featured-grid';
+    popularGrid.setAttribute('role', 'list');
+    popular.forEach(function (model) {
+        popularGrid.appendChild(buildFeaturedCard(model));
+    });
+    popularBlock.appendChild(popularGrid);
+    root.appendChild(popularBlock);
+
+    const schemaName = root.dataset.schemaName;
     if (schemaName) {
-        injectCategoryItemListSchema(categoryModels, schemaName);
+        const ordered = latest.concat(popular);
+        injectCategoryItemListSchema(ordered, schemaName);
     }
 }
 
@@ -231,16 +268,16 @@ document.addEventListener('DOMContentLoaded', async function () {
     await initDesignRequestForm();
 
     const homeCategoriesGrid = document.getElementById('home-categories-grid');
-    const categoryModelsGrid = document.getElementById('category-models-grid');
+    const categoryModelsRoot = document.getElementById('category-models-root');
 
-    if (!homeCategoriesGrid && !categoryModelsGrid) return;
+    if (!homeCategoriesGrid && !categoryModelsRoot) return;
 
     try {
         if (homeCategoriesGrid) {
             const categories = await loadCategories();
             await initHomepageCategories(categories);
         }
-        if (categoryModelsGrid) {
+        if (categoryModelsRoot) {
             const models = await loadModels();
             await initCategoryModelsGrid(models);
         }

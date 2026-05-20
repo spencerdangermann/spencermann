@@ -346,8 +346,27 @@ section {
 .featured-intro {
     text-align: center;
     color: var(--text-secondary);
-    margin: -1rem auto 2.5rem;
+    margin: -0.5rem auto 2rem;
     max-width: 560px;
+}
+
+.category-subsection {
+    margin-bottom: 3rem;
+}
+
+.category-subsection:last-child {
+    margin-bottom: 0;
+}
+
+.category-subsection-title {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--text-primary);
+    text-align: center;
+}
+
+.category-subsection .featured-intro {
+    margin-top: -0.75rem;
 }
 
 .featured-grid {

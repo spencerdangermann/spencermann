@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 """Fetch full MakerWorld catalog, categorize, download covers, write models.json."""
+import html
 import json
 import re
+import time
+import urllib.error
 import urllib.request
 from pathlib import Path
 from urllib.parse import urlparse
@@ -10,6 +13,7 @@ ROOT = Path(__file__).resolve().parent.parent
 MODELS_JSON = ROOT / "data" / "models.json"
 HK_SCRAPE = ROOT / "data" / "hollow-knight-scrape.json"
 API_URL = "https://makerworld.com/api/v1/design-service/published/2215294622/design?offset=0&limit=100"
+DETAIL_URL = "https://makerworld.com/api/v1/design-service/design/{design_id}"
 
 DUAL_CATEGORIES = {
     "city-of-tears-pond-water-fountain-functional": ["hollow-knight", "water-fountains"],
@@ -17,6 +21,7 @@ DUAL_CATEGORIES = {
 }
 
 FEATURED_PER_CATEGORY = 4
+DESCRIPTION_MAX = 280
 
 CATEGORY_FOLDERS = {
     "hollow-knight": "hollow-knight",
@@ -24,6 +29,14 @@ CATEGORY_FOLDERS = {
     "water-fountains": "water-fountains",
     "utility": "utility",
     "other": "other",
+}
+
+CATEGORY_KEYWORDS = {
+    "hollow-knight": ["Hollow Knight 3D print", "Silksong cosplay", "Spencermann", "MakerWorld free STL"],
+    "glitch-productions": ["Glitch Productions 3D print", "Murder Drones", "Gameoverse", "Spencermann", "MakerWorld free STL"],
+    "water-fountains": ["3D printed water fountain", "pond fountain STL", "Spencermann", "MakerWorld free download"],
+    "utility": ["functional 3D print", "practical STL", "Spencermann", "MakerWorld free download"],
+    "other": ["free 3D print", "Spencermann", "MakerWorld STL download"],
 }
 
 HK_TITLE_MARKERS = (
@@ -72,6 +85,8 @@ GLITCH_MARKERS = (
     "popcorn bowl",
     "remix of uzi",
     "doll - murder",
+    "gameoverse",
+    "kaboodle",
 )
 
 WATER_MARKERS = (
@@ -114,6 +129,78 @@ def fetch_catalog() -> list[dict]:
     return data["hits"]
 
 
+def fetch_design_detail(design_id: int) -> dict:
+    req = urllib.request.Request(
+        DETAIL_URL.format(design_id=design_id),
+        headers={"User-Agent": "Mozilla/5.0", "Accept": "application/json"},
+    )
+    with urllib.request.urlopen(req, timeout=60) as resp:
+        return json.loads(resp.read())
+
+
+def clean_summary(raw: str) -> str:
+    if not raw:
+        return ""
+    text = re.sub(r"<boostme>.*?</boostme>", " ", raw, flags=re.I | re.S)
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = html.unescape(text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
+
+
+def truncate_summary(text: str, max_len: int = DESCRIPTION_MAX) -> str:
+    if len(text) <= max_len:
+        return text
+    chunk = text[: max_len + 1]
+    for sep in (". ", "! ", "? "):
+        idx = chunk.rfind(sep)
+        if idx > 80:
+            return chunk[: idx + 1].strip()
+    cut = chunk.rfind(" ")
+    if cut > 80:
+        return chunk[:cut].strip() + "…"
+    return text[:max_len].strip() + "…"
+
+
+def build_keywords(tags: list[str], title: str, primary: str) -> list[str]:
+    seen: set[str] = set()
+    out: list[str] = []
+    for source in (tags, CATEGORY_KEYWORDS.get(primary, [])):
+        for item in source:
+            label = str(item).strip()
+            if not label:
+                continue
+            key = label.lower()
+            if key in seen:
+                continue
+            seen.add(key)
+            out.append(label)
+    title_lower = title.lower()
+    if primary == "hollow-knight":
+        if "hornet" in title_lower and "mask" in title_lower:
+            out.insert(0, "Hornet Mask")
+        if "needle" in title_lower or "nail" in title_lower:
+            out.insert(0, "Hornet's Needle")
+    if primary == "glitch-productions" and "murder drones" in title_lower:
+        out.insert(0, "Murder Drones figure")
+    return out[:12]
+
+
+def build_description(summary: str, title: str, primary: str, tags: list[str]) -> str:
+    cleaned = clean_summary(summary)
+    if cleaned:
+        body = truncate_summary(cleaned)
+    else:
+        body = f"{title} — free 3D printable design by Spencermann."
+
+    tag_phrase = ", ".join(tags[:4]) if tags else ""
+    if tag_phrase and tag_phrase.lower() not in body.lower():
+        suffix = f" Tags: {tag_phrase}."
+        if len(body) + len(suffix) <= DESCRIPTION_MAX + 40:
+            body = body.rstrip(".") + "." + suffix
+    return body
+
+
 def ext_from_url(url: str) -> str:
     path = urlparse(url).path.lower()
     for ext in (".jpg", ".jpeg", ".png", ".gif", ".webp"):
@@ -145,7 +232,7 @@ def classify(title: str, slug: str, hk_slugs: set[str]) -> tuple[str, list[str]]
     if slug in hk_slugs or any(m in t for m in HK_TITLE_MARKERS) or "hollow-knight" in s:
         return "hollow-knight", ["hollow-knight"]
 
-    if any(m in t for m in GLITCH_MARKERS):
+    if any(m in t for m in GLITCH_MARKERS) or any(m in s for m in GLITCH_MARKERS):
         return "glitch-productions", ["glitch-productions"]
 
     if any(m in t for m in WATER_MARKERS):
@@ -161,34 +248,9 @@ def classify(title: str, slug: str, hk_slugs: set[str]) -> tuple[str, list[str]]
     return "other", ["other"]
 
 
-def describe(title: str, primary: str) -> str:
-    templates = {
-        "hollow-knight": (
-            f"{title} — free Hollow Knight / Silksong 3D print by Spencermann. "
-            "Download on MakerWorld with ready-made Bambu Lab profiles."
-        ),
-        "glitch-productions": (
-            f"{title} — free Glitch Productions fan art 3D print by Spencermann. "
-            "Download on MakerWorld with print profiles."
-        ),
-        "water-fountains": (
-            f"{title} — working water fountain 3D print by Spencermann. "
-            "Download free on MakerWorld for pond or garden setups."
-        ),
-        "utility": (
-            f"{title} — practical utility 3D print by Spencermann. "
-            "Free download on MakerWorld."
-        ),
-        "other": (
-            f"{title} — free 3D printable design by Spencermann. "
-            "Download on MakerWorld."
-        ),
-    }
-    return templates.get(primary, templates["other"])
-
-
 def image_alt(title: str, primary: str) -> str:
-    return f"{title} — free 3D print by Spencermann ({primary.replace('-', ' ')})"
+    label = primary.replace("-", " ")
+    return f"{title} — free 3D print by Spencermann ({label})"
 
 
 def main() -> None:
@@ -199,15 +261,17 @@ def main() -> None:
             hk_slugs.add(row["id"])
 
     models: list[dict] = []
-    report = {"downloaded": 0, "skipped": 0, "by_category": {}}
+    report = {"downloaded": 0, "skipped": 0, "by_category": {}, "detail_errors": 0}
 
-    for hit in hits:
+    for index, hit in enumerate(hits):
         slug = hit["slug"]
-        mid = slug_id(slug, hit["id"])
+        design_id = int(hit["id"])
+        mid = slug_id(slug, design_id)
         title = hit["title"].strip()
         likes = int(hit.get("likeCount") or 0)
         cover = hit["coverUrl"]
-        url = f"https://makerworld.com/en/models/{hit['id']}-{slug}"
+        publish_time = hit.get("publishTime") or hit.get("createTime") or ""
+        url = f"https://makerworld.com/en/models/{design_id}-{slug}"
 
         primary, categories = classify(title, slug, hk_slugs)
         folder = CATEGORY_FOLDERS[primary]
@@ -227,19 +291,33 @@ def main() -> None:
         except Exception:
             rel = f"images/{folder}/{mid}.svg"
 
+        tags: list[str] = []
+        summary = ""
+        try:
+            detail = fetch_design_detail(design_id)
+            tags = detail.get("tags") or []
+            summary = detail.get("summary") or detail.get("summaryTranslated") or ""
+            if index < len(hits) - 1:
+                time.sleep(0.08)
+        except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, json.JSONDecodeError):
+            report["detail_errors"] += 1
+
         report["by_category"][primary] = report["by_category"].get(primary, 0) + 1
 
         models.append(
             {
                 "id": mid,
+                "makerworldId": design_id,
                 "title": title,
                 "category": primary,
                 "categories": categories,
                 "makerworldUrl": url,
                 "image": rel.replace("\\", "/"),
-                "description": describe(title, primary),
+                "description": build_description(summary, title, primary, tags),
                 "imageAlt": image_alt(title, primary),
+                "keywords": build_keywords(tags, title, primary),
                 "likes": likes,
+                "publishTime": publish_time,
                 "featured": False,
             }
         )
