@@ -26,7 +26,7 @@
         "helmet",
         "Hollow Knight 3D print"
       ],
-      "likes": 1760,
+      "likes": 1771,
       "publishTime": "2025-09-17T13:54:50Z",
       "featured": true
     },
@@ -56,7 +56,7 @@
         "Silksong cosplay",
         "Spencermann"
       ],
-      "likes": 1336,
+      "likes": 1340,
       "publishTime": "2025-02-14T01:02:24Z",
       "featured": true
     },
@@ -86,7 +86,7 @@
         "Halloween",
         "Hollow Knight 3D print"
       ],
-      "likes": 1088,
+      "likes": 1097,
       "publishTime": "2025-09-24T15:29:39Z",
       "featured": true
     },
@@ -116,7 +116,7 @@
         "wyvern",
         "japanese"
       ],
-      "likes": 935,
+      "likes": 945,
       "publishTime": "2025-05-13T23:50:12Z",
       "featured": true
     },
@@ -176,7 +176,7 @@
         "Halloween",
         "Hollow Knight 3D print"
       ],
-      "likes": 690,
+      "likes": 694,
       "publishTime": "2025-03-26T15:45:41Z",
       "featured": false
     },
@@ -206,7 +206,7 @@
         "MakerWorld free STL",
         "MakerWorld free download"
       ],
-      "likes": 684,
+      "likes": 687,
       "publishTime": "2026-04-21T23:53:33Z",
       "featured": true
     },
@@ -236,7 +236,7 @@
         "Silksong cosplay",
         "Spencermann"
       ],
-      "likes": 588,
+      "likes": 590,
       "publishTime": "2025-04-06T18:19:48Z",
       "featured": false
     },
@@ -266,7 +266,7 @@
         "Glitch Productions 3D print",
         "Murder Drones"
       ],
-      "likes": 518,
+      "likes": 548,
       "publishTime": "2026-04-26T18:06:19Z",
       "featured": true
     },
@@ -292,7 +292,7 @@
         "Spencermann",
         "MakerWorld STL download"
       ],
-      "likes": 463,
+      "likes": 465,
       "publishTime": "2025-02-09T00:28:41Z",
       "featured": true
     },
@@ -351,7 +351,7 @@
         "MakerWorld free download",
         "pond fountain"
       ],
-      "likes": 386,
+      "likes": 396,
       "publishTime": "2026-04-18T22:26:36Z",
       "featured": true
     },
@@ -381,7 +381,7 @@
         "functional",
         "unique"
       ],
-      "likes": 331,
+      "likes": 337,
       "publishTime": "2025-08-17T14:54:29Z",
       "featured": true
     },
@@ -441,7 +441,7 @@
         "decoration",
         "useful"
       ],
-      "likes": 303,
+      "likes": 304,
       "publishTime": "2025-06-22T16:53:08Z",
       "featured": true
     },
@@ -471,7 +471,7 @@
         "Spencermann",
         "MakerWorld free STL"
       ],
-      "likes": 250,
+      "likes": 252,
       "publishTime": "2025-07-27T23:41:21Z",
       "featured": false
     },
@@ -501,7 +501,7 @@
         "water feature",
         "3D printed water fountain"
       ],
-      "likes": 234,
+      "likes": 240,
       "publishTime": "2026-03-07T23:07:45Z",
       "featured": false
     },
@@ -561,7 +561,7 @@
         "Spencermann",
         "MakerWorld free STL"
       ],
-      "likes": 191,
+      "likes": 196,
       "publishTime": "2026-01-09T01:20:13Z",
       "featured": true
     },
@@ -591,7 +591,7 @@
         "Hollow Knight cosplay",
         "MakerWorld free download"
       ],
-      "likes": 184,
+      "likes": 186,
       "publishTime": "2026-03-01T03:41:02Z",
       "featured": false
     },
@@ -621,7 +621,7 @@
         "art",
         "novelty"
       ],
-      "likes": 177,
+      "likes": 178,
       "publishTime": "2024-11-17T00:17:28Z",
       "featured": true
     },
@@ -651,9 +651,39 @@
         "Spencermann",
         "MakerWorld free STL"
       ],
-      "likes": 161,
+      "likes": 177,
       "publishTime": "2026-05-07T03:15:31Z",
       "featured": true
+    },
+    {
+      "id": "the-grimm-mask-hollow-knight-adult-child-size",
+      "makerworldId": 1857267,
+      "title": "The Grimm Mask - Hollow Knight adult & child size",
+      "category": "hollow-knight",
+      "categories": [
+        "hollow-knight"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1857267-the-grimm-mask-hollow-knight-adult-child-size",
+      "image": "images/hollow-knight/the-grimm-mask-hollow-knight-adult-child-size.jpg",
+      "description": "The Grimm from Hollow Knight. This was a lot of fun (and work) to create. As always I study in game images to come up with a design, print out multiple prototypes to test fit, printability, and ease of putting together. Tags: mask, helmet, grimm, Hollow Knight.",
+      "imageAlt": "Grimm Mask Hollow Knight adult and child \u2014 free 3D print cosplay",
+      "keywords": [
+        "mask",
+        "helmet",
+        "grimm",
+        "Hollow Knight",
+        "hollowknight",
+        "Silksong",
+        "silk song",
+        "video game",
+        "COSPLAY",
+        "Halloween",
+        "costume",
+        "costume accessories"
+      ],
+      "likes": 150,
+      "publishTime": "2025-10-05T02:46:54Z",
+      "featured": false
     },
     {
       "id": "mannbows-and-mannapults",
@@ -684,36 +714,6 @@
       "featured": true
     },
     {
-      "id": "the-grimm-mask-hollow-knight-adult-child-size",
-      "makerworldId": 1857267,
-      "title": "The Grimm Mask - Hollow Knight adult & child size",
-      "category": "hollow-knight",
-      "categories": [
-        "hollow-knight"
-      ],
-      "makerworldUrl": "https://makerworld.com/en/models/1857267-the-grimm-mask-hollow-knight-adult-child-size",
-      "image": "images/hollow-knight/the-grimm-mask-hollow-knight-adult-child-size.jpg",
-      "description": "The Grimm from Hollow Knight. This was a lot of fun (and work) to create. As always I study in game images to come up with a design, print out multiple prototypes to test fit, printability, and ease of putting together. Tags: mask, helmet, grimm, Hollow Knight.",
-      "imageAlt": "Grimm Mask Hollow Knight adult and child \u2014 free 3D print cosplay",
-      "keywords": [
-        "mask",
-        "helmet",
-        "grimm",
-        "Hollow Knight",
-        "hollowknight",
-        "Silksong",
-        "silk song",
-        "video game",
-        "COSPLAY",
-        "Halloween",
-        "costume",
-        "costume accessories"
-      ],
-      "likes": 148,
-      "publishTime": "2025-10-05T02:46:54Z",
-      "featured": false
-    },
-    {
       "id": "cogfly-silksong-hollow-knight-tool-w-hinge-wing",
       "makerworldId": 2161614,
       "title": "Cogfly Silksong (hollow knight) tool w/ hinge wing",
@@ -739,7 +739,7 @@
         "Hollow Knight cosplay",
         "MakerWorld free download"
       ],
-      "likes": 145,
+      "likes": 146,
       "publishTime": "2025-12-27T00:14:05Z",
       "featured": false
     },
@@ -769,7 +769,7 @@
         "Spencermann",
         "MakerWorld free STL"
       ],
-      "likes": 130,
+      "likes": 136,
       "publishTime": "2026-02-09T15:42:47Z",
       "featured": false
     },
@@ -828,7 +828,7 @@
         "MakerWorld free STL",
         "MakerWorld free download"
       ],
-      "likes": 122,
+      "likes": 126,
       "publishTime": "2025-12-14T02:40:22Z",
       "featured": false
     },
@@ -885,7 +885,7 @@
         "MakerWorld free STL",
         "MakerWorld free download"
       ],
-      "likes": 108,
+      "likes": 109,
       "publishTime": "2026-02-18T15:27:43Z",
       "featured": false
     },
@@ -914,7 +914,7 @@
         "Spencermann",
         "MakerWorld STL download"
       ],
-      "likes": 108,
+      "likes": 109,
       "publishTime": "2025-06-16T17:14:27Z",
       "featured": true
     },
@@ -944,7 +944,7 @@
         "Glitch Productions 3D print",
         "Murder Drones"
       ],
-      "likes": 101,
+      "likes": 104,
       "publishTime": "2026-05-24T21:15:13Z",
       "featured": false
     },
@@ -979,34 +979,6 @@
       "featured": true
     },
     {
-      "id": "cathedral-stained-glass-petg-frame-for-epoxy",
-      "makerworldId": 1881204,
-      "title": "Cathedral Stained Glass - PETG Frame for Epoxy",
-      "category": "other",
-      "categories": [
-        "other"
-      ],
-      "makerworldUrl": "https://makerworld.com/en/models/1881204-cathedral-stained-glass-petg-frame-for-epoxy",
-      "image": "images/other/cathedral-stained-glass-petg-frame-for-epoxy.jpg",
-      "description": "I have always had a love of stained glass especially in European churches and cathedrals. I have been testing a method of using my 3d printer to design the frame for a stained glass window, and then using epoxy to fill in the cells. Tags: stained glass, cathedral, art project, window.",
-      "imageAlt": "Cathedral Stained Glass - PETG Frame for Epoxy \u2014 free 3D print (other) on MakerWorld | Spencermann",
-      "keywords": [
-        "stained glass",
-        "cathedral",
-        "art project",
-        "window",
-        "light",
-        "glass",
-        "epoxy",
-        "free 3D print",
-        "Spencermann",
-        "MakerWorld STL download"
-      ],
-      "likes": 89,
-      "publishTime": "2025-10-12T16:55:18Z",
-      "featured": false
-    },
-    {
       "id": "kaboodle-articulated-gameoverse-glitch",
       "makerworldId": 2824153,
       "title": "Kaboodle articulated - Gameoverse - Glitch",
@@ -1032,8 +1004,36 @@
         "Spencermann",
         "MakerWorld free STL"
       ],
-      "likes": 88,
+      "likes": 92,
       "publishTime": "2026-05-20T00:44:27Z",
+      "featured": false
+    },
+    {
+      "id": "cathedral-stained-glass-petg-frame-for-epoxy",
+      "makerworldId": 1881204,
+      "title": "Cathedral Stained Glass - PETG Frame for Epoxy",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1881204-cathedral-stained-glass-petg-frame-for-epoxy",
+      "image": "images/other/cathedral-stained-glass-petg-frame-for-epoxy.jpg",
+      "description": "I have always had a love of stained glass especially in European churches and cathedrals. I have been testing a method of using my 3d printer to design the frame for a stained glass window, and then using epoxy to fill in the cells. Tags: stained glass, cathedral, art project, window.",
+      "imageAlt": "Cathedral Stained Glass - PETG Frame for Epoxy \u2014 free 3D print (other) on MakerWorld | Spencermann",
+      "keywords": [
+        "stained glass",
+        "cathedral",
+        "art project",
+        "window",
+        "light",
+        "glass",
+        "epoxy",
+        "free 3D print",
+        "Spencermann",
+        "MakerWorld STL download"
+      ],
+      "likes": 91,
+      "publishTime": "2025-10-12T16:55:18Z",
       "featured": false
     },
     {
@@ -1092,7 +1092,7 @@
         "MakerWorld free download",
         "Grimm Mask"
       ],
-      "likes": 86,
+      "likes": 87,
       "publishTime": "2026-02-07T01:36:15Z",
       "featured": false
     },
@@ -1127,33 +1127,6 @@
       "featured": false
     },
     {
-      "id": "desk-garbage-bag-holder",
-      "makerworldId": 154456,
-      "title": "Desk Garbage Bag Holder",
-      "category": "utility",
-      "categories": [
-        "utility"
-      ],
-      "makerworldUrl": "https://makerworld.com/en/models/154456-desk-garbage-bag-holder",
-      "image": "images/utility/desk-garbage-bag-holder.jpg",
-      "description": "Simple design to help sweep desk clean (especially after removing support and cleaning up pieces). Holds a standard grocery bag and clamps onto the edge of your desk. Tags: office, desk, garbage bag holder, garbage.",
-      "imageAlt": "Desk Garbage Bag Holder \u2014 free 3D print (utility) on MakerWorld | Spencermann",
-      "keywords": [
-        "office",
-        "desk",
-        "garbage bag holder",
-        "garbage",
-        "clean",
-        "functional 3D print",
-        "practical STL",
-        "Spencermann",
-        "MakerWorld free download"
-      ],
-      "likes": 80,
-      "publishTime": "2024-01-29T17:54:45Z",
-      "featured": true
-    },
-    {
       "id": "serial-designation-j-murder-drones-7-tall",
       "makerworldId": 2323069,
       "title": "Serial Designation J - Murder Drones ~7\" tall",
@@ -1179,7 +1152,7 @@
         "Gameoverse",
         "Spencermann"
       ],
-      "likes": 79,
+      "likes": 80,
       "publishTime": "2026-01-30T05:06:52Z",
       "featured": false
     },
@@ -1209,7 +1182,7 @@
         "monitor",
         "monitor riser"
       ],
-      "likes": 77,
+      "likes": 78,
       "publishTime": "2025-05-16T13:48:17Z",
       "featured": false
     },
@@ -1386,7 +1359,7 @@
         "Spencermann",
         "MakerWorld free STL"
       ],
-      "likes": 65,
+      "likes": 66,
       "publishTime": "2025-09-10T23:14:48Z",
       "featured": false
     },
@@ -1416,8 +1389,39 @@
         "Silksong cosplay",
         "Spencermann"
       ],
-      "likes": 57,
+      "likes": 58,
       "publishTime": "2025-10-25T17:48:14Z",
+      "featured": false
+    },
+    {
+      "id": "working-city-of-tears-water-fountain-hollow-knight",
+      "makerworldId": 2605397,
+      "title": "Working City of Tears Water Fountain Hollow Knight",
+      "category": "hollow-knight",
+      "categories": [
+        "hollow-knight",
+        "water-fountains"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2605397-working-city-of-tears-water-fountain-hollow-knight",
+      "image": "images/hollow-knight/working-city-of-tears-water-fountain-hollow-knight.jpg",
+      "description": "I have been working on this for a while, and am excited to share it with you. This is the iconic fountain from City of Tears in the Hollow Knight video game. It allowed me to combine two major themes for me Hollow Knight and working water fountain design. Tags: hollow knight, Hollow Knight, fountain, water.",
+      "imageAlt": "Hollow Knight City of Tears working water fountain \u2014 free 3D print pond sculpture",
+      "keywords": [
+        "hollow knight",
+        "fountain",
+        "water",
+        "sculpture",
+        "peace",
+        "video game",
+        "functional",
+        "decor",
+        "Hollow Knight 3D print",
+        "Silksong cosplay",
+        "Spencermann",
+        "MakerWorld free STL"
+      ],
+      "likes": 57,
+      "publishTime": "2026-04-02T04:05:21Z",
       "featured": false
     },
     {
@@ -1478,37 +1482,6 @@
       ],
       "likes": 56,
       "publishTime": "2025-10-10T22:15:36Z",
-      "featured": false
-    },
-    {
-      "id": "working-city-of-tears-water-fountain-hollow-knight",
-      "makerworldId": 2605397,
-      "title": "Working City of Tears Water Fountain Hollow Knight",
-      "category": "hollow-knight",
-      "categories": [
-        "hollow-knight",
-        "water-fountains"
-      ],
-      "makerworldUrl": "https://makerworld.com/en/models/2605397-working-city-of-tears-water-fountain-hollow-knight",
-      "image": "images/hollow-knight/working-city-of-tears-water-fountain-hollow-knight.jpg",
-      "description": "I have been working on this for a while, and am excited to share it with you. This is the iconic fountain from City of Tears in the Hollow Knight video game. It allowed me to combine two major themes for me Hollow Knight and working water fountain design. Tags: hollow knight, Hollow Knight, fountain, water.",
-      "imageAlt": "Hollow Knight City of Tears working water fountain \u2014 free 3D print pond sculpture",
-      "keywords": [
-        "hollow knight",
-        "fountain",
-        "water",
-        "sculpture",
-        "peace",
-        "video game",
-        "functional",
-        "decor",
-        "Hollow Knight 3D print",
-        "Silksong cosplay",
-        "Spencermann",
-        "MakerWorld free STL"
-      ],
-      "likes": 55,
-      "publishTime": "2026-04-02T04:05:21Z",
       "featured": false
     },
     {
@@ -1594,7 +1567,7 @@
         "Spencermann",
         "MakerWorld free download"
       ],
-      "likes": 43,
+      "likes": 44,
       "publishTime": "2026-05-16T21:22:56Z",
       "featured": true
     },
@@ -1623,7 +1596,7 @@
         "MakerWorld free download",
         "Silksong 3D print"
       ],
-      "likes": 43,
+      "likes": 44,
       "publishTime": "2025-12-14T05:22:45Z",
       "featured": false
     },
@@ -1655,7 +1628,7 @@
       ],
       "likes": 43,
       "publishTime": "2024-10-06T02:05:23Z",
-      "featured": false
+      "featured": true
     },
     {
       "id": "dreamer-harrah-the-beast-mask-hollow-knight",
@@ -2065,6 +2038,35 @@
       "featured": false
     },
     {
+      "id": "frame-one-size-fits-all-photos-or-posters-1mm",
+      "makerworldId": 1952489,
+      "title": "Frame One size fits all: Photos or posters =<1mm",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1952489-frame-one-size-fits-all-photos-or-posters-1mm",
+      "image": "images/other/frame-one-size-fits-all-photos-or-posters-1mm.jpg",
+      "description": "You must have access to a slicer to scale the pieces for this print!! (Bambu Handy won't work) I am very lucky to live in a family with many artists. Tags: Frame, frame, modular, scaleable.",
+      "imageAlt": "Frame One size fits all: Photos or posters =<1mm \u2014 free 3D print (other) on MakerWorld | Spencermann",
+      "keywords": [
+        "Frame",
+        "modular",
+        "scaleable",
+        "Art",
+        "poster",
+        "photo",
+        "picture",
+        "drawing",
+        "free 3D print",
+        "Spencermann",
+        "MakerWorld STL download"
+      ],
+      "likes": 29,
+      "publishTime": "2025-11-02T20:19:04Z",
+      "featured": false
+    },
+    {
       "id": "spray-paint-can-holder-for-pegboard-less-than-50g",
       "makerworldId": 1840506,
       "title": "Spray paint can holder for pegboard- Less than 50g",
@@ -2121,32 +2123,32 @@
       "featured": false
     },
     {
-      "id": "frame-one-size-fits-all-photos-or-posters-1mm",
-      "makerworldId": 1952489,
-      "title": "Frame One size fits all: Photos or posters =<1mm",
+      "id": "kaladin-stormblessed-stormlight-archive-hero",
+      "makerworldId": 2642649,
+      "title": "Kaladin Stormblessed - Stormlight Archive Hero",
       "category": "other",
       "categories": [
         "other"
       ],
-      "makerworldUrl": "https://makerworld.com/en/models/1952489-frame-one-size-fits-all-photos-or-posters-1mm",
-      "image": "images/other/frame-one-size-fits-all-photos-or-posters-1mm.jpg",
-      "description": "You must have access to a slicer to scale the pieces for this print!! (Bambu Handy won't work) I am very lucky to live in a family with many artists. Tags: Frame, frame, modular, scaleable.",
-      "imageAlt": "Frame One size fits all: Photos or posters =<1mm \u2014 free 3D print (other) on MakerWorld | Spencermann",
+      "makerworldUrl": "https://makerworld.com/en/models/2642649-kaladin-stormblessed-stormlight-archive-hero",
+      "image": "images/other/kaladin-stormblessed-stormlight-archive-hero.jpg",
+      "description": "I absolutely loved the Stormlight Archive series by Brandon Sanderson, so I decided to create this simple model of Kaladin as a spear bearer. If you haven't read these books yet, I highly recommend them. I hope you enjoy the model. Tags: stormlight, stormlight archive, kaladin, stormblessed.",
+      "imageAlt": "Kaladin Stormblessed - Stormlight Archive Hero \u2014 free 3D print (other) on MakerWorld | Spencermann",
       "keywords": [
-        "Frame",
-        "modular",
-        "scaleable",
-        "Art",
-        "poster",
-        "photo",
-        "picture",
-        "drawing",
+        "stormlight",
+        "stormlight archive",
+        "kaladin",
+        "stormblessed",
+        "brandon sanderson",
+        "miniature",
+        "book",
+        "character",
         "free 3D print",
         "Spencermann",
         "MakerWorld STL download"
       ],
-      "likes": 27,
-      "publishTime": "2025-11-02T20:19:04Z",
+      "likes": 24,
+      "publishTime": "2026-04-10T14:45:06Z",
       "featured": false
     },
     {
@@ -2177,35 +2179,6 @@
       ],
       "likes": 24,
       "publishTime": "2026-01-12T15:24:06Z",
-      "featured": false
-    },
-    {
-      "id": "kaladin-stormblessed-stormlight-archive-hero",
-      "makerworldId": 2642649,
-      "title": "Kaladin Stormblessed - Stormlight Archive Hero",
-      "category": "other",
-      "categories": [
-        "other"
-      ],
-      "makerworldUrl": "https://makerworld.com/en/models/2642649-kaladin-stormblessed-stormlight-archive-hero",
-      "image": "images/other/kaladin-stormblessed-stormlight-archive-hero.jpg",
-      "description": "I absolutely loved the Stormlight Archive series by Brandon Sanderson, so I decided to create this simple model of Kaladin as a spear bearer. If you haven't read these books yet, I highly recommend them. I hope you enjoy the model. Tags: stormlight, stormlight archive, kaladin, stormblessed.",
-      "imageAlt": "Kaladin Stormblessed - Stormlight Archive Hero \u2014 free 3D print (other) on MakerWorld | Spencermann",
-      "keywords": [
-        "stormlight",
-        "stormlight archive",
-        "kaladin",
-        "stormblessed",
-        "brandon sanderson",
-        "miniature",
-        "book",
-        "character",
-        "free 3D print",
-        "Spencermann",
-        "MakerWorld STL download"
-      ],
-      "likes": 23,
-      "publishTime": "2026-04-10T14:45:06Z",
       "featured": false
     },
     {
@@ -2288,7 +2261,7 @@
         "Spencermann",
         "MakerWorld free download"
       ],
-      "likes": 19,
+      "likes": 20,
       "publishTime": "2025-08-31T22:33:38Z",
       "featured": false
     },
@@ -2435,31 +2408,6 @@
       "featured": false
     },
     {
-      "id": "garage-organizer-for-long-things",
-      "makerworldId": 643641,
-      "title": "Garage organizer for long things",
-      "category": "utility",
-      "categories": [
-        "utility"
-      ],
-      "makerworldUrl": "https://makerworld.com/en/models/643641-garage-organizer-for-long-things",
-      "image": "images/utility/garage-organizer-for-long-things.jpg",
-      "description": "Simple model to get a bunch of long things in my garage out of the way. Printed in PETG. Tags: garage, organizer, board.",
-      "imageAlt": "Garage organizer for long things \u2014 free 3D print (utility) on MakerWorld | Spencermann",
-      "keywords": [
-        "garage",
-        "organizer",
-        "board",
-        "functional 3D print",
-        "practical STL",
-        "Spencermann",
-        "MakerWorld free download"
-      ],
-      "likes": 15,
-      "publishTime": "2024-09-15T16:11:32Z",
-      "featured": false
-    },
-    {
       "id": "food-poisoning-danger-today-fridge-magnet",
       "makerworldId": 609586,
       "title": "Food Poisoning Danger Today Fridge Magnet",
@@ -2513,6 +2461,60 @@
       ],
       "likes": 14,
       "publishTime": "2025-06-23T00:53:35Z",
+      "featured": false
+    },
+    {
+      "id": "garage-organizer-for-long-things",
+      "makerworldId": 643641,
+      "title": "Garage organizer for long things",
+      "category": "utility",
+      "categories": [
+        "utility"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/643641-garage-organizer-for-long-things",
+      "image": "images/utility/garage-organizer-for-long-things.jpg",
+      "description": "Simple model to get a bunch of long things in my garage out of the way. Printed in PETG. Tags: garage, organizer, board.",
+      "imageAlt": "Garage organizer for long things \u2014 free 3D print (utility) on MakerWorld | Spencermann",
+      "keywords": [
+        "garage",
+        "organizer",
+        "board",
+        "functional 3D print",
+        "practical STL",
+        "Spencermann",
+        "MakerWorld free download"
+      ],
+      "likes": 14,
+      "publishTime": "2024-09-15T16:11:32Z",
+      "featured": false
+    },
+    {
+      "id": "caine-popcorn-tub-topper-tad-articulating-jaw",
+      "makerworldId": 2889232,
+      "title": "Caine Popcorn Tub Topper - TAD - Articulating jaw",
+      "category": "glitch-productions",
+      "categories": [
+        "glitch-productions"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2889232-caine-popcorn-tub-topper-tad-articulating-jaw",
+      "image": "images/glitch-productions/caine-popcorn-tub-topper-tad-articulating-jaw.jpg",
+      "description": "My daughter and her friends love Caine. And although they liked my Bubble popcorn bowl, they needed a Caine version. Originally, I was going to make a popcorn bowl and have the popcorn sit in the lower jaw. Tags: caine, tadc, popcorn, popcorn topper.",
+      "imageAlt": "Caine Popcorn Tub Topper - TAD - Articulating jaw \u2014 free 3D print (glitch productions) on MakerWorld | Spencermann",
+      "keywords": [
+        "caine",
+        "tadc",
+        "popcorn",
+        "popcorn topper",
+        "the amazing digital circus",
+        "Glitch Productions 3D print",
+        "Murder Drones",
+        "Gameoverse",
+        "Spencermann",
+        "MakerWorld free STL",
+        "MakerWorld free download"
+      ],
+      "likes": 13,
+      "publishTime": "2026-06-04T17:03:13Z",
       "featured": false
     },
     {
@@ -2745,6 +2747,36 @@
       "featured": false
     },
     {
+      "id": "flappers-the-super-dolphin-gameoverse-glitch",
+      "makerworldId": 2898688,
+      "title": "Flappers the Super Dolphin - Gameoverse Glitch",
+      "category": "glitch-productions",
+      "categories": [
+        "glitch-productions"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2898688-flappers-the-super-dolphin-gameoverse-glitch",
+      "image": "images/glitch-productions/flappers-the-super-dolphin-gameoverse-glitch.jpg",
+      "description": "Flappers the Super Dolphin in his muscled form. \u201cMy name is FLAPPERS!\u201d (Painted by my oldest son) Pretty simple print, but the support under the tongue is kind of a pain to remove. Keep him with you at all times to remember to be heroic and save your village as needed. Tags: gameoverse, flappers, Toy, cartoon.",
+      "imageAlt": "Flappers the Super Dolphin - Gameoverse Glitch \u2014 free 3D print (glitch productions) on MakerWorld | Spencermann",
+      "keywords": [
+        "gameoverse",
+        "flappers",
+        "Toy",
+        "cartoon",
+        "glitch",
+        "dolphin",
+        "Glitch Productions 3D print",
+        "Murder Drones",
+        "Spencermann",
+        "MakerWorld free STL",
+        "MakerWorld free download",
+        "Kaboodle"
+      ],
+      "likes": 1,
+      "publishTime": "2026-06-06T21:16:57Z",
+      "featured": false
+    },
+    {
       "id": "tennis-boy-minatare-in-style-of-teen-titans-go",
       "makerworldId": 2315256,
       "title": "Tennis Boy - Minatare in style of teen titans go",
@@ -2790,35 +2822,6 @@
       ],
       "likes": 1,
       "publishTime": "2024-08-14T22:28:53Z",
-      "featured": false
-    },
-    {
-      "id": "caine-popcorn-tub-topper-tad-articulating-jaw",
-      "makerworldId": 2889232,
-      "title": "Caine Popcorn Tub Topper - TAD - Articulating jaw",
-      "category": "glitch-productions",
-      "categories": [
-        "glitch-productions"
-      ],
-      "makerworldUrl": "https://makerworld.com/en/models/2889232-caine-popcorn-tub-topper-tad-articulating-jaw",
-      "image": "images/glitch-productions/caine-popcorn-tub-topper-tad-articulating-jaw.jpg",
-      "description": "My daughter and her friends love Caine. And although they liked my Bubble popcorn bowl, they needed a Caine version. Originally, I was going to make a popcorn bowl and have the popcorn sit in the lower jaw. Tags: caine, tadc, popcorn, popcorn topper.",
-      "imageAlt": "Caine Popcorn Tub Topper - TAD - Articulating jaw \u2014 free 3D print (glitch productions) on MakerWorld | Spencermann",
-      "keywords": [
-        "caine",
-        "tadc",
-        "popcorn",
-        "popcorn topper",
-        "the amazing digital circus",
-        "Glitch Productions 3D print",
-        "Murder Drones",
-        "Gameoverse",
-        "Spencermann",
-        "MakerWorld free STL",
-        "MakerWorld free download"
-      ],
-      "likes": 0,
-      "publishTime": "2026-06-04T17:03:13Z",
       "featured": false
     },
     {
