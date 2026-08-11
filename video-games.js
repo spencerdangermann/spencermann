@@ -1,0 +1,171 @@
+/** Video Games page — cards, downloads, thumbs-up counters. */
+
+(function () {
+  const COUNTER_NS = "spencermann-games";
+  const root = document.getElementById("video-games-root");
+  if (!root) return;
+
+  function escapeHtml(text) {
+    const el = document.createElement("div");
+    el.textContent = text == null ? "" : String(text);
+    return el.innerHTML;
+  }
+
+  function votedKey(gameId) {
+    return "vg-thumb:" + gameId;
+  }
+
+  function hasVoted(gameId) {
+    try {
+      return localStorage.getItem(votedKey(gameId)) === "1";
+    } catch {
+      return false;
+    }
+  }
+
+  function markVoted(gameId) {
+    try {
+      localStorage.setItem(votedKey(gameId), "1");
+    } catch {
+      /* ignore */
+    }
+  }
+
+  async function fetchCount(thumbsKey) {
+    const url =
+      "https://api.counterapi.dev/v1/" +
+      encodeURIComponent(COUNTER_NS) +
+      "/" +
+      encodeURIComponent(thumbsKey) +
+      "/";
+    const res = await fetch(url, { method: "GET" });
+    if (!res.ok) throw new Error("counter fetch failed");
+    const data = await res.json();
+    const n = Number(data.count ?? data.value ?? 0);
+    return Number.isFinite(n) ? n : 0;
+  }
+
+  async function bumpCount(thumbsKey) {
+    const url =
+      "https://api.counterapi.dev/v1/" +
+      encodeURIComponent(COUNTER_NS) +
+      "/" +
+      encodeURIComponent(thumbsKey) +
+      "/up";
+    const res = await fetch(url, { method: "GET" });
+    if (!res.ok) throw new Error("counter bump failed");
+    const data = await res.json();
+    const n = Number(data.count ?? data.value ?? 0);
+    return Number.isFinite(n) ? n : 0;
+  }
+
+  function renderGame(game) {
+    const article = document.createElement("article");
+    article.className = "video-game-card";
+    article.dataset.gameId = game.id;
+
+    const cover = escapeHtml(game.cover || "");
+    const title = escapeHtml(game.title || "Untitled");
+    const tagline = escapeHtml(game.tagline || "");
+    const description = escapeHtml(game.description || "");
+    const platform = escapeHtml(game.platform || "PC");
+    const version = escapeHtml(game.version || "");
+    const downloadUrl = escapeHtml(game.downloadUrl || "#");
+    const downloadLabel = escapeHtml(game.downloadLabel || "Download");
+    const thumbsKey = game.thumbsKey || game.id;
+
+    article.innerHTML =
+      '<div class="video-game-cover">' +
+      '<img src="' +
+      cover +
+      '" alt="' +
+      title +
+      ' cover art" loading="lazy" width="1280" height="720">' +
+      "</div>" +
+      '<div class="video-game-body">' +
+      "<h2 class=\"video-game-title\">" +
+      title +
+      "</h2>" +
+      (tagline ? '<p class="video-game-tagline">' + tagline + "</p>" : "") +
+      '<p class="video-game-description">' +
+      description +
+      "</p>" +
+      '<div class="video-game-meta">' +
+      "<span>" +
+      platform +
+      "</span>" +
+      (version ? "<span>v" + version + "</span>" : "") +
+      "</div>" +
+      '<div class="video-game-actions">' +
+      '<a class="btn-makerworld video-game-download" href="' +
+      downloadUrl +
+      '" download>⬇ ' +
+      downloadLabel +
+      "</a>" +
+      '<button type="button" class="video-game-thumb" data-thumbs-key="' +
+      escapeHtml(thumbsKey) +
+      '" aria-label="Give a thumbs up">' +
+      "<span>Thumbs up</span> · " +
+      '<span class="thumb-count">…</span>' +
+      "</button>" +
+      "</div>" +
+      "</div>";
+
+    const btn = article.querySelector(".video-game-thumb");
+    const countEl = article.querySelector(".thumb-count");
+
+    fetchCount(thumbsKey)
+      .then(function (n) {
+        countEl.textContent = String(n);
+      })
+      .catch(function () {
+        countEl.textContent = "0";
+      });
+
+    if (hasVoted(game.id)) {
+      btn.classList.add("voted");
+      btn.disabled = true;
+      btn.title = "Thanks — you already liked this";
+    }
+
+    btn.addEventListener("click", async function () {
+      if (hasVoted(game.id) || btn.disabled) return;
+      btn.disabled = true;
+      try {
+        const n = await bumpCount(thumbsKey);
+        countEl.textContent = String(n);
+        markVoted(game.id);
+        btn.classList.add("voted");
+        btn.title = "Thanks — you already liked this";
+      } catch {
+        btn.disabled = false;
+        countEl.textContent = countEl.textContent || "0";
+        alert("Could not save your thumbs up right now. Please try again later.");
+      }
+    });
+
+    return article;
+  }
+
+  fetch("data/video-games.json", { cache: "no-store" })
+    .then(function (res) {
+      if (!res.ok) throw new Error("missing video-games.json");
+      return res.json();
+    })
+    .then(function (data) {
+      const games = Array.isArray(data.games) ? data.games : [];
+      root.innerHTML = "";
+      if (!games.length) {
+        root.innerHTML =
+          '<p class="carousel-empty">No games published yet — check back soon.</p>';
+        return;
+      }
+      games.forEach(function (game) {
+        root.appendChild(renderGame(game));
+      });
+    })
+    .catch(function () {
+      root.innerHTML =
+        '<p class="carousel-empty">Could not load the game list.</p>';
+    });
+})();

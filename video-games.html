@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Games | Spencermann</title>
+    <meta name="description" content="Download free PC games by Spencer Mann — including Manndew Island, a family co-op island adventure.">
+    <meta name="author" content="Spencer Mann">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://spencermann.com/video-games.html">
+    <meta property="og:title" content="Video Games | Spencermann">
+    <meta property="og:description" content="Free PC game downloads — Manndew Island and more.">
+    <link rel="canonical" href="https://spencermann.com/video-games.html">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">Spencermann</a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="hollow-knight.html" class="nav-link">Hollow Knight</a></li>
+                <li><a href="glitch-productions.html" class="nav-link">Glitch</a></li>
+                <li><a href="water-fountains.html" class="nav-link">Fountains</a></li>
+                <li><a href="utility.html" class="nav-link">Utility</a></li>
+                <li><a href="other.html" class="nav-link">Other</a></li>
+                <li><a href="video-games.html" class="nav-link active">Video Games</a></li>
+                <li><a href="design-requests.html" class="nav-link">Requests</a></li>
+                <li><a href="david/" class="nav-link">David</a></li>
+            </ul>
+            <div class="hamburger"><span></span><span></span><span></span></div>
+        </div>
+    </nav>
+
+    <section class="category-header">
+        <h1>Video Games</h1>
+        <p>Playable games from our family studio — free downloads for PC.</p>
+    </section>
+
+    <section class="video-games-section">
+        <div class="container">
+            <div id="video-games-root" class="video-games-grid" aria-live="polite"></div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Spencer Mann (Spencermann). All rights reserved.</p>
+            <p>
+                <a href="https://makerworld.com/en/@spencermann" target="_blank" rel="noopener">MakerWorld</a>
+                ·
+                <a href="index.html">Home</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="video-games.js"></script>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

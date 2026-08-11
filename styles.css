@@ -807,4 +807,129 @@ section {
     }
 }
 
+/* Video Games */
+.video-games-section {
+    padding: 2.5rem 0 4rem;
+}
+
+.video-games-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+.video-game-card {
+    display: grid;
+    grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+    gap: 0;
+    background-color: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.video-game-cover {
+    min-height: 220px;
+    background: var(--bg-darker);
+}
+
+.video-game-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.video-game-body {
+    padding: 1.75rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.video-game-title {
+    font-size: 1.6rem;
+    margin-bottom: 0.35rem;
+    color: var(--text-primary);
+}
+
+.video-game-tagline {
+    color: var(--accent);
+    font-size: 1rem;
+    margin-bottom: 0.85rem;
+}
+
+.video-game-description {
+    color: var(--text-secondary);
+    line-height: 1.55;
+    margin-bottom: 1rem;
+    flex: 1;
+}
+
+.video-game-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin-bottom: 1.25rem;
+}
+
+.video-game-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    align-items: center;
+}
+
+.video-game-download {
+    text-decoration: none;
+}
+
+.video-game-thumb {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    border: 1px solid var(--border);
+    background: transparent;
+    color: var(--text-primary);
+    border-radius: 999px;
+    padding: 0.55rem 1rem;
+    cursor: pointer;
+    font: inherit;
+    transition: border-color 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+}
+
+.video-game-thumb:hover:not(:disabled) {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+.video-game-thumb.voted,
+.video-game-thumb:disabled {
+    opacity: 0.85;
+    cursor: default;
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+.thumb-icon {
+    font-size: 1.05rem;
+    line-height: 1;
+}
+
+.thumb-count {
+    font-variant-numeric: tabular-nums;
+    min-width: 1.25rem;
+}
+
+@media (max-width: 800px) {
+    .video-game-card {
+        grid-template-columns: 1fr;
+    }
+
+    .video-game-cover {
+        aspect-ratio: 16 / 9;
+    }
+}
+
 

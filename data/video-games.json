@@ -1,0 +1,16 @@
+{
+  "games": [
+    {
+      "id": "manndew-island",
+      "title": "Manndew Island",
+      "tagline": "Family co-op island life",
+      "description": "A cozy Godot 4 co-op adventure for up to four players. Share a tropical island: explore monster paths, keep a shop, craft, harvest, and uncover story beats together. Built by our family for PC — LAN co-op, pixel art, and plenty of silly haggle comebacks.",
+      "cover": "images/video-games/manndew-island-cover.jpg",
+      "platform": "Windows",
+      "version": "0.1.0",
+      "downloadUrl": "https://github.com/spencerdangermann/spencermann/releases/download/manndew-island-latest/ManndewIsland-Windows.zip",
+      "downloadLabel": "Download for Windows",
+      "thumbsKey": "manndew-island"
+    }
+  ]
+}
