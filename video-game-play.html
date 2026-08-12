@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video Games | Spencermann</title>
-    <meta name="description" content="Download Manndew Island and play Scratch games from our family studio in your browser.">
+    <title>Play | Video Games | Spencermann</title>
+    <meta name="description" content="Play Scratch games from our family studio in your browser.">
     <meta name="author" content="Spencer Mann">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://spencermann.com/video-games.html">
-    <meta property="og:title" content="Video Games | Spencermann">
-    <meta property="og:description" content="Free PC downloads and playable Scratch games from Spencermann.">
-    <link rel="canonical" href="https://spencermann.com/video-games.html">
+    <meta property="og:url" content="https://spencermann.com/video-game-play.html">
+    <meta property="og:title" content="Play | Video Games | Spencermann">
+    <meta property="og:description" content="Play Scratch games in your browser on Spencermann.">
+    <link rel="canonical" href="https://spencermann.com/video-game-play.html">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -33,14 +33,17 @@
         </div>
     </nav>
 
-    <section class="category-header">
-        <h1>Video Games</h1>
-        <p>Family studio games — download Manndew Island for PC, or click a Scratch card to play in your browser.</p>
+    <section class="category-header video-game-play-header">
+        <p class="video-game-play-back"><a href="video-games.html">← All video games</a></p>
+        <h1 id="play-title">Loading…</h1>
+        <p id="play-tagline"></p>
     </section>
 
-    <section class="video-games-section">
+    <section class="video-game-play-section">
         <div class="container">
-            <div id="video-games-root" class="video-games-grid" aria-live="polite"></div>
+            <div id="play-root" class="video-game-play-panel" aria-live="polite">
+                <p class="carousel-empty">Loading game…</p>
+            </div>
         </div>
     </section>
 
@@ -50,13 +53,15 @@
             <p>
                 <a href="https://makerworld.com/en/@spencermann" target="_blank" rel="noopener">MakerWorld</a>
                 ·
+                <a href="video-games.html">Video Games</a>
+                ·
                 <a href="index.html">Home</a>
             </p>
         </div>
     </footer>
 
     <script src="script.js"></script>
-    <script src="video-games.js"></script>
+    <script src="video-game-play.js"></script>
     <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
