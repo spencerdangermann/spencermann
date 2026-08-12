@@ -2,6 +2,8 @@
 
 (function () {
   const COUNTER_NS = "spencermann-games";
+  // CounterAPI v1 retired Aug 2026; Abacus is a free public hit counter.
+  const COUNTER_BASE = "https://abacus.jasoncameron.dev";
   const root = document.getElementById("play-root");
   const titleEl = document.getElementById("play-title");
   const taglineEl = document.getElementById("play-tagline");
@@ -41,32 +43,34 @@
     }
   }
 
+  function parseCount(data) {
+    const n = Number(data && (data.value ?? data.count));
+    return Number.isFinite(n) ? n : 0;
+  }
+
   async function fetchCount(thumbsKey) {
     const url =
-      "https://api.counterapi.dev/v1/" +
+      COUNTER_BASE +
+      "/get/" +
       encodeURIComponent(COUNTER_NS) +
       "/" +
-      encodeURIComponent(thumbsKey) +
-      "/";
+      encodeURIComponent(thumbsKey);
     const res = await fetch(url, { method: "GET" });
+    if (res.status === 404) return 0;
     if (!res.ok) throw new Error("counter fetch failed");
-    const data = await res.json();
-    const n = Number(data.count ?? data.value ?? 0);
-    return Number.isFinite(n) ? n : 0;
+    return parseCount(await res.json());
   }
 
   async function bumpCount(thumbsKey) {
     const url =
-      "https://api.counterapi.dev/v1/" +
+      COUNTER_BASE +
+      "/hit/" +
       encodeURIComponent(COUNTER_NS) +
       "/" +
-      encodeURIComponent(thumbsKey) +
-      "/up";
+      encodeURIComponent(thumbsKey);
     const res = await fetch(url, { method: "GET" });
     if (!res.ok) throw new Error("counter bump failed");
-    const data = await res.json();
-    const n = Number(data.count ?? data.value ?? 0);
-    return Number.isFinite(n) ? n : 0;
+    return parseCount(await res.json());
   }
 
   function renderPlay(game) {
