@@ -107,7 +107,7 @@
     const version = escapeHtml(game.version || "");
     const thumbsKey = game.thumbsKey || game.id;
     const playUrl = escapeHtml(game.playUrl || "#");
-    const playLabel = escapeHtml(game.playLabel || "Play now");
+    const playLabel = escapeHtml(game.playLabel || "Open");
     const downloadUrl = escapeHtml(game.downloadUrl || "#");
     const downloadLabel = escapeHtml(game.downloadLabel || "Download");
 
@@ -118,7 +118,7 @@
     const primaryAction = isScratch
       ? '<a class="btn-makerworld video-game-play" href="' +
         playUrl +
-        '">▶ ' +
+        '">' +
         playLabel +
         "</a>"
       : '<a class="btn-makerworld video-game-download" href="' +
@@ -132,7 +132,7 @@
       (isScratch
         ? '<a class="video-game-cover-link" href="' +
           playUrl +
-          '" aria-label="Play ' +
+          '" aria-label="Open ' +
           title +
           '">'
         : "") +
