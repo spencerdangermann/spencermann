@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wave Tester — 3D Ocean Simulator</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.169.0/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@0.169.0/examples/jsm/",
+          "lil-gui": "https://unpkg.com/lil-gui@0.19.2/dist/lil-gui.esm.js"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <canvas id="scene"></canvas>
+
+    <div id="loading">
+      <div class="spinner"></div>
+      <p>Building the ocean…</p>
+    </div>
+
+    <div id="overlay">
+      <header id="title-card">
+        <h1>Wave Tester</h1>
+        <p id="sea-state">Calibrating sea state…</p>
+      </header>
+
+      <section id="hud">
+        <div class="hud-row">
+          <span class="hud-label">Surface elevation</span>
+          <span class="hud-value" id="stat-elevation">0.00 m</span>
+        </div>
+        <div class="hud-row">
+          <span class="hud-label">Significant height (H<sub>s</sub>)</span>
+          <span class="hud-value" id="stat-hs">0.00 m</span>
+        </div>
+        <div class="hud-row">
+          <span class="hud-label">Observed peak-to-trough</span>
+          <span class="hud-value" id="stat-range">0.00 m</span>
+        </div>
+        <div class="hud-row">
+          <span class="hud-label">Dominant wavelength</span>
+          <span class="hud-value" id="stat-wavelength">0 m</span>
+        </div>
+        <div class="hud-row">
+          <span class="hud-label">Crest speed</span>
+          <span class="hud-value" id="stat-speed">0.0 m/s</span>
+        </div>
+        <canvas id="graph" width="440" height="110"></canvas>
+        <p class="graph-caption">Elevation at the measuring buoy, last 20 seconds</p>
+      </section>
+
+      <footer id="hints">
+        <span><kbd>1</kbd>–<kbd>9</kbd> sea state</span>
+        <span><kbd>T</kbd> tsunami</span>
+        <span><kbd>WASD</kbd> jet ski</span>
+        <span><kbd>Space</kbd> jump</span>
+        <span><kbd>C</kbd> camera</span>
+        <span><kbd>P</kbd> pause</span>
+        <span><kbd>H</kbd> hide UI</span>
+      </footer>
+    </div>
+
+    <script type="module" src="./src/main.js?v=ocean"></script>
+  </body>
+</html>

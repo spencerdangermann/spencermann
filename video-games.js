@@ -102,7 +102,7 @@
     article.className = "video-game-card";
     article.dataset.gameId = game.id;
 
-    const isScratch = game.type === "scratch";
+    const isPlayable = game.type === "scratch" || game.type === "web";
     const cover = escapeHtml(game.cover || "");
     const title = escapeHtml(game.title || "Untitled");
     const tagline = escapeHtml(game.tagline || "");
@@ -111,15 +111,15 @@
     const version = escapeHtml(game.version || "");
     const thumbsKey = game.thumbsKey || game.id;
     const playUrl = escapeHtml(game.playUrl || "#");
-    const playLabel = escapeHtml(game.playLabel || "Open");
+    const playLabel = escapeHtml(game.playLabel || "Play");
     const downloadUrl = escapeHtml(game.downloadUrl || "#");
     const downloadLabel = escapeHtml(game.downloadLabel || "Download");
 
-    if (isScratch) {
+    if (isPlayable) {
       article.classList.add("video-game-card--playable");
     }
 
-    const primaryAction = isScratch
+    const primaryAction = isPlayable
       ? '<a class="btn-makerworld video-game-play" href="' +
         playUrl +
         '">' +
@@ -133,7 +133,7 @@
 
     const media =
       '<div class="video-game-cover">' +
-      (isScratch
+      (isPlayable
         ? '<a class="video-game-cover-link" href="' +
           playUrl +
           '" aria-label="Open ' +
@@ -145,19 +145,19 @@
       '" alt="' +
       title +
       ' cover art" loading="lazy" width="1280" height="720">' +
-      (isScratch ? "</a>" : "") +
+      (isPlayable ? "</a>" : "") +
       "</div>";
 
     article.innerHTML =
       media +
       '<div class="video-game-body">' +
-      (isScratch
+      (isPlayable
         ? '<a class="video-game-title-link" href="' + playUrl + '">'
         : "") +
       "<h2 class=\"video-game-title\">" +
       title +
       "</h2>" +
-      (isScratch ? "</a>" : "") +
+      (isPlayable ? "</a>" : "") +
       (tagline ? '<p class="video-game-tagline">' + tagline + "</p>" : "") +
       '<p class="video-game-description">' +
       description +
@@ -167,7 +167,7 @@
       platform +
       "</span>" +
       (version ? "<span>v" + version + "</span>" : "") +
-      (isScratch ? "<span>Play in browser</span>" : "") +
+      (isPlayable ? "<span>Play in browser</span>" : "") +
       "</div>" +
       '<div class="video-game-actions">' +
       primaryAction +
@@ -184,7 +184,7 @@
     const countEl = article.querySelector(".thumb-count");
     wireThumb(btn, countEl, game.id, thumbsKey);
 
-    if (isScratch) {
+    if (isPlayable) {
       article.addEventListener("click", function (ev) {
         const t = ev.target;
         if (

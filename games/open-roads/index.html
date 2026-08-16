@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>Open Roads 3D</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <div id="view"></div>
+
+    <div class="hud" id="hud" hidden>
+      <div class="hud-left">
+        <div class="meter">
+          <span class="label">Speed</span>
+          <span class="value"><span id="speed">0</span><small>mph</small></span>
+        </div>
+        <div class="meter">
+          <span class="label">Cash</span>
+          <span class="value cash" id="cash">0</span>
+        </div>
+      </div>
+      <div class="hud-center">
+        <div class="car-name" id="car-name">Hatch</div>
+        <div class="damage-bar" title="Body integrity">
+          <div class="damage-fill" id="damage-fill"></div>
+        </div>
+      </div>
+      <div class="hud-right">
+        <button type="button" class="ghost" id="btn-garage">Garage</button>
+        <button type="button" class="ghost" id="btn-repair">Repair $40</button>
+      </div>
+    </div>
+
+    <div class="touch" id="touch" hidden>
+      <div class="stick-zone" id="stick-zone">
+        <div class="stick-base"><div class="stick-knob" id="stick-knob"></div></div>
+      </div>
+      <div class="pedals">
+        <button type="button" id="btn-brake">Brake</button>
+        <button type="button" id="btn-gas">Gas</button>
+      </div>
+    </div>
+
+    <div class="hint" id="hint" hidden></div>
+    <div id="impact-flash" aria-hidden="true"></div>
+
+    <div class="overlay" id="overlay">
+      <section class="panel" id="panel-title">
+        <p class="eyebrow">3D · Free roam</p>
+        <h1>Open Roads</h1>
+        <p class="lede">Grid City free roam — starting in <span id="auto-start-sec">5</span>s</p>
+        <p id="boot-error" class="boot-error" hidden></p>
+        <button type="button" class="cta" id="btn-start">Hit the Road</button>
+        <ul class="controls">
+          <li><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> drive · <kbd>Space</kbd> handbrake</li>
+          <li><kbd>G</kbd> garage · <kbd>C</kbd> camera · <kbd>R</kbd> repair</li>
+        </ul>
+      </section>
+
+      <section class="panel garage" id="panel-garage" hidden>
+        <h2>Garage</h2>
+        <p class="lede">Cash: $<span id="garage-cash">0</span> · Crates &amp; crashes pay for unlocks.</p>
+        <p class="map-label">Choose a map</p>
+        <div class="map-picker" id="map-picker-garage"></div>
+        <div class="car-grid" id="car-grid"></div>
+        <div class="garage-actions">
+          <button type="button" class="ghost" id="btn-close-garage">Back</button>
+          <button type="button" class="cta" id="btn-drive">Drive Selected</button>
+        </div>
+      </section>
+
+      <section class="panel" id="panel-wrecked" hidden>
+        <h2>Totaled</h2>
+        <p class="lede">That crash finished the car. Cash and unlocks stay.</p>
+        <button type="button" class="cta" id="btn-respawn">Respawn at Garage</button>
+      </section>
+    </div>
+  </div>
+
+  <!-- Local Three.js (no CDN required) -->
+  <script src="three.min.js"></script>
+  <script>
+    if (typeof THREE !== "undefined") {
+      if (THREE.sRGBEncoding === undefined) THREE.sRGBEncoding = 3001;
+      if (THREE.LinearEncoding === undefined) THREE.LinearEncoding = 3000;
+    }
+  </script>
+  <script src="lib/DRACOLoader.js"></script>
+  <script src="lib/GLTFLoader.js"></script>
+  <script src="ferrari-car.js"></script>
+  <script src="models-lib.js"></script>
+  <script src="cars-lib.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sky Drift — 3D Flight</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <div id="game-root"></div>
+
+    <div id="hud" class="hidden">
+      <div class="hud-left">
+        <div class="brand">SKY DRIFT</div>
+        <div class="stat"><span>SCORE</span><strong id="score">0</strong></div>
+        <div class="stat"><span>KILLS</span><strong id="kills">0</strong></div>
+        <div class="stat"><span>SCRAP</span><strong id="scrap">0</strong></div>
+        <div class="stat"><span>WINGMEN</span><strong id="allies-alive">0</strong></div>
+        <div class="stat"><span>BEST</span><strong id="best">0</strong></div>
+        <div class="gauge hp-gauge">
+          <span>HP</span>
+          <div class="bar"><i id="hp-bar"></i></div>
+        </div>
+      </div>
+      <div class="hud-right">
+        <div class="gauge">
+          <span>ALT</span>
+          <div class="bar"><i id="alt-bar"></i></div>
+        </div>
+        <div class="gauge">
+          <span>SPD</span>
+          <div class="bar"><i id="spd-bar"></i></div>
+        </div>
+        <label class="setting hud-setting">
+          <span>SENS <strong id="hud-sens-label">40%</strong></span>
+          <input id="hud-sens-slider" type="range" min="10" max="100" step="1" value="40" />
+        </label>
+      </div>
+      <div id="grok-banner" class="grok-banner">GROK AI ON YOUR SIX</div>
+      <button type="button" id="view-btn" class="view-btn">VIEW · 3RD</button>
+    </div>
+
+    <div id="cockpit" class="cockpit hidden" aria-hidden="true">
+      <div class="cockpit-frame"></div>
+      <div class="cockpit-pillar cockpit-pillar-l"></div>
+      <div class="cockpit-pillar cockpit-pillar-r"></div>
+      <div class="cockpit-canopy"></div>
+      <div class="cockpit-dash">
+        <div class="cockpit-dial cockpit-dial-l"></div>
+        <div class="cockpit-dial cockpit-dial-c"></div>
+        <div class="cockpit-dial cockpit-dial-r"></div>
+      </div>
+      <div class="cockpit-gunsight">
+        <span class="sight-ring"></span>
+        <span class="sight-pip"></span>
+      </div>
+    </div>
+
+    <div id="menu" class="panel">
+      <p class="eyebrow">Open skies · build your squad</p>
+      <h1>SKY DRIFT</h1>
+      <p class="tagline">Upgrade your airframe until it evolves, kit out wingmen, then dogfight Grok’s flight.</p>
+      <div id="plane-picker" class="plane-picker"></div>
+      <p id="airframe-label" class="airframe-label">Airframe · Mk.I Scout</p>
+      <div class="hangar">
+        <div class="hangar-head">
+          <span>YOUR PLANE</span>
+          <strong>SCRAP <em id="menu-scrap">0</em></strong>
+        </div>
+        <div id="plane-upgrade-list" class="upgrade-list"></div>
+      </div>
+      <div class="hangar">
+        <div class="hangar-head">
+          <span>SQUAD</span>
+          <strong></strong>
+        </div>
+        <div id="upgrade-list" class="upgrade-list"></div>
+      </div>
+      <label class="setting">
+        <span>Mouse sensitivity <strong id="sens-label">40%</strong></span>
+        <input id="sens-slider" type="range" min="10" max="100" step="1" value="40" />
+      </label>
+      <button id="start-btn" class="btn primary">Take Off</button>
+      <p class="controls-hint">
+        <kbd>Mouse</kbd> steer ·
+        <kbd>Space</kbd> boost ·
+        <kbd>Click</kbd> or <kbd>F</kbd> guns ·
+        <kbd>V</kbd> camera ·
+        skim lakes fast & shallow to skip · wingmen fight with you
+      </p>
+    </div>
+
+    <div id="overlay" class="panel hidden">
+      <h2 id="overlay-title">Wings Down</h2>
+      <p id="overlay-msg">You scored 0 rings.</p>
+      <button id="retry-btn" class="btn primary">Fly Again</button>
+      <button id="menu-btn" class="btn ghost">Hangar</button>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
