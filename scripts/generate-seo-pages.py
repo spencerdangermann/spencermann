@@ -14,6 +14,10 @@ HK_HTML = ROOT / "hollow-knight.html"
 SITEMAP = ROOT / "sitemap.xml"
 PRINTS_DIR = ROOT / "prints"
 SITE = "https://spencermann.com"
+SAME_AS = [
+    "https://makerworld.com/en/@spencermann",
+    "https://github.com/spencerdangermann/spencermann",
+]
 TODAY = date.today().isoformat()
 
 FLAGSHIPS = [
@@ -33,6 +37,13 @@ FLAGSHIPS = [
             "and Bambu Lab profiles so you can go from download to a wearable mask without "
             "remodeling it yourself."
         ),
+        "notes": [
+            "Adult head size — use the child/teen Hornet Mask if you are printing for a kid.",
+            "Designed from Hollow Knight / Silksong art and test-printed before release.",
+            "Includes Bambu Lab print profiles on MakerWorld.",
+            "Paint after assembly; overlapping seams hide the join lines.",
+        ],
+        "related_child": "hornet-mask-child",
     },
     {
         "id": "hornet-mask-hollow-knight-teen-child-sized",
@@ -49,6 +60,11 @@ FLAGSHIPS = [
             "kid, a smaller adult, or a display head, start here instead of the large Silksong "
             "adult mask."
         ),
+        "notes": [
+            "Child / teen size — switch to the adult Hornet Mask for a full-size head.",
+            "Proportions taken from in-game 2D art, then fit-tested on kids.",
+            "Free STL with MakerWorld print profiles.",
+        ],
     },
     {
         "id": "hornet-s-needle-big-silk-song-adult-cosplay",
@@ -64,6 +80,10 @@ FLAGSHIPS = [
             "Silksong version replaces the teen-scale needle that used conduit as a core. Print "
             "it as a cosplay prop alongside the adult mask, or as a standalone Hallownest piece."
         ),
+        "notes": [
+            "Adult / Silksong scale — pair with the adult Hornet Mask.",
+            "Earlier teen needle used a conduit core; this version is the larger replacement.",
+        ],
     },
     {
         "id": "the-pure-vessel-mask-from-hollow-knight",
@@ -79,6 +99,10 @@ FLAGSHIPS = [
             "rest of the mask series, it is split for FDM printing with overlapping seams so you "
             "can assemble, sand, and paint a convention-ready helmet."
         ),
+        "notes": [
+            "Adult-sized Hollow Knight boss mask with overlapping FDM seams.",
+            "Paint after assembly; designed to sit with the Pure Vessel nail/sword prints.",
+        ],
     },
     {
         "id": "the-nail-hollow-knight-sword-cosplay-tpu",
@@ -94,6 +118,10 @@ FLAGSHIPS = [
             "Hornet masks. The files are set up for TPU so the blade has a little flex for "
             "cosplay instead of a brittle PLA stick."
         ),
+        "notes": [
+            "TPU-oriented so the blade has flex for wearable cosplay.",
+            "Scaled from in-game art to match the Knight and Hornet masks.",
+        ],
     },
     {
         "id": "hollow-knight-mask-adult-size-updated-cosplay",
@@ -109,6 +137,10 @@ FLAGSHIPS = [
             "youth version after people asked for a head that actually fits grown-ups. If you "
             "want the classic bug-head look rather than Hornet or Grimm, this is the print."
         ),
+        "notes": [
+            "Adult size — there is a separate child/teen Knight mask if you need a smaller head.",
+            "Updated from the youth version after people asked for an adult fit.",
+        ],
     },
     {
         "id": "the-grimm-mask-hollow-knight-adult-child-size",
@@ -124,6 +156,10 @@ FLAGSHIPS = [
             "prototype from in-game stills until the silhouette reads as Grimm at a glance, then "
             "tune the parts so they print and assemble without a custom support nightmare."
         ),
+        "notes": [
+            "Adult and child sizes in the same MakerWorld listing.",
+            "Silhouette prototyped from in-game stills of Troupe Master Grimm.",
+        ],
     },
     {
         "id": "zote-the-mighty-mask-hollow-knight",
@@ -139,6 +175,10 @@ FLAGSHIPS = [
             "built a little differently from Hornet and the Knight so the pretender's face reads "
             "correctly in person. Print it as a gag cosplay or to complete a Hallownest mask wall."
         ),
+        "notes": [
+            "Newest Hollow Knight mask in the set — different shell construction than Hornet.",
+            "Built after a community request; test-printed before publishing.",
+        ],
     },
 ]
 
@@ -199,6 +239,37 @@ def card_html(model: dict, href: str, prefix: str = "") -> str:
     )
 
 
+def credibility_html(flag: dict, model: dict) -> str:
+    likes = int(model.get("likes") or 0)
+    likes_label = f"{likes:,}" if likes else "community"
+    items = [
+        f'<li><strong>{likes_label} likes</strong> on the original MakerWorld listing for this file.</li>',
+        "<li>Designed, test-printed, and published by Spencer Mann (Spencermann) — not a remix.</li>",
+        '<li>Free STL from <a href="https://makerworld.com/en/@spencermann" target="_blank" rel="noopener noreferrer">@spencermann on MakerWorld</a>.</li>',
+    ]
+    for note in flag.get("notes") or []:
+        items.insert(-1, f"<li>{esc(note)}</li>")
+    extra_link = ""
+    if flag.get("related_child"):
+        extra_link = (
+            ' · <a href="hornet-mask-child.html">Child / teen Hornet Mask</a>'
+        )
+    elif flag["slug"] == "hornet-mask-child":
+        extra_link = ' · <a href="hornet-mask.html">Adult Hornet Mask</a>'
+    return f"""                    <aside class="credibility-block">
+                        <h2 class="credibility-title">Print notes from the designer</h2>
+                        <ul class="credibility-list">
+                            {"".join(items)}
+                        </ul>
+                        <p class="credibility-links">
+                            <a href="../index.html#about">About Spencer Mann</a>
+                            · <a href="../hollow-knight.html">Hollow Knight collection</a>
+                            {extra_link}
+                        </p>
+                    </aside>
+"""
+
+
 def print_page(flag: dict, model: dict, others: list[dict]) -> str:
     page_url = f"{SITE}/prints/{flag['slug']}.html"
     image_url = f"{SITE}/{model['image'].replace(chr(92), '/')}"
@@ -228,6 +299,7 @@ def print_page(flag: dict, model: dict, others: list[dict]) -> str:
             "name": "Spencer Mann",
             "alternateName": "Spencermann",
             "url": f"{SITE}/",
+            "sameAs": SAME_AS,
         },
     }
     crumbs = {
@@ -289,6 +361,7 @@ def print_page(flag: dict, model: dict, others: list[dict]) -> str:
                     <p class="about-text">{esc(flag["body"])}</p>
                     <p class="about-text">{esc(model.get("description") or "")}</p>
                     <a class="btn-makerworld" href="{esc(model["makerworldUrl"])}?utm_source=spencermann&amp;utm_medium=website&amp;utm_campaign={esc(flag["id"])}" target="_blank" rel="noopener noreferrer">Download free on MakerWorld</a>
+{credibility_html(flag, model)}
                     <p class="print-meta">Also in the <a href="../hollow-knight.html">full Hollow Knight collection</a>.</p>
                 </div>
             </div>

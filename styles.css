@@ -490,8 +490,39 @@ section {
     margin: 1rem 0;
 }
 
-.print-meta {
+.credibility-block {
+    margin-top: 1.75rem;
+    padding: 1.25rem 1.5rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background-color: var(--bg-card);
+}
+
+.credibility-title {
+    font-size: 1.05rem;
+    margin-bottom: 0.75rem;
+    color: var(--text-primary);
+}
+
+.credibility-list {
+    margin: 0 0 0.85rem;
+    padding-left: 1.2rem;
     color: var(--text-secondary);
+    line-height: 1.55;
+}
+
+.credibility-list li + li {
+    margin-top: 0.4rem;
+}
+
+.credibility-links {
+    margin: 0;
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+}
+
+.credibility-links a {
+    color: var(--accent);
 }
 
 .hk-related-list {
