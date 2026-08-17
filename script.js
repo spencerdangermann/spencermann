@@ -50,7 +50,7 @@ function getImageAlt(model) {
 function injectCategoryItemListSchema(models, listName) {
     if (!models.length) return;
 
-    const origin = window.location.origin || 'https://www.spencermann.com';
+    const origin = window.location.origin || 'https://spencermann.com';
     const itemListElement = models.map(function (model, index) {
         const imageUrl = model.image.startsWith('http')
             ? model.image

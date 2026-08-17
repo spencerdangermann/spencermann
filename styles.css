@@ -159,21 +159,21 @@ body {
     display: flex;
     align-items: center;
     gap: 1.25rem;
-    max-width: 28rem;
+    max-width: 44rem;
 }
 
 .hero-line {
     flex: 1;
     height: 1px;
     background-color: rgba(255, 255, 255, 0.85);
-    min-width: 2rem;
+    min-width: 1.5rem;
 }
 
 .hero-name {
     font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-    font-size: clamp(2.75rem, 8vw, 4.5rem);
+    font-size: clamp(1.85rem, 6.5vw, 4rem);
     font-weight: 700;
-    letter-spacing: 0.12em;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #fff;
     text-shadow: 0 2px 24px rgba(0, 0, 0, 0.6);
@@ -439,6 +439,76 @@ section {
     color: var(--accent);
     font-weight: 600;
     font-size: 0.95rem;
+}
+
+.hk-model-index {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 0.5rem 1.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 2.5rem;
+}
+
+.hk-model-index li {
+    color: var(--text-secondary);
+}
+
+.hk-model-index a {
+    color: var(--text-primary);
+    text-decoration: none;
+}
+
+.hk-model-index a:hover {
+    color: var(--accent);
+}
+
+.print-kicker {
+    margin-bottom: 0.75rem;
+}
+
+.print-kicker a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.print-detail-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr);
+    gap: 2rem;
+    align-items: start;
+}
+
+.print-hero-image img {
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+}
+
+.print-copy .btn-makerworld {
+    display: inline-block;
+    margin: 1rem 0;
+}
+
+.print-meta {
+    color: var(--text-secondary);
+}
+
+.hk-related-list {
+    columns: 2;
+    gap: 1.5rem;
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+@media (max-width: 800px) {
+    .print-detail-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hk-related-list {
+        columns: 1;
+    }
 }
 
 .carousel-empty {
@@ -767,6 +837,12 @@ section {
 
     .hero-name-row {
         max-width: 100%;
+    }
+
+    .hero-name {
+        white-space: normal;
+        text-align: center;
+        line-height: 1.15;
     }
 
     .section-title {
