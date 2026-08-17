@@ -12,8 +12,9 @@ from urllib.parse import urlparse
 ROOT = Path(__file__).resolve().parent.parent
 MODELS_JSON = ROOT / "data" / "models.json"
 HK_SCRAPE = ROOT / "data" / "hollow-knight-scrape.json"
-API_URL = "https://makerworld.com/api/v1/design-service/published/2215294622/design?offset=0&limit=100"
+API_BASE = "https://makerworld.com/api/v1/design-service/published/2215294622/design"
 DETAIL_URL = "https://makerworld.com/api/v1/design-service/design/{design_id}"
+PAGE_SIZE = 100
 
 DUAL_CATEGORIES = {
     "city-of-tears-pond-water-fountain-functional": ["hollow-knight", "water-fountains"],
@@ -133,13 +134,24 @@ UTILITY_MARKERS = (
 
 
 def fetch_catalog() -> list[dict]:
-    req = urllib.request.Request(
-        API_URL,
-        headers={"User-Agent": "Mozilla/5.0", "Accept": "application/json"},
-    )
-    with urllib.request.urlopen(req, timeout=120) as resp:
-        data = json.loads(resp.read())
-    return data["hits"]
+    hits: list[dict] = []
+    offset = 0
+    total = None
+    while True:
+        url = f"{API_BASE}?offset={offset}&limit={PAGE_SIZE}"
+        req = urllib.request.Request(
+            url,
+            headers={"User-Agent": "Mozilla/5.0", "Accept": "application/json"},
+        )
+        with urllib.request.urlopen(req, timeout=120) as resp:
+            data = json.loads(resp.read())
+        batch = data.get("hits") or []
+        hits.extend(batch)
+        total = int(data.get("total") or 0)
+        if not batch or (total and len(hits) >= total) or len(batch) < PAGE_SIZE:
+            break
+        offset += PAGE_SIZE
+    return hits
 
 
 def fetch_design_detail(design_id: int) -> dict:

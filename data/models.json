@@ -26,7 +26,7 @@
         "helmet",
         "Hollow Knight 3D print"
       ],
-      "likes": 1828,
+      "likes": 1924,
       "publishTime": "2025-09-17T13:54:50Z",
       "featured": true
     },
@@ -56,7 +56,7 @@
         "Silksong cosplay",
         "Spencermann"
       ],
-      "likes": 1363,
+      "likes": 1395,
       "publishTime": "2025-02-14T01:02:24Z",
       "featured": true
     },
@@ -86,7 +86,7 @@
         "Halloween",
         "Hollow Knight 3D print"
       ],
-      "likes": 1132,
+      "likes": 1182,
       "publishTime": "2025-09-24T15:29:39Z",
       "featured": true
     },
@@ -116,7 +116,7 @@
         "wyvern",
         "japanese"
       ],
-      "likes": 1001,
+      "likes": 1091,
       "publishTime": "2025-05-13T23:50:12Z",
       "featured": true
     },
@@ -146,7 +146,7 @@
         "Spencermann",
         "MakerWorld free STL"
       ],
-      "likes": 784,
+      "likes": 820,
       "publishTime": "2025-03-01T01:47:33Z",
       "featured": true
     },
@@ -176,8 +176,38 @@
         "MakerWorld free STL",
         "MakerWorld free download"
       ],
-      "likes": 733,
+      "likes": 797,
       "publishTime": "2026-04-21T23:53:33Z",
+      "featured": true
+    },
+    {
+      "id": "bubble-amazing-digital-circus-tadc-popcorn-bowl",
+      "makerworldId": 2721687,
+      "title": "Bubble Amazing Digital Circus (TADC) Popcorn bowl",
+      "category": "glitch-productions",
+      "categories": [
+        "glitch-productions"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2721687-bubble-amazing-digital-circus-tadc-popcorn-bowl",
+      "image": "images/glitch-productions/bubble-amazing-digital-circus-tadc-popcorn-bowl.jpg",
+      "description": "On my last model of Bubble a user @flow1223426772 had an idea of making it into a popcorn bowl in preparation for the movie. Sounded like a good idea, so I adjusted my original model for this use case. Tags: tadc, bubble, digital circus, amazing digital circus.",
+      "imageAlt": "Bubble Amazing Digital Circus (TADC) Popcorn bowl \u2014 free 3D print (glitch productions) on MakerWorld | Spencermann",
+      "keywords": [
+        "tadc",
+        "bubble",
+        "digital circus",
+        "amazing digital circus",
+        "the amazing digital circus",
+        "popcorn",
+        "popcorn bowl",
+        "movie",
+        "articulating",
+        "functional",
+        "Glitch Productions 3D print",
+        "Murder Drones"
+      ],
+      "likes": 724,
+      "publishTime": "2026-04-26T18:06:19Z",
       "featured": true
     },
     {
@@ -206,68 +236,8 @@
         "Halloween",
         "Hollow Knight 3D print"
       ],
-      "likes": 705,
+      "likes": 720,
       "publishTime": "2025-03-26T15:45:41Z",
-      "featured": false
-    },
-    {
-      "id": "bubble-amazing-digital-circus-tadc-popcorn-bowl",
-      "makerworldId": 2721687,
-      "title": "Bubble Amazing Digital Circus (TADC) Popcorn bowl",
-      "category": "glitch-productions",
-      "categories": [
-        "glitch-productions"
-      ],
-      "makerworldUrl": "https://makerworld.com/en/models/2721687-bubble-amazing-digital-circus-tadc-popcorn-bowl",
-      "image": "images/glitch-productions/bubble-amazing-digital-circus-tadc-popcorn-bowl.jpg",
-      "description": "On my last model of Bubble a user @flow1223426772 had an idea of making it into a popcorn bowl in preparation for the movie. Sounded like a good idea, so I adjusted my original model for this use case. Tags: tadc, bubble, digital circus, amazing digital circus.",
-      "imageAlt": "Bubble Amazing Digital Circus (TADC) Popcorn bowl \u2014 free 3D print (glitch productions) on MakerWorld | Spencermann",
-      "keywords": [
-        "tadc",
-        "bubble",
-        "digital circus",
-        "amazing digital circus",
-        "the amazing digital circus",
-        "popcorn",
-        "popcorn bowl",
-        "movie",
-        "articulating",
-        "functional",
-        "Glitch Productions 3D print",
-        "Murder Drones"
-      ],
-      "likes": 660,
-      "publishTime": "2026-04-26T18:06:19Z",
-      "featured": true
-    },
-    {
-      "id": "the-nail-hollow-knight-sword-cosplay-tpu",
-      "makerworldId": 1292093,
-      "title": "The Nail (Hollow Knight Sword - Cosplay TPU)",
-      "category": "hollow-knight",
-      "categories": [
-        "hollow-knight"
-      ],
-      "makerworldUrl": "https://makerworld.com/en/models/1292093-the-nail-hollow-knight-sword-cosplay-tpu",
-      "image": "images/hollow-knight/the-nail-hollow-knight-sword-cosplay-tpu.jpg",
-      "description": "The Nail from Hollow Knight. I designed this sword to compliment the masks and other weapons I have designed for Hollow Knight. I always try to base the creations as closely as I can on the video game art, in this case the sword is really not that big of a weapon. Tags: hollow knight, sword, video game, COSPLAY.",
-      "imageAlt": "The Nail Hollow Knight sword cosplay TPU \u2014 free 3D print prop",
-      "keywords": [
-        "Hornet's Needle",
-        "hollow knight",
-        "sword",
-        "video game",
-        "COSPLAY",
-        "TPU",
-        "silksong",
-        "knight",
-        "Halloween",
-        "Hollow Knight 3D print",
-        "Silksong cosplay",
-        "Spencermann"
-      ],
-      "likes": 595,
-      "publishTime": "2025-04-06T18:19:48Z",
       "featured": false
     },
     {
@@ -296,9 +266,39 @@
         "MakerWorld free download",
         "pond fountain"
       ],
-      "likes": 515,
+      "likes": 656,
       "publishTime": "2026-04-18T22:26:36Z",
       "featured": true
+    },
+    {
+      "id": "the-nail-hollow-knight-sword-cosplay-tpu",
+      "makerworldId": 1292093,
+      "title": "The Nail (Hollow Knight Sword - Cosplay TPU)",
+      "category": "hollow-knight",
+      "categories": [
+        "hollow-knight"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1292093-the-nail-hollow-knight-sword-cosplay-tpu",
+      "image": "images/hollow-knight/the-nail-hollow-knight-sword-cosplay-tpu.jpg",
+      "description": "The Nail from Hollow Knight. I designed this sword to compliment the masks and other weapons I have designed for Hollow Knight. I always try to base the creations as closely as I can on the video game art, in this case the sword is really not that big of a weapon. Tags: hollow knight, sword, video game, COSPLAY.",
+      "imageAlt": "The Nail Hollow Knight sword cosplay TPU \u2014 free 3D print prop",
+      "keywords": [
+        "Hornet's Needle",
+        "hollow knight",
+        "sword",
+        "video game",
+        "COSPLAY",
+        "TPU",
+        "silksong",
+        "knight",
+        "Halloween",
+        "Hollow Knight 3D print",
+        "Silksong cosplay",
+        "Spencermann"
+      ],
+      "likes": 611,
+      "publishTime": "2025-04-06T18:19:48Z",
+      "featured": false
     },
     {
       "id": "aquarium-jagged-rocks-decor",
@@ -322,7 +322,7 @@
         "Spencermann",
         "MakerWorld STL download"
       ],
-      "likes": 476,
+      "likes": 488,
       "publishTime": "2025-02-09T00:28:41Z",
       "featured": true
     },
@@ -351,7 +351,7 @@
         "Hollow Knight cosplay",
         "MakerWorld free download"
       ],
-      "likes": 466,
+      "likes": 481,
       "publishTime": "2025-02-06T23:59:20Z",
       "featured": false
     },
@@ -381,8 +381,68 @@
         "functional",
         "unique"
       ],
-      "likes": 372,
+      "likes": 403,
       "publishTime": "2025-08-17T14:54:29Z",
+      "featured": true
+    },
+    {
+      "id": "dragon-fountain-working-1-2-pvc-adapter",
+      "makerworldId": 2493113,
+      "title": "Dragon Fountain Working: 1/2 pvc adapter",
+      "category": "water-fountains",
+      "categories": [
+        "water-fountains"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2493113-dragon-fountain-working-1-2-pvc-adapter",
+      "image": "images/water-fountains/dragon-fountain-working-1-2-pvc-adapter.gif",
+      "description": "Now that winter is over, I have been working on our little pond. I thought it would be fun to do a large dragon head fountain that is shooting water out of its mouth. Tags: fountain, sculpture, water, pond.",
+      "imageAlt": "Dragon Fountain Working: 1/2 pvc adapter \u2014 free 3D print (water fountains) on MakerWorld | Spencermann",
+      "keywords": [
+        "fountain",
+        "sculpture",
+        "water",
+        "pond",
+        "garden",
+        "art",
+        "yard",
+        "utility",
+        "functional",
+        "unique",
+        "water feature",
+        "3D printed water fountain"
+      ],
+      "likes": 377,
+      "publishTime": "2026-03-07T23:07:45Z",
+      "featured": true
+    },
+    {
+      "id": "bubble-mask-the-amazing-digital-circus-tadc",
+      "makerworldId": 2767411,
+      "title": "Bubble Mask - The Amazing Digital Circus (TADC)",
+      "category": "glitch-productions",
+      "categories": [
+        "glitch-productions"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2767411-bubble-mask-the-amazing-digital-circus-tadc",
+      "image": "images/glitch-productions/bubble-mask-the-amazing-digital-circus-tadc.jpg",
+      "description": "I think I have taken my Bubble design to the natural conclusion. This articulating Bubble mask should fit any human sized head (you can scale it to about 92% if you want it a bit smaller for a child, but I generally think the bigger the mask the more comical it looks).",
+      "imageAlt": "Bubble Mask - The Amazing Digital Circus (TADC) \u2014 free 3D print (glitch productions) on MakerWorld | Spencermann",
+      "keywords": [
+        "bubble",
+        "tadc",
+        "theamazingdigitalcircus",
+        "cartoon",
+        "Halloween",
+        "mask",
+        "COSPLAY",
+        "Glitch Productions 3D print",
+        "Murder Drones",
+        "Gameoverse",
+        "Spencermann",
+        "MakerWorld free STL"
+      ],
+      "likes": 364,
+      "publishTime": "2026-05-07T03:15:31Z",
       "featured": true
     },
     {
@@ -411,9 +471,9 @@
         "decoration",
         "useful"
       ],
-      "likes": 325,
+      "likes": 357,
       "publishTime": "2025-06-22T16:53:08Z",
-      "featured": true
+      "featured": false
     },
     {
       "id": "pure-vessel-nail-hollow-knight-boss-sword-tpu",
@@ -441,69 +501,39 @@
         "Hollow Knight 3D print",
         "Silksong cosplay"
       ],
-      "likes": 324,
+      "likes": 334,
       "publishTime": "2025-09-03T23:51:09Z",
       "featured": false
     },
     {
-      "id": "dragon-fountain-working-1-2-pvc-adapter",
-      "makerworldId": 2493113,
-      "title": "Dragon Fountain Working: 1/2 pvc adapter",
-      "category": "water-fountains",
+      "id": "lumafly-lantern-hollow-knight",
+      "makerworldId": 2462343,
+      "title": "Lumafly Lantern Hollow Knight",
+      "category": "hollow-knight",
       "categories": [
-        "water-fountains"
+        "hollow-knight"
       ],
-      "makerworldUrl": "https://makerworld.com/en/models/2493113-dragon-fountain-working-1-2-pvc-adapter",
-      "image": "images/water-fountains/dragon-fountain-working-1-2-pvc-adapter.gif",
-      "description": "Now that winter is over, I have been working on our little pond. I thought it would be fun to do a large dragon head fountain that is shooting water out of its mouth. Tags: fountain, sculpture, water, pond.",
-      "imageAlt": "Dragon Fountain Working: 1/2 pvc adapter \u2014 free 3D print (water fountains) on MakerWorld | Spencermann",
+      "makerworldUrl": "https://makerworld.com/en/models/2462343-lumafly-lantern-hollow-knight",
+      "image": "images/hollow-knight/lumafly-lantern-hollow-knight.jpg",
+      "description": "I got this recommendation recently online, and it seemed like a fun and interesting build. It is setup so you can insert a little led light inside after you put it together by rotating the inner globe. Tags: Hollow Knight, hollow knight, Silksong, silksong.",
+      "imageAlt": "Lumafly Lantern Hollow Knight \u2014 free 3D print (hollow knight) on MakerWorld | Spencermann",
       "keywords": [
-        "fountain",
-        "sculpture",
-        "water",
-        "pond",
-        "garden",
-        "art",
-        "yard",
-        "utility",
-        "functional",
-        "unique",
-        "water feature",
-        "3D printed water fountain"
-      ],
-      "likes": 292,
-      "publishTime": "2026-03-07T23:07:45Z",
-      "featured": false
-    },
-    {
-      "id": "bubble-mask-the-amazing-digital-circus-tadc",
-      "makerworldId": 2767411,
-      "title": "Bubble Mask - The Amazing Digital Circus (TADC)",
-      "category": "glitch-productions",
-      "categories": [
-        "glitch-productions"
-      ],
-      "makerworldUrl": "https://makerworld.com/en/models/2767411-bubble-mask-the-amazing-digital-circus-tadc",
-      "image": "images/glitch-productions/bubble-mask-the-amazing-digital-circus-tadc.jpg",
-      "description": "I think I have taken my Bubble design to the natural conclusion. This articulating Bubble mask should fit any human sized head (you can scale it to about 92% if you want it a bit smaller for a child, but I generally think the bigger the mask the more comical it looks).",
-      "imageAlt": "Bubble Mask - The Amazing Digital Circus (TADC) \u2014 free 3D print (glitch productions) on MakerWorld | Spencermann",
-      "keywords": [
-        "bubble",
-        "tadc",
-        "theamazingdigitalcircus",
-        "cartoon",
-        "Halloween",
-        "mask",
+        "Hollow Knight",
+        "Silksong",
+        "lantern",
+        "video game",
         "COSPLAY",
-        "Glitch Productions 3D print",
-        "Murder Drones",
-        "Gameoverse",
+        "Light",
+        "Hollow Knight 3D print",
+        "Silksong cosplay",
         "Spencermann",
-        "MakerWorld free STL"
+        "MakerWorld free STL",
+        "Hollow Knight cosplay",
+        "MakerWorld free download"
       ],
-      "likes": 275,
-      "publishTime": "2026-05-07T03:15:31Z",
-      "featured": true
+      "likes": 298,
+      "publishTime": "2026-03-01T03:41:02Z",
+      "featured": false
     },
     {
       "id": "hollow-knight-mask-adult-size-updated-cosplay",
@@ -531,7 +561,7 @@
         "Spencermann",
         "MakerWorld free STL"
       ],
-      "likes": 257,
+      "likes": 263,
       "publishTime": "2025-07-27T23:41:21Z",
       "featured": false
     },
@@ -561,38 +591,8 @@
         "Silksong cosplay",
         "Spencermann"
       ],
-      "likes": 242,
+      "likes": 260,
       "publishTime": "2025-10-14T21:45:36Z",
-      "featured": false
-    },
-    {
-      "id": "lumafly-lantern-hollow-knight",
-      "makerworldId": 2462343,
-      "title": "Lumafly Lantern Hollow Knight",
-      "category": "hollow-knight",
-      "categories": [
-        "hollow-knight"
-      ],
-      "makerworldUrl": "https://makerworld.com/en/models/2462343-lumafly-lantern-hollow-knight",
-      "image": "images/hollow-knight/lumafly-lantern-hollow-knight.jpg",
-      "description": "I got this recommendation recently online, and it seemed like a fun and interesting build. It is setup so you can insert a little led light inside after you put it together by rotating the inner globe. Tags: Hollow Knight, hollow knight, Silksong, silksong.",
-      "imageAlt": "Lumafly Lantern Hollow Knight \u2014 free 3D print (hollow knight) on MakerWorld | Spencermann",
-      "keywords": [
-        "Hollow Knight",
-        "Silksong",
-        "lantern",
-        "video game",
-        "COSPLAY",
-        "Light",
-        "Hollow Knight 3D print",
-        "Silksong cosplay",
-        "Spencermann",
-        "MakerWorld free STL",
-        "Hollow Knight cosplay",
-        "MakerWorld free download"
-      ],
-      "likes": 239,
-      "publishTime": "2026-03-01T03:41:02Z",
       "featured": false
     },
     {
@@ -621,7 +621,7 @@
         "Spencermann",
         "MakerWorld free STL"
       ],
-      "likes": 209,
+      "likes": 240,
       "publishTime": "2026-01-09T01:20:13Z",
       "featured": true
     },
@@ -651,97 +651,9 @@
         "art",
         "novelty"
       ],
-      "likes": 182,
+      "likes": 190,
       "publishTime": "2024-11-17T00:17:28Z",
       "featured": true
-    },
-    {
-      "id": "mannbows-and-mannapults",
-      "makerworldId": 1088349,
-      "title": "Mannbows and Mannapults",
-      "category": "other",
-      "categories": [
-        "other"
-      ],
-      "makerworldUrl": "https://makerworld.com/en/models/1088349-mannbows-and-mannapults",
-      "image": "images/other/mannbows-and-mannapults.jpg",
-      "description": "Mannbows and Mannapults is an update on the 1983 game board game \u201cCrossbows and Catapults\u201d. This game blew my mind as a kid and when I recently heard that a new version was coming my cold heart was warmed with fond memories. Tags: board game, Game, fun, catapult.",
-      "imageAlt": "Mannbows and Mannapults \u2014 free 3D print (other) on MakerWorld | Spencermann",
-      "keywords": [
-        "board game",
-        "Game",
-        "fun",
-        "catapult",
-        "crossbow",
-        "castle",
-        "retro",
-        "free 3D print",
-        "Spencermann",
-        "MakerWorld STL download"
-      ],
-      "likes": 157,
-      "publishTime": "2025-02-09T00:17:59Z",
-      "featured": true
-    },
-    {
-      "id": "the-grimm-mask-hollow-knight-adult-child-size",
-      "makerworldId": 1857267,
-      "title": "The Grimm Mask - Hollow Knight adult & child size",
-      "category": "hollow-knight",
-      "categories": [
-        "hollow-knight"
-      ],
-      "makerworldUrl": "https://makerworld.com/en/models/1857267-the-grimm-mask-hollow-knight-adult-child-size",
-      "image": "images/hollow-knight/the-grimm-mask-hollow-knight-adult-child-size.jpg",
-      "description": "The Grimm from Hollow Knight. This was a lot of fun (and work) to create. As always I study in game images to come up with a design, print out multiple prototypes to test fit, printability, and ease of putting together. Tags: mask, helmet, grimm, Hollow Knight.",
-      "imageAlt": "Grimm Mask Hollow Knight adult and child \u2014 free 3D print cosplay",
-      "keywords": [
-        "mask",
-        "helmet",
-        "grimm",
-        "Hollow Knight",
-        "hollowknight",
-        "Silksong",
-        "silk song",
-        "video game",
-        "COSPLAY",
-        "Halloween",
-        "costume",
-        "costume accessories"
-      ],
-      "likes": 152,
-      "publishTime": "2025-10-05T02:46:54Z",
-      "featured": false
-    },
-    {
-      "id": "cogfly-silksong-hollow-knight-tool-w-hinge-wing",
-      "makerworldId": 2161614,
-      "title": "Cogfly Silksong (hollow knight) tool w/ hinge wing",
-      "category": "hollow-knight",
-      "categories": [
-        "hollow-knight"
-      ],
-      "makerworldUrl": "https://makerworld.com/en/models/2161614-cogfly-silksong-hollow-knight-tool-w-hinge-wing",
-      "image": "images/hollow-knight/cogfly-silksong-hollow-knight-tool-w-hinge-wing.jpg",
-      "description": "This model was requested a long time ago, but I finally got around to making it. It is a pretty simple print, and I am showing the standard size version (you may want to make it bigger and I think the hinges will work better with a larger size). Tags: cogfly, Silksong, silksong, Hollow Knight.",
-      "imageAlt": "Cogfly Silksong (hollow knight) tool w/ hinge wing \u2014 free 3D print (hollow knight) on MakerWorld | Spencermann",
-      "keywords": [
-        "cogfly",
-        "Silksong",
-        "Hollow Knight",
-        "video game",
-        "mechanical",
-        "creature",
-        "Hollow Knight 3D print",
-        "Silksong cosplay",
-        "Spencermann",
-        "MakerWorld free STL",
-        "Hollow Knight cosplay",
-        "MakerWorld free download"
-      ],
-      "likes": 151,
-      "publishTime": "2025-12-27T00:14:05Z",
-      "featured": false
     },
     {
       "id": "cynessa-cyn-tessa-hybrid-form-murder-drones",
@@ -769,37 +681,38 @@
         "Spencermann",
         "MakerWorld free STL"
       ],
-      "likes": 148,
+      "likes": 186,
       "publishTime": "2026-02-09T15:42:47Z",
       "featured": false
     },
     {
-      "id": "remix-of-uzi-murder-drones-added-pompom",
-      "makerworldId": 2113542,
-      "title": "Remix of Uzi - Murder Drones - Added Pompom & +",
-      "category": "glitch-productions",
+      "id": "the-grimm-mask-hollow-knight-adult-child-size",
+      "makerworldId": 1857267,
+      "title": "The Grimm Mask - Hollow Knight adult & child size",
+      "category": "hollow-knight",
       "categories": [
-        "glitch-productions"
+        "hollow-knight"
       ],
-      "makerworldUrl": "https://makerworld.com/en/models/2113542-remix-of-uzi-murder-drones-added-pompom",
-      "image": "images/glitch-productions/remix-of-uzi-murder-drones-added-pompom.png",
-      "description": "Tons of credit to UnNamedDesign for the original file and my awesome niece who painted the model in the profile. I made the following changes: - Added a pompom to the hat - Removed some add design stuff on the leg. Tags: murder drone, murder drones, uzi, video game.",
-      "imageAlt": "Remix of Uzi - Murder Drones - Added Pompom & + \u2014 free 3D print (glitch productions) on MakerWorld | Spencermann",
+      "makerworldUrl": "https://makerworld.com/en/models/1857267-the-grimm-mask-hollow-knight-adult-child-size",
+      "image": "images/hollow-knight/the-grimm-mask-hollow-knight-adult-child-size.jpg",
+      "description": "The Grimm from Hollow Knight. This was a lot of fun (and work) to create. As always I study in game images to come up with a design, print out multiple prototypes to test fit, printability, and ease of putting together. Tags: mask, helmet, grimm, Hollow Knight.",
+      "imageAlt": "Grimm Mask Hollow Knight adult and child \u2014 free 3D print cosplay",
       "keywords": [
-        "Murder Drones figure",
-        "murder drone",
-        "murder drones",
-        "uzi",
+        "mask",
+        "helmet",
+        "grimm",
+        "Hollow Knight",
+        "hollowknight",
+        "Silksong",
+        "silk song",
         "video game",
-        "glitch",
-        "Glitch Productions 3D print",
-        "Gameoverse",
-        "Spencermann",
-        "MakerWorld free STL",
-        "MakerWorld free download"
+        "COSPLAY",
+        "Halloween",
+        "costume",
+        "costume accessories"
       ],
-      "likes": 148,
-      "publishTime": "2025-12-14T02:40:22Z",
+      "likes": 171,
+      "publishTime": "2025-10-05T02:46:54Z",
       "featured": false
     },
     {
@@ -828,9 +741,96 @@
         "functional 3D print",
         "practical STL"
       ],
-      "likes": 138,
+      "likes": 170,
       "publishTime": "2026-03-17T01:26:51Z",
       "featured": true
+    },
+    {
+      "id": "cogfly-silksong-hollow-knight-tool-w-hinge-wing",
+      "makerworldId": 2161614,
+      "title": "Cogfly Silksong (hollow knight) tool w/ hinge wing",
+      "category": "hollow-knight",
+      "categories": [
+        "hollow-knight"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2161614-cogfly-silksong-hollow-knight-tool-w-hinge-wing",
+      "image": "images/hollow-knight/cogfly-silksong-hollow-knight-tool-w-hinge-wing.jpg",
+      "description": "This model was requested a long time ago, but I finally got around to making it. It is a pretty simple print, and I am showing the standard size version (you may want to make it bigger and I think the hinges will work better with a larger size). Tags: cogfly, Silksong, silksong, Hollow Knight.",
+      "imageAlt": "Cogfly Silksong (hollow knight) tool w/ hinge wing \u2014 free 3D print (hollow knight) on MakerWorld | Spencermann",
+      "keywords": [
+        "cogfly",
+        "Silksong",
+        "Hollow Knight",
+        "video game",
+        "mechanical",
+        "creature",
+        "Hollow Knight 3D print",
+        "Silksong cosplay",
+        "Spencermann",
+        "MakerWorld free STL",
+        "Hollow Knight cosplay",
+        "MakerWorld free download"
+      ],
+      "likes": 166,
+      "publishTime": "2025-12-27T00:14:05Z",
+      "featured": false
+    },
+    {
+      "id": "mannbows-and-mannapults",
+      "makerworldId": 1088349,
+      "title": "Mannbows and Mannapults",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1088349-mannbows-and-mannapults",
+      "image": "images/other/mannbows-and-mannapults.jpg",
+      "description": "Mannbows and Mannapults is an update on the 1983 game board game \u201cCrossbows and Catapults\u201d. This game blew my mind as a kid and when I recently heard that a new version was coming my cold heart was warmed with fond memories. Tags: board game, Game, fun, catapult.",
+      "imageAlt": "Mannbows and Mannapults \u2014 free 3D print (other) on MakerWorld | Spencermann",
+      "keywords": [
+        "board game",
+        "Game",
+        "fun",
+        "catapult",
+        "crossbow",
+        "castle",
+        "retro",
+        "free 3D print",
+        "Spencermann",
+        "MakerWorld STL download"
+      ],
+      "likes": 163,
+      "publishTime": "2025-02-09T00:17:59Z",
+      "featured": true
+    },
+    {
+      "id": "remix-of-uzi-murder-drones-added-pompom",
+      "makerworldId": 2113542,
+      "title": "Remix of Uzi - Murder Drones - Added Pompom & +",
+      "category": "glitch-productions",
+      "categories": [
+        "glitch-productions"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2113542-remix-of-uzi-murder-drones-added-pompom",
+      "image": "images/glitch-productions/remix-of-uzi-murder-drones-added-pompom.png",
+      "description": "Tons of credit to UnNamedDesign for the original file and my awesome niece who painted the model in the profile. I made the following changes: - Added a pompom to the hat - Removed some add design stuff on the leg. Tags: murder drone, murder drones, uzi, video game.",
+      "imageAlt": "Remix of Uzi - Murder Drones - Added Pompom & + \u2014 free 3D print (glitch productions) on MakerWorld | Spencermann",
+      "keywords": [
+        "Murder Drones figure",
+        "murder drone",
+        "murder drones",
+        "uzi",
+        "video game",
+        "glitch",
+        "Glitch Productions 3D print",
+        "Gameoverse",
+        "Spencermann",
+        "MakerWorld free STL",
+        "MakerWorld free download"
+      ],
+      "likes": 160,
+      "publishTime": "2025-12-14T02:40:22Z",
+      "featured": false
     },
     {
       "id": "pure-vessel-sword-large-size-52-hollow-knight",
@@ -858,97 +858,9 @@
         "MakerWorld free STL",
         "Hollow Knight cosplay"
       ],
-      "likes": 137,
+      "likes": 158,
       "publishTime": "2025-10-17T21:48:59Z",
       "featured": false
-    },
-    {
-      "id": "serial-designation-v-murder-drones-7-tall",
-      "makerworldId": 2414917,
-      "title": "Serial Designation V - Murder Drones ~ 7\" Tall",
-      "category": "glitch-productions",
-      "categories": [
-        "glitch-productions"
-      ],
-      "makerworldUrl": "https://makerworld.com/en/models/2414917-serial-designation-v-murder-drones-7-tall",
-      "image": "images/glitch-productions/serial-designation-v-murder-drones-7-tall.jpg",
-      "description": "V was the missing character in my Murder Drone series. I hope you enjoy the model! The knees are a critical spot so I dialed up the infill for that area. The elbows are all very thin, but are supported by other connections so you shouldn't worry too much about those.",
-      "imageAlt": "Serial Designation V - Murder Drones ~ 7\" Tall \u2014 free 3D print (glitch productions) on MakerWorld | Spencermann",
-      "keywords": [
-        "Murder Drones figure",
-        "murder drone",
-        "murder drones",
-        "serial designation v",
-        "anime",
-        "tv",
-        "Glitch Productions 3D print",
-        "Gameoverse",
-        "Spencermann",
-        "MakerWorld free STL",
-        "MakerWorld free download"
-      ],
-      "likes": 123,
-      "publishTime": "2026-02-18T15:27:43Z",
-      "featured": false
-    },
-    {
-      "id": "kit-bodega-gameoverse-glitch-productions",
-      "makerworldId": 2843864,
-      "title": "Kit Bodega - Gameoverse - Glitch Productions",
-      "category": "glitch-productions",
-      "categories": [
-        "glitch-productions"
-      ],
-      "makerworldUrl": "https://makerworld.com/en/models/2843864-kit-bodega-gameoverse-glitch-productions",
-      "image": "images/glitch-productions/kit-bodega-gameoverse-glitch-productions.jpg",
-      "description": "Update - My incredible niece painted the model, so I am using it as the new main picture for it! Thanks Addie! I hope you like this model!. Tags: kit, gameoverse, glitch, glitch productions.",
-      "imageAlt": "Kit Bodega - Gameoverse - Glitch Productions \u2014 free 3D print (glitch productions) on MakerWorld | Spencermann",
-      "keywords": [
-        "kit",
-        "gameoverse",
-        "glitch",
-        "glitch productions",
-        "video game",
-        "character",
-        "tv",
-        "Game",
-        "figurine",
-        "kit bodega",
-        "Glitch Productions 3D print",
-        "Murder Drones"
-      ],
-      "likes": 122,
-      "publishTime": "2026-05-24T21:15:13Z",
-      "featured": false
-    },
-    {
-      "id": "maccourt-pond-liner-natural-rock-edge-yard-fish",
-      "makerworldId": 1524564,
-      "title": "Maccourt Pond liner natural rock edge - Yard fish",
-      "category": "other",
-      "categories": [
-        "other"
-      ],
-      "makerworldUrl": "https://makerworld.com/en/models/1524564-maccourt-pond-liner-natural-rock-edge-yard-fish",
-      "image": "images/other/maccourt-pond-liner-natural-rock-edge-yard-fish.jpg",
-      "description": "Anyone who has purchased and installed one of the preformed pond liners feels the pain of having an ugly edge for their water feature. Hiding this black plastic edge is a pain and never really looks too good. Tags: garden, garden accessories, pond, fish.",
-      "imageAlt": "Maccourt Pond liner natural rock edge - Yard fish \u2014 free 3D print (other) on MakerWorld | Spencermann",
-      "keywords": [
-        "garden",
-        "garden accessories",
-        "pond",
-        "fish",
-        "maccourt",
-        "liner",
-        "pond liner",
-        "rock",
-        "free 3D print",
-        "Spencermann",
-        "MakerWorld STL download"
-      ],
-      "likes": 119,
-      "publishTime": "2025-06-16T17:14:27Z",
-      "featured": true
     },
     {
       "id": "feet-shoes-because-what-s-more-beautiful-than-feet",
@@ -976,9 +888,125 @@
         "silly",
         "free 3D print"
       ],
-      "likes": 113,
+      "likes": 154,
       "publishTime": "2026-03-13T00:34:32Z",
       "featured": true
+    },
+    {
+      "id": "serial-designation-v-murder-drones-7-tall",
+      "makerworldId": 2414917,
+      "title": "Serial Designation V - Murder Drones ~ 7\" Tall",
+      "category": "glitch-productions",
+      "categories": [
+        "glitch-productions"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2414917-serial-designation-v-murder-drones-7-tall",
+      "image": "images/glitch-productions/serial-designation-v-murder-drones-7-tall.jpg",
+      "description": "V was the missing character in my Murder Drone series. I hope you enjoy the model! The knees are a critical spot so I dialed up the infill for that area. The elbows are all very thin, but are supported by other connections so you shouldn't worry too much about those.",
+      "imageAlt": "Serial Designation V - Murder Drones ~ 7\" Tall \u2014 free 3D print (glitch productions) on MakerWorld | Spencermann",
+      "keywords": [
+        "Murder Drones figure",
+        "murder drone",
+        "murder drones",
+        "serial designation v",
+        "anime",
+        "tv",
+        "Glitch Productions 3D print",
+        "Gameoverse",
+        "Spencermann",
+        "MakerWorld free STL",
+        "MakerWorld free download"
+      ],
+      "likes": 137,
+      "publishTime": "2026-02-18T15:27:43Z",
+      "featured": false
+    },
+    {
+      "id": "maccourt-pond-liner-natural-rock-edge-yard-fish",
+      "makerworldId": 1524564,
+      "title": "Maccourt Pond liner natural rock edge - Yard fish",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1524564-maccourt-pond-liner-natural-rock-edge-yard-fish",
+      "image": "images/other/maccourt-pond-liner-natural-rock-edge-yard-fish.jpg",
+      "description": "Anyone who has purchased and installed one of the preformed pond liners feels the pain of having an ugly edge for their water feature. Hiding this black plastic edge is a pain and never really looks too good. Tags: garden, garden accessories, pond, fish.",
+      "imageAlt": "Maccourt Pond liner natural rock edge - Yard fish \u2014 free 3D print (other) on MakerWorld | Spencermann",
+      "keywords": [
+        "garden",
+        "garden accessories",
+        "pond",
+        "fish",
+        "maccourt",
+        "liner",
+        "pond liner",
+        "rock",
+        "free 3D print",
+        "Spencermann",
+        "MakerWorld STL download"
+      ],
+      "likes": 132,
+      "publishTime": "2025-06-16T17:14:27Z",
+      "featured": true
+    },
+    {
+      "id": "kit-bodega-gameoverse-glitch-productions",
+      "makerworldId": 2843864,
+      "title": "Kit Bodega - Gameoverse - Glitch Productions",
+      "category": "glitch-productions",
+      "categories": [
+        "glitch-productions"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2843864-kit-bodega-gameoverse-glitch-productions",
+      "image": "images/glitch-productions/kit-bodega-gameoverse-glitch-productions.jpg",
+      "description": "Update - My incredible niece painted the model, so I am using it as the new main picture for it! Thanks Addie! I hope you like this model!. Tags: kit, gameoverse, glitch, glitch productions.",
+      "imageAlt": "Kit Bodega - Gameoverse - Glitch Productions \u2014 free 3D print (glitch productions) on MakerWorld | Spencermann",
+      "keywords": [
+        "kit",
+        "gameoverse",
+        "glitch",
+        "glitch productions",
+        "video game",
+        "character",
+        "tv",
+        "Game",
+        "figurine",
+        "kit bodega",
+        "Glitch Productions 3D print",
+        "Murder Drones"
+      ],
+      "likes": 125,
+      "publishTime": "2026-05-24T21:15:13Z",
+      "featured": false
+    },
+    {
+      "id": "cathedral-stained-glass-petg-frame-for-epoxy",
+      "makerworldId": 1881204,
+      "title": "Cathedral Stained Glass - PETG Frame for Epoxy",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1881204-cathedral-stained-glass-petg-frame-for-epoxy",
+      "image": "images/other/cathedral-stained-glass-petg-frame-for-epoxy.jpg",
+      "description": "I have always had a love of stained glass especially in European churches and cathedrals. I have been testing a method of using my 3d printer to design the frame for a stained glass window, and then using epoxy to fill in the cells. Tags: stained glass, cathedral, art project, window.",
+      "imageAlt": "Cathedral Stained Glass - PETG Frame for Epoxy \u2014 free 3D print (other) on MakerWorld | Spencermann",
+      "keywords": [
+        "stained glass",
+        "cathedral",
+        "art project",
+        "window",
+        "light",
+        "glass",
+        "epoxy",
+        "free 3D print",
+        "Spencermann",
+        "MakerWorld STL download"
+      ],
+      "likes": 113,
+      "publishTime": "2025-10-12T16:55:18Z",
+      "featured": false
     },
     {
       "id": "kaboodle-articulated-gameoverse-glitch",
@@ -1006,8 +1034,67 @@
         "Spencermann",
         "MakerWorld free STL"
       ],
-      "likes": 109,
+      "likes": 111,
       "publishTime": "2026-05-20T00:44:27Z",
+      "featured": false
+    },
+    {
+      "id": "bead-loom-just-50-grams-all-the-features",
+      "makerworldId": 3010906,
+      "title": "Bead Loom - just 50 grams - All the features",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/3010906-bead-loom-just-50-grams-all-the-features",
+      "image": "images/other/bead-loom-just-50-grams-all-the-features.jpg",
+      "description": "I don't always get asked to make models for my wife, but when I do, I am all in. Lets talk features It is 10 inches long (250mm) which should be plenty for bracelets, anklets, tanklets and ranklets. It only uses 50 grams, so it is inexpensive to make. Tags: bead, beads, loom, Hobby.",
+      "imageAlt": "Bead Loom - just 50 grams - All the features \u2014 free 3D print (other) on MakerWorld | Spencermann",
+      "keywords": [
+        "bead",
+        "beads",
+        "loom",
+        "Hobby",
+        "craft",
+        "crafting",
+        "bracelet",
+        "functional",
+        "free 3D print",
+        "Spencermann",
+        "MakerWorld STL download"
+      ],
+      "likes": 110,
+      "publishTime": "2026-07-04T13:37:19Z",
+      "featured": false
+    },
+    {
+      "id": "serial-designation-j-murder-drones-7-tall",
+      "makerworldId": 2323069,
+      "title": "Serial Designation J - Murder Drones ~7\" tall",
+      "category": "glitch-productions",
+      "categories": [
+        "glitch-productions"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2323069-serial-designation-j-murder-drones-7-tall",
+      "image": "images/glitch-productions/serial-designation-j-murder-drones-7-tall.jpg",
+      "description": "Thanks to Nexal for their support with the other two Murder Drone models, I am excited to share this one with my niece as well. I love the personality of this character and I hope you do to! It should print up pretty easily, I added some extra strength to the knees and ankles.",
+      "imageAlt": "Serial Designation J - Murder Drones ~7\" tall \u2014 free 3D print (glitch productions) on MakerWorld | Spencermann",
+      "keywords": [
+        "Murder Drones figure",
+        "murder drone",
+        "murder drones",
+        "serial designation j",
+        "'cartoon",
+        "cartoon",
+        "anime",
+        "tv",
+        "glitch",
+        "Glitch Productions 3D print",
+        "Gameoverse",
+        "Spencermann"
+      ],
+      "likes": 109,
+      "publishTime": "2026-01-30T05:06:52Z",
       "featured": false
     },
     {
@@ -1039,31 +1126,30 @@
       "featured": false
     },
     {
-      "id": "cathedral-stained-glass-petg-frame-for-epoxy",
-      "makerworldId": 1881204,
-      "title": "Cathedral Stained Glass - PETG Frame for Epoxy",
-      "category": "other",
+      "id": "city-of-tears-pond-water-fountain-functional",
+      "makerworldId": 2680803,
+      "title": "City of Tears Pond Water Fountain Functional",
+      "category": "hollow-knight",
       "categories": [
-        "other"
+        "hollow-knight",
+        "water-fountains"
       ],
-      "makerworldUrl": "https://makerworld.com/en/models/1881204-cathedral-stained-glass-petg-frame-for-epoxy",
-      "image": "images/other/cathedral-stained-glass-petg-frame-for-epoxy.jpg",
-      "description": "I have always had a love of stained glass especially in European churches and cathedrals. I have been testing a method of using my 3d printer to design the frame for a stained glass window, and then using epoxy to fill in the cells. Tags: stained glass, cathedral, art project, window.",
-      "imageAlt": "Cathedral Stained Glass - PETG Frame for Epoxy \u2014 free 3D print (other) on MakerWorld | Spencermann",
+      "makerworldUrl": "https://makerworld.com/en/models/2680803-city-of-tears-pond-water-fountain-functional",
+      "image": "images/hollow-knight/city-of-tears-pond-water-fountain-functional.gif",
+      "description": "This is my pond sized version of the city of tears fountain. It is scaled for my H2D printer and prints in 2 parts to reduce the support issues. The fountain has a female \u00bd adapter on the bottom of the top half that a standard irrigation pipe (in the US can connect with).",
+      "imageAlt": "City of Tears pond water fountain Hollow Knight \u2014 free 3D print garden fountain",
       "keywords": [
-        "stained glass",
-        "cathedral",
-        "art project",
-        "window",
-        "light",
-        "glass",
-        "epoxy",
-        "free 3D print",
+        "Hollow Knight 3D print",
+        "Silksong cosplay",
         "Spencermann",
-        "MakerWorld STL download"
+        "MakerWorld free STL",
+        "Hollow Knight cosplay",
+        "MakerWorld free download",
+        "Hollow Knight fountain",
+        "3D printed water fountain"
       ],
-      "likes": 102,
-      "publishTime": "2025-10-12T16:55:18Z",
+      "likes": 105,
+      "publishTime": "2026-04-18T23:44:15Z",
       "featured": false
     },
     {
@@ -1092,95 +1178,8 @@
         "MakerWorld free download",
         "Grimm Mask"
       ],
-      "likes": 95,
+      "likes": 104,
       "publishTime": "2026-02-07T01:36:15Z",
-      "featured": false
-    },
-    {
-      "id": "serial-designation-j-murder-drones-7-tall",
-      "makerworldId": 2323069,
-      "title": "Serial Designation J - Murder Drones ~7\" tall",
-      "category": "glitch-productions",
-      "categories": [
-        "glitch-productions"
-      ],
-      "makerworldUrl": "https://makerworld.com/en/models/2323069-serial-designation-j-murder-drones-7-tall",
-      "image": "images/glitch-productions/serial-designation-j-murder-drones-7-tall.jpg",
-      "description": "Thanks to Nexal for their support with the other two Murder Drone models, I am excited to share this one with my niece as well. I love the personality of this character and I hope you do to! It should print up pretty easily, I added some extra strength to the knees and ankles.",
-      "imageAlt": "Serial Designation J - Murder Drones ~7\" tall \u2014 free 3D print (glitch productions) on MakerWorld | Spencermann",
-      "keywords": [
-        "Murder Drones figure",
-        "murder drone",
-        "murder drones",
-        "serial designation j",
-        "'cartoon",
-        "cartoon",
-        "anime",
-        "tv",
-        "glitch",
-        "Glitch Productions 3D print",
-        "Gameoverse",
-        "Spencermann"
-      ],
-      "likes": 88,
-      "publishTime": "2026-01-30T05:06:52Z",
-      "featured": false
-    },
-    {
-      "id": "hornet-christmas-ornament-silksong-all-printers",
-      "makerworldId": 2023368,
-      "title": "Hornet Christmas Ornament (Silksong) -All printers",
-      "category": "hollow-knight",
-      "categories": [
-        "hollow-knight"
-      ],
-      "makerworldUrl": "https://makerworld.com/en/models/2023368-hornet-christmas-ornament-silksong-all-printers",
-      "image": "images/hollow-knight/hornet-christmas-ornament-silksong-all-printers.jpg",
-      "description": "Throw away your old Christmas tree balls and replace them with an army of floating Hornets. Print the cape in red or green for maximum Christmas spirit! I created this design as a way of saying thanks for all the support and boosts I received on my Cosplay/Halloween mask designs.",
-      "imageAlt": "Hornet Christmas Ornament (Silksong) -All printers \u2014 free 3D print (hollow knight) on MakerWorld | Spencermann",
-      "keywords": [
-        "Silksong",
-        "Hollow Knight",
-        "hollowknight",
-        "video game",
-        "Christmas",
-        "Hornet",
-        "decoration",
-        "ornament",
-        "christmas tree",
-        "holiday",
-        "holidays",
-        "christmas ornament"
-      ],
-      "likes": 86,
-      "publishTime": "2025-11-21T15:24:40Z",
-      "featured": false
-    },
-    {
-      "id": "city-of-tears-pond-water-fountain-functional",
-      "makerworldId": 2680803,
-      "title": "City of Tears Pond Water Fountain Functional",
-      "category": "hollow-knight",
-      "categories": [
-        "hollow-knight",
-        "water-fountains"
-      ],
-      "makerworldUrl": "https://makerworld.com/en/models/2680803-city-of-tears-pond-water-fountain-functional",
-      "image": "images/hollow-knight/city-of-tears-pond-water-fountain-functional.gif",
-      "description": "This is my pond sized version of the city of tears fountain. It is scaled for my H2D printer and prints in 2 parts to reduce the support issues. The fountain has a female \u00bd adapter on the bottom of the top half that a standard irrigation pipe (in the US can connect with).",
-      "imageAlt": "City of Tears pond water fountain Hollow Knight \u2014 free 3D print garden fountain",
-      "keywords": [
-        "Hollow Knight 3D print",
-        "Silksong cosplay",
-        "Spencermann",
-        "MakerWorld free STL",
-        "Hollow Knight cosplay",
-        "MakerWorld free download",
-        "Hollow Knight fountain",
-        "3D printed water fountain"
-      ],
-      "likes": 83,
-      "publishTime": "2026-04-18T23:44:15Z",
       "featured": false
     },
     {
@@ -1209,188 +1208,38 @@
         "religious",
         "christian"
       ],
-      "likes": 82,
+      "likes": 96,
       "publishTime": "2026-04-17T21:42:07Z",
       "featured": false
     },
     {
-      "id": "outstretched-arms-holding-modern-world-surface-pro",
-      "makerworldId": 1422531,
-      "title": "Outstretched arms holding modern world Surface Pro",
-      "category": "other",
-      "categories": [
-        "other"
-      ],
-      "makerworldUrl": "https://makerworld.com/en/models/1422531-outstretched-arms-holding-modern-world-surface-pro",
-      "image": "images/other/outstretched-arms-holding-modern-world-surface-pro.jpg",
-      "description": "About 3 months ago I released my original Modern Day Atlas holder for the surface pro (or ipad/tablet) . Although I was pleased with how it turned out, I was not satisfied wit the arms. Tags: computer, computer accessories, Riser, laptop.",
-      "imageAlt": "Outstretched arms holding modern world Surface Pro \u2014 free 3D print (other) on MakerWorld | Spencermann",
-      "keywords": [
-        "computer",
-        "computer accessories",
-        "Riser",
-        "laptop",
-        "atlas",
-        "office",
-        "ipad",
-        "tablet",
-        "support",
-        "statue",
-        "monitor",
-        "monitor riser"
-      ],
-      "likes": 78,
-      "publishTime": "2025-05-16T13:48:17Z",
-      "featured": false
-    },
-    {
-      "id": "lace-s-sword-or-pin-silksong-boss-fencing-sword",
-      "makerworldId": 1866782,
-      "title": "Lace's Sword or pin (Silksong boss fencing sword)",
+      "id": "hornet-christmas-ornament-silksong-all-printers",
+      "makerworldId": 2023368,
+      "title": "Hornet Christmas Ornament (Silksong) -All printers",
       "category": "hollow-knight",
       "categories": [
         "hollow-knight"
       ],
-      "makerworldUrl": "https://makerworld.com/en/models/1866782-lace-s-sword-or-pin-silksong-boss-fencing-sword",
-      "image": "images/hollow-knight/lace-s-sword-or-pin-silksong-boss-fencing-sword.jpg",
-      "description": "Since I already created the Lace Mask , it was only a matter of time before I needed to create her weapon. Lace is a fencer, so I started with designing her \u201cpin\u201d to resemble the dimensions of a standard foil. Tags: Hollow Knight, hollowknight, hollow knight, Silksong.",
-      "imageAlt": "Lace's Sword or pin (Silksong boss fencing sword) \u2014 free 3D print (hollow knight) on MakerWorld | Spencermann",
+      "makerworldUrl": "https://makerworld.com/en/models/2023368-hornet-christmas-ornament-silksong-all-printers",
+      "image": "images/hollow-knight/hornet-christmas-ornament-silksong-all-printers.jpg",
+      "description": "Throw away your old Christmas tree balls and replace them with an army of floating Hornets. Print the cape in red or green for maximum Christmas spirit! I created this design as a way of saying thanks for all the support and boosts I received on my Cosplay/Halloween mask designs.",
+      "imageAlt": "Hornet Christmas Ornament (Silksong) -All printers \u2014 free 3D print (hollow knight) on MakerWorld | Spencermann",
       "keywords": [
+        "Silksong",
         "Hollow Knight",
         "hollowknight",
-        "Silksong",
-        "silk song",
-        "lace",
-        "sword",
-        "fencing",
-        "foil",
         "video game",
-        "videogame",
-        "Halloween",
-        "COSPLAY"
-      ],
-      "likes": 71,
-      "publishTime": "2025-10-08T00:31:34Z",
-      "featured": false
-    },
-    {
-      "id": "gothic-lantern-light-w-petg-glass-decoration",
-      "makerworldId": 1499891,
-      "title": "Gothic Lantern Light w/ PETG Glass Decoration",
-      "category": "other",
-      "categories": [
-        "other"
-      ],
-      "makerworldUrl": "https://makerworld.com/en/models/1499891-gothic-lantern-light-w-petg-glass-decoration",
-      "image": "images/other/gothic-lantern-light-w-petg-glass-decoration.jpg",
-      "description": "For a long time I have wanted to start messing with (real) stained glass windows. But with more and more transparent PETG and PLA being released, I thought it would be interesting to start there. Tags: lantern, Light, gothic, spooky.",
-      "imageAlt": "Gothic Lantern Light w/ PETG Glass Decoration \u2014 free 3D print (other) on MakerWorld | Spencermann",
-      "keywords": [
-        "lantern",
-        "Light",
-        "gothic",
-        "spooky",
-        "stained glass",
-        "glass",
-        "Halloween",
+        "Christmas",
+        "Hornet",
         "decoration",
-        "solar power",
-        "solar",
-        "haunted",
-        "free 3D print"
+        "ornament",
+        "christmas tree",
+        "holiday",
+        "holidays",
+        "christmas ornament"
       ],
-      "likes": 70,
-      "publishTime": "2025-06-08T18:29:03Z",
-      "featured": false
-    },
-    {
-      "id": "lace-mask-from-silksong-hollow-knight-halloween",
-      "makerworldId": 1783657,
-      "title": "Lace Mask from Silksong (Hollow Knight) Halloween",
-      "category": "hollow-knight",
-      "categories": [
-        "hollow-knight"
-      ],
-      "makerworldUrl": "https://makerworld.com/en/models/1783657-lace-mask-from-silksong-hollow-knight-halloween",
-      "image": "images/hollow-knight/lace-mask-from-silksong-hollow-knight-halloween.jpg",
-      "description": "Playing through Silksong during release week, it was obvious that Lace deserved a 3d printed mask design. This design is sized to fit an adult head and you could scale it down for a child. The challenge with this mask is visibility for the wearer. Tags: silksong, hollow knight, Hollow Knight, mask.",
-      "imageAlt": "Lace Mask from Silksong (Hollow Knight) Halloween \u2014 free 3D print (hollow knight) on MakerWorld | Spencermann",
-      "keywords": [
-        "silksong",
-        "hollow knight",
-        "mask",
-        "video game",
-        "lace",
-        "COSPLAY",
-        "Halloween",
-        "costume",
-        "Hollow Knight 3D print",
-        "Silksong cosplay",
-        "Spencermann",
-        "MakerWorld free STL"
-      ],
-      "likes": 68,
-      "publishTime": "2025-09-10T23:14:48Z",
-      "featured": false
-    },
-    {
-      "id": "shakra-mask-silksong-hollow-knight-cosplay",
-      "makerworldId": 2041487,
-      "title": "Shakra Mask (Silksong Hollow Knight cosplay)",
-      "category": "hollow-knight",
-      "categories": [
-        "hollow-knight"
-      ],
-      "makerworldUrl": "https://makerworld.com/en/models/2041487-shakra-mask-silksong-hollow-knight-cosplay",
-      "image": "images/hollow-knight/shakra-mask-silksong-hollow-knight-cosplay.jpg",
-      "description": "This mask has been requested a few times, but I put it off because it seemed really challenging. It took 3 versions before I got something I liked. Creating a way for the wearer to see was a very interesting problem because of the position of Shakra's eyes. Tags: shakra, Silksong, silksong, Hollow Knight.",
-      "imageAlt": "Shakra Mask (Silksong Hollow Knight cosplay) \u2014 free 3D print (hollow knight) on MakerWorld | Spencermann",
-      "keywords": [
-        "shakra",
-        "Silksong",
-        "Hollow Knight",
-        "COSPLAY",
-        "mask",
-        "videogame",
-        "Halloween",
-        "Hollow Knight 3D print",
-        "Silksong cosplay",
-        "Spencermann",
-        "MakerWorld free STL",
-        "Hollow Knight cosplay"
-      ],
-      "likes": 66,
-      "publishTime": "2025-11-25T19:00:56Z",
-      "featured": false
-    },
-    {
-      "id": "raining-totoro-sprinkler-functional-ghibli",
-      "makerworldId": 1822440,
-      "title": "Raining Totoro Sprinkler (functional) Ghibli",
-      "category": "water-fountains",
-      "categories": [
-        "water-fountains"
-      ],
-      "makerworldUrl": "https://makerworld.com/en/models/1822440-raining-totoro-sprinkler-functional-ghibli",
-      "image": "images/water-fountains/raining-totoro-sprinkler-functional-ghibli.gif",
-      "description": "I am a huge fan of Studio Ghibli and their amazing creativity. I have done a number of pond fountains and wanted to try my hand at something more accessible. Tags: totoro, ghibli, sculpture, art.",
-      "imageAlt": "Raining Totoro Sprinkler (functional) Ghibli \u2014 free 3D print (water fountains) on MakerWorld | Spencermann",
-      "keywords": [
-        "totoro",
-        "ghibli",
-        "sculpture",
-        "art",
-        "anime",
-        "functional",
-        "garden",
-        "garden accessories",
-        "decoration",
-        "funny",
-        "water",
-        "3D printed water fountain"
-      ],
-      "likes": 66,
-      "publishTime": "2025-09-23T22:52:11Z",
+      "likes": 90,
+      "publishTime": "2025-11-21T15:24:40Z",
       "featured": false
     },
     {
@@ -1420,38 +1269,244 @@
         "Spencermann",
         "MakerWorld free STL"
       ],
-      "likes": 64,
+      "likes": 84,
       "publishTime": "2026-04-02T04:05:21Z",
       "featured": false
     },
     {
-      "id": "the-pale-king-or-wyrm-hollow-knight",
-      "makerworldId": 1924227,
-      "title": "The Pale King or Wyrm- Hollow Knight",
+      "id": "desk-garbage-bag-holder",
+      "makerworldId": 154456,
+      "title": "Desk Garbage Bag Holder",
+      "category": "utility",
+      "categories": [
+        "utility"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/154456-desk-garbage-bag-holder",
+      "image": "images/utility/desk-garbage-bag-holder.jpg",
+      "description": "Simple design to help sweep desk clean (especially after removing support and cleaning up pieces). Holds a standard grocery bag and clamps onto the edge of your desk. Tags: office, desk, garbage bag holder, garbage.",
+      "imageAlt": "Desk Garbage Bag Holder \u2014 free 3D print (utility) on MakerWorld | Spencermann",
+      "keywords": [
+        "office",
+        "desk",
+        "garbage bag holder",
+        "garbage",
+        "clean",
+        "functional 3D print",
+        "practical STL",
+        "Spencermann",
+        "MakerWorld free download"
+      ],
+      "likes": 84,
+      "publishTime": "2024-01-29T17:54:45Z",
+      "featured": true
+    },
+    {
+      "id": "outstretched-arms-holding-modern-world-surface-pro",
+      "makerworldId": 1422531,
+      "title": "Outstretched arms holding modern world Surface Pro",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1422531-outstretched-arms-holding-modern-world-surface-pro",
+      "image": "images/other/outstretched-arms-holding-modern-world-surface-pro.jpg",
+      "description": "About 3 months ago I released my original Modern Day Atlas holder for the surface pro (or ipad/tablet) . Although I was pleased with how it turned out, I was not satisfied wit the arms. Tags: computer, computer accessories, Riser, laptop.",
+      "imageAlt": "Outstretched arms holding modern world Surface Pro \u2014 free 3D print (other) on MakerWorld | Spencermann",
+      "keywords": [
+        "computer",
+        "computer accessories",
+        "Riser",
+        "laptop",
+        "atlas",
+        "office",
+        "ipad",
+        "tablet",
+        "support",
+        "statue",
+        "monitor",
+        "monitor riser"
+      ],
+      "likes": 81,
+      "publishTime": "2025-05-16T13:48:17Z",
+      "featured": false
+    },
+    {
+      "id": "shakra-mask-silksong-hollow-knight-cosplay",
+      "makerworldId": 2041487,
+      "title": "Shakra Mask (Silksong Hollow Knight cosplay)",
       "category": "hollow-knight",
       "categories": [
         "hollow-knight"
       ],
-      "makerworldUrl": "https://makerworld.com/en/models/1924227-the-pale-king-or-wyrm-hollow-knight",
-      "image": "images/hollow-knight/the-pale-king-or-wyrm-hollow-knight.jpg",
-      "description": "The Pale King mask from Hollow Knight. I really like the Pale King mask and the lore he brings to the Hollow Knight game. While I am sure this model won't be particularly popular, it was a fun design challenge that turned out great. Tags: Hollow Knight, hollowknight, pale, pale king.",
-      "imageAlt": "The Pale King or Wyrm- Hollow Knight \u2014 free 3D print (hollow knight) on MakerWorld | Spencermann",
+      "makerworldUrl": "https://makerworld.com/en/models/2041487-shakra-mask-silksong-hollow-knight-cosplay",
+      "image": "images/hollow-knight/shakra-mask-silksong-hollow-knight-cosplay.jpg",
+      "description": "This mask has been requested a few times, but I put it off because it seemed really challenging. It took 3 versions before I got something I liked. Creating a way for the wearer to see was a very interesting problem because of the position of Shakra's eyes. Tags: shakra, Silksong, silksong, Hollow Knight.",
+      "imageAlt": "Shakra Mask (Silksong Hollow Knight cosplay) \u2014 free 3D print (hollow knight) on MakerWorld | Spencermann",
+      "keywords": [
+        "shakra",
+        "Silksong",
+        "Hollow Knight",
+        "COSPLAY",
+        "mask",
+        "videogame",
+        "Halloween",
+        "Hollow Knight 3D print",
+        "Silksong cosplay",
+        "Spencermann",
+        "MakerWorld free STL",
+        "Hollow Knight cosplay"
+      ],
+      "likes": 76,
+      "publishTime": "2025-11-25T19:00:56Z",
+      "featured": false
+    },
+    {
+      "id": "raining-totoro-sprinkler-functional-ghibli",
+      "makerworldId": 1822440,
+      "title": "Raining Totoro Sprinkler (functional) Ghibli",
+      "category": "water-fountains",
+      "categories": [
+        "water-fountains"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1822440-raining-totoro-sprinkler-functional-ghibli",
+      "image": "images/water-fountains/raining-totoro-sprinkler-functional-ghibli.gif",
+      "description": "I am a huge fan of Studio Ghibli and their amazing creativity. I have done a number of pond fountains and wanted to try my hand at something more accessible. Tags: totoro, ghibli, sculpture, art.",
+      "imageAlt": "Raining Totoro Sprinkler (functional) Ghibli \u2014 free 3D print (water fountains) on MakerWorld | Spencermann",
+      "keywords": [
+        "totoro",
+        "ghibli",
+        "sculpture",
+        "art",
+        "anime",
+        "functional",
+        "garden",
+        "garden accessories",
+        "decoration",
+        "funny",
+        "water",
+        "3D printed water fountain"
+      ],
+      "likes": 76,
+      "publishTime": "2025-09-23T22:52:11Z",
+      "featured": false
+    },
+    {
+      "id": "lace-s-sword-or-pin-silksong-boss-fencing-sword",
+      "makerworldId": 1866782,
+      "title": "Lace's Sword or pin (Silksong boss fencing sword)",
+      "category": "hollow-knight",
+      "categories": [
+        "hollow-knight"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1866782-lace-s-sword-or-pin-silksong-boss-fencing-sword",
+      "image": "images/hollow-knight/lace-s-sword-or-pin-silksong-boss-fencing-sword.jpg",
+      "description": "Since I already created the Lace Mask , it was only a matter of time before I needed to create her weapon. Lace is a fencer, so I started with designing her \u201cpin\u201d to resemble the dimensions of a standard foil. Tags: Hollow Knight, hollowknight, hollow knight, Silksong.",
+      "imageAlt": "Lace's Sword or pin (Silksong boss fencing sword) \u2014 free 3D print (hollow knight) on MakerWorld | Spencermann",
       "keywords": [
         "Hollow Knight",
         "hollowknight",
-        "pale",
-        "pale king",
-        "video game",
-        "COSPLAY",
-        "mask",
-        "Halloween",
         "Silksong",
+        "silk song",
+        "lace",
+        "sword",
+        "fencing",
+        "foil",
+        "video game",
+        "videogame",
+        "Halloween",
+        "COSPLAY"
+      ],
+      "likes": 75,
+      "publishTime": "2025-10-08T00:31:34Z",
+      "featured": false
+    },
+    {
+      "id": "gothic-lantern-light-w-petg-glass-decoration",
+      "makerworldId": 1499891,
+      "title": "Gothic Lantern Light w/ PETG Glass Decoration",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1499891-gothic-lantern-light-w-petg-glass-decoration",
+      "image": "images/other/gothic-lantern-light-w-petg-glass-decoration.jpg",
+      "description": "For a long time I have wanted to start messing with (real) stained glass windows. But with more and more transparent PETG and PLA being released, I thought it would be interesting to start there. Tags: lantern, Light, gothic, spooky.",
+      "imageAlt": "Gothic Lantern Light w/ PETG Glass Decoration \u2014 free 3D print (other) on MakerWorld | Spencermann",
+      "keywords": [
+        "lantern",
+        "Light",
+        "gothic",
+        "spooky",
+        "stained glass",
+        "glass",
+        "Halloween",
+        "decoration",
+        "solar power",
+        "solar",
+        "haunted",
+        "free 3D print"
+      ],
+      "likes": 75,
+      "publishTime": "2025-06-08T18:29:03Z",
+      "featured": false
+    },
+    {
+      "id": "lace-mask-from-silksong-hollow-knight-halloween",
+      "makerworldId": 1783657,
+      "title": "Lace Mask from Silksong (Hollow Knight) Halloween",
+      "category": "hollow-knight",
+      "categories": [
+        "hollow-knight"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1783657-lace-mask-from-silksong-hollow-knight-halloween",
+      "image": "images/hollow-knight/lace-mask-from-silksong-hollow-knight-halloween.jpg",
+      "description": "Playing through Silksong during release week, it was obvious that Lace deserved a 3d printed mask design. This design is sized to fit an adult head and you could scale it down for a child. The challenge with this mask is visibility for the wearer. Tags: silksong, hollow knight, Hollow Knight, mask.",
+      "imageAlt": "Lace Mask from Silksong (Hollow Knight) Halloween \u2014 free 3D print (hollow knight) on MakerWorld | Spencermann",
+      "keywords": [
+        "silksong",
+        "hollow knight",
+        "mask",
+        "video game",
+        "lace",
+        "COSPLAY",
+        "Halloween",
+        "costume",
         "Hollow Knight 3D print",
         "Silksong cosplay",
-        "Spencermann"
+        "Spencermann",
+        "MakerWorld free STL"
       ],
-      "likes": 59,
-      "publishTime": "2025-10-25T17:48:14Z",
+      "likes": 74,
+      "publishTime": "2025-09-10T23:14:48Z",
+      "featured": false
+    },
+    {
+      "id": "caine-popcorn-tub-topper-tad-articulating-jaw",
+      "makerworldId": 2889232,
+      "title": "Caine Popcorn Tub Topper - TAD - Articulating jaw",
+      "category": "glitch-productions",
+      "categories": [
+        "glitch-productions"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2889232-caine-popcorn-tub-topper-tad-articulating-jaw",
+      "image": "images/glitch-productions/caine-popcorn-tub-topper-tad-articulating-jaw.jpg",
+      "description": "My daughter and her friends love Caine. And although they liked my Bubble popcorn bowl, they needed a Caine version. Originally, I was going to make a popcorn bowl and have the popcorn sit in the lower jaw. Tags: caine, tadc, popcorn, popcorn topper.",
+      "imageAlt": "Caine Popcorn Tub Topper - TAD - Articulating jaw \u2014 free 3D print (glitch productions) on MakerWorld | Spencermann",
+      "keywords": [
+        "caine",
+        "tadc",
+        "popcorn",
+        "popcorn topper",
+        "the amazing digital circus",
+        "Glitch Productions 3D print",
+        "Murder Drones",
+        "Gameoverse",
+        "Spencermann",
+        "MakerWorld free STL",
+        "MakerWorld free download"
+      ],
+      "likes": 69,
+      "publishTime": "2026-06-04T17:03:13Z",
       "featured": false
     },
     {
@@ -1480,8 +1535,68 @@
         "MakerWorld free STL",
         "Hollow Knight cosplay"
       ],
-      "likes": 59,
+      "likes": 68,
       "publishTime": "2025-10-10T22:15:36Z",
+      "featured": false
+    },
+    {
+      "id": "the-pale-king-or-wyrm-hollow-knight",
+      "makerworldId": 1924227,
+      "title": "The Pale King or Wyrm- Hollow Knight",
+      "category": "hollow-knight",
+      "categories": [
+        "hollow-knight"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1924227-the-pale-king-or-wyrm-hollow-knight",
+      "image": "images/hollow-knight/the-pale-king-or-wyrm-hollow-knight.jpg",
+      "description": "The Pale King mask from Hollow Knight. I really like the Pale King mask and the lore he brings to the Hollow Knight game. While I am sure this model won't be particularly popular, it was a fun design challenge that turned out great. Tags: Hollow Knight, hollowknight, pale, pale king.",
+      "imageAlt": "The Pale King or Wyrm- Hollow Knight \u2014 free 3D print (hollow knight) on MakerWorld | Spencermann",
+      "keywords": [
+        "Hollow Knight",
+        "hollowknight",
+        "pale",
+        "pale king",
+        "video game",
+        "COSPLAY",
+        "mask",
+        "Halloween",
+        "Silksong",
+        "Hollow Knight 3D print",
+        "Silksong cosplay",
+        "Spencermann"
+      ],
+      "likes": 65,
+      "publishTime": "2025-10-25T17:48:14Z",
+      "featured": false
+    },
+    {
+      "id": "mantis-lord-lance-hollow-knight-1-2-pvc-pipe",
+      "makerworldId": 1849411,
+      "title": "Mantis Lord Lance - Hollow Knight 1/2\" PVC Pipe",
+      "category": "hollow-knight",
+      "categories": [
+        "hollow-knight"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1849411-mantis-lord-lance-hollow-knight-1-2-pvc-pipe",
+      "image": "images/hollow-knight/mantis-lord-lance-hollow-knight-1-2-pvc-pipe.jpg",
+      "description": "This is the Mantis Lord's Lance from the Hollow Knight video game. It uses a 54\"core of \u00bd\" PVC pipe ( the white stuff everyone uses for sprinklers in the US ). Tags: Hollow Knight, hollowknight, hollow knight, Silksong.",
+      "imageAlt": "Mantis Lord Lance - Hollow Knight 1/2\" PVC Pipe \u2014 free 3D print (hollow knight) on MakerWorld | Spencermann",
+      "keywords": [
+        "Hollow Knight",
+        "hollowknight",
+        "Silksong",
+        "silk song",
+        "video game",
+        "lance",
+        "sword",
+        "COSPLAY",
+        "costume",
+        "Halloween",
+        "mantis",
+        "mantis lord"
+      ],
+      "likes": 60,
+      "publishTime": "2025-10-02T14:43:41Z",
       "featured": false
     },
     {
@@ -1510,37 +1625,8 @@
         "Glitch Productions 3D print",
         "Murder Drones"
       ],
-      "likes": 55,
+      "likes": 57,
       "publishTime": "2026-05-23T00:09:46Z",
-      "featured": false
-    },
-    {
-      "id": "caine-popcorn-tub-topper-tad-articulating-jaw",
-      "makerworldId": 2889232,
-      "title": "Caine Popcorn Tub Topper - TAD - Articulating jaw",
-      "category": "glitch-productions",
-      "categories": [
-        "glitch-productions"
-      ],
-      "makerworldUrl": "https://makerworld.com/en/models/2889232-caine-popcorn-tub-topper-tad-articulating-jaw",
-      "image": "images/glitch-productions/caine-popcorn-tub-topper-tad-articulating-jaw.jpg",
-      "description": "My daughter and her friends love Caine. And although they liked my Bubble popcorn bowl, they needed a Caine version. Originally, I was going to make a popcorn bowl and have the popcorn sit in the lower jaw. Tags: caine, tadc, popcorn, popcorn topper.",
-      "imageAlt": "Caine Popcorn Tub Topper - TAD - Articulating jaw \u2014 free 3D print (glitch productions) on MakerWorld | Spencermann",
-      "keywords": [
-        "caine",
-        "tadc",
-        "popcorn",
-        "popcorn topper",
-        "the amazing digital circus",
-        "Glitch Productions 3D print",
-        "Murder Drones",
-        "Gameoverse",
-        "Spencermann",
-        "MakerWorld free STL",
-        "MakerWorld free download"
-      ],
-      "likes": 53,
-      "publishTime": "2026-06-04T17:03:13Z",
       "featured": false
     },
     {
@@ -1568,39 +1654,9 @@
         "Spencermann",
         "MakerWorld free download"
       ],
-      "likes": 52,
+      "likes": 57,
       "publishTime": "2026-05-16T21:22:56Z",
       "featured": true
-    },
-    {
-      "id": "mantis-lord-lance-hollow-knight-1-2-pvc-pipe",
-      "makerworldId": 1849411,
-      "title": "Mantis Lord Lance - Hollow Knight 1/2\" PVC Pipe",
-      "category": "hollow-knight",
-      "categories": [
-        "hollow-knight"
-      ],
-      "makerworldUrl": "https://makerworld.com/en/models/1849411-mantis-lord-lance-hollow-knight-1-2-pvc-pipe",
-      "image": "images/hollow-knight/mantis-lord-lance-hollow-knight-1-2-pvc-pipe.jpg",
-      "description": "This is the Mantis Lord's Lance from the Hollow Knight video game. It uses a 54\"core of \u00bd\" PVC pipe ( the white stuff everyone uses for sprinklers in the US ). Tags: Hollow Knight, hollowknight, hollow knight, Silksong.",
-      "imageAlt": "Mantis Lord Lance - Hollow Knight 1/2\" PVC Pipe \u2014 free 3D print (hollow knight) on MakerWorld | Spencermann",
-      "keywords": [
-        "Hollow Knight",
-        "hollowknight",
-        "Silksong",
-        "silk song",
-        "video game",
-        "lance",
-        "sword",
-        "COSPLAY",
-        "costume",
-        "Halloween",
-        "mantis",
-        "mantis lord"
-      ],
-      "likes": 52,
-      "publishTime": "2025-10-02T14:43:41Z",
-      "featured": false
     },
     {
       "id": "mountain-stained-glass-window-frame",
@@ -1626,7 +1682,7 @@
         "Spencermann",
         "MakerWorld STL download"
       ],
-      "likes": 52,
+      "likes": 54,
       "publishTime": "2025-09-19T03:54:44Z",
       "featured": false
     },
@@ -1655,7 +1711,7 @@
         "MakerWorld free download",
         "Silksong 3D print"
       ],
-      "likes": 45,
+      "likes": 51,
       "publishTime": "2025-12-14T05:22:45Z",
       "featured": false
     },
@@ -1685,38 +1741,68 @@
         "MakerWorld free download",
         "Silksong 3D print"
       ],
-      "likes": 43,
+      "likes": 50,
       "publishTime": "2026-01-05T22:28:36Z",
       "featured": false
     },
     {
-      "id": "dreamer-harrah-the-beast-mask-hollow-knight",
-      "makerworldId": 2244864,
-      "title": "Dreamer Harrah the Beast Mask - Hollow Knight",
+      "id": "zote-the-mighty-mask-hollow-knight",
+      "makerworldId": 3008252,
+      "title": "Zote the Mighty Mask - Hollow Knight",
       "category": "hollow-knight",
       "categories": [
         "hollow-knight"
       ],
-      "makerworldUrl": "https://makerworld.com/en/models/2244864-dreamer-harrah-the-beast-mask-hollow-knight",
-      "image": "images/hollow-knight/dreamer-harrah-the-beast-mask-hollow-knight.jpg",
-      "description": "This is the final dreamer mask, Harrah the Beast. I saved this one for last since it is a bit more complicated than the others. It does have the advantage of the center black voids lining up with your eyes so I could eliminate the slits I did on the other masks. Tags: Hollow Knight, hollow knight, dreamer, mask.",
-      "imageAlt": "Dreamer Harrah the Beast Mask - Hollow Knight \u2014 free 3D print (hollow knight) on MakerWorld | Spencermann",
+      "makerworldUrl": "https://makerworld.com/en/models/3008252-zote-the-mighty-mask-hollow-knight",
+      "image": "images/hollow-knight/zote-the-mighty-mask-hollow-knight.jpg",
+      "description": "This one is for Squidward who relentlessly pushed for me to make the model, and then was so grateful when I got started! I hope you enjoy it! I designed this mask a bit different from my others and I am happy with the outcome. Tags: Hollow Knight, hollow knight, zote, mask.",
+      "imageAlt": "Zote the Mighty Mask - Hollow Knight \u2014 free 3D print (hollow knight) on MakerWorld | Spencermann",
       "keywords": [
         "Hollow Knight",
-        "dreamer",
+        "zote",
         "mask",
-        "COSPLAY",
         "video game",
+        "hollowknight",
+        "COSPLAY",
         "Halloween",
+        "Silksong",
         "Hollow Knight 3D print",
         "Silksong cosplay",
         "Spencermann",
-        "MakerWorld free STL",
-        "Hollow Knight cosplay",
-        "MakerWorld free download"
+        "MakerWorld free STL"
       ],
-      "likes": 41,
-      "publishTime": "2026-01-14T16:13:57Z",
+      "likes": 48,
+      "publishTime": "2026-07-03T20:16:13Z",
+      "featured": false
+    },
+    {
+      "id": "doll-murder-drones-7-tall",
+      "makerworldId": 2747200,
+      "title": "Doll - Murder Drones 7\" tall",
+      "category": "glitch-productions",
+      "categories": [
+        "glitch-productions"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2747200-doll-murder-drones-7-tall",
+      "image": "images/glitch-productions/doll-murder-drones-7-tall.jpg",
+      "description": "I believe this model completes the Murder Drones series of main characters for me. I hope you like it! For complex character models like this, I usually have AI build the foundation and then modify it from there. Tags: murder drones, murder drone, doll, murderdrones.",
+      "imageAlt": "Doll - Murder Drones 7\" tall \u2014 free 3D print (glitch productions) on MakerWorld | Spencermann",
+      "keywords": [
+        "Murder Drones figure",
+        "murder drones",
+        "murder drone",
+        "doll",
+        "murderdrones",
+        "Monster",
+        "tv",
+        "glitch",
+        "glitch studio",
+        "Glitch Productions 3D print",
+        "Gameoverse",
+        "Spencermann"
+      ],
+      "likes": 47,
+      "publishTime": "2026-05-02T14:52:00Z",
       "featured": false
     },
     {
@@ -1745,8 +1831,184 @@
         "Silksong cosplay",
         "Spencermann"
       ],
-      "likes": 41,
+      "likes": 47,
       "publishTime": "2025-10-14T00:04:37Z",
+      "featured": false
+    },
+    {
+      "id": "turtle-water-fountain-functional-for-ponds",
+      "makerworldId": 2988755,
+      "title": "Turtle Water Fountain - Functional for ponds",
+      "category": "water-fountains",
+      "categories": [
+        "water-fountains"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2988755-turtle-water-fountain-functional-for-ponds",
+      "image": "images/water-fountains/turtle-water-fountain-functional-for-ponds.gif",
+      "description": "Someone recently suggested that I create a Turtle water fountain, it seemed like a fun idea so I made this. I based the design off of an aquatic turtle (explaining the unusual color and shell shape) and then added a female \u00bd threaded adapter to the bottom the internal piping. Tags: pond, fountain, water, fish.",
+      "imageAlt": "Turtle Water Fountain - Functional for ponds \u2014 free 3D print (water fountains) on MakerWorld | Spencermann",
+      "keywords": [
+        "pond",
+        "fountain",
+        "water",
+        "fish",
+        "turtle",
+        "garden",
+        "decor",
+        "3D printed water fountain",
+        "pond fountain STL",
+        "Spencermann",
+        "MakerWorld free download",
+        "pond fountain"
+      ],
+      "likes": 46,
+      "publishTime": "2026-06-28T23:35:49Z",
+      "featured": false
+    },
+    {
+      "id": "kaladin-stormblessed-stormlight-archive-hero",
+      "makerworldId": 2642649,
+      "title": "Kaladin Stormblessed - Stormlight Archive Hero",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2642649-kaladin-stormblessed-stormlight-archive-hero",
+      "image": "images/other/kaladin-stormblessed-stormlight-archive-hero.jpg",
+      "description": "I absolutely loved the Stormlight Archive series by Brandon Sanderson, so I decided to create this simple model of Kaladin as a spear bearer. If you haven't read these books yet, I highly recommend them. I hope you enjoy the model. Tags: stormlight, stormlight archive, kaladin, stormblessed.",
+      "imageAlt": "Kaladin Stormblessed - Stormlight Archive Hero \u2014 free 3D print (other) on MakerWorld | Spencermann",
+      "keywords": [
+        "stormlight",
+        "stormlight archive",
+        "kaladin",
+        "stormblessed",
+        "brandon sanderson",
+        "miniature",
+        "book",
+        "character",
+        "free 3D print",
+        "Spencermann",
+        "MakerWorld STL download"
+      ],
+      "likes": 46,
+      "publishTime": "2026-04-10T14:45:06Z",
+      "featured": false
+    },
+    {
+      "id": "dreamer-harrah-the-beast-mask-hollow-knight",
+      "makerworldId": 2244864,
+      "title": "Dreamer Harrah the Beast Mask - Hollow Knight",
+      "category": "hollow-knight",
+      "categories": [
+        "hollow-knight"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2244864-dreamer-harrah-the-beast-mask-hollow-knight",
+      "image": "images/hollow-knight/dreamer-harrah-the-beast-mask-hollow-knight.jpg",
+      "description": "This is the final dreamer mask, Harrah the Beast. I saved this one for last since it is a bit more complicated than the others. It does have the advantage of the center black voids lining up with your eyes so I could eliminate the slits I did on the other masks. Tags: Hollow Knight, hollow knight, dreamer, mask.",
+      "imageAlt": "Dreamer Harrah the Beast Mask - Hollow Knight \u2014 free 3D print (hollow knight) on MakerWorld | Spencermann",
+      "keywords": [
+        "Hollow Knight",
+        "dreamer",
+        "mask",
+        "COSPLAY",
+        "video game",
+        "Halloween",
+        "Hollow Knight 3D print",
+        "Silksong cosplay",
+        "Spencermann",
+        "MakerWorld free STL",
+        "Hollow Knight cosplay",
+        "MakerWorld free download"
+      ],
+      "likes": 46,
+      "publishTime": "2026-01-14T16:13:57Z",
+      "featured": false
+    },
+    {
+      "id": "tessa-james-elliott-spacesuit-murder-drones-7",
+      "makerworldId": 2802038,
+      "title": "Tessa James Elliott - Spacesuit - Murder Drones 7\"",
+      "category": "glitch-productions",
+      "categories": [
+        "glitch-productions"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2802038-tessa-james-elliott-spacesuit-murder-drones-7",
+      "image": "images/glitch-productions/tessa-james-elliott-spacesuit-murder-drones-7.jpg",
+      "description": "The much requested Tessa in a spacesuit, I hope you like it. Tags: murderdrones, murder drones, tessa, glitch.",
+      "imageAlt": "Tessa James Elliott - Spacesuit - Murder Drones 7\" \u2014 free 3D print (glitch productions) on MakerWorld | Spencermann",
+      "keywords": [
+        "Murder Drones figure",
+        "murderdrones",
+        "murder drones",
+        "tessa",
+        "glitch",
+        "murder drone",
+        "glitch studio",
+        "Glitch Productions 3D print",
+        "Gameoverse",
+        "Spencermann",
+        "MakerWorld free STL",
+        "MakerWorld free download"
+      ],
+      "likes": 45,
+      "publishTime": "2026-05-15T00:02:59Z",
+      "featured": false
+    },
+    {
+      "id": "pond-filter-box-3-sections-screen-medium-cavity",
+      "makerworldId": 1430125,
+      "title": "Pond Filter Box - 3 Sections: Screen medium cavity",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1430125-pond-filter-box-3-sections-screen-medium-cavity",
+      "image": "images/other/pond-filter-box-3-sections-screen-medium-cavity.jpg",
+      "description": "I have a small pond using a TetraPond 550 . My water feature was losing pressure with my original mesh bag solution so I designed something new. This design is actually based on work I did as Biosystems engineer 20 years ago at the Oklahoma State University Hog Research Farm. Tags: pond, filter, pump, water.",
+      "imageAlt": "Pond Filter Box - 3 Sections: Screen medium cavity \u2014 free 3D print (other) on MakerWorld | Spencermann",
+      "keywords": [
+        "pond",
+        "filter",
+        "pump",
+        "water",
+        "bacteria",
+        "water feature",
+        "free 3D print",
+        "Spencermann",
+        "MakerWorld STL download"
+      ],
+      "likes": 45,
+      "publishTime": "2025-05-18T17:07:29Z",
+      "featured": false
+    },
+    {
+      "id": "universal-toilet-flush-lever-the-manncaster-2000",
+      "makerworldId": 684324,
+      "title": "Universal Toilet Flush Lever (The Manncaster 2000)",
+      "category": "utility",
+      "categories": [
+        "utility"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/684324-universal-toilet-flush-lever-the-manncaster-2000",
+      "image": "images/utility/universal-toilet-flush-lever-the-manncaster-2000.png",
+      "description": "The Manncaster 2000 is designed as a universal replacement of a broken toilet lever. It consists of two parts: - A flush handle ergonomically designed for maximum leverage. Tags: toilet, flush, lever, toilet flush.",
+      "imageAlt": "Universal Toilet Flush Lever (The Manncaster 2000) \u2014 free 3D print (utility) on MakerWorld | Spencermann",
+      "keywords": [
+        "toilet",
+        "flush",
+        "lever",
+        "toilet flush",
+        "toilet handle",
+        "home repair",
+        "home",
+        "bathroom",
+        "functional 3D print",
+        "practical STL",
+        "Spencermann",
+        "MakerWorld free download"
+      ],
+      "likes": 44,
+      "publishTime": "2024-10-06T02:05:23Z",
       "featured": false
     },
     {
@@ -1772,7 +2034,7 @@
         "Spencermann",
         "MakerWorld STL download"
       ],
-      "likes": 38,
+      "likes": 41,
       "publishTime": "2026-02-02T22:58:20Z",
       "featured": false
     },
@@ -1802,35 +2064,8 @@
         "baby",
         "TPU"
       ],
-      "likes": 38,
+      "likes": 41,
       "publishTime": "2025-11-07T02:01:21Z",
-      "featured": false
-    },
-    {
-      "id": "pond-filter-box-3-sections-screen-medium-cavity",
-      "makerworldId": 1430125,
-      "title": "Pond Filter Box - 3 Sections: Screen medium cavity",
-      "category": "other",
-      "categories": [
-        "other"
-      ],
-      "makerworldUrl": "https://makerworld.com/en/models/1430125-pond-filter-box-3-sections-screen-medium-cavity",
-      "image": "images/other/pond-filter-box-3-sections-screen-medium-cavity.jpg",
-      "description": "I have a small pond using a TetraPond 550 . My water feature was losing pressure with my original mesh bag solution so I designed something new. This design is actually based on work I did as Biosystems engineer 20 years ago at the Oklahoma State University Hog Research Farm. Tags: pond, filter, pump, water.",
-      "imageAlt": "Pond Filter Box - 3 Sections: Screen medium cavity \u2014 free 3D print (other) on MakerWorld | Spencermann",
-      "keywords": [
-        "pond",
-        "filter",
-        "pump",
-        "water",
-        "bacteria",
-        "water feature",
-        "free 3D print",
-        "Spencermann",
-        "MakerWorld STL download"
-      ],
-      "likes": 38,
-      "publishTime": "2025-05-18T17:07:29Z",
       "featured": false
     },
     {
@@ -1859,59 +2094,86 @@
         "Hollow Knight 3D print",
         "Silksong cosplay"
       ],
-      "likes": 37,
+      "likes": 40,
       "publishTime": "2025-10-31T02:00:18Z",
       "featured": false
     },
     {
-      "id": "doll-murder-drones-7-tall",
-      "makerworldId": 2747200,
-      "title": "Doll - Murder Drones 7\" tall",
-      "category": "glitch-productions",
+      "id": "fence-post-castle",
+      "makerworldId": 588957,
+      "title": "Fence Post Castle",
+      "category": "other",
       "categories": [
-        "glitch-productions"
+        "other"
       ],
-      "makerworldUrl": "https://makerworld.com/en/models/2747200-doll-murder-drones-7-tall",
-      "image": "images/glitch-productions/doll-murder-drones-7-tall.jpg",
-      "description": "I believe this model completes the Murder Drones series of main characters for me. I hope you like it! For complex character models like this, I usually have AI build the foundation and then modify it from there. Tags: murder drones, murder drone, doll, murderdrones.",
-      "imageAlt": "Doll - Murder Drones 7\" tall \u2014 free 3D print (glitch productions) on MakerWorld | Spencermann",
+      "makerworldUrl": "https://makerworld.com/en/models/588957-fence-post-castle",
+      "image": "images/other/fence-post-castle.jpg",
+      "description": "Fence post covers are unnecessarily boring. I designed this one and printed it in PETG, then gave it a little touch up with some acrylic paint. Tags: garden, castle, fence, scuplture.",
+      "imageAlt": "Fence Post Castle \u2014 free 3D print (other) on MakerWorld | Spencermann",
       "keywords": [
-        "Murder Drones figure",
-        "murder drones",
-        "murder drone",
-        "doll",
-        "murderdrones",
-        "Monster",
-        "tv",
-        "glitch",
-        "glitch studio",
-        "Glitch Productions 3D print",
-        "Gameoverse",
-        "Spencermann"
+        "garden",
+        "castle",
+        "fence",
+        "scuplture",
+        "decor",
+        "fun",
+        "free 3D print",
+        "Spencermann",
+        "MakerWorld STL download"
       ],
-      "likes": 34,
-      "publishTime": "2026-05-02T14:52:00Z",
+      "likes": 37,
+      "publishTime": "2024-08-14T22:56:18Z",
       "featured": false
     },
     {
-      "id": "tessa-james-elliott-spacesuit-murder-drones-7",
-      "makerworldId": 2802038,
-      "title": "Tessa James Elliott - Spacesuit - Murder Drones 7\"",
+      "id": "dreamer-monomon-the-teacher-mask-hollow-knight",
+      "makerworldId": 2240540,
+      "title": "Dreamer Monomon the Teacher Mask - Hollow Knight",
+      "category": "hollow-knight",
+      "categories": [
+        "hollow-knight"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2240540-dreamer-monomon-the-teacher-mask-hollow-knight",
+      "image": "images/hollow-knight/dreamer-monomon-the-teacher-mask-hollow-knight.jpg",
+      "description": "This is the second of the three dreamer masks, Monomon the Teacher. I will have the last one done soon. Tags: Hollow Knight, hollow knight, hollow knight 2, COSPLAY.",
+      "imageAlt": "Dreamer Monomon the Teacher Mask - Hollow Knight \u2014 free 3D print (hollow knight) on MakerWorld | Spencermann",
+      "keywords": [
+        "Hollow Knight",
+        "hollow knight 2",
+        "COSPLAY",
+        "mask",
+        "video game",
+        "dreamer",
+        "Hollow Knight 3D print",
+        "Silksong cosplay",
+        "Spencermann",
+        "MakerWorld free STL",
+        "Hollow Knight cosplay",
+        "MakerWorld free download"
+      ],
+      "likes": 36,
+      "publishTime": "2026-01-13T15:07:01Z",
+      "featured": false
+    },
+    {
+      "id": "lizzy-murder-drones-7-tall",
+      "makerworldId": 2782999,
+      "title": "Lizzy - Murder Drones 7\" tall",
       "category": "glitch-productions",
       "categories": [
         "glitch-productions"
       ],
-      "makerworldUrl": "https://makerworld.com/en/models/2802038-tessa-james-elliott-spacesuit-murder-drones-7",
-      "image": "images/glitch-productions/tessa-james-elliott-spacesuit-murder-drones-7.jpg",
-      "description": "The much requested Tessa in a spacesuit, I hope you like it. Tags: murderdrones, murder drones, tessa, glitch.",
-      "imageAlt": "Tessa James Elliott - Spacesuit - Murder Drones 7\" \u2014 free 3D print (glitch productions) on MakerWorld | Spencermann",
+      "makerworldUrl": "https://makerworld.com/en/models/2782999-lizzy-murder-drones-7-tall",
+      "image": "images/glitch-productions/lizzy-murder-drones-7-tall.jpg",
+      "description": "Apparently there are more of these to make than I thought! This Lizzy design is pretty fragile, I strengthened the legs, but when removing supports you should be careful about: The hands, the arms, the legs, and the neck. Tags: murder drones, murder drone, lizzy, murderdrones.",
+      "imageAlt": "Lizzy - Murder Drones 7\" tall \u2014 free 3D print (glitch productions) on MakerWorld | Spencermann",
       "keywords": [
         "Murder Drones figure",
-        "murderdrones",
         "murder drones",
-        "tessa",
-        "glitch",
         "murder drone",
+        "lizzy",
+        "murderdrones",
+        "glitch",
         "glitch studio",
         "Glitch Productions 3D print",
         "Gameoverse",
@@ -1919,8 +2181,8 @@
         "MakerWorld free STL",
         "MakerWorld free download"
       ],
-      "likes": 33,
-      "publishTime": "2026-05-15T00:02:59Z",
+      "likes": 34,
+      "publishTime": "2026-05-10T17:39:09Z",
       "featured": false
     },
     {
@@ -1949,8 +2211,37 @@
         "MakerWorld free STL",
         "Hollow Knight cosplay"
       ],
-      "likes": 33,
+      "likes": 34,
       "publishTime": "2025-12-10T17:23:22Z",
+      "featured": false
+    },
+    {
+      "id": "frame-one-size-fits-all-photos-or-posters-1mm",
+      "makerworldId": 1952489,
+      "title": "Frame One size fits all: Photos or posters =<1mm",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1952489-frame-one-size-fits-all-photos-or-posters-1mm",
+      "image": "images/other/frame-one-size-fits-all-photos-or-posters-1mm.jpg",
+      "description": "You must have access to a slicer to scale the pieces for this print!! (Bambu Handy won't work) I am very lucky to live in a family with many artists. Tags: Frame, frame, modular, scaleable.",
+      "imageAlt": "Frame One size fits all: Photos or posters =<1mm \u2014 free 3D print (other) on MakerWorld | Spencermann",
+      "keywords": [
+        "Frame",
+        "modular",
+        "scaleable",
+        "Art",
+        "poster",
+        "photo",
+        "picture",
+        "drawing",
+        "free 3D print",
+        "Spencermann",
+        "MakerWorld STL download"
+      ],
+      "likes": 34,
+      "publishTime": "2025-11-02T20:19:04Z",
       "featured": false
     },
     {
@@ -1984,148 +2275,6 @@
       "featured": false
     },
     {
-      "id": "kaladin-stormblessed-stormlight-archive-hero",
-      "makerworldId": 2642649,
-      "title": "Kaladin Stormblessed - Stormlight Archive Hero",
-      "category": "other",
-      "categories": [
-        "other"
-      ],
-      "makerworldUrl": "https://makerworld.com/en/models/2642649-kaladin-stormblessed-stormlight-archive-hero",
-      "image": "images/other/kaladin-stormblessed-stormlight-archive-hero.jpg",
-      "description": "I absolutely loved the Stormlight Archive series by Brandon Sanderson, so I decided to create this simple model of Kaladin as a spear bearer. If you haven't read these books yet, I highly recommend them. I hope you enjoy the model. Tags: stormlight, stormlight archive, kaladin, stormblessed.",
-      "imageAlt": "Kaladin Stormblessed - Stormlight Archive Hero \u2014 free 3D print (other) on MakerWorld | Spencermann",
-      "keywords": [
-        "stormlight",
-        "stormlight archive",
-        "kaladin",
-        "stormblessed",
-        "brandon sanderson",
-        "miniature",
-        "book",
-        "character",
-        "free 3D print",
-        "Spencermann",
-        "MakerWorld STL download"
-      ],
-      "likes": 31,
-      "publishTime": "2026-04-10T14:45:06Z",
-      "featured": false
-    },
-    {
-      "id": "frame-one-size-fits-all-photos-or-posters-1mm",
-      "makerworldId": 1952489,
-      "title": "Frame One size fits all: Photos or posters =<1mm",
-      "category": "other",
-      "categories": [
-        "other"
-      ],
-      "makerworldUrl": "https://makerworld.com/en/models/1952489-frame-one-size-fits-all-photos-or-posters-1mm",
-      "image": "images/other/frame-one-size-fits-all-photos-or-posters-1mm.jpg",
-      "description": "You must have access to a slicer to scale the pieces for this print!! (Bambu Handy won't work) I am very lucky to live in a family with many artists. Tags: Frame, frame, modular, scaleable.",
-      "imageAlt": "Frame One size fits all: Photos or posters =<1mm \u2014 free 3D print (other) on MakerWorld | Spencermann",
-      "keywords": [
-        "Frame",
-        "modular",
-        "scaleable",
-        "Art",
-        "poster",
-        "photo",
-        "picture",
-        "drawing",
-        "free 3D print",
-        "Spencermann",
-        "MakerWorld STL download"
-      ],
-      "likes": 31,
-      "publishTime": "2025-11-02T20:19:04Z",
-      "featured": false
-    },
-    {
-      "id": "dreamer-monomon-the-teacher-mask-hollow-knight",
-      "makerworldId": 2240540,
-      "title": "Dreamer Monomon the Teacher Mask - Hollow Knight",
-      "category": "hollow-knight",
-      "categories": [
-        "hollow-knight"
-      ],
-      "makerworldUrl": "https://makerworld.com/en/models/2240540-dreamer-monomon-the-teacher-mask-hollow-knight",
-      "image": "images/hollow-knight/dreamer-monomon-the-teacher-mask-hollow-knight.jpg",
-      "description": "This is the second of the three dreamer masks, Monomon the Teacher. I will have the last one done soon. Tags: Hollow Knight, hollow knight, hollow knight 2, COSPLAY.",
-      "imageAlt": "Dreamer Monomon the Teacher Mask - Hollow Knight \u2014 free 3D print (hollow knight) on MakerWorld | Spencermann",
-      "keywords": [
-        "Hollow Knight",
-        "hollow knight 2",
-        "COSPLAY",
-        "mask",
-        "video game",
-        "dreamer",
-        "Hollow Knight 3D print",
-        "Silksong cosplay",
-        "Spencermann",
-        "MakerWorld free STL",
-        "Hollow Knight cosplay",
-        "MakerWorld free download"
-      ],
-      "likes": 30,
-      "publishTime": "2026-01-13T15:07:01Z",
-      "featured": false
-    },
-    {
-      "id": "bill-cipher-gravity-falls-shelf-decoration",
-      "makerworldId": 1881316,
-      "title": "Bill Cipher - Gravity Falls Shelf Decoration",
-      "category": "other",
-      "categories": [
-        "other"
-      ],
-      "makerworldUrl": "https://makerworld.com/en/models/1881316-bill-cipher-gravity-falls-shelf-decoration",
-      "image": "images/other/bill-cipher-gravity-falls-shelf-decoration.jpg",
-      "description": "Hi, this is my son's first 3d model and he wanted to share it with all of you. His description: This is Bill Cipher from Gravity Falls, I started with this because it is from something i like and it seemed kind of simple. Tags: bill cipher, gravity falls, disney, mini figures.",
-      "imageAlt": "Bill Cipher - Gravity Falls Shelf Decoration \u2014 free 3D print (other) on MakerWorld | Spencermann",
-      "keywords": [
-        "bill cipher",
-        "gravity falls",
-        "disney",
-        "mini figures",
-        "shelf",
-        "decoration",
-        "Toy",
-        "free 3D print",
-        "Spencermann",
-        "MakerWorld STL download"
-      ],
-      "likes": 30,
-      "publishTime": "2025-10-12T17:26:38Z",
-      "featured": false
-    },
-    {
-      "id": "daisy-880-powerline-bb-gun-mount-for-calibration",
-      "makerworldId": 988645,
-      "title": "Daisy 880 Powerline BB gun mount for calibration",
-      "category": "other",
-      "categories": [
-        "other"
-      ],
-      "makerworldUrl": "https://makerworld.com/en/models/988645-daisy-880-powerline-bb-gun-mount-for-calibration",
-      "image": "images/other/daisy-880-powerline-bb-gun-mount-for-calibration.jpg",
-      "description": "My son has a Daisy 880 Powerline bb gun and the scope needs to be calibrated. Together we designed this simple twist mount so that we could ensure consistent aiming during the calibration process. Tags: gun, gun accessory, gun accessories, bb.",
-      "imageAlt": "Daisy 880 Powerline BB gun mount for calibration \u2014 free 3D print (other) on MakerWorld | Spencermann",
-      "keywords": [
-        "gun",
-        "gun accessory",
-        "gun accessories",
-        "bb",
-        "mount",
-        "free 3D print",
-        "Spencermann",
-        "MakerWorld STL download"
-      ],
-      "likes": 30,
-      "publishTime": "2025-01-13T15:29:05Z",
-      "featured": false
-    },
-    {
       "id": "spray-paint-can-holder-for-pegboard-less-than-50g",
       "makerworldId": 1840506,
       "title": "Spray paint can holder for pegboard- Less than 50g",
@@ -2149,38 +2298,8 @@
         "Spencermann",
         "MakerWorld free download"
       ],
-      "likes": 29,
+      "likes": 33,
       "publishTime": "2025-09-29T20:32:32Z",
-      "featured": true
-    },
-    {
-      "id": "lizzy-murder-drones-7-tall",
-      "makerworldId": 2782999,
-      "title": "Lizzy - Murder Drones 7\" tall",
-      "category": "glitch-productions",
-      "categories": [
-        "glitch-productions"
-      ],
-      "makerworldUrl": "https://makerworld.com/en/models/2782999-lizzy-murder-drones-7-tall",
-      "image": "images/glitch-productions/lizzy-murder-drones-7-tall.jpg",
-      "description": "Apparently there are more of these to make than I thought! This Lizzy design is pretty fragile, I strengthened the legs, but when removing supports you should be careful about: The hands, the arms, the legs, and the neck. Tags: murder drones, murder drone, lizzy, murderdrones.",
-      "imageAlt": "Lizzy - Murder Drones 7\" tall \u2014 free 3D print (glitch productions) on MakerWorld | Spencermann",
-      "keywords": [
-        "Murder Drones figure",
-        "murder drones",
-        "murder drone",
-        "lizzy",
-        "murderdrones",
-        "glitch",
-        "glitch studio",
-        "Glitch Productions 3D print",
-        "Gameoverse",
-        "Spencermann",
-        "MakerWorld free STL",
-        "MakerWorld free download"
-      ],
-      "likes": 26,
-      "publishTime": "2026-05-10T17:39:09Z",
       "featured": false
     },
     {
@@ -2209,8 +2328,90 @@
         "MakerWorld free download",
         "Hollow Knight Dreamer mask"
       ],
-      "likes": 26,
+      "likes": 31,
       "publishTime": "2026-01-12T15:24:06Z",
+      "featured": false
+    },
+    {
+      "id": "bill-cipher-gravity-falls-shelf-decoration",
+      "makerworldId": 1881316,
+      "title": "Bill Cipher - Gravity Falls Shelf Decoration",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1881316-bill-cipher-gravity-falls-shelf-decoration",
+      "image": "images/other/bill-cipher-gravity-falls-shelf-decoration.jpg",
+      "description": "Hi, this is my son's first 3d model and he wanted to share it with all of you. His description: This is Bill Cipher from Gravity Falls, I started with this because it is from something i like and it seemed kind of simple. Tags: bill cipher, gravity falls, disney, mini figures.",
+      "imageAlt": "Bill Cipher - Gravity Falls Shelf Decoration \u2014 free 3D print (other) on MakerWorld | Spencermann",
+      "keywords": [
+        "bill cipher",
+        "gravity falls",
+        "disney",
+        "mini figures",
+        "shelf",
+        "decoration",
+        "Toy",
+        "free 3D print",
+        "Spencermann",
+        "MakerWorld STL download"
+      ],
+      "likes": 31,
+      "publishTime": "2025-10-12T17:26:38Z",
+      "featured": false
+    },
+    {
+      "id": "daisy-880-powerline-bb-gun-mount-for-calibration",
+      "makerworldId": 988645,
+      "title": "Daisy 880 Powerline BB gun mount for calibration",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/988645-daisy-880-powerline-bb-gun-mount-for-calibration",
+      "image": "images/other/daisy-880-powerline-bb-gun-mount-for-calibration.jpg",
+      "description": "My son has a Daisy 880 Powerline bb gun and the scope needs to be calibrated. Together we designed this simple twist mount so that we could ensure consistent aiming during the calibration process. Tags: gun, gun accessory, gun accessories, bb.",
+      "imageAlt": "Daisy 880 Powerline BB gun mount for calibration \u2014 free 3D print (other) on MakerWorld | Spencermann",
+      "keywords": [
+        "gun",
+        "gun accessory",
+        "gun accessories",
+        "bb",
+        "mount",
+        "free 3D print",
+        "Spencermann",
+        "MakerWorld STL download"
+      ],
+      "likes": 31,
+      "publishTime": "2025-01-13T15:29:05Z",
+      "featured": false
+    },
+    {
+      "id": "simple-slip-on-doorbell-cover-183mm-x-112mm",
+      "makerworldId": 1752817,
+      "title": "Simple slip on Doorbell Cover (183mm x 112mm)",
+      "category": "utility",
+      "categories": [
+        "utility"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1752817-simple-slip-on-doorbell-cover-183mm-x-112mm",
+      "image": "images/utility/simple-slip-on-doorbell-cover-183mm-x-112mm.jpg",
+      "description": "Created this simple slip on doorbell design for our home. The previous cover was sort of boring, so I designed this to make it a bit more fun. I printed it in white pla, and it is designed to replace a 183mm x 112mm cover. Not sure if this is a standard size or not. Tags: doorbell, doorbell accessories, home, mandala.",
+      "imageAlt": "Simple slip on Doorbell Cover (183mm x 112mm) \u2014 free 3D print (utility) on MakerWorld | Spencermann",
+      "keywords": [
+        "doorbell",
+        "doorbell accessories",
+        "home",
+        "mandala",
+        "filigree",
+        "design",
+        "functional 3D print",
+        "practical STL",
+        "Spencermann",
+        "MakerWorld free download"
+      ],
+      "likes": 25,
+      "publishTime": "2025-08-31T22:33:38Z",
       "featured": false
     },
     {
@@ -2239,36 +2440,8 @@
         "Glitch Productions 3D print",
         "Murder Drones"
       ],
-      "likes": 22,
+      "likes": 24,
       "publishTime": "2026-05-26T03:22:37Z",
-      "featured": false
-    },
-    {
-      "id": "simple-slip-on-doorbell-cover-183mm-x-112mm",
-      "makerworldId": 1752817,
-      "title": "Simple slip on Doorbell Cover (183mm x 112mm)",
-      "category": "utility",
-      "categories": [
-        "utility"
-      ],
-      "makerworldUrl": "https://makerworld.com/en/models/1752817-simple-slip-on-doorbell-cover-183mm-x-112mm",
-      "image": "images/utility/simple-slip-on-doorbell-cover-183mm-x-112mm.jpg",
-      "description": "Created this simple slip on doorbell design for our home. The previous cover was sort of boring, so I designed this to make it a bit more fun. I printed it in white pla, and it is designed to replace a 183mm x 112mm cover. Not sure if this is a standard size or not. Tags: doorbell, doorbell accessories, home, mandala.",
-      "imageAlt": "Simple slip on Doorbell Cover (183mm x 112mm) \u2014 free 3D print (utility) on MakerWorld | Spencermann",
-      "keywords": [
-        "doorbell",
-        "doorbell accessories",
-        "home",
-        "mandala",
-        "filigree",
-        "design",
-        "functional 3D print",
-        "practical STL",
-        "Spencermann",
-        "MakerWorld free download"
-      ],
-      "likes": 22,
-      "publishTime": "2025-08-31T22:33:38Z",
       "featured": false
     },
     {
@@ -2293,8 +2466,66 @@
         "MakerWorld free download",
         "Mantis Lord Hollow Knight"
       ],
-      "likes": 21,
+      "likes": 22,
       "publishTime": "2025-10-09T02:53:08Z",
+      "featured": false
+    },
+    {
+      "id": "christ-water-pond-fountain-functional-17",
+      "makerworldId": 2969291,
+      "title": "Christ water pond fountain - functional 17\"",
+      "category": "water-fountains",
+      "categories": [
+        "water-fountains"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2969291-christ-water-pond-fountain-functional-17",
+      "image": "images/water-fountains/christ-water-pond-fountain-functional-17.jpg",
+      "description": "I have been working on the pond version of this model for a long time, and it has personal significance for me. I recognize that religion is not for everyone, but I hope the example of Christ is still something that we can seek to follow. Tags: jesus, christ, water, fountain.",
+      "imageAlt": "Christ water pond fountain - functional 17\" \u2014 free 3D print (water fountains) on MakerWorld | Spencermann",
+      "keywords": [
+        "jesus",
+        "christ",
+        "water",
+        "fountain",
+        "sculpture",
+        "decoration",
+        "functional",
+        "service",
+        "blessings",
+        "religious",
+        "christianity",
+        "christian"
+      ],
+      "likes": 21,
+      "publishTime": "2026-06-23T21:30:28Z",
+      "featured": false
+    },
+    {
+      "id": "stargate-fish-floating-feeding-ring-aquarium",
+      "makerworldId": 2301863,
+      "title": "Stargate Fish Floating Feeding Ring - Aquarium",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2301863-stargate-fish-floating-feeding-ring-aquarium",
+      "image": "images/other/stargate-fish-floating-feeding-ring-aquarium.jpg",
+      "description": "In addition to 3d design, I enjoy raising aquarium plants and fish. My plants frequently get a bit out of hand and so I designed this Stargate themed floating fishing ring so that I could still easily drop the food in without it getting stuck on the plants. Tags: fish, aquarium, feeding, feeding ring.",
+      "imageAlt": "Stargate Fish Floating Feeding Ring - Aquarium \u2014 free 3D print (other) on MakerWorld | Spencermann",
+      "keywords": [
+        "fish",
+        "aquarium",
+        "feeding",
+        "feeding ring",
+        "tank",
+        "stargate",
+        "decoration",
+        "free 3D print",
+        "Spencermann",
+        "MakerWorld STL download"
+      ],
+      "likes": 17,
+      "publishTime": "2026-01-25T23:37:50Z",
       "featured": false
     },
     {
@@ -2325,6 +2556,31 @@
       ],
       "likes": 17,
       "publishTime": "2025-12-27T00:54:10Z",
+      "featured": false
+    },
+    {
+      "id": "pinewood-derby-improved-wheels-and-base-for-2-5deg",
+      "makerworldId": 1990757,
+      "title": "Pinewood Derby - Improved wheels and base for 2.5\u00b0",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/1990757-pinewood-derby-improved-wheels-and-base-for-2-5deg",
+      "image": "images/other/pinewood-derby-improved-wheels-and-base-for-2-5deg.jpg",
+      "description": "My kids are competing in a Pinewood derby this week. I essentially wanted to do a quick design that solved the biggest problems of optimizing a pinewood derby car: Lightweight low friction wheels. Tags: pinewood, pinewood derby, wheels, pinewood derby tools.",
+      "imageAlt": "Pinewood Derby - Improved wheels and base for 2.5\u00b0 \u2014 free 3D print (other) on MakerWorld | Spencermann",
+      "keywords": [
+        "pinewood",
+        "pinewood derby",
+        "wheels",
+        "pinewood derby tools",
+        "free 3D print",
+        "Spencermann",
+        "MakerWorld STL download"
+      ],
+      "likes": 17,
+      "publishTime": "2025-11-12T23:48:05Z",
       "featured": false
     },
     {
@@ -2385,56 +2641,87 @@
       "featured": false
     },
     {
-      "id": "pinewood-derby-improved-wheels-and-base-for-2-5deg",
-      "makerworldId": 1990757,
-      "title": "Pinewood Derby - Improved wheels and base for 2.5\u00b0",
+      "id": "food-poisoning-danger-today-fridge-magnet",
+      "makerworldId": 609586,
+      "title": "Food Poisoning Danger Today Fridge Magnet",
       "category": "other",
       "categories": [
         "other"
       ],
-      "makerworldUrl": "https://makerworld.com/en/models/1990757-pinewood-derby-improved-wheels-and-base-for-2-5deg",
-      "image": "images/other/pinewood-derby-improved-wheels-and-base-for-2-5deg.jpg",
-      "description": "My kids are competing in a Pinewood derby this week. I essentially wanted to do a quick design that solved the biggest problems of optimizing a pinewood derby car: Lightweight low friction wheels. Tags: pinewood, pinewood derby, wheels, pinewood derby tools.",
-      "imageAlt": "Pinewood Derby - Improved wheels and base for 2.5\u00b0 \u2014 free 3D print (other) on MakerWorld | Spencermann",
+      "makerworldUrl": "https://makerworld.com/en/models/609586-food-poisoning-danger-today-fridge-magnet",
+      "image": "images/other/food-poisoning-danger-today-fridge-magnet.png",
+      "description": "I was pulling some old left overs out of the fridge while trying to cobble together a lunch. Tags: fridge, sculpture, sign, funny.",
+      "imageAlt": "Food Poisoning Danger Today Fridge Magnet \u2014 free 3D print (other) on MakerWorld | Spencermann",
       "keywords": [
-        "pinewood",
-        "pinewood derby",
-        "wheels",
-        "pinewood derby tools",
+        "fridge",
+        "sculpture",
+        "sign",
+        "funny",
+        "food",
         "free 3D print",
         "Spencermann",
         "MakerWorld STL download"
       ],
       "likes": 16,
-      "publishTime": "2025-11-12T23:48:05Z",
+      "publishTime": "2024-08-28T03:13:07Z",
       "featured": false
     },
     {
-      "id": "stargate-fish-floating-feeding-ring-aquarium",
-      "makerworldId": 2301863,
-      "title": "Stargate Fish Floating Feeding Ring - Aquarium",
+      "id": "sliding-pet-gate",
+      "makerworldId": 629761,
+      "title": "Sliding Pet Gate",
       "category": "other",
       "categories": [
         "other"
       ],
-      "makerworldUrl": "https://makerworld.com/en/models/2301863-stargate-fish-floating-feeding-ring-aquarium",
-      "image": "images/other/stargate-fish-floating-feeding-ring-aquarium.jpg",
-      "description": "In addition to 3d design, I enjoy raising aquarium plants and fish. My plants frequently get a bit out of hand and so I designed this Stargate themed floating fishing ring so that I could still easily drop the food in without it getting stuck on the plants. Tags: fish, aquarium, feeding, feeding ring.",
-      "imageAlt": "Stargate Fish Floating Feeding Ring - Aquarium \u2014 free 3D print (other) on MakerWorld | Spencermann",
+      "makerworldUrl": "https://makerworld.com/en/models/629761-sliding-pet-gate",
+      "image": "images/other/sliding-pet-gate.png",
+      "description": "We have a sliding wall we use to separate portions of our house from the pets. This design prevents the pets from pushing the wall out and squeezing through while maintaining an easy slide mechanism. Tags: pet, household, dog, cat.",
+      "imageAlt": "Sliding Pet Gate \u2014 free 3D print (other) on MakerWorld | Spencermann",
       "keywords": [
-        "fish",
-        "aquarium",
-        "feeding",
-        "feeding ring",
-        "tank",
-        "stargate",
-        "decoration",
+        "pet",
+        "household",
+        "dog",
+        "cat",
+        "gate",
+        "pet gate",
+        "dog gate",
         "free 3D print",
         "Spencermann",
         "MakerWorld STL download"
       ],
       "likes": 15,
-      "publishTime": "2026-01-25T23:37:50Z",
+      "publishTime": "2024-09-08T15:40:32Z",
+      "featured": false
+    },
+    {
+      "id": "3-snap-on-vent-covers-designed-for-p1s-printer",
+      "makerworldId": 2948048,
+      "title": "3 Snap on vent covers designed for p1s printer",
+      "category": "utility",
+      "categories": [
+        "utility"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2948048-3-snap-on-vent-covers-designed-for-p1s-printer",
+      "image": "images/utility/3-snap-on-vent-covers-designed-for-p1s-printer.jpg",
+      "description": "I adapted my original 3d printed vent cover designs to work on the P1S and 250x250mm print beds. It prints quickly and easily and snaps on your vents to give them a unique look. There are 3 different designs in the single print profile to choose from. I hope you like it!. Tags: vents, ac, air conditioning, vent covers.",
+      "imageAlt": "3 Snap on vent covers designed for p1s printer \u2014 free 3D print (utility) on MakerWorld | Spencermann",
+      "keywords": [
+        "vents",
+        "ac",
+        "air conditioning",
+        "vent covers",
+        "home",
+        "Home Decor",
+        "functional",
+        "design",
+        "aesthetics",
+        "functional 3D print",
+        "practical STL",
+        "Spencermann"
+      ],
+      "likes": 14,
+      "publishTime": "2026-06-18T14:16:01Z",
       "featured": false
     },
     {
@@ -2468,61 +2755,28 @@
       "featured": false
     },
     {
-      "id": "proud-of-my-helldiver-license-plate-cover-us-size",
-      "makerworldId": 2020900,
-      "title": "Proud of my Helldiver License Plate Cover -US size",
-      "category": "other",
+      "id": "garage-organizer-for-long-things",
+      "makerworldId": 643641,
+      "title": "Garage organizer for long things",
+      "category": "utility",
       "categories": [
-        "other"
+        "utility"
       ],
-      "makerworldUrl": "https://makerworld.com/en/models/2020900-proud-of-my-helldiver-license-plate-cover-us-size",
-      "image": "images/other/proud-of-my-helldiver-license-plate-cover-us-size.jpg",
-      "description": "Everywhere I go, I see parents who are proud of their honor student, eagle scout, marine, student, car dealership, pet, blah blah blah blah blah. Tags: HELLDIVERS, helldiver, helldiver 2, license plate.",
-      "imageAlt": "Proud of my Helldiver License Plate Cover -US size \u2014 free 3D print (other) on MakerWorld | Spencermann",
+      "makerworldUrl": "https://makerworld.com/en/models/643641-garage-organizer-for-long-things",
+      "image": "images/utility/garage-organizer-for-long-things.jpg",
+      "description": "Simple model to get a bunch of long things in my garage out of the way. Printed in PETG. Tags: garage, organizer, board.",
+      "imageAlt": "Garage organizer for long things \u2014 free 3D print (utility) on MakerWorld | Spencermann",
       "keywords": [
-        "HELLDIVERS",
-        "helldiver",
-        "helldiver 2",
-        "license plate",
-        "plate cover",
-        "funny",
-        "video game",
-        "free 3D print",
+        "garage",
+        "organizer",
+        "board",
+        "functional 3D print",
+        "practical STL",
         "Spencermann",
-        "MakerWorld STL download"
+        "MakerWorld free download"
       ],
-      "likes": 11,
-      "publishTime": "2025-11-21T00:12:19Z",
-      "featured": false
-    },
-    {
-      "id": "turtle-water-fountain-functional-for-ponds",
-      "makerworldId": 2988755,
-      "title": "Turtle Water Fountain - Functional for ponds",
-      "category": "water-fountains",
-      "categories": [
-        "water-fountains"
-      ],
-      "makerworldUrl": "https://makerworld.com/en/models/2988755-turtle-water-fountain-functional-for-ponds",
-      "image": "images/water-fountains/turtle-water-fountain-functional-for-ponds.gif",
-      "description": "Someone recently suggested that I create a Turtle water fountain, it seemed like a fun idea so I made this. I based the design off of an aquatic turtle (explaining the unusual color and shell shape) and then added a female \u00bd threaded adapter to the bottom the internal piping. Tags: pond, fountain, water, fish.",
-      "imageAlt": "Turtle Water Fountain - Functional for ponds \u2014 free 3D print (water fountains) on MakerWorld | Spencermann",
-      "keywords": [
-        "pond",
-        "fountain",
-        "water",
-        "fish",
-        "turtle",
-        "garden",
-        "decor",
-        "3D printed water fountain",
-        "pond fountain STL",
-        "Spencermann",
-        "MakerWorld free download",
-        "pond fountain"
-      ],
-      "likes": 10,
-      "publishTime": "2026-06-28T23:35:49Z",
+      "likes": 14,
+      "publishTime": "2024-09-15T16:11:32Z",
       "featured": false
     },
     {
@@ -2551,65 +2805,36 @@
         "MakerWorld free download",
         "Kaboodle"
       ],
-      "likes": 10,
+      "likes": 12,
       "publishTime": "2026-06-06T21:16:57Z",
       "featured": false
     },
     {
-      "id": "nobel-peace-prize-or-nopel-peace-prize",
-      "makerworldId": 2275824,
-      "title": "Nobel Peace Prize (or Nopel Peace Prize?)",
+      "id": "proud-of-my-helldiver-license-plate-cover-us-size",
+      "makerworldId": 2020900,
+      "title": "Proud of my Helldiver License Plate Cover -US size",
       "category": "other",
       "categories": [
         "other"
       ],
-      "makerworldUrl": "https://makerworld.com/en/models/2275824-nobel-peace-prize-or-nopel-peace-prize",
-      "image": "images/other/nobel-peace-prize-or-nopel-peace-prize.jpg",
-      "description": "(This is satire) I was really inspired this week by the idea that Nobel Peace Prizes can be so easily regifted for political favor. After careful consideration, I decided to start the Nopel Peace Prize and appoint myself the founding chairperson for life. Tags: nobel, peace, award, funny.",
-      "imageAlt": "Nobel Peace Prize (or Nopel Peace Prize?) \u2014 free 3D print (other) on MakerWorld | Spencermann",
+      "makerworldUrl": "https://makerworld.com/en/models/2020900-proud-of-my-helldiver-license-plate-cover-us-size",
+      "image": "images/other/proud-of-my-helldiver-license-plate-cover-us-size.jpg",
+      "description": "Everywhere I go, I see parents who are proud of their honor student, eagle scout, marine, student, car dealership, pet, blah blah blah blah blah. Tags: HELLDIVERS, helldiver, helldiver 2, license plate.",
+      "imageAlt": "Proud of my Helldiver License Plate Cover -US size \u2014 free 3D print (other) on MakerWorld | Spencermann",
       "keywords": [
-        "nobel",
-        "peace",
-        "award",
+        "HELLDIVERS",
+        "helldiver",
+        "helldiver 2",
+        "license plate",
+        "plate cover",
         "funny",
-        "satire",
-        "prize",
+        "video game",
         "free 3D print",
         "Spencermann",
         "MakerWorld STL download"
       ],
-      "likes": 9,
-      "publishTime": "2026-01-21T03:31:55Z",
-      "featured": false
-    },
-    {
-      "id": "3-snap-on-vent-covers-designed-for-p1s-printer",
-      "makerworldId": 2948048,
-      "title": "3 Snap on vent covers designed for p1s printer",
-      "category": "utility",
-      "categories": [
-        "utility"
-      ],
-      "makerworldUrl": "https://makerworld.com/en/models/2948048-3-snap-on-vent-covers-designed-for-p1s-printer",
-      "image": "images/utility/3-snap-on-vent-covers-designed-for-p1s-printer.jpg",
-      "description": "I adapted my original 3d printed vent cover designs to work on the P1S and 250x250mm print beds. It prints quickly and easily and snaps on your vents to give them a unique look. There are 3 different designs in the single print profile to choose from. I hope you like it!. Tags: vents, ac, air conditioning, vent covers.",
-      "imageAlt": "3 Snap on vent covers designed for p1s printer \u2014 free 3D print (utility) on MakerWorld | Spencermann",
-      "keywords": [
-        "vents",
-        "ac",
-        "air conditioning",
-        "vent covers",
-        "home",
-        "Home Decor",
-        "functional",
-        "design",
-        "aesthetics",
-        "functional 3D print",
-        "practical STL",
-        "Spencermann"
-      ],
-      "likes": 8,
-      "publishTime": "2026-06-18T14:16:01Z",
+      "likes": 12,
+      "publishTime": "2025-11-21T00:12:19Z",
       "featured": false
     },
     {
@@ -2638,38 +2863,87 @@
         "fun",
         "funny"
       ],
-      "likes": 8,
+      "likes": 11,
       "publishTime": "2025-11-09T02:43:53Z",
       "featured": false
     },
     {
-      "id": "christ-water-pond-fountain-functional-17",
-      "makerworldId": 2969291,
-      "title": "Christ water pond fountain - functional 17\"",
+      "id": "zombie-michael-jackson-functional-water-fountain",
+      "makerworldId": 2988827,
+      "title": "Zombie Michael Jackson Functional Water Fountain",
       "category": "water-fountains",
       "categories": [
         "water-fountains"
       ],
-      "makerworldUrl": "https://makerworld.com/en/models/2969291-christ-water-pond-fountain-functional-17",
-      "image": "images/water-fountains/christ-water-pond-fountain-functional-17.jpg",
-      "description": "I have been working on the pond version of this model for a long time, and it has personal significance for me. I recognize that religion is not for everyone, but I hope the example of Christ is still something that we can seek to follow. Tags: jesus, christ, water, fountain.",
-      "imageAlt": "Christ water pond fountain - functional 17\" \u2014 free 3D print (water fountains) on MakerWorld | Spencermann",
+      "makerworldUrl": "https://makerworld.com/en/models/2988827-zombie-michael-jackson-functional-water-fountain",
+      "image": "images/water-fountains/zombie-michael-jackson-functional-water-fountain.gif",
+      "description": "Well\u2026. What can I say about this one\u2026. Just needed to be made I guess. Special Features: 1. It is designed with a brain cavity where the water pumps and then channels out the mouth. 2. The top of the head comes off\u2026 so you can put in filter media.. Or a plant inside it. Tags: fountain, water, pond, fish.",
+      "imageAlt": "Zombie Michael Jackson Functional Water Fountain \u2014 free 3D print (water fountains) on MakerWorld | Spencermann",
       "keywords": [
-        "jesus",
-        "christ",
-        "water",
         "fountain",
-        "sculpture",
-        "decoration",
-        "functional",
-        "service",
-        "blessings",
-        "religious",
-        "christianity",
-        "christian"
+        "water",
+        "pond",
+        "fish",
+        "michael",
+        "jackson",
+        "michael jackson",
+        "thriller",
+        "zombie",
+        "Halloween",
+        "silly",
+        "3D printed water fountain"
       ],
-      "likes": 6,
-      "publishTime": "2026-06-23T21:30:28Z",
+      "likes": 10,
+      "publishTime": "2026-06-29T00:03:41Z",
+      "featured": false
+    },
+    {
+      "id": "nobel-peace-prize-or-nopel-peace-prize",
+      "makerworldId": 2275824,
+      "title": "Nobel Peace Prize (or Nopel Peace Prize?)",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2275824-nobel-peace-prize-or-nopel-peace-prize",
+      "image": "images/other/nobel-peace-prize-or-nopel-peace-prize.jpg",
+      "description": "(This is satire) I was really inspired this week by the idea that Nobel Peace Prizes can be so easily regifted for political favor. After careful consideration, I decided to start the Nopel Peace Prize and appoint myself the founding chairperson for life. Tags: nobel, peace, award, funny.",
+      "imageAlt": "Nobel Peace Prize (or Nopel Peace Prize?) \u2014 free 3D print (other) on MakerWorld | Spencermann",
+      "keywords": [
+        "nobel",
+        "peace",
+        "award",
+        "funny",
+        "satire",
+        "prize",
+        "free 3D print",
+        "Spencermann",
+        "MakerWorld STL download"
+      ],
+      "likes": 10,
+      "publishTime": "2026-01-21T03:31:55Z",
+      "featured": false
+    },
+    {
+      "id": "snap-in-ceiling-vent-covers-p1s-easy-quick-print",
+      "makerworldId": 2953946,
+      "title": "Snap-in Ceiling vent covers - P1S Easy quick print",
+      "category": "utility",
+      "categories": [
+        "utility"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/2953946-snap-in-ceiling-vent-covers-p1s-easy-quick-print",
+      "image": "images/utility/snap-in-ceiling-vent-covers-p1s-easy-quick-print.jpg",
+      "description": "I adapted my floor vent covers for the ceiling and made them sized to be easily printed on a p1s sized printer. They snap into your existing vents. There are 3 designs options included.",
+      "imageAlt": "Snap-in Ceiling vent covers - P1S Easy quick print \u2014 free 3D print (utility) on MakerWorld | Spencermann",
+      "keywords": [
+        "functional 3D print",
+        "practical STL",
+        "Spencermann",
+        "MakerWorld free download"
+      ],
+      "likes": 9,
+      "publishTime": "2026-06-20T01:21:05Z",
       "featured": false
     },
     {
@@ -2698,8 +2972,37 @@
         "Spencermann",
         "MakerWorld free download"
       ],
-      "likes": 5,
+      "likes": 8,
       "publishTime": "2026-03-23T17:48:53Z",
+      "featured": false
+    },
+    {
+      "id": "simple-cat-door-wedge-to-grip-carpet-and-hold-open",
+      "makerworldId": 150310,
+      "title": "Simple Cat Door Wedge to grip carpet and hold open",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "makerworldUrl": "https://makerworld.com/en/models/150310-simple-cat-door-wedge-to-grip-carpet-and-hold-open",
+      "image": "images/other/simple-cat-door-wedge-to-grip-carpet-and-hold-open.jpg",
+      "description": "Simple design to let the cat in, but keep the dog out. Our dog has an appetite for cat litter and it's associates. Tags: cat, dog, home, pets.",
+      "imageAlt": "Simple Cat Door Wedge to grip carpet and hold open \u2014 free 3D print (other) on MakerWorld | Spencermann",
+      "keywords": [
+        "cat",
+        "dog",
+        "home",
+        "pets",
+        "door",
+        "door accessory",
+        "wedgedoor",
+        "wedge",
+        "free 3D print",
+        "Spencermann",
+        "MakerWorld STL download"
+      ],
+      "likes": 7,
+      "publishTime": "2024-01-21T15:31:10Z",
       "featured": false
     },
     {
@@ -2731,55 +3034,61 @@
       "featured": false
     },
     {
-      "id": "zombie-michael-jackson-functional-water-fountain",
-      "makerworldId": 2988827,
-      "title": "Zombie Michael Jackson Functional Water Fountain",
-      "category": "water-fountains",
+      "id": "tinker-cube-building-with-wood-skewers",
+      "makerworldId": 374971,
+      "title": "Tinker Cube - Building with Wood Skewers",
+      "category": "other",
       "categories": [
-        "water-fountains"
+        "other"
       ],
-      "makerworldUrl": "https://makerworld.com/en/models/2988827-zombie-michael-jackson-functional-water-fountain",
-      "image": "images/water-fountains/zombie-michael-jackson-functional-water-fountain.gif",
-      "description": "Well\u2026. What can I say about this one\u2026. Just needed to be made I guess. Special Features: 1. It is designed with a brain cavity where the water pumps and then channels out the mouth. 2. The top of the head comes off\u2026 so you can put in filter media.. Or a plant inside it. Tags: fountain, water, pond, fish.",
-      "imageAlt": "Zombie Michael Jackson Functional Water Fountain \u2014 free 3D print (water fountains) on MakerWorld | Spencermann",
+      "makerworldUrl": "https://makerworld.com/en/models/374971-tinker-cube-building-with-wood-skewers",
+      "image": "images/other/tinker-cube-building-with-wood-skewers.jpg",
+      "description": "Simple cube with 18 different holes to connect with cheap wood bbq skewers. The holes are tapered to ensure a tight fit as you push the wood skewers deeper into the block. Using a cheap filament, these will cost about $.10/cube to print (using $9/rolls). Tags: tinker, toy, build, kids.",
+      "imageAlt": "Tinker Cube - Building with Wood Skewers \u2014 free 3D print (other) on MakerWorld | Spencermann",
       "keywords": [
-        "fountain",
-        "water",
-        "pond",
-        "fish",
-        "michael",
-        "jackson",
-        "michael jackson",
-        "thriller",
-        "zombie",
-        "Halloween",
-        "silly",
-        "3D printed water fountain"
+        "tinker",
+        "toy",
+        "build",
+        "kids",
+        "block",
+        "skewer",
+        "tower",
+        "free 3D print",
+        "Spencermann",
+        "MakerWorld STL download"
       ],
-      "likes": 3,
-      "publishTime": "2026-06-29T00:03:41Z",
+      "likes": 4,
+      "publishTime": "2024-03-16T20:00:52Z",
       "featured": false
     },
     {
-      "id": "snap-in-ceiling-vent-covers-p1s-easy-quick-print",
-      "makerworldId": 2953946,
-      "title": "Snap-in Ceiling vent covers - P1S Easy quick print",
-      "category": "utility",
+      "id": "adhd-castle-mechanical-marble-task-reward-system",
+      "makerworldId": 3184341,
+      "title": "ADHD Castle - mechanical marble task reward system",
+      "category": "other",
       "categories": [
-        "utility"
+        "other"
       ],
-      "makerworldUrl": "https://makerworld.com/en/models/2953946-snap-in-ceiling-vent-covers-p1s-easy-quick-print",
-      "image": "images/utility/snap-in-ceiling-vent-covers-p1s-easy-quick-print.jpg",
-      "description": "I adapted my floor vent covers for the ceiling and made them sized to be easily printed on a p1s sized printer. They snap into your existing vents. There are 3 designs options included.",
-      "imageAlt": "Snap-in Ceiling vent covers - P1S Easy quick print \u2014 free 3D print (utility) on MakerWorld | Spencermann",
+      "makerworldUrl": "https://makerworld.com/en/models/3184341-adhd-castle-mechanical-marble-task-reward-system",
+      "image": "images/other/adhd-castle-mechanical-marble-task-reward-system.jpg",
+      "description": "I wanted to create something to help my family members with ADHD to keep focused on completing tasks that can be challenging to focus on. Tags: functional, gadget, ADHD, adhd.",
+      "imageAlt": "ADHD Castle - mechanical marble task reward system \u2014 free 3D print (other) on MakerWorld | Spencermann",
       "keywords": [
-        "functional 3D print",
-        "practical STL",
-        "Spencermann",
-        "MakerWorld free download"
+        "functional",
+        "gadget",
+        "ADHD",
+        "castle",
+        "marble",
+        "task",
+        "reward",
+        "tower",
+        "ball",
+        "mechanical",
+        "decoration",
+        "decor"
       ],
-      "likes": 2,
-      "publishTime": "2026-06-20T01:21:05Z",
+      "likes": 1,
+      "publishTime": "2026-08-17T15:38:54Z",
       "featured": false
     },
     {
@@ -2807,33 +3116,27 @@
       "featured": false
     },
     {
-      "id": "zote-the-mighty-mask-hollow-knight",
-      "makerworldId": 3008252,
-      "title": "Zote the Mighty Mask - Hollow Knight",
-      "category": "hollow-knight",
+      "id": "music-ai-and-moises-logo-fridge-magnets",
+      "makerworldId": 588928,
+      "title": "Music AI and Moises Logo Fridge Magnets",
+      "category": "other",
       "categories": [
-        "hollow-knight"
+        "other"
       ],
-      "makerworldUrl": "https://makerworld.com/en/models/3008252-zote-the-mighty-mask-hollow-knight",
-      "image": "images/hollow-knight/zote-the-mighty-mask-hollow-knight.jpg",
-      "description": "This one is for Squidward who relentlessly pushed for me to make the model, and then was so grateful when I got started! I hope you enjoy it! I designed this mask a bit different from my others and I am happy with the outcome. Tags: Hollow Knight, hollow knight, zote, mask.",
-      "imageAlt": "Zote the Mighty Mask - Hollow Knight \u2014 free 3D print (hollow knight) on MakerWorld | Spencermann",
+      "makerworldUrl": "https://makerworld.com/en/models/588928-music-ai-and-moises-logo-fridge-magnets",
+      "image": "images/other/music-ai-and-moises-logo-fridge-magnets.png",
+      "description": "Made these logo fridge magnets up a while ago for a Christmas present for some co-workers. Pretty simple print that others may enjoy as well. I simply glue a magnet to the back (https://www.amazon.com/dp/B0BDFFCSKT). Tags: logo, fridge, magnet.",
+      "imageAlt": "Music AI and Moises Logo Fridge Magnets \u2014 free 3D print (other) on MakerWorld | Spencermann",
       "keywords": [
-        "Hollow Knight",
-        "zote",
-        "mask",
-        "video game",
-        "hollowknight",
-        "COSPLAY",
-        "Halloween",
-        "Silksong",
-        "Hollow Knight 3D print",
-        "Silksong cosplay",
+        "logo",
+        "fridge",
+        "magnet",
+        "free 3D print",
         "Spencermann",
-        "MakerWorld free STL"
+        "MakerWorld STL download"
       ],
-      "likes": 0,
-      "publishTime": "2026-07-03T20:16:13Z",
+      "likes": 1,
+      "publishTime": "2024-08-14T22:28:53Z",
       "featured": false
     },
     {
