@@ -287,6 +287,11 @@ def print_page(flag: dict, model: dict, others: list[dict]) -> str:
         "sku": flag["id"],
         "brand": {"@type": "Brand", "name": "Spencermann"},
         "url": page_url,
+        "isFamilyFriendly": True,
+        "audience": {
+            "@type": "PeopleAudience",
+            "suggestedMinAge": 8,
+        },
         "offers": {
             "@type": "Offer",
             "price": "0",
@@ -321,6 +326,7 @@ def print_page(flag: dict, model: dict, others: list[dict]) -> str:
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="rating" content="general">
     <title>{esc(flag["title"])}</title>
     <meta name="description" content="{esc(flag["meta"])}">
     <meta name="author" content="Spencer Mann">
