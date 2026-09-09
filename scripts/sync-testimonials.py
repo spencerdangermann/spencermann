@@ -18,31 +18,61 @@ COMMENT_URL = (
     "?designId={design_id}&limit={limit}&offset={offset}"
 )
 
-TOP_MODELS = 22
-COMMENTS_PER_MODEL = 25
+TOP_MODELS = 28
+COMMENTS_PER_MODEL = 40
 KEEP = 14
-MIN_CHARS = 45
+MIN_CHARS = 50
 MAX_QUOTE = 220
 
-# Keep the homepage family-friendly / on-brand.
+# Always pull comments from these even if they are not in the global top-N.
+FORCE_INCLUDE_IDS = {
+    "feet-shoes-because-what-s-more-beautiful-than-feet",
+}
+
 PREFERRED_CATEGORIES = {
     "hollow-knight",
     "glitch-productions",
     "water-fountains",
     "utility",
 }
-EXCLUDED_MODEL_IDS = {
-    "feet-shoes-because-what-s-more-beautiful-than-feet",
-}
 
-SKIP_PATTERNS = (
-    re.compile(r"^\s*boost", re.I),
-    re.compile(r"^\s*nice\s*[!.]*\s*$", re.I),
-    re.compile(r"^\s*cool\s*[!.]*\s*$", re.I),
-    re.compile(r"^\s*thanks?\s*[!.]*\s*$", re.I),
-    re.compile(r"^\s*thank you\s*[!.]*\s*$", re.I),
-    re.compile(r"^\s*great\s*[!.]*\s*$", re.I),
-    re.compile(r"http[s]?://", re.I),
+# Reject critical feedback, print failures, and feature requests.
+NEGATIVE_RE = re.compile(
+    r"("
+    r"\bbroke\b|\bbroken\b|\bbreak(?:ing|s)?\b|\bcrack(?:ed|s)?\b|"
+    r"\bfail(?:ed|ure|s|ing)?\b|\bissue(?:s)?\b|\bproblem(?:s)?\b|\bbug(?:s)?\b|"
+    r"\btoo small\b|\btoo big\b|\btoo short\b|\btoo long\b|\bwon'?t fit\b|"
+    r"\bdidn't work\b|\bdoesn'?t work\b|\bnot working\b|"
+    r"\bstability issues\b|\blayer lines?\b|\bstress on\b|"
+    r"\breglue\b|\bre-?glue\b|\bwobbly\b|\bwarped?\b|"
+    r"\bwish you\b|\bcould you\b|\bcan you add\b|\bplease add\b|"
+    r"\bwould be nice if\b|\bfeature request\b|\bsuggest(?:ion|ed)?\b|"
+    r"\bwanted to (?:point out|give some input|mention)\b|"
+    r"\bone thing i wanted\b|\bjust wanted to give\b|"
+    r"\bis it possible\b|\bam i doing something wrong\b|"
+    r"\bkeeps (?:failing|falling|breaking|warping)\b|"
+    r"\brequired (?:a bit of )?fil(?:ing|e)\b|\bhad to (?:file|sand|glue|cut)\b|"
+    r"\bbarely (?:fit|get)\b|\bprint profile\b|"
+    r"\bdo not\b|\bdon'?t say\b|\bdoing something wrong\b|"
+    r"\bhowever\b|\bconfused\b|\bopen to suggestions\b|"
+    r"\bbarley\b|\bbarely\b|\bsize it down\b|"
+    r"\byou should (?:make|add|do|create)\b|\bfor no reason\b|\bmemes?\b|"
+    r"\ba little tough\b|\btough to get\b|\bhard to (?:get|remove)\b"
+    r")",
+    re.I,
+)
+
+POSITIVE_RE = re.compile(
+    r"("
+    r"\blove\b|\bloved\b|\bawesome\b|\bamazing\b|\bperfect\b|\bbeautiful\b|"
+    r"\bstellar\b|\bclutch\b|\bincredible\b|\bfantastic\b|\bwonderful\b|"
+    r"\bthank(?:s| you)\b|\bgreat(?: job| design| print)?\b|"
+    r"\beasy (?:to )?print\b|\bcame out (?:great|perfect|amazing)\b|"
+    r"\bfirst cosplay\b|\bso happy\b|\bmade (?:my|our|us)\b|"
+    r"\baccurate\b|\bbrilliant\b|\bepic\b|\bhilarious\b|\bfunny\b|"
+    r"\bperfeito\b|\bmaravilhoso\b|\bobrigado\b"
+    r")",
+    re.I,
 )
 
 
@@ -71,10 +101,18 @@ def is_usable(content: str) -> bool:
         return False
     if re.search(r"http[s]?://", content, re.I):
         return False
-    short_only = (
-        r"^\s*(boost|nice|cool|thanks?|thank you|great)\s*[!.]*\s*$"
-    )
-    if re.match(short_only, content, re.I):
+    if re.match(r"^\s*(boost|nice|cool|thanks?|thank you|great)\s*[!.]*\s*$", content, re.I):
+        return False
+    if NEGATIVE_RE.search(content):
+        return False
+    # Lead with praise — reject comments that open as questions/complaints
+    lead = content[:120].lower()
+    if lead.lstrip().startswith(("is it ", "am i ", "why ", "how do i ", "can you ", "could you ")):
+        return False
+    if not POSITIVE_RE.search(content):
+        return False
+    # Prefer praise appearing early so the truncated card still reads positive
+    if not POSITIVE_RE.search(content[:160]):
         return False
     return True
 
@@ -83,81 +121,102 @@ def score_comment(comment: dict, model: dict) -> float:
     content = (comment.get("content") or "").strip()
     likes = int(comment.get("likeCount") or 0)
     images = comment.get("images") or []
-    score = likes * 12.0
+    score = likes * 14.0
     score += min(len(content), 240) / 8.0
+    score += 12 * len(POSITIVE_RE.findall(content))
     if images:
-        score += 55
+        score += 60
     if comment.get("isPinned"):
         score += 40
     if comment.get("isDesignCreatorLiked"):
-        score += 25
-    if comment.get("boosted"):
-        score += 10
-    # Prefer photo prints slightly over text-only for the scroller
+        score += 30
     if images and len(content) >= 60:
         score += 15
     cats = set(model.get("categories") or [model.get("category")])
     if cats & PREFERRED_CATEGORIES:
-        score += 35
+        score += 30
     if model.get("category") == "hollow-knight":
-        score += 20
+        score += 15
+    if model.get("id") in FORCE_INCLUDE_IDS:
+        score += 40
     return score
+
+
+def harvest_model(model: dict) -> list[dict]:
+    design_id = int(model["makerworldId"])
+    url = COMMENT_URL.format(design_id=design_id, limit=COMMENTS_PER_MODEL, offset=0)
+    try:
+        payload = fetch_json(url)
+    except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, json.JSONDecodeError):
+        return []
+
+    rows: list[dict] = []
+    for comment in payload.get("comments") or []:
+        content = (comment.get("content") or "").strip()
+        if not is_usable(content):
+            continue
+        user = comment.get("user") or {}
+        name = (user.get("name") or user.get("handle") or "MakerWorld maker").strip()
+        images = [img for img in (comment.get("images") or []) if img]
+        rows.append(
+            {
+                "id": f"{design_id}-{comment.get('id')}",
+                "quote": clean_quote(content),
+                "author": name,
+                "likes": int(comment.get("likeCount") or 0),
+                "score": score_comment(comment, model),
+                "modelId": model["id"],
+                "modelTitle": model["title"],
+                "modelImage": model["image"],
+                "makerworldUrl": model["makerworldUrl"],
+                "commentImage": images[0] if images else "",
+                "hasPhoto": bool(images),
+            }
+        )
+    return rows
 
 
 def main() -> None:
     models = json.loads(MODELS_JSON.read_text(encoding="utf-8"))["models"]
+    by_id = {m["id"]: m for m in models if m.get("makerworldId")}
+
     ranked = sorted(
-        [
-            m
-            for m in models
-            if m.get("makerworldId") and m.get("id") not in EXCLUDED_MODEL_IDS
-        ],
+        [m for m in models if m.get("makerworldId")],
         key=lambda m: m.get("likes", 0),
         reverse=True,
     )[:TOP_MODELS]
 
-    by_id = {m["id"]: m for m in models}
-    harvested: list[dict] = []
-
+    # Ensure forced models are included in the scan set
+    scan: list[dict] = []
+    seen = set()
     for model in ranked:
-        design_id = int(model["makerworldId"])
-        url = COMMENT_URL.format(
-            design_id=design_id, limit=COMMENTS_PER_MODEL, offset=0
-        )
-        try:
-            payload = fetch_json(url)
-        except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, json.JSONDecodeError):
+        if model["id"] in seen:
             continue
+        scan.append(model)
+        seen.add(model["id"])
+    for mid in FORCE_INCLUDE_IDS:
+        model = by_id.get(mid)
+        if model and mid not in seen:
+            scan.append(model)
+            seen.add(mid)
 
-        for comment in payload.get("comments") or []:
-            content = (comment.get("content") or "").strip()
-            if not is_usable(content):
-                continue
-            user = comment.get("user") or {}
-            name = (user.get("name") or user.get("handle") or "MakerWorld maker").strip()
-            images = [img for img in (comment.get("images") or []) if img]
-            harvested.append(
-                {
-                    "id": f"{design_id}-{comment.get('id')}",
-                    "quote": clean_quote(content),
-                    "author": name,
-                    "likes": int(comment.get("likeCount") or 0),
-                    "score": score_comment(comment, model),
-                    "modelId": model["id"],
-                    "modelTitle": model["title"],
-                    "modelImage": model["image"],
-                    "makerworldUrl": model["makerworldUrl"],
-                    "commentImage": images[0] if images else "",
-                    "hasPhoto": bool(images),
-                }
-            )
-        time.sleep(0.12)
+    harvested: list[dict] = []
+    for model in scan:
+        harvested.extend(harvest_model(model))
+        time.sleep(0.1)
 
-    # Prefer one strong comment per model when possible, then fill with next-best
     harvested.sort(key=lambda row: row["score"], reverse=True)
     selected: list[dict] = []
     seen_models: set[str] = set()
     seen_authors: set[str] = set()
+
+    # Guarantee at least one feet-design comment if any passed the filter
+    for row in harvested:
+        if row["modelId"] in FORCE_INCLUDE_IDS:
+            selected.append(row)
+            seen_models.add(row["modelId"])
+            seen_authors.add(row["author"].lower())
+            break
 
     for row in harvested:
         if len(selected) >= KEEP:
@@ -177,12 +236,11 @@ def main() -> None:
         if any(s["id"] == row["id"] for s in selected):
             continue
         author_key = row["author"].lower()
-        if author_key in seen_authors and len(selected) >= KEEP // 2:
+        if author_key in seen_authors and len(selected) >= max(8, KEEP - 3):
             continue
         selected.append(row)
         seen_authors.add(author_key)
 
-    # Drop scoring helper before write
     for row in selected:
         row.pop("score", None)
 
@@ -193,16 +251,24 @@ def main() -> None:
     print(
         json.dumps(
             {
-                "models_scanned": len(ranked),
+                "models_scanned": len(scan),
                 "comments_considered": len(harvested),
                 "kept": len(selected),
                 "with_photos": sum(1 for s in selected if s.get("hasPhoto")),
-                "sample": [
-                    {"author": s["author"], "model": s["modelTitle"][:40], "likes": s["likes"]}
-                    for s in selected[:5]
+                "includes_feet": any(
+                    s["modelId"] in FORCE_INCLUDE_IDS for s in selected
+                ),
+                "quotes": [
+                    {
+                        "author": s["author"],
+                        "model": s["modelTitle"][:40],
+                        "quote": s["quote"][:90],
+                    }
+                    for s in selected
                 ],
             },
             indent=2,
+            ensure_ascii=True,
         )
     )
 
