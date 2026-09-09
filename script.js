@@ -156,6 +156,95 @@ async function loadCategories() {
     return data.categories || [];
 }
 
+async function loadTestimonials() {
+    const response = await fetch('data/testimonials.json');
+    if (!response.ok) {
+        throw new Error('Failed to load testimonials.json (' + response.status + ')');
+    }
+    const data = await response.json();
+    return data.testimonials || [];
+}
+
+function buildTestimonialCard(item) {
+    const link = addMakerworldUtm(item.makerworldUrl, 'testimonial-' + (item.modelId || 'model'));
+    const card = document.createElement('a');
+    card.className = 'testimonial-card';
+    card.href = link;
+    card.target = '_blank';
+    card.rel = 'noopener noreferrer';
+    card.setAttribute('role', 'listitem');
+
+    const photo = item.commentImage || item.modelImage;
+    const photoAlt = item.hasPhoto
+        ? 'Community photo for ' + item.modelTitle
+        : item.modelTitle;
+
+    card.innerHTML = [
+        '<div class="testimonial-media">',
+        '<img src="', escapeHtml(photo), '" alt="', escapeHtml(photoAlt), '" loading="lazy" decoding="async">',
+        '</div>',
+        '<div class="testimonial-body">',
+        '<p class="testimonial-quote">“', escapeHtml(item.quote), '”</p>',
+        '<p class="testimonial-meta">',
+        '<span class="testimonial-author">', escapeHtml(item.author), '</span>',
+        '<span class="testimonial-model">', escapeHtml(item.modelTitle), '</span>',
+        '</p>',
+        '</div>'
+    ].join('');
+
+    const img = card.querySelector('img');
+    img.onerror = function () {
+        if (item.modelImage && img.src.indexOf(item.modelImage) === -1) {
+            img.src = item.modelImage;
+        } else {
+            img.src = PLACEHOLDER_SVG;
+        }
+    };
+    return card;
+}
+
+async function initTestimonialsMarquee() {
+    const root = document.getElementById('testimonials-marquee');
+    if (!root) return;
+
+    let items = [];
+    try {
+        items = await loadTestimonials();
+    } catch (err) {
+        console.error('Could not load testimonials:', err);
+        return;
+    }
+    if (!items.length) return;
+
+    const track = document.createElement('div');
+    track.className = 'testimonials-track';
+    track.setAttribute('role', 'list');
+
+    // Duplicate for seamless CSS loop
+    const sequence = items.concat(items);
+    sequence.forEach(function (item) {
+        track.appendChild(buildTestimonialCard(item));
+    });
+    root.appendChild(track);
+
+    // Duration scales with card count so speed stays readable
+    const seconds = Math.max(40, items.length * 6);
+    track.style.setProperty('--marquee-duration', seconds + 's');
+
+    root.addEventListener('mouseenter', function () {
+        track.classList.add('is-paused');
+    });
+    root.addEventListener('mouseleave', function () {
+        track.classList.remove('is-paused');
+    });
+    root.addEventListener('focusin', function () {
+        track.classList.add('is-paused');
+    });
+    root.addEventListener('focusout', function () {
+        track.classList.remove('is-paused');
+    });
+}
+
 async function initHomepageCategories(categories) {
     const grid = document.getElementById('home-categories-grid');
     if (!grid) return;
@@ -269,10 +358,14 @@ document.addEventListener('DOMContentLoaded', async function () {
 
     const homeCategoriesGrid = document.getElementById('home-categories-grid');
     const categoryModelsRoot = document.getElementById('category-models-root');
+    const testimonialsMarquee = document.getElementById('testimonials-marquee');
 
-    if (!homeCategoriesGrid && !categoryModelsRoot) return;
+    if (!homeCategoriesGrid && !categoryModelsRoot && !testimonialsMarquee) return;
 
     try {
+        if (testimonialsMarquee) {
+            await initTestimonialsMarquee();
+        }
         if (homeCategoriesGrid) {
             const categories = await loadCategories();
             await initHomepageCategories(categories);
