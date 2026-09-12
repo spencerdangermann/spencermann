@@ -467,6 +467,7 @@ def replace_block(text: str, start: str, end: str, inner: str) -> str:
 def write_sitemap(flag_slugs: list[str]) -> None:
     pages = [
         ("/", "1.0", "weekly"),
+        ("/spencer-mann.html", "0.98", "monthly"),
         ("/hollow-knight.html", "0.95", "weekly"),
         ("/glitch-productions.html", "0.9", "weekly"),
         ("/water-fountains.html", "0.9", "weekly"),
