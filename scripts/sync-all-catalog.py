@@ -12,9 +12,19 @@ from urllib.parse import urlparse
 ROOT = Path(__file__).resolve().parent.parent
 MODELS_JSON = ROOT / "data" / "models.json"
 HK_SCRAPE = ROOT / "data" / "hollow-knight-scrape.json"
-API_BASE = "https://makerworld.com/api/v1/design-service/published/2215294622/design"
-DETAIL_URL = "https://makerworld.com/api/v1/design-service/design/{design_id}"
+# makerworld.com API is often Cloudflare-blocked; api.bambulab.com serves the same data.
+API_BASE = "https://api.bambulab.com/v1/design-service/published/2215294622/design"
+DETAIL_URL = "https://api.bambulab.com/v1/design-service/design/{design_id}"
 PAGE_SIZE = 100
+API_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+    ),
+    "Accept": "application/json",
+    "Referer": "https://makerworld.com/en/@spencermann",
+    "Origin": "https://makerworld.com",
+}
 
 DUAL_CATEGORIES = {
     "city-of-tears-pond-water-fountain-functional": ["hollow-knight", "water-fountains"],
@@ -139,10 +149,7 @@ def fetch_catalog() -> list[dict]:
     total = None
     while True:
         url = f"{API_BASE}?offset={offset}&limit={PAGE_SIZE}"
-        req = urllib.request.Request(
-            url,
-            headers={"User-Agent": "Mozilla/5.0", "Accept": "application/json"},
-        )
+        req = urllib.request.Request(url, headers=API_HEADERS)
         with urllib.request.urlopen(req, timeout=120) as resp:
             data = json.loads(resp.read())
         batch = data.get("hits") or []
@@ -157,7 +164,7 @@ def fetch_catalog() -> list[dict]:
 def fetch_design_detail(design_id: int) -> dict:
     req = urllib.request.Request(
         DETAIL_URL.format(design_id=design_id),
-        headers={"User-Agent": "Mozilla/5.0", "Accept": "application/json"},
+        headers=API_HEADERS,
     )
     with urllib.request.urlopen(req, timeout=60) as resp:
         return json.loads(resp.read())
